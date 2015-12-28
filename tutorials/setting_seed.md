@@ -12,19 +12,19 @@ If you want to generate a sequence of random numbers and then be able to reprodu
 **Example:**
 
 
-```r
+{% highlight r %}
 set.seed(197)
 rnorm(n = 10, mean = 0, sd = 1)
 ##  [1]  0.6091700 -1.4391423  2.0703326  0.7089004  0.6455311  0.7290563
 ##  [7] -0.4658103  0.5971364 -0.5135480 -0.1866703
-```
+{% endhighlight %}
 
 <br>
 
 
-```r
+{% highlight r %}
 set.seed(197)
 rnorm(n = 10, mean = 0, sd = 1)
 ##  [1]  0.6091700 -1.4391423  2.0703326  0.7089004  0.6455311  0.7290563
 ##  [7] -0.4658103  0.5971364 -0.5135480 -0.1866703
-```
+{% endhighlight %}
