@@ -39,7 +39,9 @@ Minor in Aerospace Studies
 
 <small><a href="#">Go to top</a></small>
 
+
 # <center>Experience<a name="experience"></a></center>
+
 ***
 <p style="text-align:left;"><strong>HQ Air Force Materiel Command, Studies & Analysis</strong></span><span style="float:right;">June 2014 - Present</span>
 <br style="text-align:left;"><em>Operations Research Analyst</em></span><span style="float:right;">WPAFB, OH</span>
