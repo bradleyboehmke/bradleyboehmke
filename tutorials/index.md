@@ -1,6 +1,7 @@
 ---
 layout: page
-title: null
+title: Tutorials
+permalink: /tutorials/
 ---
 
 
