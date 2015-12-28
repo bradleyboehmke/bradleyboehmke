@@ -33,7 +33,7 @@ library(stringr)
 
 
 
-For more information on getting help with packages visit [here](packages).
+For more information on getting help with packages visit [here](http://bradleyboehmke.github.io/tutorials/basics/packages/).
 
 <br>
 
@@ -197,6 +197,5 @@ str_pad("beer", width = 10, side = "right", pad = "!")
 
 <br>
 <br>
-<br><br>
-<sup id="fn1">1. [[stringr Package Documentation](
-http://cran.r-project.org/web/packages/stringr/index.html)]<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+<sup id="fn1">1. [stringr Package Documentation](
+http://cran.r-project.org/web/packages/stringr/index.html)<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
