@@ -28,6 +28,7 @@ div {
 <p style="text-align:left;"><strong>Air Force Institute of Technology</strong></span><span style="float:right;"><em>September 2015</em></span>
 <br>Ph.D. in Logistics<br/>
 Dissertation: *Grabbing the Air Force by the Tail: Applying Strategic Cost Analytics to Understand and Manage Indirect Cost Behavior* [[doc]](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA621827) [[presentation]](https://www.dropbox.com/s/0edlv3cnwnbflp6/Dissertation%20Defense%20v2.pdf?dl=0)
+</p>
 
 <p style="text-align:left;"><strong>Air Force Institute of Technology</strong></span><span style="float:right;"><em>June 2011</em></span>
 <br>M.S. in Cost Analysis<br/>
