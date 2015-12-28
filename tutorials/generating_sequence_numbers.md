@@ -6,12 +6,13 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Numbers](numbers) &#187; Generating sequence of non-random numbers
 
-<br>
+
 
 * <a href="#a">Specifing numbers within a sequence</a> 
 * <a href="#b">Generating incremental sequences</a>
 * <a href="#c">Generating replicate sequences</a>
- <br>
+
+<br>
 
 <a name="a"></a>
 
