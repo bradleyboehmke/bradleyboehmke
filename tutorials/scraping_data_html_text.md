@@ -31,6 +31,8 @@ in HTML form
 
 It is through these tags that we can start to extract textual components (also referred to as nodes) of HTML webpages.
 
+<br>
+
 ## Scraping HTML Nodes
 To scrape online text we'll make use of the relatively newer [`rvest`](https://cran.r-project.org/web/packages/rvest/index.html) package. `rvest` was created by the RStudio team inspired by libraries such as [beautiful soup](http://www.crummy.com/software/BeautifulSoup/) which has greatly simplified web scraping. `rvest` provides multiple functionalities; however, in this section we will focus only on extracting HTML text with `rvest`. Its important to note that `rvest` makes use of of the pipe operator (`%>%`) developed through the [`magrittr` package](https://cran.r-project.org/web/packages/magrittr/index.html). If you are not familiar with the functionality of `%>%` I recommend you jump to the tutorial on [Simplifying Your Code with `%>%`](#pipe) so that you have a better understanding of what's going on with the code.
 
@@ -183,6 +185,8 @@ all_text <- scraping_wiki %>%
         html_text()
 {% endhighlight %}
 
+<br>
+
 <a name="specific_nodes"></a>
 
 ## Scraping Specific HTML Nodes
@@ -248,6 +252,8 @@ scraping_wiki %>%
 ## [1] "^ \"Web Scraping: Everything You Wanted to Know (but were afraid to ask)\". Distil Networks. 2015-07-22. Retrieved 2015-11-04. "
 {% endhighlight %}
 
+<br>
+
 ## Cleaning up
 With any webscraping activity, especially involving text, there is likely to be some clean-up involved. For example, in the previous example we saw that we can specifically pull the list of [**Notable Tools**](https://en.wikipedia.org/wiki/Web_scraping#Notable_tools); however, you can see that in between each list item rather than a space there contains one or more `\n` which is used in HTML to specify a new line. We can clean this up quickly with a little [character string manipulation](http://bradleyboehmke.github.io/tutorials/string_manipulation).
 
@@ -303,6 +309,8 @@ body_text %>%
         substr(start = nchar(body_text)-700, stop = nchar(body_text))
 ## [1] "012-04-19. National Office for the Information Economy (February 2004). Spam Act 2003: An overview for business (PDF). Australian Communications Authority. p. 6. Retrieved 2009-03-09. National Office for the Information Economy (February 2004). Spam Act 2003: A practical guide for business (PDF). Australian Communications Authority. p. 20. Retrieved 2009-03-09. Web Scraping: Everything You Wanted to Know (but were afraid to ask) . Distil Networks. 2015-07-22. Retrieved 2015-11-04. See also[edit] Data scraping Data wrangling Knowledge extraction"
 {% endhighlight %}
+
+<br>
 
 ## Wrapping up
 So there we have it, text scraping in a nutshell.  Although not all encompassing, this post covered the basics of scraping text from HTML documents. Whether you want to scrape text from all common text-containing nodes such as `<div>`, `<p>`, `<ul>` and the like or you want to scrape from a specific node using the specific ID, this post provides you the basic fundamentals of using `rvest` to scrape the text you need. Now go forth and scrape!
