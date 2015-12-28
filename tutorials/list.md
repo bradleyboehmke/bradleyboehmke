@@ -5,12 +5,14 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Data Structures](data_structures) &#187; List
 
+<br>
+
+A list is an R structure that allows you to combine elements of different types, including lists.  This tutorial covers the basics of managing lists.
+
 * <a href="#creating">Creating</a>
 * <a href="#adding">Adding on to</a>
 * <a href="#attributes">Adding attributes</a>
 * <a href="#subsetting">Subsetting</a>
-
-A list is an R structure that allows you to combine elements of different types, including lists.  
 
 <br>
 
@@ -19,7 +21,7 @@ A list is an R structure that allows you to combine elements of different types,
 # Creating
 To create a list we can use the `list()` function:
 
-```r
+{% highlight r %}
 l <- list(1:3, "a", c(TRUE, FALSE, TRUE), c(2.5, 4.2))
 str(l)
 ## List of 4
@@ -36,7 +38,7 @@ str(l)
 ##  $ :List of 2
 ##   ..$ : chr [1:5] "a" "b" "c" "d" ...
 ##   ..$ : logi [1:3] TRUE FALSE TRUE
-```
+{% endhighlight %}
 
 <br>
 
@@ -45,7 +47,7 @@ str(l)
 # Adding on to
 To add additional list components to a list we can leverage the `list()` and `append()` functions:
 
-```r
+{% highlight r %}
 l1 <- list(1:3, "a", c(TRUE, FALSE, TRUE))
 str(l1)
 ## List of 3
@@ -84,11 +86,11 @@ str(l3)
 ##  $      : logi [1:3] TRUE FALSE TRUE
 ##  $      : num [1:2] 2.5 4.2
 ##  $ item4: chr "new list item"
-```
+{% endhighlight %}
 
 To add individual elements to a specific list component we need to introduce some subsetting which is further discussed the <a href="#subsetting">Subsetting section</a> below.
 
-```r
+{% highlight r %}
 str(l1)
 ## List of 3
 ##  $ : int [1:3] 1 2 3
@@ -111,7 +113,7 @@ str(l1)
 ##  $ : int [1:6] 1 2 3 4 5 6
 ##  $ : chr [1:4] "a" "dding" "to a" "list"
 ##  $ : logi [1:3] TRUE FALSE TRUE
-```
+{% endhighlight %}
 
 <br>
 
@@ -120,7 +122,7 @@ str(l1)
 # Adding attributes
 The attributes that you can add to lists include names, general comments, and specific list item comments:
 
-```r
+{% highlight r %}
 # currently no attributes exist for list l1
 attributes(l1)
 ## NULL
@@ -182,8 +184,7 @@ attributes(l2)
 ## 
 ## $item2
 ## [1] "Comment for item2"
-```
-
+{% endhighlight %}
 
 <br>
 
@@ -204,7 +205,7 @@ To subset lists we can utilize the single bracket`[ ]`, double brackets `[[ ]]`,
 ## Subset List - Preserving Output as a List
 To extract one or more list items while **preserving**<sup><a href="#fn1" id="ref1">1</a></sup> the output in list format use the `[ ]` operator:
 
-```r
+{% highlight r %}
 # extract first list item
 l2[1]
 ## $item1
@@ -230,14 +231,14 @@ l2[c("item1", "item3")]
 ## 
 ## $item3
 ## [1]  TRUE FALSE  TRUE  TRUE
-```
+{% endhighlight %}
 
 <a name="simplify"></a>
 
 ## Subset List - Simplify Output
 To extract one or more list items and **simplifying**<sup><a href="#fn1" id="ref1">1</a></sup> the output use the `[ ]`  or `$` operator:
 
-```r
+{% highlight r %}
 # extract first list item and simplify to a vector
 l2[[1]]
 ## [1] 1 2 3
@@ -249,7 +250,7 @@ l2[["item1"]]
 # same as above but using the `$` operator
 l2$item1
 ## [1] 1 2 3
-```
+{% endhighlight %}
 &#9755; *One thing that differentiates the [[ operator from the $ is that the [[ operator can be used with computed indices. The $ operator can only be used with literal names.*
 
 <a name="elements"></a>
@@ -257,7 +258,7 @@ l2$item1
 ## Subset List - Get Elements Out of a List
 To extract individual elements out of a specific list item combine the `[[` (or `$`) operator with the `[` operator:
 
-```r
+{% highlight r %}
 # extract third element from the second list item
 l2[[2]][3]
 ## [1] "c"
@@ -269,14 +270,14 @@ l2[["item2"]][3]
 # same as above but using the `$` operator
 l2$item2[3]
 ## [1] "c"
-```
+{% endhighlight %}
 
 <a name="nested"></a>
 
 ## Subset List - Dealing with Nested Lists
 If you have nested lists you can expand the ideas above to extract items and elements:
 
-```r
+{% highlight r %}
 l3 <- list(item1 = 1:3, item2 = list(item2a = letters[1:5], item3b = c(T, F, T, T)))
 str(l3)
 ## List of 2
@@ -306,7 +307,7 @@ l3$item2$item2a
 # extract individual element from a nested list item
 l3[[2]][[1]][3]
 ## [1] "c"
-```
+{% endhighlight %}
 
 
 <br>
@@ -314,5 +315,5 @@ l3[[2]][[1]][3]
 <small><a href="#">Go to top</a></small>
 
 <br>
-<br>
-<sup id="fn1">1. [Its also important to understand the difference between simplifying and preserving subsetting.  **Simplifying** subsets returns the simplest possible data structure that can represent the output. **Preserving** subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on [Simplifying vs. Preserving Subsetting](http://adv-r.had.co.nz/Subsetting.html#subsetting-operators) to learn more.]<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+
+<sup id="fn1">1. Its also important to understand the difference between simplifying and preserving subsetting.  **Simplifying** subsets returns the simplest possible data structure that can represent the output. **Preserving** subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on [Simplifying vs. Preserving Subsetting](http://adv-r.had.co.nz/Subsetting.html#subsetting-operators) to learn more.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
