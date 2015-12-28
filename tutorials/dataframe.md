@@ -41,7 +41,7 @@ nrow(df)
 # number of columns
 ncol(df)
 ## [1] 4
-```
+{% endhighlight %}
 
 Note how col2 in 'df' was converted to a column of factors.  This is because their is a default setting in `data.frame()` that converts character columns to factors.  We can turn this off by setting the `stringsAsFactors = FALSE` argument:
 
