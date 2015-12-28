@@ -47,8 +47,7 @@ Minor in Aerospace Studies
 ***
 <p style="text-align:left;"><strong>HQ Air Force Materiel Command, Studies & Analysis</strong></span><span style="float:right;">June 2014 - Present</span>
 <br style="text-align:left;"><em>Operations Research Analyst</em></span><span style="float:right;">WPAFB, OH</span>
-</p>
-<p>
+<div>
 <ul> 
 <li>Currently creating a text analysis capability to provide senior Air Force decision-makers with the ability to text mine planning and programming documents. This will provide an additional means to <em>i</em>) cross- validate document findings with human comprehension, and <em>ii</em>) to identify key document attributes of interest to planning and programming personnel for further investigation.
 <li>Established a Data Envelopment Analysis methodology to benchmark installation support activities across the Air Force enterprise. Provides Air Force leadership with the ability to isolate best practices, identify potential cost savings, and establish performance expectations with available resources.</li>
@@ -69,6 +68,7 @@ used descriptors. Allows the contracting organization to categorize contract spe
 validating Air Force weapon system requirements. Provides decision-makers with real-time analysis of
 weapon system requirements.</li>
 </ul> 
+</div>
 </p>
 
 <p style="text-align:left;"><strong>Booz | Allen | Hamilton</strong></span><span style="float:right;">June 2009 - June 2014</span>
