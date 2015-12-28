@@ -29,7 +29,7 @@ There are two main groups of functions that we can use to read in text files:
 
 <a name="base_text_import"></a>
 
-#### Base R functions
+### Base R functions
 `read.table()` is a multipurpose work-horse function in base R for importing data.  The functions `read.csv()` and `read.delim()` are special cases of `read.table()` in which the defaults have been adjusted for efficiency.  To illustrate these functions let's work with a CSV file that is saved in our working directory which looks like:
 
 
