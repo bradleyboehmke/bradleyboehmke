@@ -1,0 +1,13 @@
+---
+layout: post
+title:  My first blog post!
+date: `r Sys.time()`
+published: true
+tags: [example1, example2]
+---
+
+Your markdown here!
+
+```{r}
+plot(1:10)
+```
