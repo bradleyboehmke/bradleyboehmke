@@ -19,15 +19,15 @@ title: NULL
 
 The most basic way to create strings is to use quotation marks and assign a string to an object similar to creating number sequences.
 
-```r
+{% highlight r %}
 a <- "learning to create"    # create string a
 b <- "character strings"     # create string b
-```
+{% endhighlight %}
 
 The `paste()` function provides a versatile means for creating and building strings. It takes one or more R objects, converts them to "character", and then it concatenates (pastes) them to form one or several character strings.
 
 
-```r
+{% highlight r %}
 # paste together string a & b
 paste(a, b)                      
 ## [1] "learning to create character strings"
@@ -51,7 +51,7 @@ paste0("I", "love", "R")
 # paste objects with different lengths
 paste("R", 1:5, sep = " v1.")       
 ## [1] "R v1.1" "R v1.2" "R v1.3" "R v1.4" "R v1.5"
-```
+{% endhighlight %}
 
 <br>
 
@@ -60,7 +60,7 @@ paste("R", 1:5, sep = " v1.")
 # Converting to Strings
 Test if strings are characters with `is.character()` and convert strings to character with `as.character()` or with `toString()`.
 
-```r
+{% highlight r %}
 a <- "The life of"    
 b <- pi
 
@@ -76,7 +76,7 @@ is.character(c)
 
 toString(c("Aug", 24, 1980))
 ## [1] "Aug, 24, 1980"
-```
+{% endhighlight %}
 
 
 <br>
@@ -104,7 +104,7 @@ The common printing methods include:
 ## print()
 The primary printing function in R is `print()`
 
-```r
+{% highlight r %}
 x <- "learning to print strings"    
 
 # basic printing
@@ -114,7 +114,7 @@ print(x)
 # print without quotes
 print(x, quote = FALSE)  
 ## [1] learning to print strings
-```
+{% endhighlight %}
 
 
 <br>
@@ -124,10 +124,10 @@ print(x, quote = FALSE)
 ## noquote()
 An alternative to printing without quotes.
 
-```r
+{% highlight r %}
 noquote(x)
 ## [1] learning to print strings
-```
+{% endhighlight %}
 
 
 <br>
@@ -138,7 +138,7 @@ noquote(x)
 Another very useful function is `cat()` which allows us to concatenate objects and print them either on screen or to a file.  The output result is very similar to `noquote()`; however, `cat()` does not print the numeric line indicator.  As a result, `cat()` can be useful for printing nicely formated responses to users.
 
 
-```r
+{% highlight r %}
 # basic printing (similar to noquote)
 cat(x)                   
 ## learning to print strings
@@ -158,11 +158,11 @@ cat(letters, sep = "-")
 # collapse the space between the combine characters
 cat(letters, sep = "")   
 ## abcdefghijklmnopqrstuvwxyz
-```
+{% endhighlight %}
 
 You can also format the line width for printing long strings using the `fill` argument:
 
-```r
+{% highlight r %}
 x <- "Today I am learning how to print strings."
 y <- "Tomorrow I plan to learn about textual analysis."
 z <- "The day after I will take a break and drink a beer."
@@ -174,7 +174,7 @@ cat(x, y, z, fill = 5)
 ## Today I am learning how to print strings. 
 ## Tomorrow I plan to learn about textual analysis. 
 ## The day after I will take a break and drink a beer.
-```
+{% endhighlight %}
 
 <br>
 
@@ -185,7 +185,7 @@ A wrapper for the C function `sprintf`, that returns a character vector containi
 
 To substitute in a string or string variable, use `%s`:
 
-```r
+{% highlight r %}
 x <- "print strings"
 
 # substitute a single string/variable
@@ -196,12 +196,12 @@ sprintf("Learning to %s in R", x)
 y <- "in R"
 sprintf("Learning to %s %s", x, y)   
 ## [1] "Learning to print strings in R"
-```
+{% endhighlight %}
 
 
 For integers, use `%d` or a variant:
 
-```r
+{% highlight r %}
 version <- 3
 
 # substitute integer
@@ -215,12 +215,12 @@ sprintf("This is R version:%4d", version)
 # can also lead with zeros
 sprintf("This is R version:%04d", version)   
 ## [1] "This is R version:0003"
-```
+{% endhighlight %}
 
 
 For floating-point numbers, use `%f` for standard notation, and `%e` or `%E` for exponential notation:
 
-```r
+{% highlight r %}
 sprintf("%f", pi)         # '%f' indicates 'fixed point' decimal notation
 ## [1] "3.141593"
 
@@ -247,7 +247,7 @@ sprintf("%e", pi)         # exponential decimal notation 'e'
 
 sprintf("%E", pi)         # exponential decimal notation 'E'
 ## [1] "3.141593E+00"
-```
+{% endhighlight %}
 
 
 <br>
@@ -257,13 +257,13 @@ sprintf("%E", pi)         # exponential decimal notation 'E'
 # Counting Elements
 To count the number of elements in a string use `length()`:
 
-```r
+{% highlight r %}
 length("How many elements are in this string?")
 ## [1] 1
 
 length(c("How", "many", "elements", "are", "in", "this", "string?"))
 ## [1] 7
-```
+{% endhighlight %}
 
 <br>
 
@@ -272,13 +272,13 @@ length(c("How", "many", "elements", "are", "in", "this", "string?"))
 # Counting Characters
 To count the number of characters in a string use `nchar()`:
 
-```r
+{% highlight r %}
 nchar("How many characters are in this string?")
 ## [1] 39
 
 nchar(c("How", "many", "characters", "are", "in", "this", "string?"))
 ## [1]  3  4 10  3  2  4  7
-```
+{% endhighlight %}
 
 <br>
 
