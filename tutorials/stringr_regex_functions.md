@@ -20,13 +20,13 @@ title: NULL
 To install and load the `stringr` package
 
 
-```r
+{% highlight r %}
 # install stringr package
 install.packages("stringr")
 
 # load package
 library(stringr)
-```
+{% endhighlight %}
 
 
 
@@ -37,7 +37,7 @@ library(stringr)
 # Detecting Patterns
 To detecting whether a pattern is present (or absent) in a string vector use the `str_detect()`. 
 
-```r
+{% highlight r %}
 # use the built in data set 'state.name'
 head(state.name)
 ## [1] "Alabama"    "Alaska"     "Arizona"    "Arkansas"   "California"
@@ -53,7 +53,7 @@ str_detect(state.name, pattern = "New")
 # count the total matches by wrapping with sum
 sum(str_detect(state.name, pattern = "New"))
 ## [1] 4
-```
+{% endhighlight %}
 &#9755; *This function is a wraper of [`grepl()`](main_regex_functions#grepl)*
 
 
@@ -72,7 +72,7 @@ To *locate* the occurences of patterns stringr offers two options:
 ### Locate First Match
 To locate the position of the first occurrence of a pattern in a string vector use `str_locate()`:
 
-```r
+{% highlight r %}
 x <- c("abcd", "a22bc1d", "ab3453cd46", "a1bc44d")
 
 # locate 1st sequence of 1 or more consecutive numbers
@@ -82,7 +82,7 @@ str_locate(x, "[0-9]+")
 ## [2,]     2   3
 ## [3,]     3   6
 ## [4,]     2   2
-```
+{% endhighlight %}
 &#9755; *To understand the regex syntax used for this pattern visit the [Regex syntax page](regex_syntax)*
 
 The output provides the starting and ending position of the first match found within each element.
@@ -94,7 +94,7 @@ The output provides the starting and ending position of the first match found wi
 ### Locate All Matches
 To locate the positions of all pattern match occurrences in a character vector use `str_locate_all()`:
 
-```r
+{% highlight r %}
 # locate all sequences of 1 or more consecutive numbers
 str_locate_all(x, "[0-9]+")
 ## [[1]]
@@ -114,7 +114,7 @@ str_locate_all(x, "[0-9]+")
 ##      start end
 ## [1,]     2   2
 ## [2,]     5   6
-```
+{% endhighlight %}
 &#9755; *To understand the regex syntax used for this pattern visit the [Regex syntax page](regex_syntax)*
 
 The output provides a list the same length as the number of elements in the vector.  Each list item will provide the starting and ending positions for each pattern match occurrence in its respective element.
@@ -135,12 +135,12 @@ For extracting a string containing a pattern, stringr offers two primary options
 ### Extract First Match
 To extract first occurrence of a pattern in a character vector use `str_extract()`:
 
-```r
+{% highlight r %}
 y <- c("I use R #useR2014", "I use R and love R #useR2015", "Beer")
 
 str_extract(y, pattern = "R")
 ## [1] "R" "R" NA
-```
+{% endhighlight %}
 Output is same length as string and if no match is found output is NA for that element.
 
 <br>
@@ -150,7 +150,7 @@ Output is same length as string and if no match is found output is NA for that e
 ### Extract All Matches
 To extract all occurrences of a pattern in a character vector use `str_extract_all()`:
 
-```r
+{% highlight r %}
 str_extract_all(y, pattern = "[[:punct:]]*[a-zA-Z0-9]*R[a-zA-Z0-9]*")
 ## [[1]]
 ## [1] "R"         "#useR2014"
@@ -160,7 +160,7 @@ str_extract_all(y, pattern = "[[:punct:]]*[a-zA-Z0-9]*R[a-zA-Z0-9]*")
 ## 
 ## [[3]]
 ## character(0)
-```
+{% endhighlight %}
 &#9755; *To understand the regex syntax used for this pattern visit the [Regex syntax page](regex_syntax)*
 
 The output provides a list the same length as the number of elements in the vector.  Each list item will provide the matching pattern occurrence within that relative vector element.
@@ -182,7 +182,7 @@ For extracting a string containing a pattern, stringr offers two options:
 ### Replace First Match
 To extract first occurrence of a pattern in a character vector use `str_replace()`:
 
-```r
+{% highlight r %}
 cities <- c("New York", "new new York", "New New New York")
 cities
 ## [1] "New York"         "new new York"     "New New New York"
@@ -194,7 +194,7 @@ str_replace(cities, pattern = "New", replacement = "Old")
 # to deal with case sensitivities use Regex syntax in the 'pattern' argument
 str_replace(cities, pattern = "[N]*[n]*ew", replacement = "Old")
 ## [1] "Old York"         "Old new York"     "Old New New York"
-```
+{% endhighlight %}
 &#9755; *This function is a wraper of [`sub()`](main_regex_functions#replacement)*
 
 &#9755; *For more information on the pattern argument applied read about character classes and quantifiers at the [Regex syntax page](regex_syntax)*
@@ -206,10 +206,10 @@ str_replace(cities, pattern = "[N]*[n]*ew", replacement = "Old")
 ### Replace All Matches
 To extract all occurrences of a pattern in a character vector use `str_replace_all()`:
 
-```r
+{% highlight r %}
 str_replace_all(cities, pattern = "[N]*[n]*ew", replacement = "Old")
 ## [1] "Old York"         "Old Old York"     "Old Old Old York"
-```
+{% endhighlight %}
 &#9755; *This function is a wraper of [`gsub()`](main_regex_functions#replacement)*
 
 <br>
@@ -219,7 +219,7 @@ str_replace_all(cities, pattern = "[N]*[n]*ew", replacement = "Old")
 # String Splitting
 To split the elements of a character string use `str_split()`:
 
-```r
+{% highlight r %}
 z <- "The day after I will take a break and drink a beer."
 str_split(z, pattern = " ")
 ## [[1]]
@@ -230,14 +230,14 @@ a <- "Alabama-Alaska-Arizona-Arkansas-California"
 str_split(a, pattern = "-")
 ## [[1]]
 ## [1] "Alabama"    "Alaska"     "Arizona"    "Arkansas"   "California"
-```
+{% endhighlight %}
 
 Note that the output of `strs_plit()` is a list.  To convert the output to a simple atomic vector simply wrap in `unlist()`:
 
-```r
+{% highlight r %}
 unlist(str_split(a, pattern = "-"))
 ## [1] "Alabama"    "Alaska"     "Arizona"    "Arkansas"   "California"
-```
+{% endhighlight %}
 &#9755; *This function is a wraper of [`strsplit()`](manipulate_base_r#substring)*
 
 
