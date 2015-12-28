@@ -5,6 +5,8 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Dates](dates) &#187; Dealing with time zones & daylight savings
 
+<br>
+
 * <a href="#time_zones">Time zones</a>
 * <a href="#daylight_savings">Daylight savings</a>
 
@@ -16,7 +18,7 @@ title: NULL
 
 To change the time zone for a date/time we can use the `with_tz()` function which will also update the clock time to align with the updated time zone:
 
-```r
+{% highlight r %}
 library(lubridate)
 
 time <- now()
@@ -25,18 +27,18 @@ time
 
 with_tz(time, tzone = "MST")
 ## [1] "2015-09-26 07:30:32 MST"
-```
+{% endhighlight %}
 
 If the time zone is incorrect or for some reason you need to change the time zone without changing the clock time you can force it with `force_tz()`:
 
 
-```r
+{% highlight r %}
 time
 ## [1] "2015-09-26 10:30:32 EDT"
 
 force_tz(time, tzone = "MST")
 ## [1] "2015-09-26 10:30:32 MST"
-```
+{% endhighlight %}
 
 <br>
 
@@ -46,7 +48,7 @@ force_tz(time, tzone = "MST")
 We can easily work with daylight savings times to eliminate impacts on date/time calculations:
 
 
-```r
+{% highlight r %}
 # most recent daylight savings time
 ds <- ymd_hms("2015-03-08 01:59:59", tz = "US/Eastern")
 
@@ -63,7 +65,7 @@ ds + dhours(2)
 # 01:59:59 and is not influenced by daylight savings time.
 ds + hours(2)
 ## [1] "2015-03-08 03:59:59 EDT"
-```
+{% endhighlight %}
 
 
 <br>
