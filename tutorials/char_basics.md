@@ -15,7 +15,7 @@ title: NULL
 
 <a name="creating"></a>
 
-# Creating Strings
+## Creating Strings
 
 The most basic way to create strings is to use quotation marks and assign a string to an object similar to creating number sequences.
 
@@ -57,7 +57,7 @@ paste("R", 1:5, sep = " v1.")
 
 <a name="converting"></a>
 
-# Converting to Strings
+## Converting to Strings
 Test if strings are characters with `is.character()` and convert strings to character with `as.character()` or with `toString()`.
 
 {% highlight r %}
@@ -83,7 +83,7 @@ toString(c("Aug", 24, 1980))
 
 <a name="printing"></a>
 
-# Printing Strings
+## Printing Strings
 The common printing methods include:
 
 
@@ -101,7 +101,7 @@ The common printing methods include:
 
 <a name="print"></a>
 
-## print()
+### print()
 The primary printing function in R is `print()`
 
 {% highlight r %}
@@ -121,7 +121,7 @@ print(x, quote = FALSE)
 
 <a name="noquote"></a>
 
-## noquote()
+### noquote()
 An alternative to printing without quotes.
 
 {% highlight r %}
@@ -134,7 +134,7 @@ noquote(x)
 
 <a name="cat"></a>
 
-## cat()
+### cat()
 Another very useful function is `cat()` which allows us to concatenate objects and print them either on screen or to a file.  The output result is very similar to `noquote()`; however, `cat()` does not print the numeric line indicator.  As a result, `cat()` can be useful for printing nicely formated responses to users.
 
 
@@ -180,7 +180,7 @@ cat(x, y, z, fill = 5)
 
 <a name="sprintf"></a>
 
-## sprintf()
+### sprintf()
 A wrapper for the C function `sprintf`, that returns a character vector containing a formatted combination of text and variable values.
 
 To substitute in a string or string variable, use `%s`:
@@ -254,7 +254,7 @@ sprintf("%E", pi)         # exponential decimal notation 'E'
 
 <a name="counting_elements"></a>
 
-# Counting Elements
+## Counting Elements
 To count the number of elements in a string use `length()`:
 
 {% highlight r %}
@@ -269,7 +269,7 @@ length(c("How", "many", "elements", "are", "in", "this", "string?"))
 
 <a name="counting_char"></a>
 
-# Counting Characters
+## Counting Characters
 To count the number of characters in a string use `nchar()`:
 
 {% highlight r %}
