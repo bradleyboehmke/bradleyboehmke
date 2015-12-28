@@ -4,19 +4,19 @@ title: NULL
 permalink: /about/
 ---
 
-<p>
+
 # <center>Quick and Dirty</center>
 <center><hr width="50%"></center>
-</p>
+<br>
 <p>
 Operations research analyst by title, data geek by self-proclamation.  R addict.  Equal parts social scientist, economist, and hacker.  Inquirer, lifelong learner, and PhD.  Father of two, husband of one.
 </p>
 <br>
 
-<p>
+
 # <center>Looking for More?</center>
 <center><hr width="50%"></center>
-</p>
+<br>
 <p>
 I'm an analytics enthusiast who enjoys producing high quality, reproducible analytic approaches to real world problems.  I believe in a methodical approach that provides fundamental understanding of the problem through the application of descriptive, predictive, and prescriptive analytic techniques.
 
