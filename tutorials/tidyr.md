@@ -22,7 +22,7 @@ As a result, a lot of data processing tasks are becoming packaged in more cohesi
 * <a href="#separate">**`separate()`**</a> splits a single column into multiple columns
 * <a href="#unite">**`unite()`**</a> combines multiple columns into a single column
 * <a href="#resources">Additional Resources</a>
-* 
+
 <br>
 
 ## <u>Packages Utilized</u>
@@ -42,11 +42,13 @@ Although not required, the tidyr and dplyr packages make use of the pipe operato
 
 This operator will forward a value, or the result of an expression, into the next function call/expression.  For instance a function to filter data can be written as:
 
-<center>filter(data, variable == *numeric_value*)</center>
+<center>filter(data, variable == <em>numeric_value</em>)</center>
 
 <center>*<u>or</u>*</center>
 
-<center>data %>% filter(variable == *numeric_value*)</center>
+<center>data %>% filter(variable == <em>numeric_value</em>)</center>
+
+<br>
 
 Both functions complete the same task and the benefit of using `%>%` is not evident; however, when you desire to perform multiple functions its advantage becomes obvious.  For instance, if we want to filter some data, summarize it, and then order the summarized results we would write it out as:
 
@@ -378,6 +380,7 @@ head(wide_DF, 24)
 <br>
 
 <a id="resources"> </a>
+
 ## Additional Resources
 
 - Data wrangling [presentation](Data_Wrangling_MU) I gave at Miami University
