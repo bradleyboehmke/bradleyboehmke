@@ -5,6 +5,7 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Data Structures](data_structures) &#187; Matrix
 
+
 <br>
 
 * <a href="#creating">Creating</a>
@@ -284,4 +285,6 @@ m2[, 2, drop = FALSE]
 
 <br>
 
-<sup id="fn1">1. Its important to understand the difference between simplifying and preserving subsetting.  **Simplifying** subsets returns the simplest possible data structure that can represent the output. **Preserving** subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on [Simplifying vs. Preserving Subsetting](http://adv-r.had.co.nz/Subsetting.html#subsetting-operators) to learn more.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+<P CLASS="footnote" style="line-height:0.75">
+<sup id="fn1">1. Its also important to understand the difference between simplifying and preserving subsetting.  <em>Simplifying</em> subsets returns the simplest possible data structure that can represent the output. <em>Preserving</em> subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on <a href="http://adv-r.had.co.nz/Subsetting.html#subsetting-operators">Simplifying vs. Preserving Subsetting</a> to learn more.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+</P>
