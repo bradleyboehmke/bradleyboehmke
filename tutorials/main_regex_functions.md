@@ -22,7 +22,7 @@ There are five functions that provide pattern matching capabilities.  The three 
 
 <a name="grep"></a>
 
-### grep()
+<h3>grep()</h3>
 To find a pattern in a character vector and to have the element values or indices as the output use `grep()`:
 
 {% highlight r %}
