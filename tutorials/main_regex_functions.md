@@ -13,7 +13,7 @@ title: NULL
 
 <a name="finding"></a>
 
-# Pattern Finding Functions
+## Pattern Finding Functions
 There are five functions that provide pattern matching capabilities.  The three functions that I provide examples for are ones that are most common.  The two other functions which I do not illustrate are `gregexpr()` and `regexec()` which provide similar capabilities as `regexpr()` but with the output in list form.
 
 * <a href="#grep">Pattern matching with values or indices as outputs</a>
@@ -22,7 +22,7 @@ There are five functions that provide pattern matching capabilities.  The three 
 
 <a name="grep"></a>
 
-<h3>grep()</h3>
+### grep()
 To find a pattern in a character vector and to have the element values or indices as the output use `grep()`:
 
 {% highlight r %}
@@ -95,7 +95,7 @@ The output of `regexpr()` can be interepreted as follows.  The first element pro
 
 <a name="replacement"></a>
 
-# Pattern Replacement Functions
+## Pattern Replacement Functions
 In addition to finding patterns in character vectors, its also common to want to replace a pattern in a string with a new patter.  There are two options for this:
 
 * <a href="#sub">Replace the first occurrence</a>
@@ -143,7 +143,7 @@ gsub("New", replacement = "Old", new, ignore.case = TRUE)
 
 <a name="splitting"></a>
 
-# Splitting Character Vectors
+## Splitting Character Vectors
 To split the elements of a character string use `strsplit()`:
 
 {% highlight r %}
