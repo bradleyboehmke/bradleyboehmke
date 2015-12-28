@@ -16,7 +16,7 @@ title: NULL
 
 <a name="install"></a>
 
-# Install stringr Package
+## Install stringr Package
 To install and load the `stringr` package
 
 
@@ -34,7 +34,7 @@ library(stringr)
 
 <a name="detect"></a>
 
-# Detecting Patterns
+## Detecting Patterns
 To detecting whether a pattern is present (or absent) in a string vector use the `str_detect()`. 
 
 {% highlight r %}
@@ -61,7 +61,7 @@ sum(str_detect(state.name, pattern = "New"))
 
 <a name="locate"></a>
 
-# Locating Patterns
+## Locating Patterns
 To *locate* the occurences of patterns stringr offers two options:
 
 * <a href="#locate_first">Locate first match</a>
@@ -123,7 +123,7 @@ The output provides a list the same length as the number of elements in the vect
 
 <a name="extract"></a>
 
-# Extracting Patterns
+## Extracting Patterns
 For extracting a string containing a pattern, stringr offers two primary options: 
 
 * <a href="#extract_first">Extract first match</a>
@@ -171,7 +171,7 @@ The output provides a list the same length as the number of elements in the vect
 
 <a name="replace"></a>
 
-# Replacing Patterns
+## Replacing Patterns
 For extracting a string containing a pattern, stringr offers two options:
 
 * <a href="#replace_first">Replace first match</a>
@@ -216,7 +216,7 @@ str_replace_all(cities, pattern = "[N]*[n]*ew", replacement = "Old")
 
 <a name="split"></a>
 
-# String Splitting
+## String Splitting
 To split the elements of a character string use `str_split()`:
 
 {% highlight r %}
