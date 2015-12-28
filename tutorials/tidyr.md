@@ -27,10 +27,11 @@ As a result, a lot of data processing tasks are becoming packaged in more cohesi
 
 ## <u>Packages Utilized</u>
 
-```r
+{% highlight r %}
 install.packages("tidyr")
 library(tidyr)
-```
+{% endhighlight %}
+
 <br>
 
 <a id="pipe"> </a>
@@ -51,7 +52,7 @@ Both functions complete the same task and the benefit of using `%>%` is not evid
 
 &nbsp;&nbsp;<u>Nested Option:</u>
 
-```r
+{% highlight r %}
 arrange(
     summarize(
         filter(data, variable == *numeric_value*),
@@ -59,17 +60,17 @@ arrange(
     ),
     desc(Total)<br>
 )
-```
+{% endhighlight %}
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<u>or</u>*
 
 &nbsp;&nbsp;<u>Multiple Object Option:</u>
 
-```r
+{% highlight r %}
 a <- filter(data, variable == *numeric_value*)
 b <- summarise(a, Total = sum(variable))
 c <- arrange(b, desc(Total))
-```
+{% endhighlight %}
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<u>or</u>*
@@ -77,12 +78,12 @@ c <- arrange(b, desc(Total))
 
 &nbsp;&nbsp;<u>%>% Option:</u>
 
-```r
+{% highlight r %}
 data %>%
     filter(variable == "value") %>%
     summarise(Total = sum(variable)) %>%
     arrange(desc(Total))
-```
+{% endhighlight %}
 
 As your function tasks get longer the `%>%` operator becomes more efficient *<u>and</u>* makes your code more legible.  In addition, although not covered in this tutorial, the `%>%` operator allows you to flow from data manipulation tasks straight into vizualization functions *(via ggplot and ggvis)* and also into many analytic functions.
 
@@ -107,7 +108,7 @@ To learn more about the `%>%` operator and the magrittr package visit any of the
 <img src="/public/images/dataWrangling/gather1.png" alt="gather() function" align="middle" vspace="25">
 
 
-```r
+{% highlight r %}
 Function:       gather(data, key, value, ..., na.rm = FALSE, convert = FALSE)
 Same as:        data %>% gather(key, value, ..., na.rm = FALSE, convert = FALSE)
 
@@ -118,14 +119,14 @@ Arguments:
         ...:            names of columns to gather (or not gather)
         na.rm:          option to remove observations with missing values (represented by NAs)
         convert:        if TRUE will automatically convert values to logical, integer, numeric, complex or factor as appropriate
-```
+{% endhighlight %}
 &#9755; *This function is a complement to <a href="#spread">`spread()`</a>*
 
 **Example**
 
 We'll start with the following data set:
 
-```
+{% highlight r %}
 ## Source: local data frame [12 x 6]
 ## 
 ##    Group Year Qtr.1 Qtr.2 Qtr.3 Qtr.4
@@ -141,12 +142,12 @@ We'll start with the following data set:
 ## 10     3 2007    13    11    27    21
 ## 11     3 2008    17    12    23    19
 ## 12     3 2009    14     9    31    24
-```
+{% endhighlight %}
 
 This data is considered wide since the *<u>time</u>* variable (represented as quarters) is structured such that each quarter represents a variable. To re-structure the time component as an individual variable, we can *gather* each quarter within one column variable and also *gather* the values associated with each quarter in a second column variable.
 
 
-```r
+{% highlight r %}
 long_DF <- DF %>% gather(Quarter, Revenue, Qtr.1:Qtr.4)
 head(long_DF, 24)  # note, for brevity, I only show the data for the first two years 
 
@@ -164,10 +165,10 @@ head(long_DF, 24)  # note, for brevity, I only show the data for the first two y
 ## 9      3 2006   Qtr.1      11
 ## 10     3 2007   Qtr.1      13
 ## ..   ...  ...     ...     ...
-```
+{% endhighlight %}
 
 
-```r
+{% highlight r %}
 These all produce the same results:
         DF %>% gather(Quarter, Revenue, Qtr.1:Qtr.4)
         DF %>% gather(Quarter, Revenue, -Group, -Year)
@@ -175,7 +176,7 @@ These all produce the same results:
         DF %>% gather(Quarter, Revenue, Qtr.1, Qtr.2, Qtr.3, Qtr.4)
 
 Also note that if you do not supply arguments for na.rm or convert values then the defaults are used
-```
+{% endhighlight %}
 
 <a href="#">Go to top</a>
 
@@ -188,7 +189,7 @@ Also note that if you do not supply arguments for na.rm or convert values then t
 **Description:** Many times a single column variable will capture multiple variables, or even parts of a variable you just don't care about.  Some examples include:
 
 
-```
+{% highlight r %}
 ##   Grp_Ind    Yr_Mo       City_State        First_Last Extra_variable
 ## 1     1.a 2006_Jan      Dayton (OH) George Washington   XX01person_1
 ## 2     1.b 2006_Feb Grand Forks (ND)        John Adams   XX02person_2
@@ -199,11 +200,11 @@ Also note that if you do not supply arguments for na.rm or convert values then t
 ## 7     3.a 2008_Jan   Lake City (MN)    Andrew Jackson   XX07person_7
 ## 8     3.b 2008_Feb    Rushford (MN)  Martin Van Buren   XX08person_8
 ## 9     3.c 2008_Mar          Unknown  William Harrison   XX09person_9
-```
+{% endhighlight %}
 
 In each of these cases, our objective may be to *separate* characters within the variable string. This can be accomplished using the `separate()` function which turns a single character column into multiple columns.
 
-```r
+{% highlight r %}
 Function:       separate(data, col, into, sep = " ", remove = TRUE, convert = FALSE)
 Same as:        data %>% separate(col, into, sep = " ", remove = TRUE, convert = FALSE)
 
@@ -215,14 +216,14 @@ Arguments:
         remove:         if TRUE, remove input column from output data frame
         convert:        if TRUE will automatically convert values to logical, integer, numeric, complex or 
                         factor as appropriate
-```
+{% endhighlight %}
 &#9755; *This function is a complement to <a href="#unite">`unite()`</a>*
 
 **Example**
 
 We can go back to our **long_DF** dataframe we created above in which way may desire to clean up or separate the *Quarter* variable.
 
-```
+{% highlight r %}
 ## Source: local data frame [6 x 4]
 ## 
 ##   Group Year Quarter Revenue
@@ -232,11 +233,11 @@ We can go back to our **long_DF** dataframe we created above in which way may de
 ## 4     1 2009   Qtr.1      10
 ## 5     2 2006   Qtr.1      12
 ## 6     2 2007   Qtr.1      16
-```
+{% endhighlight %}
 
 By applying the `separate()` function we get the following:
 
-```r
+{% highlight r %}
 separate_DF <- long_DF %>% separate(Quarter, c("Time_Interval", "Interval_ID"))
 head(separate_DF, 10)
 
@@ -253,14 +254,14 @@ head(separate_DF, 10)
 ## 8      2 2009           Qtr           1      23
 ## 9      3 2006           Qtr           1      11
 ## 10     3 2007           Qtr           1      13
-```
+{% endhighlight %}
 
 
-```r
+{% highlight r %}
 These produce the same results:
         long_DF %>% separate(Quarter, c("Time_Interval", "Interval_ID"))
         long_DF %>% separate(Quarter, c("Time_Interval", "Interval_ID"), sep = "\\.")
-```
+{% endhighlight %}
 
 <a href="#">Go to top</a>
 
@@ -273,7 +274,7 @@ These produce the same results:
 **Description:** There may be a time in which we would like to combine the values of two variables.  The `unite()` function is a convenience function to paste together multiple variable values into one.  In essence, it combines two variables of a single observation into one variable.
 
 
-```r
+{% highlight r %}
 Function:       unite(data, col, ..., sep = " ", remove = TRUE)
 Same as:        data %>% unite(col, ..., sep = " ", remove = TRUE)
 
@@ -283,7 +284,7 @@ Arguments:
         ...:            names of columns to merge
         sep:            separator to use between merged values
         remove:         if TRUE, remove input column from output data frame
-```
+{% endhighlight %}
 &#9755; *This function is a complement to <a href="#separate">`separate()`</a>*
 
 **Example**
@@ -291,7 +292,7 @@ Arguments:
 Using the **separate_DF** dataframe we created above, we can re-unite the *Time_Interval* and *Interval_ID* variables we created and re-create the original *Quarter* variable we had in the **long_DF** dataframe.
 
 
-```r
+{% highlight r %}
 unite_DF <- separate_DF %>% unite(Quarter, Time_Interval, Interval_ID, sep = ".")
 head(unite_DF, 10)
 
@@ -308,16 +309,16 @@ head(unite_DF, 10)
 ## 8      2 2009   Qtr.1      23
 ## 9      3 2006   Qtr.1      11
 ## 10     3 2007   Qtr.1      13
-```
+{% endhighlight %}
 
 
-```r
+{% highlight r %}
 These produce the same results:
         separate_DF %>% unite(Quarter, Time_Interval, Interval_ID, sep = "_")
         separate_DF %>% unite(Quarter, Time_Interval, Interval_ID)
 
 If no spearator is identified, "_" will automatically be used
-```
+{% endhighlight %}
 
 <a href="#">Go to top</a>
 
@@ -331,7 +332,7 @@ If no spearator is identified, "_" will automatically be used
 **Description:** There are times when we are required to turn long formatted data into wide formatted data.  The `spread()` function spreads a key-value pair across multiple columns.
 
 
-```r
+{% highlight r %}
 Function:       spread(data, key, value, fill = NA, convert = FALSE)
 Same as:        data %>% spread(key, value, fill = NA, convert = FALSE)
 
@@ -343,14 +344,14 @@ Arguments:
                         column, this value will be substituted
         convert:        if TRUE will automatically convert values to logical, integer, numeric, complex or 
                         factor as appropriate
-```
+{% endhighlight %}
 &#9755; *This function is a complement to <a href="#gather">`gather()`</a>*
 
 
 **Example**
 
 
-```r
+{% highlight r %}
 wide_DF <- unite_DF %>% spread(Quarter, Revenue)
 head(wide_DF, 24)
 
@@ -369,7 +370,7 @@ head(wide_DF, 24)
 ## 10     3 2007    13    11    27    21
 ## 11     3 2008    17    12    23    19
 ## 12     3 2009    14     9    31    24
-```
+{% endhighlight %}
 
 <a href="#">Go to top</a>
 
