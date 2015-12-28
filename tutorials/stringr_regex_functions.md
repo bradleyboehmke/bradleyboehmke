@@ -67,6 +67,8 @@ To *locate* the occurences of patterns stringr offers two options:
 * <a href="#locate_first">Locate first match</a>
 * <a href="#locate_all">Locate all matches</a>
 
+<br>
+
 <a name="locate_first"></a>
 
 ### Locate First Match
@@ -129,6 +131,7 @@ For extracting a string containing a pattern, stringr offers two primary options
 * <a href="#extract_first">Extract first match</a>
 * <a href="#extract_all">Extract all matches</a>
 
+<br>
 
 <a name="extract_first"></a>
 
@@ -176,6 +179,8 @@ For extracting a string containing a pattern, stringr offers two options:
 
 * <a href="#replace_first">Replace first match</a>
 * <a href="#replace_all">Replace all matches</a>
+
+<br>
 
 <a name="replace_first"></a>
 
