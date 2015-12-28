@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NULL
-permalink: /tutorials/basics/getting_help
+permalink: /tutorials/basics/getting_help/
 ---
 
 [R Vocab Topics](http://bradleyboehmke.github.io/tutorials/) &#187; [Basics](http://bradleyboehmke.github.io/tutorials/basics/) &#187; Getting help
