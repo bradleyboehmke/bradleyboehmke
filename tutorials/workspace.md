@@ -18,7 +18,7 @@ The *working directory* is the default location for all file inputs and outputs.
 
 {% highlight r %}
 getwd()                  # returns path for the current working directory
-setwd(directory_name)    #set the working directory to directory_name
+setwd(directory_name)    # set the working directory to directory_name
 {% endhighlight %}
 
 For example, if I call `getwd()` the file path "/Users/bradboehmke/Desktop/Personal/R Vocabulary" is returned.  If I want to set the working directory to the "Workspace" folder within the "R Vocabulary" directory I would use `setwd("Workspace")`.  Now if I call `getwd()` again it returns "/Users/bradboehmke/Desktop/Personal/R Vocabulary/Workspace".
