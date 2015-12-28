@@ -5,6 +5,8 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Data Structures](data_structures) &#187; Basics
 
+<br>
+
 * <a href="#types">Data structure types</a>
 * <a href="#structure">Identify the structure</a>
 * <a href="#attributes">Attributes</a>
@@ -17,7 +19,7 @@ title: NULL
 The basic data structures in R can be organized by their dimensionality (1D, 2D, ..., *n*D) and their "likeness" (homogenous vs. heterogeneous).  This results in five data structure types most often used in data analysis; and almost all other objects in R are built from these foundational types:
 
 <center>
-<img src="/public/images/r_vocab/data_structure_types.png" alt="Data Structure Types">
+<img src="/public/images/r_vocab/data_structure_types.png" alt="Data Structure Types" vspace="25">
 </center>  
 
 I have not had the need to use multi-dimensional arrays, therefore, the topics I will go into details on will include the vector, list, matrix, and data frame.  These types represent the most commonly used data structures for day-to-day analyses.
@@ -29,7 +31,7 @@ I have not had the need to use multi-dimensional arrays, therefore, the topics I
 # Identifying the Structure
 Given an object, the best way to understand what data structure it is composed of is to use the structure function `str()`:
 
-```r
+{% highlight r %}
 # different data structures
 vector <- 1:10
 list <- list(item1 = 1:10, item2 = LETTERS[1:18])
@@ -52,7 +54,7 @@ str(df)
 ## 'data.frame':	18 obs. of  2 variables:
 ##  $ item1: int  1 2 3 4 5 6 7 8 9 10 ...
 ##  $ item2: Factor w/ 18 levels "A","B","C","D",..: 1 2 3 4 5 6 7 8 9 10 ...
-```
+{% endhighlight %}
 
 <br>
 
@@ -70,7 +72,7 @@ R objects can have attributes, which are like metadata for the object. These met
 Attributes of an object (if any) can be accessed using the `attributes()` function. Not all R objects contain attributes, in which case the `attributes()` function returns NULL.
 
 
-```r
+{% highlight r %}
 # assess attributes of an object
 attributes(df)
 ## $names
@@ -109,7 +111,7 @@ length(list)
 
 length(df)
 ## [1] 2
-```
+{% endhighlight %}
 &#9755; *This section only shows you functions to assess these attributes.  More details are provided on how to create attributes within each data structure type page.*
 
 
