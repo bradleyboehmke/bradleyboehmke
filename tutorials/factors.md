@@ -13,6 +13,7 @@ Factors are used to represent categorical data and can be unordered or ordered. 
 * <a href="#order">Ordering levels</a>
 * <a href="#value">Revalue levels</a>
 * <a href="#drop">Dropping levels</a>
+
 <br>
 
 <a name="create"></a>
