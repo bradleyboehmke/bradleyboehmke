@@ -322,5 +322,5 @@ l3[[2]][[1]][3]
 <br>
 
 <P CLASS="footnote" style="line-height:0.75">
-<sup id="fn1">1. Its also important to understand the difference between simplifying and preserving subsetting.  <strong>Simplifying</strong> subsets returns the simplest possible data structure that can represent the output. <strong>Preserving</strong> subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on <a href="http://adv-r.had.co.nz/Subsetting.html#subsetting-operators">Simplifying vs. Preserving Subsetting</a> to learn more.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+<sup id="fn1">1. Its also important to understand the difference between simplifying and preserving subsetting.  <em>Simplifying</em> subsets returns the simplest possible data structure that can represent the output. <em>Preserving</em> subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on <a href="http://adv-r.had.co.nz/Subsetting.html#subsetting-operators">Simplifying vs. Preserving Subsetting</a> to learn more.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
 </P>
