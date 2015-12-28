@@ -4,6 +4,12 @@ title: NULL
 permalink: /about/
 ---
 
+<style>
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+</style>
 
 # <center>Quick and Dirty</center>
 <center><hr width="50%"></center>
