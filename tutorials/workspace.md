@@ -3,14 +3,8 @@ layout: page
 title: NULL
 ---
 
-[R Vocab Topics](index) &#187; [Basics](basics) &#187; Workspace
+[R Vocab Topics](http://bradleyboehmke.github.io/tutorials/) &#187; [Basics](http://bradleyboehmke.github.io/tutorials/basics/) &#187; Workspace
 
-<style>
-#div {
-#    text-align: justify;
-#    text-justify: inter-word;
-#}
-</style>
 
 <br>
 
@@ -21,10 +15,10 @@ The workspace is your current R working environment and includes any user-define
 # Working Directory
 The *working directory* is the default location for all file inputs and outputs.  
 
-```r
+{% highlight r %}
 getwd()                  # returns path for the current working directory
 setwd(directory_name)    #set the working directory to directory_name
-```
+{% endhighlight %}
 
 For example, if I call `getwd()` the file path "/Users/bradboehmke/Desktop/Personal/R Vocabulary" is returned.  If I want to set the working directory to the "Workspace" folder within the "R Vocabulary" directory I would use `setwd("Workspace")`.  Now if I call `getwd()` again it returns "/Users/bradboehmke/Desktop/Personal/R Vocabulary/Workspace".
 
@@ -33,13 +27,13 @@ For example, if I call `getwd()` the file path "/Users/bradboehmke/Desktop/Perso
 # Environment Objects
 To identify or remove the objects (i.e. vectors, data frames, user defined functions, etc.) in your current R environment:
 
-```r
+{% highlight r %}
 ls()                         # list all objects 
 exists("object_name")        # identify if an R object with a given name is present
 rm("object_name")            # remove defined object from the environment 
 rm(c("object1", "object2"))  # you can remove multiple objects by using the `c()` function
 rm(list = ls())              # basically removes everything working environment -- use with caution!
-```
+{% endhighlight %}
 
 
 
@@ -48,22 +42,22 @@ rm(list = ls())              # basically removes everything working environment 
 # Command History
 You can view previous commands one at a time by simply pressing &#8679; or view a defined number of previous commands with:
 
-```r
+{% highlight r %}
 history()        # default shows 25 most recent commands
 history(100)     # show 100 most recent commands
 history(Inf)     # show entire saved history
-```
+{% endhighlight %}
 
 <br>
 
 # Saving & Loading 
 You can save and load your workspaces.  Saving your workspace will save all R files and objects within your workspace to a .RData file.
 
-```r
+{% highlight r %}
 save.image()                                     # save all items in workspace to a .RData file
 save(object1, object2, file = "myfile.RData")    # save specified objects to a .RData file
 load("myfile.RData")                             # load workspace into current session
-```
+{% endhighlight %}
 
 Note that saving the workspace without specifying the working directory will default to saving in the current directory.  You can further specify where to save the .RData by including the path: `save(object1, object2, file = "/users/name/folder/myfile.RData")`
 
@@ -72,11 +66,11 @@ Note that saving the workspace without specifying the working directory will def
 # Workspace Options
 You can view and set options for the current R session:
 
-```r
+{% highlight r %}
 help(options)        # learn about available options
 options()            # view current option settings
 options(digits=3)    # change a specific option (i.e. number of digits to print on output)
-```
+{% endhighlight %}
 
 <br>
 
