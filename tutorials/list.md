@@ -6,7 +6,6 @@ title: NULL
 [R Vocab Topics](index) &#187; [Data Structures](data_structures) &#187; List
 
 <style>
-<!-- .indented { padding-left: 50pt; padding-right: 50pt; } -->
 <!-- .footnote {line-height:75%; "font-size:8px"} -->
 </style>
 
@@ -323,5 +322,5 @@ l3[[2]][[1]][3]
 <br>
 
 <P CLASS="footnote" style="line-height:0.75">
-<sup id="fn1">1. Its also important to understand the difference between simplifying and preserving subsetting.  **Simplifying** subsets returns the simplest possible data structure that can represent the output. **Preserving** subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on [Simplifying vs. Preserving Subsetting](http://adv-r.had.co.nz/Subsetting.html#subsetting-operators) to learn more.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+<sup id="fn1">1. Its also important to understand the difference between simplifying and preserving subsetting.  <b>Simplifying</b> subsets returns the simplest possible data structure that can represent the output. <b>Preserving</b> subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on <a href="http://adv-r.had.co.nz/Subsetting.html#subsetting-operators">Simplifying vs. Preserving Subsetting</a> to learn more.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
 </P>
