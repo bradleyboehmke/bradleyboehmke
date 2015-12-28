@@ -36,7 +36,6 @@ By default, if you read in data that has no decimal points or you [create numeri
 {% highlight r %}
 as.double(int_var)     # converts integers to double-precision values
 as.numeric(int_var)    # identical to as.double()
-
 as.integer(dbl_var)    # converts doubles to integers
 {% endhighlight %}
 <br>
