@@ -6,12 +6,7 @@ permalink: /tutorials/basics/getting_help/
 
 [R Vocab Topics](http://bradleyboehmke.github.io/tutorials/) &#187; [Basics](http://bradleyboehmke.github.io/tutorials/basics/) &#187; Getting help
 
-<style>
-#div {
-#    text-align: justify;
-#    text-justify: inter-word;
-#}
-</style>
+<br>
 
 The help documentation and support in R is comprehensive and easily accessible from the command line.  
 
