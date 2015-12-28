@@ -16,36 +16,40 @@ Lets assume x = 1, 1.35, 1.7, 2.05, 2.4, 2.75, 3.1, 3.45, 3.8, 4.15, 4.5, 4.85, 
 
 
 <a name="nearest"></a>
+
 # Round to the Nearest Integer
 
-```r
+{% highlight r %}
 round(x)
 ##  [1] 1 1 2 2 2 3 3 3 4 4 4 5 5 6 6
-```
+{% endhighlight %}
 
 <a name="up"></a>
+
 # Round Up
 
-```r
+{% highlight r %}
 ceiling(x)
 ##  [1] 1 2 2 3 3 3 4 4 4 5 5 5 6 6 6
-```
+{% endhighlight %}
 
 <a name="down"></a>
+
 # Round Down
 
-```r
+{% highlight r %}
 floor(x)
 ##  [1] 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5
-```
+{% endhighlight %}
 
 <a name="specified"></a>
+
 # Round to a Specified Decimal
 
-```r
+{% highlight r %}
 round(x, digits = 1)
 ##  [1] 1.0 1.4 1.7 2.0 2.4 2.8 3.1 3.4 3.8 4.2 4.5 4.8 5.2 5.5 5.9
-```
+{% endhighlight %}
 
 <br>
 
