@@ -21,14 +21,14 @@ title: NULL
 # Set Union
 To obtain the elements of the union between two character vectors use `union()`:
 
-```r
+{% highlight r %}
 set_1 <- c("lagunitas", "bells", "dogfish", "summit", "odell")
 set_2 <- c("sierra", "bells", "harpoon", "lagunitas", "founders")
 
 union(set_1, set_2)
 ## [1] "lagunitas" "bells"     "dogfish"   "summit"    "odell"     "sierra"   
 ## [7] "harpoon"   "founders"
-```
+{% endhighlight %}
 
 <br>
 
@@ -37,10 +37,10 @@ union(set_1, set_2)
 # Set Intersection
 To obtain the common elements of two character vectors use `intersect()`:
 
-```r
+{% highlight r %}
 intersect(set_1, set_2)
 ## [1] "lagunitas" "bells"
-```
+{% endhighlight %}
 
 <br>
 
@@ -49,7 +49,7 @@ intersect(set_1, set_2)
 # Identifying Different Elements
 To obtain the non-common elements, or the difference, of two character vectors use `setdiff()`:
 
-```r
+{% highlight r %}
 # returns elements in set_1 not in set_2
 setdiff(set_1, set_2)
 ## [1] "dogfish" "summit"  "odell"
@@ -57,7 +57,7 @@ setdiff(set_1, set_2)
 # returns elements in set_2 not in set_1
 setdiff(set_2, set_1)
 ## [1] "sierra"   "harpoon"  "founders"
-```
+{% endhighlight %}
 
 <br>
 
@@ -66,7 +66,7 @@ setdiff(set_2, set_1)
 # Testing for Element Equality
 To test if two vectors contain the same elements regardless of order use `setequal()`:
 
-```r
+{% highlight r %}
 set_3 <- c("woody", "buzz", "rex")
 set_4 <- c("woody", "andy", "buzz")
 set_5 <- c("andy", "buzz", "woody")
@@ -76,7 +76,7 @@ setequal(set_3, set_4)
 
 setequal(set_4, set_5)
 ## [1] TRUE
-```
+{% endhighlight %}
 
 <br>
 
@@ -85,7 +85,7 @@ setequal(set_4, set_5)
 # Testing for *Exact* Equality
 To test if two character vectors are equal in content and order use `identical()`:
 
-```r
+{% highlight r %}
 set_6 <- c("woody", "andy", "buzz")
 set_7 <- c("andy", "buzz", "woody")
 set_8 <- c("woody", "andy", "buzz")
@@ -95,7 +95,7 @@ identical(set_6, set_7)
 
 identical(set_6, set_8)
 ## [1] TRUE
-```
+{% endhighlight %}
 
 <br>
 
@@ -104,7 +104,7 @@ identical(set_6, set_8)
 # Identifying if Elements are Contained in a String
 To test if an element is contained within a character vector use `is.element()` or `%in%`:
 
-```r
+{% highlight r %}
 good <- "andy"
 bad <- "sid"
 
@@ -116,7 +116,7 @@ good %in% set_8
 
 bad %in% set_8
 ## [1] FALSE
-```
+{% endhighlight %}
 
 <br>
 
@@ -125,13 +125,13 @@ bad %in% set_8
 # Sorting a String
 To sort a character vector use `sort()`:
 
-```r
+{% highlight r %}
 sort(set_8)
 ## [1] "andy"  "buzz"  "woody"
 
 sort(set_8, decreasing = TRUE)
 ## [1] "woody" "buzz"  "andy"
-```
+{% endhighlight %}
 
 <br>
 
