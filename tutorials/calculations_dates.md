@@ -5,6 +5,8 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Dates](dates) &#187; Calculations with dates
 
+<br>
+
 * <a href="#arithmetic">Arithmetic with dates and times</a>
 * <a href="#durations">Dealing with date/time durations</a>
 
@@ -16,9 +18,7 @@ title: NULL
 
 Simple mathematical operations can be used on dates and times as well.  This includes +, -, ==, <=, etc.
 
-
-
-```r
+{% highlight r %}
 x <- Sys.Date()
 x
 ## [1] "2015-09-26"
@@ -30,12 +30,11 @@ x > y
 
 x - y
 ## Time difference of 15 days
-```
-
+{% endhighlight %}
 
 The nice thing about the date/time classes is that they keep track of leap years, leap seconds, daylight savings, and time zones.
 
-```r
+{% highlight r %}
 # last leap year
 x <- as.Date("2012-03-1")
 y <- as.Date("2012-02-28")
@@ -53,7 +52,7 @@ y == x
 
 y - x
 ## Time difference of 3 hours
-```
+{% endhighlight %}
 &#9755; *Use `OlsonNames()` for a full list of acceptable time zone specifications.*
 
 
@@ -61,7 +60,7 @@ y - x
 
 or with `lubridate`:
 
-```r
+{% highlight r %}
 library(lubridate)
 
 x <- now()
@@ -81,7 +80,7 @@ y + days(4)
 
 x - hours(4)
 ## [1] "2015-09-26 06:08:18 EDT"
-```
+{% endhighlight %}
 
 <br>
 
@@ -91,7 +90,7 @@ x - hours(4)
 
 We can easily deal with time spans by using the duration functions in `lubridate`:
 
-```r
+{% highlight r %}
 # create new duration (represented in seconds)
 new_duration(60)
 ## [1] "60s"
@@ -114,7 +113,7 @@ x + dhours(10)
 
 x + dhours(10) + dminutes(33) + dseconds(54)
 ## [1] "2015-09-22 22:33:54 UTC"
-```
+{% endhighlight %}
 
 <br>
 
