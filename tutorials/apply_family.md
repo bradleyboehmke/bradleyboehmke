@@ -11,13 +11,14 @@ div {
 
 [R Vocab Topics](index) &#187; [Functions](functions_loops) &#187; Apply family
 
+<br>
+
+The apply family consists of vectorized functions which minimize your need to explicitly create loops.  These functions will apply a specified function to a data object and their primary difference is in the object class in which the function is applied to (list vs. matrix, etc) and the object class that will be returned from the function.  The following presents the most common forms of apply functions that I use for data analysis but realize that additional functions exist (`mapply`,  `rapply`, & `vapply`) which are not covered here.  
 
 * <a href="#apply">`apply()` for matrices and data frames</a>
 * <a href="#lapply">`lapply()` for lists...output as list</a>
 * <a href="#sapply">`sapply()` for lists...output simplified</a>
 * <a href="#tapply">`tapply()` for vectors</a>
-
-The apply family consists of vectorized functions which minimize your need to explicitly create loops.  These functions will apply a specified function to a data object and there primary difference is in the object class in which the function is applied to (list vs. matrix, etc) and the object class that will be returned from the function.  The following presents the most common forms of apply functions that I use for data analysis but realize that additional functions exist (`mapply`,  `rapply`, & `vapply`) which are not covered here.  
 
 <br>
 
@@ -34,14 +35,14 @@ The syntax for `apply()` is as follows where
 - `...` is for any other arguments to be passed to the function
 
 
-```r
+{% highlight r %}
 # syntax of apply function
 apply(x, MARGIN, FUN, ...)
-```
+{% endhighlight %}
 
 To provide examples let's use the mtcars data set provided in R:
 
-```r
+{% highlight r %}
 # show first few rows of mtcars
 head(mtcars)
 ##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
@@ -93,7 +94,7 @@ apply(mtcars, 2, quantile, probs = c(0.10, 0.25, 0.50, 0.75, 0.90))
 ## 50% 19.200   6 196.300 123.0 3.695 3.32500 17.7100  0  0    4    2
 ## 75% 22.800   8 326.000 180.0 3.920 3.61000 18.9000  1  1    4    4
 ## 90% 30.090   8 396.000 243.5 4.209 4.04750 19.9900  1  1    5    4
-```
+{% endhighlight %}
 <small><a href="#">Go to top</a></small>
 
 
@@ -115,14 +116,14 @@ The syntax for `lapply()` is as follows where
 - `...` is for any other arguments to be passed to the function
 
 
-```r
+{% highlight r %}
 # syntax of lapply function
 lapply(x, FUN, ...)
-```
+{% endhighlight %}
 
 To provide examples we'll generate a list of four items:
 
-```r
+{% highlight r %}
 data <- list(item1 = 1:4, item2 = rnorm(10), item3 = rnorm(20, 1), item4 = rnorm(100, 5))
 
 # get the mean of each list item 
@@ -138,14 +139,14 @@ lapply(data, mean)
 ## 
 ## $item4
 ## [1] 5.013019
-```
+{% endhighlight %}
 
 The above provides a simple example where each list item is simply a vector of numeric values.  However, consider the case where you have a list that contains data frames and you would like to loop through each list item and perform a function to the data frame.  In this case we can embed an `apply` function within an `lapply` function.  
 
 For example, the following creates a list for R's built in beaver data sets.  The `lapply` function loops through each of the two list items and uses `apply` to calculate the mean of the columns in both list items. Note that I wrap the apply function with `round` to provide an easier to read output.
 
 
-```r
+{% highlight r %}
 # list of R's built in beaver data
 beaver_data <- list(beaver1 = beaver1, beaver2 = beaver2)
 
@@ -158,7 +159,7 @@ lapply(beaver_data, function(x) round(apply(x, 2, mean), 2))
 ## $beaver2
 ##     day    time    temp   activ 
 ##  307.13 1446.20   37.60    0.62
-```
+{% endhighlight %}
 <small><a href="#">Go to top</a></small>
 
 
@@ -176,7 +177,7 @@ returned.
 
 To illustrate the differences we can use the previous example using a list with the beaver data and compare the `sapply` and `lapply` outputs:
 
-```r
+{% highlight r %}
 # list of R's built in beaver data
 beaver_data <- list(beaver1 = beaver1, beaver2 = beaver2)
 
@@ -197,7 +198,7 @@ sapply(beaver_data, function(x) round(apply(x, 2, mean), 2))
 ## time  1312.02 1446.20
 ## temp    36.86   37.60
 ## activ    0.05    0.62
-```
+{% endhighlight %}
 <small><a href="#">Go to top</a></small>
 
 
@@ -221,14 +222,14 @@ The arguments to tapply() are as follows:
 - `simplify`, should we simplify the result?
 
 
-```r
+{% highlight r %}
 # syntax of tapply function
 tapply(x, INDEX, FUN, ..., simplify = TRUE)
-```
+{% endhighlight %}
 
 To provide an example we'll use the built in mtcars dataset:
 
-```r
+{% highlight r %}
 # show first few rows of mtcars
 head(mtcars)
 ##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
@@ -243,11 +244,11 @@ head(mtcars)
 tapply(mtcars$mpg, mtcars$cyl, mean)
 ##        4        6        8 
 ## 26.66364 19.74286 15.10000
-```
+{% endhighlight %}
 
 Now let's say you want to calculate the mean for each column in the mtcars dataset grouped by the cylinder categorical variable.  To do this you can embed the `tapply` function within the `apply` function.  
 
-```r
+{% highlight r %}
 # get the mean of all columns grouped by cylinders 
 apply(mtcars, 2, function(x) tapply(x, mtcars$cyl, mean))
 ##        mpg cyl     disp        hp     drat       wt     qsec        vs
@@ -258,7 +259,7 @@ apply(mtcars, 2, function(x) tapply(x, mtcars$cyl, mean))
 ## 4 0.7272727 4.090909 1.545455
 ## 6 0.4285714 3.857143 3.428571
 ## 8 0.1428571 3.285714 3.500000
-```
+{% endhighlight %}
 &#9755; *This type of summarization can also be done using the `dplyr` package with clearer syntax.  This is covered in the [Data Wrangling section](data_wrangling)*
 
 <br>
