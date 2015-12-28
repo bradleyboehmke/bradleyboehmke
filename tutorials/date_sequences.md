@@ -5,6 +5,8 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Dates](dates) &#187; Creating date sequences
 
+<br>
+
 * <a href="#date_seq">Date sequences</a>
 * <a href="#time_seq">Time sequences</a>
 
@@ -16,7 +18,7 @@ title: NULL
 
 To create a sequence of dates we can leverage the [`seq()`](generating_sequence_numbers) function:
 
-```r
+{% highlight r %}
 seq(as.Date("2010-1-1"), as.Date("2015-1-1"), by = "years")
 ## [1] "2010-01-01" "2011-01-01" "2012-01-01" "2013-01-01" "2014-01-01"
 ## [6] "2015-01-01"
@@ -27,13 +29,13 @@ seq(as.Date("2015/1/1"), as.Date("2015/12/30"), by = "quarter")
 seq(as.Date('2015-09-15'), as.Date('2015-09-30'), by = "2 days")
 ## [1] "2015-09-15" "2015-09-17" "2015-09-19" "2015-09-21" "2015-09-23"
 ## [6] "2015-09-25" "2015-09-27" "2015-09-29"
-```
+{% endhighlight %}
 
 <br>
 
 Or in lubridate:
 
-```r
+{% highlight r %}
 library(lubridate)
 
 seq(ymd("2010-1-1"), ymd("2015-1-1"), by = "years")
@@ -46,7 +48,7 @@ seq(ymd("2015/1/1"), ymd("2015/12/30"), by = "quarter")
 seq(ymd('2015-09-15'), ymd('2015-09-30'), by = "2 days")
 ## [1] "2015-09-15 UTC" "2015-09-17 UTC" "2015-09-19 UTC" "2015-09-21 UTC"
 ## [5] "2015-09-23 UTC" "2015-09-25 UTC" "2015-09-27 UTC" "2015-09-29 UTC"
-```
+{% endhighlight %}
 
 <br>
 
@@ -56,7 +58,7 @@ seq(ymd('2015-09-15'), ymd('2015-09-30'), by = "2 days")
 
 Creating sequences with time is very similar; however, we need to make sure our date object is POSIXct rather than just a Date object (as produced by `as.Date`):
 
-```r
+{% highlight r %}
 seq(as.POSIXct("2015-1-1 0:00"), as.POSIXct("2015-1-1 12:00"), by = "hour")
 ##  [1] "2015-01-01 00:00:00 EST" "2015-01-01 01:00:00 EST"
 ##  [3] "2015-01-01 02:00:00 EST" "2015-01-01 03:00:00 EST"
@@ -75,7 +77,7 @@ seq(ymd_hm("2015-1-1 0:00"), ymd_hm("2015-1-1 12:00"), by = "hour")
 ##  [9] "2015-01-01 08:00:00 UTC" "2015-01-01 09:00:00 UTC"
 ## [11] "2015-01-01 10:00:00 UTC" "2015-01-01 11:00:00 UTC"
 ## [13] "2015-01-01 12:00:00 UTC"
-```
+{% endhighlight %}
 
 
 <br>
