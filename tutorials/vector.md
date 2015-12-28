@@ -18,7 +18,7 @@ The basic structure in R is the vector.  A vector is a sequence of data elements
 
 <a name="creating"></a>
 
-# Creating
+## Creating
 The `c()` function can be used to create vectors of objects by concatenating things together:
 
 {% highlight r %}
@@ -79,7 +79,7 @@ str(c("A", "B", "C", TRUE, FALSE))
 
 <a name="adding"></a>
 
-# Adding on to
+## Adding on to
 To add additional elements to a pre-existing vector we can continue to leverage the `c()` function.  Also, note that vectors are always flat so nested `c()` functions will not add additional dimensions to the vector:
 
 {% highlight r %}
@@ -98,7 +98,7 @@ c(v1, c(18, c(19, c(20, c(21:22)))))
 
 <a name="attributes"></a>
 
-# Adding attributes
+## Adding attributes
 The attributes that you can add vectors includes names and comments:
 
 {% highlight r %}
@@ -143,7 +143,7 @@ attributes(v1)
 
 <a name="subsetting"></a>
 
-# Subsetting
+## Subsetting
 The four main ways to subset a vector include combining square brackets [ ] with:
 
 * <a href="#positive">Positive integers</a>
@@ -155,7 +155,7 @@ You can also subset with double brackets `[[ ]]` for <a href="#simplify">simplif
 
 <a name="positive"></a>
 
-## Positive Integers
+### Positive Integers
 Subsetting with positive integers returns the elements at the specified positions:
 
 {% highlight r %}
@@ -183,7 +183,7 @@ v1[c(2, 2, 4)]
 
 <a name="negative"></a>
 
-## Negative Integers
+### Negative Integers
 Subsetting with negative integers will omit the elements at the specified positions:
 
 {% highlight r %}
@@ -198,7 +198,7 @@ v1[-c(2, 4, 6, 8)]
 
 <a name="logical"></a>
 
-## Logical values
+### Logical values
 Subsetting with logical values will select the elements where the corresponding logical value is `TRUE`:
 
 {% highlight r %}
@@ -223,7 +223,7 @@ v1[c(TRUE, FALSE)]
 
 <a name="names"></a>
 
-## Names
+### Names
 Subsetting with names will return the elements with the matching names specified:
 
 {% highlight r %}
@@ -238,7 +238,7 @@ v1[c("a", "c", "h")]
 
 <a name="simplify"></a>
 
-## Simplifying vs. Preserving
+### Simplifying vs. Preserving
 Its also important to understand the difference between simplifying and preserving subsetting.  **Simplifying** subsets returns the simplest possible data structure that can represent the output. **Preserving** subsets keeps the structure of the output the same as the input.
 
 For vectors, subsetting with single brackets `[ ]` preserves while subsetting with double brackets `[[ ]]` simplifies.  The change you will notice when simplifying vectors is the removal of names and/or factor levels:
