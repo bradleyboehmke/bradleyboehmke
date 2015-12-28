@@ -5,6 +5,7 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Data Structures](data_structures) &#187; Dealing with missing values
 
+<br>
 
 A common task in data analysis is dealing with missing values.  In R, missing values are represented by `NA`  We can easily work with missing values by:
 
@@ -19,7 +20,7 @@ A common task in data analysis is dealing with missing values.  In R, missing va
 # Testing for Missing Values
 To identify missing values use `is.na()` which returns a logical vector with 'TRUE' in NA element locations:
 
-```r
+{% highlight r %}
 # vector with missing data
 x <- c(1:4, NA, 6:7, NA)
 x
@@ -50,7 +51,7 @@ is.na(df$col4)
 
 To identify the location or the number of NAs we can leverage the `which()` and `sum()` functions:
 
-```r
+{% highlight r %}
 # identify location of NAs in vector
 which(is.na(x))
 ## [1] 5 8
@@ -58,7 +59,7 @@ which(is.na(x))
 # identify count of NAs in data frame
 sum(is.na(df))
 ## [1] 3
-```
+{% endhighlight %}
 
 <br>
 
@@ -67,7 +68,7 @@ sum(is.na(df))
 # Recoding Missing Values
 To recode missing values; or recode specific indicators that represent missing values, we can use normal subsetting and assignment operations.
 
-```r
+{% highlight r %}
 # recode missing values with the mean
 x[is.na(x)] <- mean(x, na.rm = TRUE)
 round(x, 2)
@@ -84,7 +85,7 @@ df
 ## 2    2  4.2
 ## 3    3   NA
 ## 4   NA  3.2
-```
+{% endhighlight %}
 
 <br>
 
@@ -93,7 +94,7 @@ df
 # Excluding Missing Values
 We can exclude missing values in a couple different ways:
 
-```r
+{% highlight r %}
 # To exclude from mathematical opertions use `na.rm = TRUE` argument
 x <- c(1:4, NA, 6:7, NA)
 
@@ -136,7 +137,7 @@ df[!complete.cases(df), ]
 ##   col1 col2  col3 col4
 ## 2    2 <NA> FALSE  4.2
 ## 4   NA text  TRUE   NA
-```
+{% endhighlight %}
 
 
 <br>
