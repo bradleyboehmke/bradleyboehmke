@@ -33,12 +33,12 @@ Note that the `help.search("some text here")` function requires a character stri
 For more direct help on packages that are installed on your computer:
 
 
-```r
+{% highlight r %}
 help(package = "packagename")      # provides details regarding contents of a package
 vignette(package = "packagename")  # list vignettes available for a specific package
 vignette("vignettename")           # view specific vignette
 vignette()                         # view all vignettes on your computer
-```
+{% endhighlight %}
 
 Note that some packages will have multiple vignettes.  For instance `vignette(package = "grid")` will list the 13 vignettes available for the grid package.  To access one of the specific vignettes you simply use `vignette("vignettename")`.  
 
@@ -49,11 +49,11 @@ Note that some packages will have multiple vignettes.  For instance `vignette(pa
 For more direct help on functions that are installed on your computer:
 
 
-```r
+{% highlight r %}
 help(functionname)      # provides details for specific function
 ?functionname           # provides same information as help(functionname) 
 example(functionname)   # provides examples for said function
-```
+{% endhighlight %}
 
 Note that the `help()` and `?` function calls only work for functions within loaded packages.  If you want to see details on a function in a package that is installed on your computer but not loaded in the active R session you can use `help(functionname, package = "packagename")`.  Another alternative is to use the `::` operator as in `help(packagename::functionname)`.
 
