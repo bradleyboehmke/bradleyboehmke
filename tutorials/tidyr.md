@@ -35,6 +35,7 @@ library(tidyr)
 <br>
 
 <a id="pipe"> </a>
+
 ## <u><font face="consolas">%>%</font> Operator</u>
 
 Although not required, the tidyr and dplyr packages make use of the pipe operator `%>%` developed by [Stefan Milton Bache](https://twitter.com/stefanbache) in the R package [magrittr](http://cran.r-project.org/web/packages/magrittr/magrittr.pdf).  Although all the functions in tidyr and dplyr *can be used without the pipe operator*, one of the great conveniences these packages provide is the ability to string multiple functions together by incorporating `%>%`.
