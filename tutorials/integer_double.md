@@ -17,6 +17,7 @@ The two most common numeric classes used in R are integer and double (for double
 <br>
 
 <a name="creating"></a>
+
 # Creating Integer and Double Vectors
 
 {% highlight r %}
@@ -27,6 +28,7 @@ int_var <- c(1L, 6L, 10L)    # placing an L after the values creates a string of
 <br>
 
 <a name="converting"></a>
+
 # Converting Between Integer and Double Values
 By default, if you read in data that has no decimal points or you [create numeric values](generating_sequence_numbers) using the `x <- 1:10` method the numeric values will be coded as integer.  If you want to change a double to an integer or vice versa: 
 
@@ -40,6 +42,7 @@ as.integer(dbl_var)    # converts doubles to integers
 <br>
 
 <a name="checking"></a>
+
 # Checking for Numeric Type
 To check whether a vector is made up of integer or double values:
 
