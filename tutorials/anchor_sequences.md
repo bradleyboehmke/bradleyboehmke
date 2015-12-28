@@ -10,7 +10,7 @@ title: NULL
 To match a sequence of characters we can apply short-hand notation which captures the fundamental types of sequences.  The following displays the general syntax for these common sequences:
 
 <center>
-<img src="/public/images/r_vocab/anchor_sequence.png" alt="Anchor Sequences">
+<img src="/public/images/r_vocab/anchor_sequence.png" alt="Anchor Sequences" vspace="50">
 </center>     
 
 The following provides examples to show how to use the anchor syntax to find and replace sequences:
