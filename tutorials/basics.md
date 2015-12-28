@@ -4,7 +4,7 @@ title: NULL
 permalink: /tutorials/basics/
 ---
 
-[R Vocab Topics](tutorials) &#187; Basics
+[R Vocab Topics](http://bradleyboehmke.github.io/tutorials/) &#187; Basics
 
 * [Getting help](getting_help)
 * [Workspace](workspace)
