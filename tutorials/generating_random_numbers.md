@@ -6,6 +6,8 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Numbers](numbers) &#187; Generating sequence of random numbers
 
+<br>
+
 * <a href="#uniform">Uniform numbers</a> 
 * <a href="#normal">Normal distribution</a>
 * <a href="#binomial">Binomial distribution</a>
