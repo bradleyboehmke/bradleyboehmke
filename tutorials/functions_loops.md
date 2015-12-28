@@ -5,7 +5,7 @@ title: NULL
 
 [R Vocab Topics](index) &#187; Functions
 
-> *"To iterate is human, to recurse divine."* - L. Peter Deutsch
+> <em>"To iterate is human, to recurse divine."</em> - L. Peter Deutsch
 
 * [Creating functions](functions)
 * [Loops](loops)
