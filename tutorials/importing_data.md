@@ -18,7 +18,7 @@ The first step to any data analysis process is to *get* the data.  Data can come
 
 <a name="csv"></a>
 
-#### Reading data from text files
+## Reading data from text files
 Text files are a popular way to hold and exchange tabular data as almost any data application supports exporting data to the CSV (or other text file) formats.  Text file formats use delimiters to separate the different elements in a line, and each line of data is in its own line in the text file.  Therefore, importing different text kinds of text files can follow a fairly consistent process once you've identified the delimiter.
 
 There are two main groups of functions that we can use to read in text files:
@@ -29,7 +29,7 @@ There are two main groups of functions that we can use to read in text files:
 
 <a name="base_text_import"></a>
 
-# Base R functions
+#### Base R functions
 `read.table()` is a multipurpose work-horse function in base R for importing data.  The functions `read.csv()` and `read.delim()` are special cases of `read.table()` in which the defaults have been adjusted for efficiency.  To illustrate these functions let's work with a CSV file that is saved in our working directory which looks like:
 
 
@@ -134,7 +134,7 @@ read.table("mydata.txt", sep="\t", header = TRUE)
 
 <a name="readr_text_import"></a>
 
-## readr package
+#### readr package
 Compared to the equivalent base functions, [`readr`](https://cran.rstudio.com/web/packages/readr/) functions are around 10x faster. They bring consistency to importing functions, they produce data frames in a `data.table` format which are easier to view for large data sets, the default settings removes the "hassels" of `stringsAsFactors`, and they have a more flexible column specification. 
 
 To illustrate, we can use `read_csv()` which is equivalent to base R's `read.csv()` function.  However, note that `read_csv()` maintains the full variable name (whereas `read.csv` eliminates any spaces in variable names and fills it with '.').  Also, `read_csv()` automatically sets `stringsAsFactors = FALSE`, which can be a [controversial topic](http://simplystatistics.org/2015/07/24/stringsasfactors-an-unauthorized-biography/).  
