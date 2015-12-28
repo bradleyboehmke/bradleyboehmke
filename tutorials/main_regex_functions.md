@@ -25,7 +25,7 @@ There are five functions that provide pattern matching capabilities.  The three 
 ### grep()
 To find a pattern in a character vector and to have the element values or indices as the output use `grep()`:
 
-```r
+{% highlight r %}
 # use the built in data set `state.division`
 head(as.character(state.division))
 ## [1] "East South Central" "Pacific"            "Mountain"          
@@ -49,7 +49,7 @@ grep("North", state.division, value = TRUE)
 grep("North | South", state.division, invert = TRUE)
 ##  [1]  2  3  5  6  7  8  9 10 11 12 19 20 21 26 28 29 30 31 32 33 37 38 39
 ## [24] 40 44 45 46 47 48 50
-```
+{% endhighlight %}
 
 <br>
 
@@ -58,7 +58,7 @@ grep("North | South", state.division, invert = TRUE)
 ### grepl()
 To find a pattern in a character vector and to have logical (TRUE/FALSE) outputs use `grep()`:
 
-```r
+{% highlight r %}
 grepl("North | South", state.division)
 ##  [1]  TRUE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
 ## [12] FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE FALSE FALSE FALSE  TRUE
@@ -69,7 +69,7 @@ grepl("North | South", state.division)
 # wrap in sum() to get the count of matches
 sum(grepl("North | South", state.division))
 ## [1] 20
-```
+{% endhighlight %}
 
 <br>
 
@@ -78,7 +78,7 @@ sum(grepl("North | South", state.division))
 ### regexpr()
 To find exactly where the pattern exists in a string use `regexpr()`:
 
-```r
+{% highlight r %}
 x <- c("v.111", "0v.11", "00v.1", "000v.", "00000")
 
 regexpr("v.", x)
@@ -87,7 +87,7 @@ regexpr("v.", x)
 ## [1]  2  2  2  2 -1
 ## attr(,"useBytes")
 ## [1] TRUE
-```
+{% endhighlight %}
 
 The output of `regexpr()` can be interepreted as follows.  The first element provides the starting position of the match in each element.  Note that the value **-1** means there is no match.  The second element (attribute "match length") provides the length of the match.  The third element (attribute "useBytes") has a value TRUE meaning matching was done byte-by-byte rather than character-by-character.
 
@@ -107,7 +107,7 @@ In addition to finding patterns in character vectors, its also common to want to
 ### sub()
 To replace the **first** matching occurrence of a pattern use `sub()`:
 
-```r
+{% highlight r %}
 new <- c("New York", "new new York", "New New New York")
 new
 ## [1] "New York"         "new new York"     "New New New York"
@@ -119,7 +119,7 @@ sub("New", replacement = "Old", new)
 # use 'ignore.case = TRUE' to perform the obvious
 sub("New", replacement = "Old", new, ignore.case = TRUE)
 ## [1] "Old York"         "Old new York"     "Old New New York"
-```
+{% endhighlight %}
 
 <br>
 
@@ -129,7 +129,7 @@ sub("New", replacement = "Old", new, ignore.case = TRUE)
 To replace **all** matching occurrences of a pattern use `gsub()`:
 
 
-```r
+{% highlight r %}
 # Default is case sensitive
 gsub("New", replacement = "Old", new)
 ## [1] "Old York"         "new new York"     "Old Old Old York"
@@ -137,7 +137,7 @@ gsub("New", replacement = "Old", new)
 # use 'ignore.case = TRUE' to perform the obvious
 gsub("New", replacement = "Old", new, ignore.case = TRUE)
 ## [1] "Old York"         "Old Old York"     "Old Old Old York"
-```
+{% endhighlight %}
 
 <br>
 
@@ -146,7 +146,7 @@ gsub("New", replacement = "Old", new, ignore.case = TRUE)
 # Splitting Character Vectors
 To split the elements of a character string use `strsplit()`:
 
-```r
+{% highlight r %}
 x <- paste(state.name[1:10], collapse = " ")
 
 # output will be a list
@@ -159,7 +159,7 @@ strsplit(x, " ")
 unlist(strsplit(x, " "))
 ##  [1] "Alabama"     "Alaska"      "Arizona"     "Arkansas"    "California" 
 ##  [6] "Colorado"    "Connecticut" "Delaware"    "Florida"     "Georgia"
-```
+{% endhighlight %}
 
 
 
