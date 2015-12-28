@@ -47,7 +47,7 @@ is.na(df)
 # identify NAs in specific data frame column
 is.na(df$col4)
 ## [1] FALSE FALSE FALSE  TRUE
-```
+{% endhighlight %}
 
 To identify the location or the number of NAs we can leverage the `which()` and `sum()` functions:
 
