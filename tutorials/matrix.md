@@ -5,11 +5,12 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Data Structures](data_structures) &#187; Matrix
 
+<br>
+
 * <a href="#creating">Creating</a>
 * <a href="#adding">Adding on to</a>
 * <a href="#attributes">Adding attributes</a>
 * <a href="#subsetting">Subsetting</a>
-
 
 <br>
 
@@ -18,7 +19,7 @@ title: NULL
 # Creating
 Matrices are simply vectors with a dimension attribute.  Matrices are constructed column-wise, so entries can be thought of starting in the “upper left” corner and running down the columns.  We can create a matrix using the `matrix()` function:
 
-```r
+{% highlight r %}
 # numeric matrix
 m1 <- matrix(1:6, nrow = 2, ncol = 3)
 m1
@@ -47,11 +48,11 @@ str(m2)
 attributes(m2)
 ## $dim
 ## [1] 2 3
-```
+{% endhighlight %}
 
 Matrices can also be created using the column-bind `cbind()` and row-bind `rbind()` functions:
 
-```r
+{% highlight r %}
 v1 <- 1:4
 v2 <- 5:8
 
@@ -76,7 +77,7 @@ cbind(v1, v2, v3)
 ## [2,]  2  6 10
 ## [3,]  3  7 11
 ## [4,]  4  8 12
-```
+{% endhighlight %}
 
 
 <br>
@@ -86,7 +87,7 @@ cbind(v1, v2, v3)
 # Adding on to
 We can leverage the `cbind()` and `rbind()` functions for adding onto matrices as well:
 
-```r
+{% highlight r %}
 m1 <- cbind(v1, v2)
 m1
 ##      v1 v2
@@ -111,7 +112,7 @@ rbind(m1, c(4.1, 8.1))
 ## [3,] 3.0 7.0
 ## [4,] 4.0 8.0
 ## [5,] 4.1 8.1
-```
+{% endhighlight %}
 
 
 
@@ -122,7 +123,7 @@ rbind(m1, c(4.1, 8.1))
 # Adding attributes
 As previously mentioned, matrices by default will have a dimension attribute.  However, matrices can also have additional attributes such as row names, column names, and comments:
 
-```r
+{% highlight r %}
 # basic matrix
 m2 <- matrix(1:12, nrow = 4, ncol = 3)
 m2
@@ -208,7 +209,7 @@ attributes(m2)
 ## 
 ## $comment
 ## [1] "adding a comment to a matrix"
-```
+{% endhighlight %}
 
 <br>
 
@@ -217,7 +218,7 @@ attributes(m2)
 # Subsetting
 To subset matrices we use the `[` operator; however, since matrices have 2 dimensions we need to incorporate subsetting arguments for both dimensions.  A generic form of matrix subsetting looks like: `matrix[rows, columns]`.  The primary differences in matrix subsetting is what we use for the 'rows' and 'columns' arguments.
 
-```r
+{% highlight r %}
 m2
 ##       col_1 col_2 col_3
 ## row_1     1     5     9
@@ -258,11 +259,11 @@ m2[c("row_1", "row_3"), ]
 ##       col_1 col_2 col_3
 ## row_1     1     5     9
 ## row_3     3     7    11
-```
+{% endhighlight %}
 
 Note that subsetting matrices with the`[` operator will simplify<sup><a href="#fn1" id="ref1">1</a></sup> the results to the lowest possible dimension.  To avoid this you can introduce the `drop = FALSE` argument:
 
-```r
+{% highlight r %}
 # simplifying results in a named vector
 m2[, 2]
 ## row_1 row_2 row_3 row_4 
@@ -275,12 +276,12 @@ m2[, 2, drop = FALSE]
 ## row_2     6
 ## row_3     7
 ## row_4     8
-```
+{% endhighlight %}
 
 <br>
 
 <small><a href="#">Go to top</a></small>
 
 <br>
-<br>
-<sup id="fn1">1. [Its important to understand the difference between simplifying and preserving subsetting.  **Simplifying** subsets returns the simplest possible data structure that can represent the output. **Preserving** subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on [Simplifying vs. Preserving Subsetting](http://adv-r.had.co.nz/Subsetting.html#subsetting-operators) to learn more.]<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+
+<sup id="fn1">1. Its important to understand the difference between simplifying and preserving subsetting.  **Simplifying** subsets returns the simplest possible data structure that can represent the output. **Preserving** subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on [Simplifying vs. Preserving Subsetting](http://adv-r.had.co.nz/Subsetting.html#subsetting-operators) to learn more.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
