@@ -18,8 +18,7 @@ To match metacharacters in R you need to escape them with a double backslash "\\
 
 The following provides examples to show how to use the escape syntax to find and replace metacharacters:
 
-```r
-
+{% highlight r %}
 sub(pattern = "\\$", "\\!", "I love R$")
 ## [1] "I love R!"
 
@@ -28,5 +27,5 @@ sub(pattern = "\\^", "carrot", "My daughter has a ^ with almost every meal!")
 
 gsub(pattern = "\\\\", " ", "I\\need\\space")
 ## [1] "I need space"
-```
-&#9755; *For information on the`sub` and `gsub` functions visit the [main regex functions page](main_regex_functions).*
+{% endhighlight %}
+&#9755; *For information on the`sub` and `gsub` functions visit the [main regex functions page](http://bradleyboehmke.github.io/tutorials/main_regex_functions).*
