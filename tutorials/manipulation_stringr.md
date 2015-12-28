@@ -21,13 +21,13 @@ The `stringr` package was developed by Hadley Wickham to act as simple wrappers 
 # Install stringr Package
 To install and load the `stringr` package
 
-```r
+{% highlight r %}
 # install stringr package
 install.packages("stringr")
 
 # load package
 library(stringr)
-```
+{% endhighlight %}
 
 
 
@@ -49,7 +49,7 @@ There are three string functions that are closely related to their base R equiva
 <a name="str_c"></a>
 `str_c()` is equivalent to the `paste()` functions:
 
-```r
+{% highlight r %}
 # same as paste0()
 str_c("Learning", "to", "use", "the", "stringr", "package")
 ## [1] "Learningtousethestringrpackage"
@@ -66,14 +66,14 @@ str_c(letters, " is for", "...")
 ## [16] "p is for..." "q is for..." "r is for..." "s is for..." "t is for..."
 ## [21] "u is for..." "v is for..." "w is for..." "x is for..." "y is for..."
 ## [26] "z is for..."
-```
+{% endhighlight %}
 
 <br>
 
 <a name="str_length"></a>
 `str_length()` is similiar to the `nchar()` function; however, `str_length()` behaves more appropriately with missing ('NA') values:
 
-```r
+{% highlight r %}
 # some text with NA
 text = c("Learning", "to", NA, "use", "the", NA, "stringr", "package")
 
@@ -83,14 +83,14 @@ nchar(text)
 
 str_length(text)
 ## [1]  8  2 NA  3  3 NA  7  7
-```
+{% endhighlight %}
 
 <br>
 
 <a name="str_sub"></a>
 `str_sub()` is similar to `substr()`; however, it returns a zero length vector if any of its inputs are zero length, and otherwise expands each argument to match the longest. It also accepts negative positions, which are calculated from the left of the last character.
 
-```r
+{% highlight r %}
 x <- "Learning to use the stringr package"
 
 # alternative indexing
@@ -120,7 +120,7 @@ str_sub(x, end = -21)
 str_sub(x, end = 15) <- "I know how to use"
 x
 ## [1] "I know how to use the stringr package"
-```
+{% endhighlight %}
 
 <br>
 
@@ -129,7 +129,7 @@ x
 # Duplicate Characters within a String
 A new functionality that stringr provides in which base R does not have a specific function for is character duplication:
 
-```r
+{% highlight r %}
 str_dup("beer", times = 3)
 ## [1] "beerbeerbeer"
 
@@ -142,7 +142,7 @@ states_i_luv <- state.name[c(6, 23, 34, 35)]
 str_dup(states_i_luv, times = 2)
 ## [1] "ColoradoColorado"         "MinnesotaMinnesota"      
 ## [3] "North DakotaNorth Dakota" "OhioOhio"
-```
+{% endhighlight %}
 <br>
 
 <a name="trim"></a>
@@ -150,7 +150,7 @@ str_dup(states_i_luv, times = 2)
 # Remove Leading and Trailing Whitespace
 A common task of string processing is that of parsing text into individual words.  Often, this results in words having blank spaces (whitespaces) on either end of the word. The `str_trim()` can be used to remove these spaces:
 
-```r
+{% highlight r %}
 text <- c("Text ", "  with", " whitespace ", " on", "both ", " sides ")
 
 # remove whitespaces on the left side
@@ -167,7 +167,7 @@ str_trim(text, side = "right")
 str_trim(text, side = "both")
 ## [1] "Text"       "with"       "whitespace" "on"         "both"      
 ## [6] "sides"
-```
+{% endhighlight %}
 
 <br>
 
@@ -176,7 +176,7 @@ str_trim(text, side = "both")
 # Pad a String with Whitespace
 To add whitespace, or to *pad* a string, use `str_pad()`:
 
-```r
+{% highlight r %}
 str_pad("beer", width = 10, side = "left")
 ## [1] "      beer"
 
@@ -185,7 +185,7 @@ str_pad("beer", width = 10, side = "both")
 
 str_pad("beer", width = 10, side = "right", pad = "!")
 ## [1] "beer!!!!!!"
-```
+{% endhighlight %}
 
 
 
