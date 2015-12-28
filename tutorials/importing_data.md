@@ -26,6 +26,7 @@ There are two main groups of functions that we can use to read in text files:
 * <a href="#base_text_import">Base R functions</a>
 * <a href="#readr_text_import">`readr` package functions</a>
 
+<br>
 
 <a name="base_text_import"></a>
 
@@ -131,10 +132,11 @@ read.table("mydata.txt", sep="\t", header = TRUE)
 ## 3          8     cheese      FALSE
 {% endhighlight %}
 
+<br>
 
 <a name="readr_text_import"></a>
 
-#### readr package
+### readr package
 Compared to the equivalent base functions, [`readr`](https://cran.rstudio.com/web/packages/readr/) functions are around 10x faster. They bring consistency to importing functions, they produce data frames in a `data.table` format which are easier to view for large data sets, the default settings removes the "hassels" of `stringsAsFactors`, and they have a more flexible column specification. 
 
 To illustrate, we can use `read_csv()` which is equivalent to base R's `read.csv()` function.  However, note that `read_csv()` maintains the full variable name (whereas `read.csv` eliminates any spaces in variable names and fills it with '.').  Also, `read_csv()` automatically sets `stringsAsFactors = FALSE`, which can be a [controversial topic](http://simplystatistics.org/2015/07/24/stringsasfactors-an-unauthorized-biography/).  
@@ -199,7 +201,7 @@ These examples provide the basics for reading in text files. However, sometimes 
 
 <a name="excel"></a>
 
-# Reading data from Excel files
+## Reading data from Excel files
 With Excel still being the spreadsheet software of choice its important to be able to efficiently import and export data from these files.  Often, R users will simply resort to exporting the Excel file as a CSV file and then import into R using `read.csv`; however, this is far from efficient.  This section will teach you how to eliminate the CSV step and to import data directly from Excel using two different packages:
 
 * <a href="#xlsx_import">`xlsx` package</a>
@@ -207,10 +209,11 @@ With Excel still being the spreadsheet software of choice its important to be ab
 
 Note that there are several packages available to connect R with Excel (i.e. `gdata`, `RODBC`, `XLConnect`, `RExcel`, etc.); however, I am only going to cover the two main packages that I use which provide all the fundamental requirements I've needed for dealing with Excel.
 
+<br>
 
 <a name="xlsx_import"></a>
 
-## xlsx package
+### xlsx package
 The [`xlsx`](https://cran.rstudio.com/web/packages/xlsx/) package provides tools neccessary to interact with Excel 2007 (and older) files from R. Many of the benefits of the `xlsx` come from being able to *export* and *format* Excel files from R.  Some of these capabilities will be covered in the [Exporting Data](exporting_data) chapter; however, in this section we will simply cover *importing* data from Excel with the `xlsx` package.
 
 To illustrate, we'll use similar data from the <a href="#base_text_import">previous section</a>; however, saved as an .xlsx file in our working director.  To import the Excel data we simply use the `read.xlsx()` function:
@@ -314,9 +317,11 @@ read.xlsx("mydata.xlsx", sheetName = "Sheet4", keepFormulas = TRUE)
 ## 4         1000 0.070      16  A5/(1+B5)^C5
 {% endhighlight %}
 
+<br>
+
 <a name="readxl_import"></a>
 
-## readxl package
+### readxl package
 [`readxl`](https://cran.rstudio.com/web/packages/readxl/) is one of the newest packages for accessing Excel data with R and was developed by [Hadley Wickham](https://twitter.com/hadleywickham) and the [RStudio](https://www.rstudio.com/) team who also developed the `readr` package.  This package works with both legacy .xls formats and the modern xml-based .xlsx format.  Similar to `readr` the `readxl` functions are based on a C++ library so they are extremely fast. Unlike most other packages that deal with Excel, `readxl` has no external dependencies, so you can use it to read Excel data on just about any platform.  Additional benefits `readxl` provides includes the ability to load dates and times as POSIXct formatted dates, automatically drops blank columns, and returns outputs as data.table formatted which provides easier viewing for large data sets.
 
 To read in Excel data with `readxl` you use the `read_excel()` function which has very similar operations and arguments as `xlsx`.  A few important differences you will see below include: `readxl` will automatically convert date and date-time variables to POSIXct formatted variables, character variables will not be coerced to factors, and logical variables will be read in as integers.
@@ -399,7 +404,7 @@ mydata_ex
 
 <a name="robject"></a>
 
-# Load data from saved R object files
+## Load data from saved R object files
 Sometimes you may need to save data or other R objects outside of your workspace.  You may want to share R data/objects with co-workers, transfer between projects or computers, or simply archive them.  There are three primary ways that people tend to save R data/objects: as .RData, .rda, or as .rds files.  The differences behind when you use each will be covered in the [Saving data as an R object file](exporting_data#Robject) section.  This section will simply shows how to load these data/object forms.
 
 
@@ -415,7 +420,7 @@ name <- readRDS("mydata.rds")
 
 <a name="importing_resources"></a>
 
-# Additional resources
+## Additional resources
 In addition to text and Excel files, there are multiple other ways in which data is stored and exchanged.  Commercial statistical software such as SPSS, SAS, Stata, and Minitab often have the option to store data in a specific format for that software.  In addition, analysts commonly use databases to store large quantities of data.  R has good support to work with these additional options which we did not cover here.  The following provides a list of additional resources to learn about data importing for these specific cases:
 
 * [R data import/export manual](https://cran.r-project.org/doc/manuals/R-data.html)
