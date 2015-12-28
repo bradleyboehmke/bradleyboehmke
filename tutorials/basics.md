@@ -1,6 +1,7 @@
 ---
 layout: page
 title: NULL
+permalink: /tutorials/basics/
 ---
 
 [R Vocab Topics](index) &#187; Basics
