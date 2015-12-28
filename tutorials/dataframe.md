@@ -5,12 +5,14 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Data Structures](data_structures) &#187; Data frame
 
+<br>
+
+A data frame is the most common way of storing data in R and, generally, is the data structure most often used for data analyses.  Under the hood, a data frame is a list of equal-length vectors.  Each element of the list can be thought of as a column and the length of each element of the list is the number of rows.  As a result, data frames can store different classes of objects in each column (i.e. numeric, character, factor).  This tutorial provides you with the basics for managing data frames.
+
 * <a href="#creating">Creating</a>
 * <a href="#adding">Adding on to</a>
 * <a href="#attributes">Adding attributes</a>
 * <a href="#subsetting">Subsetting</a>
-
-A data frame is the most common way of storing data in R and, generally, is the data structure most often used for data analyses.  Under the hood, a data frame is a list of equal-length vectors.  Each element of the list can be thought of as a column and the length of each element of the list is the number of rows.  As a result, data frames can store different classes of objects in each column (i.e. numeric, character, factor).  
 
 <br>
 
@@ -19,7 +21,7 @@ A data frame is the most common way of storing data in R and, generally, is the 
 # Creating
 Data frames are usually created by reading in a dataset using the `read.table()` or `read.csv()`. However, data frames can also be created explicitly with the `data.frame()` function or they can be coerced from other types of objects like lists:
 
-```r
+{% highlight r %}
 df <- data.frame(col1 = 1:3, 
                  col2 = c("this", "is", "text"), 
                  col3 = c(TRUE, FALSE, TRUE), 
@@ -44,7 +46,7 @@ ncol(df)
 Note how col2 in 'df' was converted to a column of factors.  This is because their is a default setting in `data.frame()` that converts character columns to factors.  We can turn this off by setting the `stringsAsFactors = FALSE` argument:
 
 
-```r
+{% highlight r %}
 df <- data.frame(col1 = 1:3, 
                  col2 = c("this", "is", "text"), 
                  col3 = c(TRUE, FALSE, TRUE), 
@@ -57,11 +59,11 @@ str(df)
 ##  $ col2: chr  "this" "is" "text"
 ##  $ col3: logi  TRUE FALSE TRUE
 ##  $ col4: num  2.5 4.2 3.14
-```
+{% endhighlight %}
 
 We can also convert items to a data frame:
 
-```r
+{% highlight r %}
 v1 <- 1:3
 v2 <-c("this", "is", "text")
 v3 <- c(TRUE, FALSE, TRUE)
@@ -106,8 +108,7 @@ as.data.frame(m1)
 ## 2  2  6 10
 ## 3  3  7 11
 ## 4  4  8 12
-```
-
+{% endhighlight %}
 
 <br>
 
@@ -116,7 +117,7 @@ as.data.frame(m1)
 # Adding on to
 We can leverage the `cbind()` function for adding columns to a data frame.  Note that one of the objects being combined must already be a data frame otherwise `cbind()` could produce a matrix.
 
-```r
+{% highlight r %}
 df
 ##   col1 col2  col3     col4
 ## 1    1 this  TRUE 2.500000
@@ -130,11 +131,11 @@ cbind(df, v4)
 ## 1    1 this  TRUE 2.500000  A
 ## 2    2   is FALSE 4.200000  B
 ## 3    3 text  TRUE 3.141593  C
-```
+{% endhighlight %}
 
 We can also use the `rbind()` function to add data frame rows together.  However, severe caution should be taken because this can cause changes in the classes of the columns:
 
-```r
+{% highlight r %}
 df
 ##   col1 col2  col3     col4
 ## 1    1 this  TRUE 2.500000
@@ -181,7 +182,7 @@ str(df3)
 ##  $ col2: chr  "this" "is" "text" "R"
 ##  $ col3: logi  TRUE FALSE TRUE FALSE
 ##  $ col4: num  2.5 4.2 3.14 1.1
-```
+{% endhighlight %}
 &#9755; *There are better ways to join data frames together than to use `cbind()` and `rbind()`.  These are covered in the `dplyr` section in Data Wrangling.*
 
 <br>
@@ -191,7 +192,7 @@ str(df3)
 # Adding attributes
 Similar to matrices, data frames will have a dimension attribute.  In addition, data frames can also have additional attributes such as row names, column names, and comments:
 
-```r
+{% highlight r %}
 # basic matrix
 df
 ##   col1 col2  col3     col4
@@ -275,7 +276,7 @@ attributes(df)
 ## 
 ## $comment
 ## [1] "adding a comment to a data frame"
-```
+{% endhighlight %}
 
 <br>
 
@@ -284,7 +285,7 @@ attributes(df)
 # Subsetting
 Data frames possess the characteristics of both lists and matrices: if you subset with a single vector, they behave like lists; if you subset with two vectors, they behave like matrices:
 
-```r
+{% highlight r %}
 df
 ##      col.1 col.2 col.3    col.4
 ## row1     1  this  TRUE 2.500000
@@ -330,11 +331,11 @@ df[ , v]
 ## row1     1  this 2.500000
 ## row2     2    is 4.200000
 ## row3     3  text 3.141593
-```
+{% endhighlight %}
 
 Note that subsetting data frames with the`[` operator will simplify<sup><a href="#fn1" id="ref1">1</a></sup> the results to the lowest possible dimension.  To avoid this you can introduce the `drop = FALSE` argument:
 
-```r
+{% highlight r %}
 # simplifying results in a named vector
 df[, 2]
 ## [1] "this" "is"   "text"
@@ -345,12 +346,13 @@ df[, 2, drop = FALSE]
 ## row1  this
 ## row2    is
 ## row3  text
-```
+{% endhighlight %}
 
 <br>
 
 <small><a href="#">Go to top</a></small>
 
 <br>
-<br>
+<P CLASS="footnote" style="line-height:0.75">
 <sup id="fn1">1. [Its important to understand the difference between simplifying and preserving subsetting.  **Simplifying** subsets returns the simplest possible data structure that can represent the output. **Preserving** subsets keeps the structure of the output the same as the input.  See Hadley Wickham's section on [Simplifying vs. Preserving Subsetting](http://adv-r.had.co.nz/Subsetting.html#subsetting-operators) to learn more.]<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+</P>
