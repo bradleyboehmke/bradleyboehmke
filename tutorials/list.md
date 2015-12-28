@@ -23,7 +23,7 @@ A list is an R structure that allows you to combine elements of different types,
 
 <a name="creating"></a>
 
-# Creating
+## Creating
 To create a list we can use the `list()` function:
 
 {% highlight r %}
@@ -49,7 +49,7 @@ str(l)
 
 <a name="adding"></a>
 
-# Adding on to
+## Adding on to
 To add additional list components to a list we can leverage the `list()` and `append()` functions:
 
 {% highlight r %}
@@ -124,7 +124,7 @@ str(l1)
 
 <a name="attributes"></a>
 
-# Adding attributes
+## Adding attributes
 The attributes that you can add to lists include names, general comments, and specific list item comments:
 
 {% highlight r %}
@@ -195,7 +195,7 @@ attributes(l2)
 
 <a name="subsetting"></a>
 
-# Subsetting
+## Subsetting
 To subset lists we can utilize the single bracket`[ ]`, double brackets `[[ ]]`, and dollar sign `$`. 
 
 > *"If list x is a train carrying objects, then x[[5]] is the object in car 5; x[4:6] is a train of cars 4-6"*  - @RLangTip
@@ -207,7 +207,7 @@ To subset lists we can utilize the single bracket`[ ]`, double brackets `[[ ]]`,
 
 <a name="preserve"></a>
 
-## Subset List - Preserving Output as a List
+### Subset List - Preserving Output as a List
 To extract one or more list items while **preserving**<sup><a href="#fn1" id="ref1">1</a></sup> the output in list format use the `[ ]` operator:
 
 {% highlight r %}
@@ -240,7 +240,7 @@ l2[c("item1", "item3")]
 
 <a name="simplify"></a>
 
-## Subset List - Simplify Output
+### Subset List - Simplify Output
 To extract one or more list items and **simplifying**<sup><a href="#fn1" id="ref1">1</a></sup> the output use the `[ ]`  or `$` operator:
 
 {% highlight r %}
@@ -260,7 +260,7 @@ l2$item1
 
 <a name="elements"></a>
 
-## Subset List - Get Elements Out of a List
+### Subset List - Get Elements Out of a List
 To extract individual elements out of a specific list item combine the `[[` (or `$`) operator with the `[` operator:
 
 {% highlight r %}
@@ -279,7 +279,7 @@ l2$item2[3]
 
 <a name="nested"></a>
 
-## Subset List - Dealing with Nested Lists
+### Subset List - Dealing with Nested Lists
 If you have nested lists you can expand the ideas above to extract items and elements:
 
 {% highlight r %}
