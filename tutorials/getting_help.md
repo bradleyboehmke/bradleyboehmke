@@ -19,10 +19,10 @@ The help documentation and support in R is comprehensive and easily accessible f
 To leverage general help resources you can use:  
 
 
-```r
+{% highlight r %}
 help.start()           # provides general help links
 help.search("text")    # searches the help system for documentation matching a given character string
-```
+{% endhighlight %}
 
 Note that the `help.search("some text here")` function requires a character string enclosed in quotation marks.
 
