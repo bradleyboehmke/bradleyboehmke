@@ -5,11 +5,12 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Dates](dates) &#187; Extracting and manipulate parts of a date
 
+<br>
 
 To extract and manipulate individual elements of a date I typically use the `lubridate` package due to its simplistic function syntax.  The functions provided by `lubridate` to perform extraction and manipulation of dates include:
 
 <center>
-<img src="/public/images/r_vocab/lubridate_accessors.png" alt="lubridate Accessor Functions">
+<img src="/public/images/r_vocab/lubridate_accessors.png" alt="lubridate Accessor Functions" vspace="25">
 </center> 
 
 * <a href="#extract">Extract parts of a date</a>
@@ -22,7 +23,7 @@ To extract and manipulate individual elements of a date I typically use the `lub
 ## Extract Parts of a Date
 
 
-```r
+{% highlight r %}
 library(lubridate)
 
 x <- c("2015-07-01", "2015-08-01", "2015-09-01")
@@ -48,7 +49,7 @@ month(x, label = TRUE, abbr = FALSE)
 wday(x, label = TRUE, abbr = FALSE)
 ## [1] Wednesday Saturday  Tuesday  
 ## 7 Levels: Sunday < Monday < Tuesday < Wednesday < Thursday < ... < Saturday
-```
+{% endhighlight %}
 
 <br>
 
@@ -57,7 +58,7 @@ wday(x, label = TRUE, abbr = FALSE)
 ## Manipulate Parts of a Date
 To change the values of date elements we simply use the accessor and assignment functions:
 
-```r
+{% highlight r %}
 # convert to date format
 x <- ymd(x)
 x
@@ -78,7 +79,7 @@ update(x, year = c(2013, 2014, 2015), month = 9)
 # can also add/subtract units
 x + years(1) - days(c(2, 9, 21))
 ## [1] "2016-07-01 UTC" "2016-08-01 UTC" "2016-09-01 UTC"
-```
+{% endhighlight %}
 
 
 <br>
