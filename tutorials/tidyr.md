@@ -5,20 +5,7 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Data wrangling](data_wrangling) &#187; tidyr for reshaping the layout of data frames
 
-<style>
-div {
-    text-align: justify;
-    text-justify: inter-word;
-}
-</style>
-
-There are four fundamental functions of data tidying that tidyr provides:
-
-* <a href="#gather">**`gather()`**</a> makes “wide” data longer
-* <a href="#spread">**`spread()`**</a> makes “long” data wider
-* <a href="#separate">**`separate()`**</a> splits a single column into multiple columns
-* <a href="#unite">**`unite()`**</a> combines multiple columns into a single column
-* <a href="#resources">Additional Resources</a>
+<br>
 
 Although many fundamental data processing functions exist in R, they have been a bit convoluted to date and have lacked consistent coding 
 and the ability to easily *flow* together.  This leads to difficult-to-read nested functions and/or *choppy* code. [R Studio](http://www.rstudio.com/) is driving a lot of new packages to collate data management tasks and better integrate them with other analysis activities.
@@ -28,10 +15,17 @@ As a result, a lot of data processing tasks are becoming packaged in more cohesi
 - Easier to remember syntax
 - Easier to read syntax
 
-`tidyr` is a one such package which was built for the sole purpose of simplifying the process of creating [tidy data](http://vita.had.co.nz/papers/tidy-data.html)
+`tidyr` is a one such package which was built for the sole purpose of simplifying the process of creating [tidy data](http://vita.had.co.nz/papers/tidy-data.html). This tutorial provides you with the basic understanding of the four fundamental functions of data tidying that tidyr provides:
+
+* <a href="#gather">**`gather()`**</a> makes “wide” data longer
+* <a href="#spread">**`spread()`**</a> makes “long” data wider
+* <a href="#separate">**`separate()`**</a> splits a single column into multiple columns
+* <a href="#unite">**`unite()`**</a> combines multiple columns into a single column
+* <a href="#resources">Additional Resources</a>
+* 
 <br>
 
-# <u>Packages Utilized</u>
+## <u>Packages Utilized</u>
 
 ```r
 install.packages("tidyr")
@@ -40,7 +34,7 @@ library(tidyr)
 <br>
 
 <a id="pipe"> </a>
-# <u><font face="consolas">%>%</font> Operator</u>
+## <u><font face="consolas">%>%</font> Operator</u>
 
 Although not required, the tidyr and dplyr packages make use of the pipe operator `%>%` developed by [Stefan Milton Bache](https://twitter.com/stefanbache) in the R package [magrittr](http://cran.r-project.org/web/packages/magrittr/magrittr.pdf).  Although all the functions in tidyr and dplyr *can be used without the pipe operator*, one of the great conveniences these packages provide is the ability to string multiple functions together by incorporating `%>%`.
 
@@ -104,13 +98,13 @@ To learn more about the `%>%` operator and the magrittr package visit any of the
 
 <a id="gather"> </a>
 
-# <u>gather( ) function</u>: 
+## <u>gather( ) function</u>: 
 **Objective:** Reshaping wide format to long format
 
 **Description:** There are times when our data is considered unstacked and a common attribute of concern is spread out across columns.  To reformat the data such that these common attributes are *gathered* together as a single variable, the `gather()` function will take multiple columns and collapse them into key-value pairs, duplicating all other columns as needed.
 
 
-<img src="/public/images/dataWrangling/gather1.png" alt="gather() function" align="middle">
+<img src="/public/images/dataWrangling/gather1.png" alt="gather() function" align="middle" vspace="25">
 
 
 ```r
@@ -188,7 +182,7 @@ Also note that if you do not supply arguments for na.rm or convert values then t
 <br>
 <a id="separate"> </a>
 
-# <u>separate( ) function</u>: 
+## <u>separate( ) function</u>: 
 **Objective:** Splitting a single variable into two
 
 **Description:** Many times a single column variable will capture multiple variables, or even parts of a variable you just don't care about.  Some examples include:
@@ -273,7 +267,7 @@ These produce the same results:
 <br>
 <a id="unite"> </a>
 
-# <u>unite( ) function</u>: 
+## <u>unite( ) function</u>: 
 **Objective:** Merging two variables into one
 
 **Description:** There may be a time in which we would like to combine the values of two variables.  The `unite()` function is a convenience function to paste together multiple variable values into one.  In essence, it combines two variables of a single observation into one variable.
@@ -330,7 +324,7 @@ If no spearator is identified, "_" will automatically be used
 <br>
 <a id="spread"> </a>
 
-# <u>spread( ) function</u>: 
+## <u>spread( ) function</u>: 
 
 **Objective:** Reshaping long format to wide format
 
@@ -382,7 +376,7 @@ head(wide_DF, 24)
 <br>
 
 <a id="resources"> </a>
-# Additional Resources
+## Additional Resources
 
 - Data wrangling [presentation](Data_Wrangling_MU) I gave at Miami University
 - R Studio's [Data wrangling with R and RStudio webinar](http://www.rstudio.com/resources/webinars/)
