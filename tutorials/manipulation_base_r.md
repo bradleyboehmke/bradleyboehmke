@@ -18,12 +18,12 @@ title: NULL
 # Convert to Lower Case
 To convert all upper case characters to lower case use `tolower()`:
 
-```r
+{% highlight r %}
 x <- "Learning To MANIPULATE strinGS in R"
 
 tolower(x)
 ## [1] "learning to manipulate strings in r"
-```
+{% endhighlight %}
 
 <br>
 
@@ -32,10 +32,10 @@ tolower(x)
 # Convert to Upper Case
 To convert all lower case characters to upper case use `toupper()`:
 
-```r
+{% highlight r %}
 toupper(x)
 ## [1] "LEARNING TO MANIPULATE STRINGS IN R"
-```
+{% endhighlight %}
 
 <br>
 
@@ -44,7 +44,7 @@ toupper(x)
 # Simple Character Replacement
 To replace a character (or multiple characters) in a string you can use `chartr()`:
 
-```r
+{% highlight r %}
 # replace 'A' with 'a'
 x <- "This is A string."
 chartr(old = "A", new = "a", x)
@@ -55,7 +55,7 @@ chartr(old = "A", new = "a", x)
 y <- "Tomorrow I plzn do lezrn zbout dexduzl znzlysis."
 chartr(old = "dz", new = "ta", y)
 ## [1] "Tomorrow I plan to learn about textual analysis."
-```
+{% endhighlight %}
 
 Note that `chartr()` replaces every identified letter for replacement so the only time I use it is when I am certain that I want to change every possible occurence of a letter.
 
@@ -66,7 +66,7 @@ Note that `chartr()` replaces every identified letter for replacement so the onl
 # String Abbreviations
 To abbreviate strings you can use `abbreviate()`:
 
-```r
+{% highlight r %}
 streets <- c("Main", "Elm", "Riverbend", "Mario", "Frederick")
 
 # default abbreviations
@@ -78,7 +78,7 @@ abbreviate(streets)
 abbreviate(streets, minlength = 2)
 ##      Main       Elm Riverbend     Mario Frederick 
 ##      "Mn"      "El"      "Rv"      "Mr"      "Fr"
-```
+{% endhighlight %}
 
 Note that if you are working with U.S. states, R already has a pre-built vector with state names (`state.name`).  Also, there is a pre-built vector of abbreviated state names (`state.abb`).
 
@@ -91,7 +91,7 @@ To extract or replace substrings in a character vector use `substr()`, `substrin
 
 Extract and replace substrings with specified starting and stopping characters with `substr()`:
 
-```r
+{% highlight r %}
 alphabet <- paste(LETTERS, collapse = "")
 
 # extract 18th character in string
@@ -106,13 +106,13 @@ substr(alphabet, start = 18, stop = 24)
 substr(alphabet, start = 19, stop = 24) <- "RRRRRR"
 alphabet
 ## [1] "ABCDEFGHIJKLMNOPQRRRRRRRYZ"
-```
+{% endhighlight %}
 
 <br>
 
 Extract and replace substrings with only a specified starting point with `substr()`.  Also allows you to extract/replace in a recursive fashion:
 
-```r
+{% highlight r %}
 alphabet <- paste(LETTERS, collapse = "")
 
 # extract 18th through last character
@@ -127,13 +127,13 @@ substring(alphabet, first = 18:24)
 # recursive extraction; specify start and stop positions
 substring(alphabet, first = 1:5, last = 3:7)
 ## [1] "ABC" "BCD" "CDE" "DEF" "EFG"
-```
+{% endhighlight %}
 
 <br>
 
 To split the elements of a character string use `strsplit()`:
 
-```r
+{% highlight r %}
 z <- "The day after I will take a break and drink a beer."
 strsplit(z, split = " ")
 ## [[1]]
@@ -144,14 +144,14 @@ a <- "Alabama-Alaska-Arizona-Arkansas-California"
 strsplit(a, split = "-")
 ## [[1]]
 ## [1] "Alabama"    "Alaska"     "Arizona"    "Arkansas"   "California"
-```
+{% endhighlight %}
 
 Note that the output of `strsplit()` is a list.  To convert the output to a simple atomic vector simply wrap in `unlist()`:
 
-```r
+{% highlight r %}
 unlist(strsplit(a, split = "-"))
 ## [1] "Alabama"    "Alaska"     "Arizona"    "Arkansas"   "California"
-```
+{% endhighlight %}
 
 <br>
 
