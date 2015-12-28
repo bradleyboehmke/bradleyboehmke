@@ -13,9 +13,8 @@ Metacharacters consist of non-alphanumeric symbols such as:
 
 To match metacharacters in R you need to escape them with a double backslash "\\\\".  The following displays the general escape syntax for the most common metacharacters:
 
-
 <center>
-<img src="/public/images/r_vocab/metacharacter_escape.png" alt="Escaping Metacharacters">
+<img src="/public/images/r_vocab/metacharacter_escape.png" alt="Escaping Metacharacters" vspace="25">
 </center>     
 
 The following provides examples to show how to use the escape syntax to find and replace metacharacters:
