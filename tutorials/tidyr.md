@@ -44,7 +44,7 @@ This operator will forward a value, or the result of an expression, into the nex
 
 <center>filter(data, variable == <em>numeric_value</em>)</center>
 
-<center>*<u>or</u>*</center>
+<center><em><u>or</u></em></center>
 
 <center>data %>% filter(variable == <em>numeric_value</em>)</center>
 
