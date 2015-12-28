@@ -101,6 +101,7 @@ matter expert inputs for green aircraft procurement costs.</li>
 Monte Carlo simulations, tting distributions, assessing correlations; analyzing historical data with
 time-series analysis and regression, performing constraint-based optimality models, etc.</li>
 </ul> 
+</p>
 
 <p style="text-align:left;"><strong>Revival Property Group, LLC</strong></span><span style="float:right;">October 2007 - June 2009</span>
 <br style="text-align:left;"><em>Operations Manager</em></span><span style="float:right;">Dayton, OH</span>
@@ -109,12 +110,14 @@ time-series analysis and regression, performing constraint-based optimality mode
 <li>Managed funds totaling over $350,000 for investors and analyzed investment options, executed acquisitions and provided monthly, quarterly and annual reports outlining investment returns, milestones reached, and expected vs. actual costs.</li>
 <li>Created estimates and managed rehab projects ranging from $5,000-$75,000 with three contracting crews</li>
 </ul>
+</p>
 
 <p style="text-align:left;"><strong>U.S. Air Force Officer</strong></span><span style="float:right;">August 2006 - September 2007</span>
 <br style="text-align:left;"><em>Air Force Institute of Technology Student</em></span><span style="float:right;">WPAFB, OH</span>
 <ul> 
 <li>Completed courses including Statistics, Acquisition Management, Mathematical Economics, Finance Theory, Applied Econometrics, Defense Cost Modeling, Advanced Cost Analysis, Production Management, Strategic Cost Management, Managerial Economics, Contracting and Acquisition Management, Research Methods, Project Risk Analysis and Decision Analysis.</li>
 </ul>
+</p>
 
 <p style="text-align:left;"><strong>U.S. Air Force Officer</strong></span><span style="float:right;">September 2003 - August 2006</span>
 <br style="text-align:left;"><em>Financial Management Officer</em></span><span style="float:right;">Grand Forks AFB, ND</span>
@@ -125,6 +128,7 @@ time-series analysis and regression, performing constraint-based optimality mode
 <li>Oversaw wing civilian payroll which exceeded $20M and was the first to identify a payroll shortfall in Fiscal Year 2006</li>
 <li>Provided quarterly budget and expenditure update briefings to the wing commander.</li>
 </ul>
+</p>
 
 <small><a href="#">Go to top</a></small>
 
