@@ -11,6 +11,7 @@ title: NULL
 * <a href="#converting">Converting between integer and double values</a>
 * <a href="#checking">Checking for numeric type</a>
 
+<br>
 
 The two most common numeric classes used in R are integer and double (for double precision floating point numbers).  R automatically converts between these two classes when needed for mathematical purposes.  As a result, it's feasible to use R and perform analyses for years without specifying these differences.
 
