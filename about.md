@@ -4,7 +4,8 @@ title: NULL
 permalink: /about/
 ---
 
-# Quick and Dirty
+# <center>Quick and Dirty</center>
+<hr width="50%">
 Operations research analyst by title, data geek by self-proclamation.  R addict.  Equal parts social scientist, economist, and hacker.  Inquirer, lifelong learner, and PhD.  Father of two, husband of one.
 
 <br>
