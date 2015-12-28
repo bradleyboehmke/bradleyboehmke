@@ -5,12 +5,14 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Data Structures](data_structures) &#187; Vector
 
+<br>
+
+The basic structure in R is the vector.  A vector is a sequence of data elements of the same basic type: [integer](integer_double), [double](integer_double), logical, or [character](char_basics) (there are two additional vector types which I will not discuss - complex and raw). This tutorial provides you with the basics of managing vectors.
+
 * <a href="#creating">Creating</a>
 * <a href="#adding">Adding on to</a>
 * <a href="#attributes">Adding attributes</a>
 * <a href="#subsetting">Subsetting</a>
-
-The basic structure in R is the vector.  A vector is a sequence of data elements of the same basic type: [integer](integer_double), [double](integer_double), logical, or [character](char_basics) (there are two additional vector types which I will not discuss - complex and raw).
 
 <br>
 
@@ -19,7 +21,7 @@ The basic structure in R is the vector.  A vector is a sequence of data elements
 # Creating
 The `c()` function can be used to create vectors of objects by concatenating things together:
 
-```r
+{% highlight r %}
 # integer vector
 w <- 8:17
 w
@@ -43,11 +45,11 @@ y2
 z <- c("a", "b", "c") ## character
 z
 ## [1] "a" "b" "c"
-```
+{% endhighlight %}
 
 You can also use the `as.vector()` function to initialize vectors or change the vector type:
 
-```r
+{% highlight r %}
 v <- as.vector(8:17)
 v
 ##  [1]  8  9 10 11 12 13 14 15 16 17
@@ -55,11 +57,11 @@ v
 # turn numerical vector to character
 as.vector(v, mode = "character")
 ##  [1] "8"  "9"  "10" "11" "12" "13" "14" "15" "16" "17"
-```
+{% endhighlight %}
 
 All elements of a vector must be the same type, so when you attempt to combine different types of elements they will be coerced to the most flexible type possible:
 
-```r
+{% highlight r %}
 # numerics are turned to characters
 str(c("a", "b", "c", 1, 2, 3))
 ##  chr [1:6] "a" "b" "c" "1" "2" "3"
@@ -71,7 +73,7 @@ str(c(1, 2, 3, TRUE, FALSE))
 # or character
 str(c("A", "B", "C", TRUE, FALSE))
 ##  chr [1:5] "A" "B" "C" "TRUE" "FALSE"
-```
+{% endhighlight %}
 
 <br>
 
@@ -80,7 +82,7 @@ str(c("A", "B", "C", TRUE, FALSE))
 # Adding on to
 To add additional elements to a pre-existing vector we can continue to leverage the `c()` function.  Also, note that vectors are always flat so nested `c()` functions will not add additional dimensions to the vector:
 
-```r
+{% highlight r %}
 v1 <- 8:17
 
 c(v1, 18:22)
@@ -89,7 +91,7 @@ c(v1, 18:22)
 # same as
 c(v1, c(18, c(19, c(20, c(21:22)))))
 ##  [1]  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22
-```
+{% endhighlight %}
 
 
 <br>
@@ -99,7 +101,7 @@ c(v1, c(18, c(19, c(20, c(21:22)))))
 # Adding attributes
 The attributes that you can add vectors includes names and comments:
 
-```r
+{% highlight r %}
 # currently no attributes exist for vector v1
 attributes(v1)
 ## NULL
@@ -134,7 +136,7 @@ attributes(v1)
 ## 
 ## $comment
 ## [1] "This is a comment on a vector"
-```
+{% endhighlight %}
 
 
 <br>
@@ -156,7 +158,7 @@ You can also subset with double brackets `[[ ]]` for <a href="#simplify">simplif
 ## Positive Integers
 Subsetting with positive integers returns the elements at the specified positions:
 
-```r
+{% highlight r %}
 v1
 ##  a  b  c  d  e  f  g  h  i  j 
 ##  8  9 10 11 12 13 14 15 16 17
@@ -177,14 +179,14 @@ v1[c(2, 4, 6, 8)]
 v1[c(2, 2, 4)]
 ##  b  b  d 
 ##  9  9 11
-```
+{% endhighlight %}
 
 <a name="negative"></a>
 
 ## Negative Integers
 Subsetting with negative integers will omit the elements at the specified positions:
 
-```r
+{% highlight r %}
 v1[-1]
 ##  b  c  d  e  f  g  h  i  j 
 ##  9 10 11 12 13 14 15 16 17
@@ -192,14 +194,14 @@ v1[-1]
 v1[-c(2, 4, 6, 8)]
 ##  a  c  e  g  i  j 
 ##  8 10 12 14 16 17
-```
+{% endhighlight %}
 
 <a name="logical"></a>
 
 ## Logical values
 Subsetting with logical values will select the elements where the corresponding logical value is `TRUE`:
 
-```r
+{% highlight r %}
 v1[c(TRUE, FALSE, TRUE, FALSE, TRUE, TRUE, TRUE, FALSE, FALSE, TRUE)]
 ##  a  c  e  f  g  j 
 ##  8 10 12 13 14 17
@@ -217,14 +219,14 @@ v1[v1 < 12 | v1 > 15]
 v1[c(TRUE, FALSE)]
 ##  a  c  e  g  i 
 ##  8 10 12 14 16
-```
+{% endhighlight %}
 
 <a name="names"></a>
 
 ## Names
 Subsetting with names will return the elements with the matching names specified:
 
-```r
+{% highlight r %}
 v1["b"]
 ## b 
 ## 9
@@ -232,7 +234,7 @@ v1["b"]
 v1[c("a", "c", "h")]
 ##  a  c  h 
 ##  8 10 15
-```
+{% endhighlight %}
 
 <a name="simplify"></a>
 
@@ -241,7 +243,7 @@ Its also important to understand the difference between simplifying and preservi
 
 For vectors, subsetting with single brackets `[ ]` preserves while subsetting with double brackets `[[ ]]` simplifies.  The change you will notice when simplifying vectors is the removal of names and/or factor levels:
 
-```r
+{% highlight r %}
 v1[1]
 ## a 
 ## 8
@@ -254,7 +256,7 @@ f <- factor(c("low", "medium", "high", "high", "low"), levels = c("low", "medium
 f[-2, drop = TRUE]
 ## [1] low  high high low 
 ## Levels: low high
-```
+{% endhighlight %}
 
 <br>
 
