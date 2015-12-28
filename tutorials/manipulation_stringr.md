@@ -5,6 +5,8 @@ title: NULL
 
 [R Vocab Topics](index) &#187; [Character Strings](characters) &#187; [String manipulation](string_manipulation) &#187; Manipulation with stringr package
 
+<br>
+
 The `stringr` package was developed by Hadley Wickham to act as simple wrappers that make R’s string functions more consistent, simpler, and easier to use.<sup><a href="#fn1" id="ref1">1</a></sup>
 
 * <a href="#install">Install `stringr` package</a>
