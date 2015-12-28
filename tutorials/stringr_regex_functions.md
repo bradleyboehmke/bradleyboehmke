@@ -238,7 +238,7 @@ Note that the output of `strs_plit()` is a list.  To convert the output to a sim
 unlist(str_split(a, pattern = "-"))
 ## [1] "Alabama"    "Alaska"     "Arizona"    "Arkansas"   "California"
 {% endhighlight %}
-&#9755; *This function is a wraper of [`strsplit()`](manipulate_base_r#substring)*
+&#9755; *This function is a wraper of [`strsplit()`](http://bradleyboehmke.github.io/tutorials/main_regex_functions#splitting)*
 
 
 
