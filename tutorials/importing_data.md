@@ -18,7 +18,7 @@ The first step to any data analysis process is to *get* the data.  Data can come
 
 <a name="csv"></a>
 
-### Reading data from text files
+#### Reading data from text files
 Text files are a popular way to hold and exchange tabular data as almost any data application supports exporting data to the CSV (or other text file) formats.  Text file formats use delimiters to separate the different elements in a line, and each line of data is in its own line in the text file.  Therefore, importing different text kinds of text files can follow a fairly consistent process once you've identified the delimiter.
 
 There are two main groups of functions that we can use to read in text files:
