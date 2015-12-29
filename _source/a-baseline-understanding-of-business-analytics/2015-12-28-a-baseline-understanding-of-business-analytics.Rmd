@@ -6,23 +6,9 @@ published: true
 tags: [example1, example2]
 ---
 
-<style>
-div {
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-<!-- .indented { padding-left: 50pt; padding-right: 50pt; } -->
-
-<!-- .footnote {line-height:75%; "font-size:8px"} -->
-
-</style>
-
-<br>
-
 > *"The limits of my language are the limits of my mind.  All I know is what I have words for."* - Ludwig Wittgenstein
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=2, fig.height=2, fig.align='center'}
 library(ggplot2)
 library(dplyr)
 library(tidyr)
