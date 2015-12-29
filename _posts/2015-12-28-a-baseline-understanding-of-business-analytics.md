@@ -74,7 +74,7 @@ This step involves identifying and prioritizing data needs based on step 2, acqu
 
 **Step 4:** Now that firm understanding of the data underlying the business and analytic problem is in place, an analytic methodology that both fits the data *<u>and</u>* provides the outputs required by the decision-maker are selected. Understanding, and even describing, all the analytic techniques available is an intimidating task. However, analytic techniques can be categorized into three broad buckets. No one type of analytic category is better than another and, in fact, they are often used as compliments to one another to provide a robust understanding of the problem. 
 
-<img src="https://d1avok0lzls2w.cloudfront.net/img_uploads/analytics_2(1).png" alt="Analytic Categories" style="float:right;" vspace="25" width="50%">
+<img src="https://d1avok0lzls2w.cloudfront.net/img_uploads/analytics_2(1).png" alt="Analytic Categories" style="float:right;" width="50%">
 
 <P CLASS="indented">
 <bold>Descriptive analytics</bold> uses data aggregation and data mining techniques to provide insight into the past and answer: “What has happened?” This category primarily uses statistics and analytics<sup><a href="#fn5" id="ref5">5</a></sup> that describe the past and are often generated for reports and dashboards to create benchmarks and provide performance metrics.
