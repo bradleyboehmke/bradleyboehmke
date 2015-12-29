@@ -74,8 +74,11 @@ This step involves identifying and prioritizing data needs based on step 2, acqu
 
 **Step 4:** Now that firm understanding of the data underlying the business and analytic problem is in place, an analytic methodology that both fits the data *<u>and</u>* provides the outputs required by the decision-maker are selected. Understanding, and even describing, all the analytic techniques available is an intimidating task. However, analytic techniques can be categorized into three broad buckets. No one type of analytic category is better than another and, in fact, they are often used as compliments to one another to provide a robust understanding of the problem.
 
+<p align="center">
 
-->![Analytic Categories](http://bradleyboehmke.github.io/figure/source/a-baseline-understanding-of-business-analytics/2015-12-28-a-baseline-understanding-of-business-analytics/analytics.jpg)<-
+![Analytic Categories](http://bradleyboehmke.github.io/figure/source/a-baseline-understanding-of-business-analytics/2015-12-28-a-baseline-understanding-of-business-analytics/analytics.jpg)
+
+</p>
 
 
 <P CLASS="indented">
