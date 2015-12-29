@@ -19,7 +19,35 @@ div {
 </style>
 
 <br>
-**O<span style="font-variant: small-caps">ld wine in a new bottle?</span>** Operations research, business analytics, decision analytics, business intelligence, advanced analytics...are these concepts synonymous, symbiotic, mutually exclusive, or should we even care? <img src="/public/images/business_analytics/analytic_trends_4.png" align="right", width="35%", height="35%" alt="Google trending of daily searches for various analytic disciplines">Analytics has long been a pathway to business value; however, organizations often get lost in the hype of terminology. To heighten the confusion, the skills, tools, and resources used to perform analytics has expanded, further blurring the lines between who and how analytics is performed. This has led to organizations understanding that analytics is important yet not understanding how to implement it, and understanding that the skills and resources to perform analytics are vast yet not understanding how to create an analytics culture.
+
+> *"The limits of my language are the limits of my mind.  All I know is what I have words for."* - Ludwig Wittgenstein
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+analytics.trend <- read.csv("/Volumes/Memorex/Business Analytics/analytics.trend.csv", stringsAsFactors=FALSE)
+analytics.trend$Week <- substr(as.character(analytics.trend$Week), 1, 10)
+analytics.trend$Week <- as.Date(analytics.trend$Week, "%Y-%m-%d")
+analytics.trend <- analytics.trend %>%
+        gather(discipline, value, -Week)
+
+ggplot(analytics.trend, aes(Week, value, group=discipline, colour=discipline)) +
+        geom_line() +
+        theme_bw() +
+        theme(plot.background = element_blank(),
+              panel.grid.minor = element_blank(),
+              panel.grid.major = element_blank(),
+              panel.border = element_blank(),
+              panel.background = element_blank()) +
+        theme(axis.line = element_line(color = "gray90")) +
+        theme(legend.position = "none") +
+        theme(axis.ticks = element_blank(), axis.text.y = element_blank()) +
+        ylab("") +
+        xlab("")
+```
+
+**O<span style="font-variant: small-caps">ld wine in a new bottle?</span>** Operations research, business analytics, decision analytics, business intelligence, advanced analytics...are these concepts synonymous, symbiotic, mutually exclusive, or should we even care? Analytics has long been a pathway to business value; however, organizations often get lost in the hype of terminology. To heighten the confusion, the skills, tools, and resources used to perform analytics has expanded, further blurring the lines between who and how analytics is performed. This has led to organizations understanding that analytics is important yet not understanding how to implement it, and understanding that the skills and resources to perform analytics are vast yet not understanding how to create an analytics culture.
 
 
 
