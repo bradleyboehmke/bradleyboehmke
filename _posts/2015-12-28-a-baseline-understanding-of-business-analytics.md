@@ -1,18 +1,26 @@
 ---
 layout: post
 title:  A Baseline Understanding of Business Analytics
-date: 2015-12-28 23:52:10
+date: 2015-10-19
 published: true
-tags: [example1, example2]
+tags: [business analytics]
 ---
+
+<style>
+
+<!-- .footnote {line-height:75%; "font-size:8px"} -->
+
+</style>
 
 > *"The limits of my language are the limits of my mind.  All I know is what I have words for."* - Ludwig Wittgenstein
 
 <img src="http://bradleyboehmke.github.io/figure/source/a-baseline-understanding-of-business-analytics/2015-12-28-a-baseline-understanding-of-business-analytics/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
 
+<br>
+
 **O<span style="font-variant: small-caps">ld wine in a new bottle?</span>** Operations research, business analytics, decision analytics, business intelligence, advanced analytics...are these concepts synonymous, symbiotic, mutually exclusive, or should we even care? Analytics has long been a pathway to business value; however, organizations often get lost in the hype of terminology. To heighten the confusion, the skills, tools, and resources used to perform analytics has expanded, further blurring the lines between who and how analytics is performed. This has led to organizations understanding that analytics is important yet not understanding how to implement it, and understanding that the skills and resources to perform analytics are vast yet not understanding how to create an analytics culture.
 
-
+<br>
 
 ## Defining Business Analytics
 **O<span style="font-variant: small-caps">ne could say</span>**, if absolutes were appropriate, that making better decisions is an objective of *"every"* organization.  But what exactly does this mean?  Theoretically, better decisions will translate into improved organizational performance; however, it is often difficult to discern the underlying reasons for organizational performance.  To gain insight into past execution and to inform future decision-making, organizations explore and investigate past performance by harnessing data and analytic techniques.
@@ -29,6 +37,8 @@ As a result, Davenport<sup><a href="#fn4" id="ref4">4</a></sup> states that Busi
 - **BA** is the practice of iterative, methodical exploration of an organization’s data with emphasis on statistical analysis and is used for data-driven decision making.
 - **BA** is the use of analytics, data, and systemic reasoning to make business decisions
 
+<br>
+
 ## Establishing a Business Analytics Process
 **T<span style="font-variant: small-caps">he goal of a business analytics</span>** process is to turn data into information, information into insight, and then use this insight to make better decisions.  But what exactly does this process entail?
 
@@ -39,6 +49,8 @@ Many view the process of analytics as a black box and are primarily concerned on
 To understand better, we can segregate the BA process into two components: the scientific method of applying analytics and the integration of this analytic approach into the decision-making process.  How well these two components are orchestrated will determine the level of success an organization has in establishing a BA process.
 
 > *"It is seen as an end-to-end process beginning with identifying the business problem to evaluating and drawing conclusions about the prescribed solution arrived at through the use of analytics."* - INFORMS
+
+<br>
 
 ### The Analytic Method
 
@@ -92,6 +104,8 @@ Regardless of the deployment approach used, this step also includes delivering a
 
 Thinking of the analytic process in terms of these seven steps creates a comprehensive framework that enables more strategic thinking about analytics and how an organization can treat them as corporate assets. This framework focuses on the business problem to guide the analytic process and keeps the domain experts and key stakeholders engaged during the entire process.
 
+<br>
+
 ## The Decision Making Process
 The second component required for the BA process is ensuring the analytic process is integrated into the decision-making process.  To truly put analytics to work in an enterprise, analytics needs to be an integral part of everyday business decisions and processes<sup><a href="#fn3" id="ref3">3</a></sup>.  So although organizations will have a central department that specializes on analytics, more often organizations are starting to integrate analytic capabilities throughout their enterprise to make analytics part of their day-to-day processes in more domain areas.  For example, P&G has a statistics department but many of their statisticians are integrated into other departments to provide analytic support for decision processes (i.e. marketing department to build a tool to analyze increasing claim problems, R&D department to forecast new product profitibility potential, logistics department to create routing models, etc.). 
 
@@ -100,6 +114,8 @@ Although the Analytic process keeps domain experts and key stakeholders heavily 
 It is with this heavy focus of integrated analytics throughout the enterprise that creates an analytically focused organization basing decisions on data-driven evidence.
 
 > *"If you can't measure something, you can't understand it. If you can't understand it, you can't control it. If you can't control it, you can't improve it."* - H. James Harrington
+
+<br>
 
 ## Towards an Analytical Enterprise
 So, is this concept of Business Analytics really new to enterprises...no.  After all, we've been applying the analytic process to inform operational decisions in the U.S. military since World War II, just under a different name.  What is new is the interest of analytics being integrated into more areas of organizations.  Rather than relying on a central department to be the sole analytic resource for the enterprise, individual domain areas and small business units within organizations see the value of integrating analytic capabilities into their own decision processes.
