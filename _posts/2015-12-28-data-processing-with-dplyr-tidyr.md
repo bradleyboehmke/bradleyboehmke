@@ -60,7 +60,7 @@ Hadley Wickham's paper on [Tidy Data](http://vita.had.co.nz/papers/tidy-data.htm
 
 <br>
 
-<a href="#">Go to top</a>
+<center><a href="#">Go to top</a></center>
 
 <hr width="50%">
 
@@ -126,7 +126,7 @@ To learn more about the `%>%` operator and the magrittr package visit any of the
 
 <a href="#">Go to top</a>
 
-<hr width="50%">
+<center><a href="#">Go to top</a></center>
 
 <br>
 
@@ -456,7 +456,7 @@ head(wide_DF, 24)
 
 <a href="#">Go to top</a>
 
-<hr width="50%">
+<center><a href="#">Go to top</a></center>
 
 <br>
 
@@ -1268,7 +1268,7 @@ head(perc.of.whole, 8)
 
 <br>
 
----
+<center><a href="#">Go to top</a></center>
 
 ## <u>Additional Resources</u>
 This tutorial simply touches on the basics that these two packages can do. There are several other resources you can check out to learn more.  In addition, much of what I have learned and, therefore, much of the content in this tutorial is simply a modified regurgitation of the wonderful resources provided by [R Studio](http://www.rstudio.com/), [Hadley Wickham](https://twitter.com/hadleywickham), and [Garrett Grolemund](https://twitter.com/StatGarrett).
