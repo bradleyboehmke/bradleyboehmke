@@ -56,7 +56,6 @@ To understand better, we can segregate the BA process into two components: the s
 
 The analytic process is really just about applying the scientific method from a quantitative analysis perspective to help solve a problem.  Every problem being addressed from an analytic perspective, regardless of size, complexity or sophistication, should follow an organized rhythm that embodies the seven basic steps that follow.  
 
-<img src="/public/images/business_analytics/AnalyticProcess.png" align="right"; width="30%"; height: auto; alt="The analytic process">
 **Step 1:** Framing the business problem could be the most critical part of the process.  This step requires full involvement of all key stakeholders to outline the business problem or decision being addressed, identify the constraints involved, define the insights that would benefit the decision-maker(s) the most, and identify how analytics and data could play a role (or if the problem is even amenable to an analytics solution).  Most importantly, this step needs to gain a stakeholder agreement on the business problem statement outlining the above key points.
 
 > *"Sound strategy starts with having the right goal."* - Michael Porter
@@ -73,7 +72,11 @@ This step also needs to define key metrics of success. To truly understand if th
 
 This step involves identifying and prioritizing data needs based on step 2, acquiring the data, assessing the integrity of the data by cleaning and preprocessing the data, and identifying initial trends and relationships.  This step is fundamental in understanding the data and, although domain experts tend to become less interested as the technical analysis increases, it is paramount that they are involved to help put context around this data.  This step should include documentation of the data extraction and early findings for reproducibility and also to share with domain experts who can provide more context around the findings.  Step 3 can often lead the team to re-define the business and analytics problem statement.
 
-**Step 4:** Now that firm understanding of the data underlying the business and analytic problem is in place, an analytic methodology that both fits the data *<u>and</u>* provides the outputs required by the decision-maker are selected. <img src="/public/images/business_analytics/analytics2.png" align="right"; width="40%"; height: auto; alt="Analytic Categories"> Understanding, and even describing, all the analytic techniques available is an intimidating task. However, analytic techniques can be categorized into three broad buckets. No one type of analytic category is better than another and, in fact, they are often used as compliments to one another to provide a robust understanding of the problem.
+**Step 4:** Now that firm understanding of the data underlying the business and analytic problem is in place, an analytic methodology that both fits the data *<u>and</u>* provides the outputs required by the decision-maker are selected. Understanding, and even describing, all the analytic techniques available is an intimidating task. However, analytic techniques can be categorized into three broad buckets. No one type of analytic category is better than another and, in fact, they are often used as compliments to one another to provide a robust understanding of the problem.
+
+<img src="/public/images/business_analytics/analytics.png" align="right"; width="40%"; height: auto; alt="Analytic Categories"> 
+
+![Analytic Categories](http://bradleyboehmke.github.io/figure/source/a-baseline-understanding-of-business-analytics/2015-12-28-a-baseline-understanding-of-business-analytics/analytics.png)
 
 <P CLASS="indented">
 <bold>Descriptive analytics</bold> uses data aggregation and data mining techniques to provide insight into the past and answer: “What has happened?” This category primarily uses statistics and analytics<sup><a href="#fn5" id="ref5">5</a></sup> that describe the past and are often generated for reports and dashboards to create benchmarks and provide performance metrics.
