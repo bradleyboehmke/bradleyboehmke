@@ -62,11 +62,13 @@ Although not required, the tidyr and dplyr packages make use of the pipe operato
 
 This operator will forward a value, or the result of an expression, into the next function call/expression.  For instance a function to filter data can be written as:
 
-<center>filter(data, variable == *numeric_value*)</center>
+<center>filter(data, variable == <em>numeric_value</em>)</center>
 
-<center>*<u>or</u>*</center>
+<center><em><u>or</u></em></center>
 
-<center>data %>% filter(variable == *numeric_value*)</center>
+<center>data %>% filter(variable == <em>numeric_value</em>)</center>
+
+<br>
 
 Both functions complete the same task and the benefit of using `%>%` is not evident; however, when you desire to perform multiple functions its advantage becomes obvious.  For instance, if we want to filter some data, summarize it, and then order the summarized results we would write it out as:
 
