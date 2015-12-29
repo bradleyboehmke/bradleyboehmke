@@ -6,9 +6,7 @@ published: true
 tags: [r, data wrangling, dplyr, tidyr]
 ---
 
-## <u>Introduction</u>
 
-### <u>Analytic Process</u>
 Analysts tend to follow 4 fundamental processes to turn data into understanding, knowledge & insight:
 
 1. **Data manipulation**
@@ -42,17 +40,9 @@ Hadley Wickham's paper on [Tidy Data](http://vita.had.co.nz/papers/tidy-data.htm
     - Easier to remember syntax
     - Easier to read syntax
 
-<br>
-
-#### <u>Packages Utilized</u>
 
 
-{% highlight r %}
-library(dplyr)
-library(tidyr)
-{% endhighlight %}
-
-**<u>tidyr</u> and <u>dplyr</u> packages provide fundamental functions for <u>Cleaning, Processing, & Manipulating Data</u>**
+> <em>tidyr and dplyr packages provide fundamental functions for cleaning, processing, & manipulating data</em>
 
 * tidyr
     + <a href="#gather">`gather()`</a>
@@ -72,20 +62,20 @@ library(tidyr)
 
 <a href="#">Go to top</a>
 
-<br>
+<hr width="50%">
 
----
+<br>
 
 ## <u>%>% Operator</u>
 Although not required, the tidyr and dplyr packages make use of the pipe operator `%>%` developed by [Stefan Milton Bache](https://twitter.com/stefanbache) in the R package [magrittr](http://cran.r-project.org/web/packages/magrittr/magrittr.pdf).  Although all the functions in tidyr and dplyr *can be used without the pipe operator*, one of the great conveniences these packages provide is the ability to string multiple functions together by incorporating `%>%`.
 
 This operator will forward a value, or the result of an expression, into the next function call/expression.  For instance a function to filter data can be written as:
 
-<center>filter(data, variable == *numeric_value*)</center>
+<center>filter(data, variable == <em>numeric_value</em>)</center>
 
-<center>*<u>or</u>*</center>
+<center><em><u>or</u></em></center>
 
-<center>data %>% filter(variable == *numeric_value*)</center>
+<center>data %>% filter(variable == <em>numeric_value</em>)</center>
 
 <br>
 
@@ -136,9 +126,9 @@ To learn more about the `%>%` operator and the magrittr package visit any of the
 
 <a href="#">Go to top</a>
 
-<br>
+<hr width="50%">
 
----
+<br>
 
 ## <u>tidyr Operations</u>
 
@@ -244,8 +234,6 @@ These all produce the same results:
 Also note that if you do not supply arguments for na.rm or convert values then the defaults are used
 {% endhighlight %}
 
-<br>
-
 <a href="#">Go to top</a>
 
 <br>
@@ -344,8 +332,6 @@ These produce the same results:
         long_DF %>% separate(Quarter, c("Time_Interval", "Interval_ID"), sep = "\\.")
 {% endhighlight %}
 
-<br>
-
 <a href="#">Go to top</a>
 
 <br>
@@ -411,8 +397,6 @@ These produce the same results:
 If no spearator is identified, "_" will automatically be used
 {% endhighlight %}
 
-<br>
-
 <a href="#">Go to top</a>
 
 <br>
@@ -470,11 +454,9 @@ head(wide_DF, 24)
 ## 12     3  2009    14     9    31    24
 {% endhighlight %}
 
-<br>
-
 <a href="#">Go to top</a>
 
----
+<hr width="50%">
 
 <br>
 
@@ -538,8 +520,6 @@ Right half of data:
 ## 5 57526835
 ## 6  7409462
 {% endhighlight %}
-
-<br>
 
 <a href="#">Go to top</a>
 
@@ -624,8 +604,6 @@ You can also de-select variables by using "-" prior to name or function.  The fo
         expenditures %>% select(-starts_with("X"))
 {% endhighlight %}
 
-<br>
-
 <a href="#">Go to top</a>
 
 <br>
@@ -698,8 +676,6 @@ sub.exp %>% filter(Division == 3, X2011 > 10000000)  # Raw census data are in un
 ## 4        3 Wisconsin  9029660  9366134  9696228  9966244 10333016
 {% endhighlight %}
 
-<br>
-
 <a href="#">Go to top</a>
 
 <br>
@@ -750,8 +726,6 @@ head(group.exp)
 ## 6        8   Colorado  6579053  7338766  7187267  7429302  7409462
 {% endhighlight %}
 
-<br>
-
 <a href="#">Go to top</a>
 
 <br>
@@ -791,7 +765,6 @@ sub.exp %>% summarise(Mean_2011 = mean(X2011))
 ## 1  10513678
 {% endhighlight %}
 
-<br>
 
 Not too bad, lets get some more summary stats
 
@@ -812,7 +785,6 @@ sub.exp %>% summarise(Min = min(X2011, na.rm=TRUE),
 ## 1 1049772 6527404 10513678 1.48619e+14 12190938 57526835 50
 {% endhighlight %}
 
-<br>
 
 This information is useful, but being able to compare summary statistics at multiple levels is when you really start to gather some insights.  This is where the `group_by()` function comes in.  First, let's group by *Division* and see how the different regions compared in by 2010 and 2011.
 
@@ -841,7 +813,6 @@ sub.exp %>%
 ## 9        9  15540681  15468173
 {% endhighlight %}
 
-<br>
 
 Now we're starting to see some differences pop out.  How about we compare states within a Division?  We can start to apply multiple functions we've learned so far to get the 5 year average for each state within Division 3.
 
@@ -867,8 +838,6 @@ sub.exp %>%
 ## 4      Ohio 19264329  705930.2
 ## 5 Wisconsin  9678256  507461.2
 {% endhighlight %}
-
-<br>
 
 <a href="#">Go to top</a>
 
@@ -925,7 +894,6 @@ sub.exp %>%
 ## 9        2  32415457  32877923
 {% endhighlight %}
 
-<br>
 
 We can also apply an *descending* argument to rank-order from highest to lowest.  The following shows the same data but in descending order by applying `desc()` within the `arrange()` function.
 
@@ -955,7 +923,6 @@ sub.exp %>%
 ## 9        8   3894003   3882159
 {% endhighlight %}
 
-<br>
 
 <a href="#">Go to top</a>
 
@@ -999,7 +966,6 @@ Our public education expenditure data represents then-year dollars.  To make any
 ## 33 2012 229.594 1.0000000
 {% endhighlight %}
 
-<br>
 
 To join to my expenditure data I obviously need to get my expenditure data in the proper form that allows my to join these two dataframes.  I can apply the following functions to accomplish this:
 
@@ -1026,11 +992,11 @@ head(long.exp)
 ## 6        8   Colorado 2007     6579053
 {% endhighlight %}
 
-<br>
 
 I can now apply the `left_join()` function to join the inflation data to the expenditure data.  This aligns the data in both dataframes by the *Year* variable and then joins the remaining inflation data to the expenditure dataframe as new variables.
 
 {% highlight r %}
+
 join.exp <- long.exp %>% left_join(inflation)
 
 head(join.exp)
@@ -1048,7 +1014,6 @@ head(join.exp)
 ## 6        8   Colorado 2007     6579053 207.342 0.9030811
 {% endhighlight %}
 
-<br>
 
 To illustrate the other joining methods we can use these two simple dateframes:
 
@@ -1149,7 +1114,6 @@ anti_join(x,y)
 ## 2 Stuart       bass
 {% endhighlight %}
 
-<br>
 
 <a href="#">Go to top</a>
 
@@ -1189,11 +1153,11 @@ If we go back to our previous **join.exp** dataframe, remember that we joined in
 ## 6        8   Colorado 2007     6579053 207.342 0.9030811
 {% endhighlight %}
 
-<br>
 
 If we wanted to adjust our annual expenditures for inflation we can use `mutate()` to create a new inflation adjusted cost variable which we'll name *Adj_Exp*:
 
 {% highlight r %}
+
 inflation_adj <- join.exp %>% mutate(Adj_Exp = Expenditure/Inflation)
 
 head(inflation_adj)
@@ -1211,11 +1175,11 @@ head(inflation_adj)
 ## 6        8   Colorado 2007     6579053 207.342 0.9030811  7285119
 {% endhighlight %}
 
-<br>
 
 Lets say we wanted to create a variable that rank-orders state-level expenditures (inflation adjusted) for the year 2010 from the highest level of expenditures to the lowest.  
 
 {% highlight r %}
+
 rank_exp <- inflation_adj %>% 
         filter(Year == 2010) %>%
         arrange(desc(Adj_Exp)) %>%
@@ -1243,11 +1207,11 @@ head(rank_exp)
 ## 6    6
 {% endhighlight %}
 
-<br>
 
 If you wanted to assess the percent change in cost for a particular state you can use the `lag()` function within the `mutate()` function:
 
 {% highlight r %}
+
 inflation_adj %>%
         filter(State == "Ohio") %>%
         mutate(Perc_Chg = (Adj_Exp-lag(Adj_Exp))/lag(Adj_Exp))
@@ -1270,12 +1234,12 @@ inflation_adj %>%
 ## 5 -0.021432441
 {% endhighlight %}
 
-<br>
 
 You could also look at what percent of all US expenditures each state made up in 2011.  In this case we use `mutate()` to take each state's inflation adjusted expenditure and divide by the sum of the entire inflation adjusted expenditure column.  We also apply a second function within `mutate()` that provides the cummalative percent in rank-order.  This shows that in 2011, the top 8 states with the highest expenditures represented over 50% of the total U.S. expenditures in K-12 public schools.  *(I remove the non-inflation adjusted Expenditure, Annual & Inflation columns so that the columns don't wrap on the screen view)*
 
 
 {% highlight r %}
+
 perc.of.whole <- inflation_adj %>%
         filter(Year == 2011) %>%
         arrange(desc(Adj_Exp)) %>%
@@ -1299,8 +1263,6 @@ head(perc.of.whole, 8)
 ## 7        2 Pennsylvania 2011 23971218    0.04467552 0.4707191
 ## 8        3         Ohio 2011 20402582    0.03802460 0.5087437
 {% endhighlight %}
-
-<br>
 
 <a href="#">Go to top</a>
 
