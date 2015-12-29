@@ -33,7 +33,7 @@ Hadley Wickham's paper on [Tidy Data](http://vita.had.co.nz/papers/tidy-data.htm
 
 <br>
 
-<img src="http://bradleyboehmke.github.io/figure/source/data-processing-with-dplyr-tidyr/2015-12-28-data-processing-with-dplyr-tidyr/TidyData.png", height="300px", width="800px" />
+<img src="/figure/source/data-processing-with-dplyr-tidyr/2015-12-28-data-processing-with-dplyr-tidyr/TidyData.png", height="300px", width="800px" />
 
 <br>
 <br>
