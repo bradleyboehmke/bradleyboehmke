@@ -31,11 +31,7 @@ Well structured data serves two purposes:
 
 Hadley Wickham's paper on [Tidy Data](http://vita.had.co.nz/papers/tidy-data.html) provides a great explanation behind the concept of "tidy data"
 
-<br>
 
-<img src="/figure/source/data-processing-with-dplyr-tidyr/2015-12-28-data-processing-with-dplyr-tidyr/TidyData.png", height="300px", width="800px" />
-
-<br>
 <br>
 
 ### <u>Why Use tidyr & dplyr</u>
@@ -163,8 +159,6 @@ There are four fundamental functions of data tidying:
 **Description:** There are times when our data is considered unstacked and a common attribute of concern is spread out across columns.  To reformat the data such that these common attributes are *gathered* together as a single variable, the `gather()` function will take multiple columns and collapse them into key-value pairs, duplicating all other columns as needed.
 
 **Complement to:**  <a href="#spread">`spread()`</a>
-
-<img src="gather1.png", height="400px", width="600px" />
 
 
 
