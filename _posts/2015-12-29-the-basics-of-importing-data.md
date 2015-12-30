@@ -10,8 +10,8 @@ tags: [r, readr, readxl, xlsx]
 img {
     float: left;
     margin: 0px 0px 15px 20px;
-    width: 20%; 
-    height: 20%;
+    width: 10%; 
+    height: 10%;
 }
 </style>
 
