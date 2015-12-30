@@ -14,8 +14,8 @@ sitemap: false
         <a href="#{{ category | first | slugify }}">
                 {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
         </a>
-        &bull;
     </span>
+    &#8226;
     {% endfor %}
 </div>
 
