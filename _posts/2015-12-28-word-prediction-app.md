@@ -6,10 +6,6 @@ published: true
 tags: [r, shiny, text analysis]
 ---
 
-<p>
-test
-</p>
-
 A foray into the world of word prediction.
 
 [![Word Prediction App](http://bradleyboehmke.github.io/figure/source/word-prediction-app/2015-12-28-word-prediction-app/ScreenShot.png)](https://bradleyboehmke.shinyapps.io/word_prediction_app)
