@@ -11,9 +11,7 @@ tags: [r, data wrangling, dplyr, tidyr]
 Although many fundamental data processing functions exist in R, they have been a bit convoluted to date and have lacked consistent coding and the ability to easily flow together. [R Studio](https://www.rstudio.com/) is driving a lot of new packages to collate data management tasks and better integrate them with other analysis activities. As a result, a lot of data processing tasks are becoming packaged in more cohesive and consistent ways which leads to more efficient code and easier to read syntax. This post covers two of these packages: `tidyr` & `dplyr`.
 <!--more-->
 
-> <em>tidyr and dplyr packages provide fundamental functions for cleaning, processing, & manipulating data</em>
-
-[`tidyr`](https://cran.r-project.org/web/packages/tidyr/index.html) is a package built for the sole purpose of simplifying the process of creating [tidy data](http://vita.had.co.nz/papers/tidy-data.html). In this tutorial I'll provides you with the basic understanding of the four fundamental functions of data tidying that tidyr provides:
+The `tidyr` and `dplyr` packages provide fundamental functions for cleaning, processing, & manipulating data. [`tidyr`](https://cran.r-project.org/web/packages/tidyr/index.html) is a package built for the sole purpose of simplifying the process of creating [tidy data](http://vita.had.co.nz/papers/tidy-data.html). In this tutorial I'll provides you with the basic understanding of the four fundamental functions of data tidying that tidyr provides:
 
 * <a href="#gather">`gather()`</a>
 * <a href="#spread">`spread()`</a>
@@ -30,9 +28,7 @@ Although many fundamental data processing functions exist in R, they have been a
 * <a href="#join">`join()`</a>
 * <a href="#mutate">`mutate()`</a>
 
-<br>
-
-<a href="#">Go to top</a>
+But prior to jumping into these packages and functions we'll first take a detour to introduce a simple little mechanism that `tidyr` and `dplyr` leverage that is transforming the way we read and write code. 
 
 <center><hr width="50%"></center>
 
