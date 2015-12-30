@@ -1,14 +1,15 @@
 ---
 layout: post
 title:  The Basics of Importing Data
-date: 2015-12-29 23:30:12
+date: 2015-11-22
 published: true
 tags: [r, readr, readxl, xlsx]
 ---
 
+<img src="http://www.sthda.com/sthda/RDoc/images/r-excel.png" alt="Importing Data" align="middle">
+
 The first step to any data analysis process is to *get* the data.  Data can come from many sources but two of the most common include text & Excel files.  This post covers the basics of importing data into R by reading data from common text files and Excel spreadsheets.  In addition, I cover how to load data from saved R object files when transferring data that has been processed in R.  In addition to the the commonly used base R functions to perform data importing, I will also cover functions from the popular [`readr`](https://cran.rstudio.com/web/packages/readr/), [`xlsx`](https://cran.rstudio.com/web/packages/xlsx/), and [`readxl`](https://cran.rstudio.com/web/packages/readxl/) packages.
 
-![Importing Data](http://www.sthda.com/sthda/RDoc/images/r-excel.png)
 <!--more-->
 
 ## tl;dr
