@@ -6,5 +6,6 @@ published: true
 tags: [r, data wrangling, dplyr, tidyr]
 ---
 
+A guest lecture I gave at Miami University of Ohio. Enjoy!
 
 [![Final Graphic](http://bradleyboehmke.github.io/figure/source/data-wrangling-presentation/2015-12-28-data-wrangling-presentation/presentation.png)](http://rpubs.com/bradleyboehmke/data_processing)
