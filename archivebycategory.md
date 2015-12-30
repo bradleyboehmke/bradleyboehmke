@@ -32,9 +32,8 @@ sitemap: false
     {%if post.categories contains category[0]%}
 
      <a href="{{ site.url }}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-
-    {%endif%}
     <br>
+    {%endif%}
     {% endfor %}
     <br><br>
     {% endfor %}
