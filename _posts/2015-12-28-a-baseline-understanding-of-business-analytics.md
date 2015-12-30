@@ -4,16 +4,8 @@ title:  A Baseline Understanding of Business Analytics
 date: 2015-10-19
 published: true
 tags: [business analytics]
-excerpt_separator: "<!--more-->"
 ---
 
-<p>
-<strong>tl;dr:</strong> blah blah blah
-
-<img src="http://bradleyboehmke.github.io/figure/source/a-baseline-understanding-of-business-analytics/2015-12-28-a-baseline-understanding-of-business-analytics/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
-</p>
-
-<!--more-->
 
 <style>
 
@@ -29,7 +21,7 @@ excerpt_separator: "<!--more-->"
 
 <br>
 
-**O<span style="font-variant: small-caps">ld wine in a new bottle?</span>** Operations research, business analytics, decision analytics, business intelligence, advanced analytics...are these concepts synonymous, symbiotic, mutually exclusive, or should we even care? Analytics has long been a pathway to business value; however, organizations often get lost in the hype of terminology. To heighten the confusion, the skills, tools, and resources used to perform analytics has expanded, further blurring the lines between who and how analytics is performed. This has led to organizations understanding that analytics is important yet not understanding how to implement it, and understanding that the skills and resources to perform analytics are vast yet not understanding how to create an analytics culture.
+**O<span style="font-variant: small-caps">ld wine in a new bottle?</span>** Operations research, business analytics, decision analytics, business intelligence, advanced analytics...are these concepts synonymous, symbiotic, mutually exclusive, or should we even care?<!--more--> Analytics has long been a pathway to business value; however, organizations often get lost in the hype of terminology. To heighten the confusion, the skills, tools, and resources used to perform analytics has expanded, further blurring the lines between who and how analytics is performed. This has led to organizations understanding that analytics is important yet not understanding how to implement it, and understanding that the skills and resources to perform analytics are vast yet not understanding how to create an analytics culture.
 
 <br>
 
