@@ -14,7 +14,7 @@ sitemap: false
         <a href="#{{ category | first | slugify }}">
                 {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
         </a>
-        &nbsp;
+        &bull;
     </span>
     {% endfor %}
 </div>
@@ -25,7 +25,7 @@ sitemap: false
 
 <div id="index">
     {% for category in categories %}
-    <a name="{{ category[0] }}"></a><h4>{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h4>
+    <a name="{{ category[0] }}"></a><strong>{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </strong><br>
     {% assign sorted_posts = site.posts | sort: 'title' %}
     {% for post in sorted_posts %}
     {%if post.categories contains category[0]%}
