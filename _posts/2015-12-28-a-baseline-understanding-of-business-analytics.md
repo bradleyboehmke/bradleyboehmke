@@ -13,7 +13,7 @@ tags: [business analytics]
 </style>
 
 
-<blockquote>
+<blockquote style="width:150px;">
 <em>"The limits of my language are the limits of my mind.  All I know is what I have words for."</em> - Ludwig Wittgenstein
 </blockquote>
 
