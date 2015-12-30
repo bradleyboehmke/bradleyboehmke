@@ -20,12 +20,11 @@ sitemap: false
 </div>
 
 <br>
-<br>
 
 <div id="index">
-
+    <br>
     {% for category in categories %}
-    <a name="{{ category[0] }}"></a><h2>{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h2>
+    <a name="{{ category[0] }}"></a><h4>{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h4>
     {% assign sorted_posts = site.posts | sort: 'title' %}
     {% for post in sorted_posts %}
     {%if post.categories contains category[0]%}
