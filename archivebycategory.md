@@ -16,6 +16,9 @@ sitemap: false
     {% endfor %}
 </div>
 
+<br>
+<br>
+
 <div id="index">
 
     {% for category in categories %}
@@ -24,7 +27,7 @@ sitemap: false
     {% for post in sorted_posts %}
     {%if post.categories contains category[0]%}
 
-     <a href="{{ site.url }}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }} <p class="date">{{ post.date |  date: "%B %e, %Y" }}</p></a>
+     <a href="{{ site.url }}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 
     {%endif%}
     {% endfor %}
