@@ -4,6 +4,7 @@ title:  A Baseline Understanding of Business Analytics
 date: 2015-10-19
 published: true
 tags: [business analytics]
+categories: [Business Analytics]
 ---
 
 <style>
