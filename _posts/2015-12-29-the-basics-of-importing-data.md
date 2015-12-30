@@ -9,9 +9,9 @@ tags: [r, readr, readxl, xlsx]
 <style>
 img {
     float: left;
-    margin: 0px 0px 15px 20px;
-    width: 10%; 
-    height: 10%;
+    margin: 0px 5px 5px 0px;
+    width: 15%; 
+    height: 15%;
 }
 </style>
 
