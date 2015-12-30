@@ -34,6 +34,7 @@ sitemap: false
      <a href="{{ site.url }}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 
     {%endif%}
+    <br>
     {% endfor %}
     <br><br>
     {% endfor %}
