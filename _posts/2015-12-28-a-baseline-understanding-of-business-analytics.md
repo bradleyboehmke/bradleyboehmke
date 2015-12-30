@@ -6,6 +6,10 @@ published: true
 tags: [business analytics]
 ---
 
+<p>
+test
+</p>
+
 <style>
 
 <!-- .footnote {line-height:75%; "font-size:8px"} -->
