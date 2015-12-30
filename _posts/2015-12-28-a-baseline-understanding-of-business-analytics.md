@@ -7,7 +7,11 @@ tags: [business analytics]
 ---
 
 <p>
-test
+<blockquote>
+<em>"The limits of my language are the limits of my mind.  All I know is what I have words for."</em> - Ludwig Wittgenstein
+</blockquote>
+
+<img src="http://bradleyboehmke.github.io/figure/source/a-baseline-understanding-of-business-analytics/2015-12-28-a-baseline-understanding-of-business-analytics/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
 </p>
 
 <style>
@@ -15,12 +19,6 @@ test
 <!-- .footnote {line-height:75%; "font-size:8px"} -->
 
 </style>
-
-<p>
-"The limits of my language are the limits of my mind.  All I know is what I have words for." - Ludwig Wittgenstein
-
-<img src="http://bradleyboehmke.github.io/figure/source/a-baseline-understanding-of-business-analytics/2015-12-28-a-baseline-understanding-of-business-analytics/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
-</p>
 
 
 <br>
