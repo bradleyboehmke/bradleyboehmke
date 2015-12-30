@@ -10,9 +10,10 @@ tags: [r, shiny, text analysis]
 test
 </p>
 
-This is one of my first forays into the world of word prediction.  The purpose of this project was to build a Shiny app to predict the next word for a given n-gram.  You can find the finished app [here](https://bradleyboehmke.shinyapps.io/word_prediction_app).
+A foray into the world of word prediction.
 
 [![Word Prediction App](http://bradleyboehmke.github.io/figure/source/word-prediction-app/2015-12-28-word-prediction-app/ScreenShot.png)](https://bradleyboehmke.shinyapps.io/word_prediction_app)
+<!--more-->
 
 # Data
 For this project I used publicly available social media [data](http://www.corpora.heliohost.org/index.html).  The data contains over 4 million lines of text and over 100 million words.  I sampled approximately 50% of the initial data, removed all non-alphabetic (numbers, punctuation, special characters) characters and converted to lowercase to elminate case sensitivity.  In addition, I removed profanity [words](https://github.com/shutterstock/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/blob/master/en).
