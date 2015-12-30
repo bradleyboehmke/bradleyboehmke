@@ -4,18 +4,13 @@ title:  A Baseline Understanding of Business Analytics
 date: 2015-10-19
 published: true
 tags: [business analytics]
-excerpt_separator: <!--more-->
 ---
 
 <p>
-<blockquote>
-<em>"The limits of my language are the limits of my mind.  All I know is what I have words for."</em> - Ludwig Wittgenstein
-</blockquote>
-
+<strong>tl;dr:</strong> blah blah blah
 <img src="http://bradleyboehmke.github.io/figure/source/a-baseline-understanding-of-business-analytics/2015-12-28-a-baseline-understanding-of-business-analytics/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
 </p>
 
-<!--more-->
 
 <style>
 
@@ -23,6 +18,11 @@ excerpt_separator: <!--more-->
 
 </style>
 
+<br>
+
+<blockquote>
+<em>"The limits of my language are the limits of my mind.  All I know is what I have words for."</em> - Ludwig Wittgenstein
+</blockquote>
 
 <br>
 
