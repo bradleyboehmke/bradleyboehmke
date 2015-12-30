@@ -6,6 +6,10 @@ published: true
 tags: [r, shiny, text analysis]
 ---
 
+<p>
+test
+</p>
+
 This is one of my first forays into the world of word prediction.  The purpose of this project was to build a Shiny app to predict the next word for a given n-gram.  You can find the finished app [here](https://bradleyboehmke.shinyapps.io/word_prediction_app).
 
 [![Word Prediction App](http://bradleyboehmke.github.io/figure/source/word-prediction-app/2015-12-28-word-prediction-app/ScreenShot.png)](https://bradleyboehmke.shinyapps.io/word_prediction_app)
