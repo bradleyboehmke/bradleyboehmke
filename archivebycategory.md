@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Post by Category
+title: Archive
 permalink: /categoryview/
 sitemap: false
 ---
