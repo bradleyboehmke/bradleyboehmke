@@ -4,7 +4,7 @@ title:  The Basics of Importing Data
 date: 2015-11-22
 published: true
 tags: [r, readr, readxl, xlsx, data importing]
-categories: [r, readr, readxl, xlsx, data importing]
+categories: [R, readr, readxl, xlsx, Data Importing]
 ---
 
 <img src="https://s3.amazonaws.com/assets.datacamp.com/production/course_690/shields/importing_data_r.png?1450099240" alt="Importing Data" style="float:left; margin:0px 5px 5px 0px; width: 15%; height: 15%;">
