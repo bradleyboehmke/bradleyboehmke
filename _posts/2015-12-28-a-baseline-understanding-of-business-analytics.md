@@ -15,6 +15,7 @@ tags: [business analytics]
 
 <blockquote>
 <em>"The limits of my language are the limits of my mind.  All I know is what I have words for."</em>
+
 - Ludwig Wittgenstein
 </blockquote>
 
