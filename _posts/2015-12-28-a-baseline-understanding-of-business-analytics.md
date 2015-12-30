@@ -14,7 +14,7 @@ tags: [business analytics]
 
 
 <blockquote>
-<em>"The limits of my language are the limits of my mind.  All I know is what I have words for."</em> \n- Ludwig Wittgenstein
+<em>"The limits of my language are the limits of my mind.  All I know is what I have words for."</em> /n - Ludwig Wittgenstein
 </blockquote>
 
 **O<span style="font-variant: small-caps">ld wine in a new bottle?</span>** Operations research, business analytics, decision analytics, business intelligence, advanced analytics...are these concepts synonymous, symbiotic, mutually exclusive, or should we even care?<!--more--> Analytics has long been a pathway to business value; however, organizations often get lost in the hype of terminology. To heighten the confusion, the skills, tools, and resources used to perform analytics has expanded, further blurring the lines between who and how analytics is performed. This has led to organizations understanding that analytics is important yet not understanding how to implement it, and understanding that the skills and resources to perform analytics are vast yet not understanding how to create an analytics culture.
