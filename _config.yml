@@ -8,6 +8,7 @@ url: "http://bradleyboehmke.github.io/" # the base hostname & protocol for your 
 twitter_username: bradleyboehmke
 github_username:  bradleyboehmke
 permalink: /:year/:month/:title.html
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
