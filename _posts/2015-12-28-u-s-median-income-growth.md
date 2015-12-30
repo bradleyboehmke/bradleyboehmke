@@ -6,13 +6,11 @@ published: true
 tags: [r, ggplot2, visualization]
 ---
 
-This report provides the code behind the [visual graphic](https://twitter.com/bradleyboehmke/status/558490399917236226) created to illustrate the historical growth rates of median income in the United States.
-
---------
+This post walks through the code behind the [visual graphic](https://twitter.com/bradleyboehmke/status/558490399917236226) created to illustrate the historical growth rates of median income in the United States.
 
 ![Final_Graphic](http://bradleyboehmke.github.io/figure/source/u-s-median-income-growth/2015-12-28-u-s-median-income-growth/median_income.jpg)
 
---------
+<!--more-->
 
 <br>
 
