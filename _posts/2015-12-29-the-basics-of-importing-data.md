@@ -6,6 +6,7 @@ published: true
 tags: [r, readr, readxl, xlsx]
 ---
 
+<style>
 img {
     float: left;
     border: 1px dotted black;
