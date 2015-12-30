@@ -4,6 +4,7 @@ title:  U.S. Median Income Growth
 date: 2015-09-21
 published: true
 tags: [r, ggplot2, visualization]
+categories: [r, ggplot2, visualization, economics]
 ---
 
 This post walks through the code behind the [visual graphic](https://twitter.com/bradleyboehmke/status/558490399917236226) created to illustrate the historical growth rates of median income in the United States.
