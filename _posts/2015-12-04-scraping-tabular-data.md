@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Scraping Data I: Tabular & Excel Files Stored Online
+title:  Scraping Data I&#58; Tabular & Excel Files Stored Online
 date: 2015-11-22
 published: true
 tags: [r, gdata, xml, data importing, web scraping]
