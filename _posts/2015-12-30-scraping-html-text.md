@@ -7,6 +7,16 @@ tags: [r, rvest, web-scraping]
 categories: [r, rvest, web-scraping]
 ---
 
+<STYLE TYPE="text/css"> 
+<!-- 
+        .indented { 
+                padding-left: 50pt; 
+                padding-right: 50pt; 
+                } 
+--> 
+</STYLE>
+
+Read more at http://www.htmlcodetutorial.com/linepar/index_famsupp_111.html#dXmzvIXjBSEe46ZW.99
 
 <a href="http://bradleyboehmke.github.io/2015/12/scraping-html-text.html"><img src="http://d1u2s20mo6at4b.cloudfront.net/wp-content/uploads/HTML.jpg" alt="Scraping HTML Text" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
 Vast amount of information exists across the interminable webpages that exist online.  Much of this information are considered "unstructured" texts since they don't come in a neatly packaged speadsheet. Fortunately, HTML websites are organized documents which means these texts are actually structured within underlying HTML code elements...we just need to figure out how to extract it! This post covers the basics of scraping text from online sources.<!--more-->  
@@ -16,12 +26,14 @@ Vast amount of information exists across the interminable webpages that exist on
 ## tl;dr
 Short on time? Here's the gist. Throughout this post I illustrate how to use the `rvest` package to extract different text components of webpages by dissecting the [Wikipedia page on web scraping](https://en.wikipedia.org/wiki/Web_scraping). As I foray I cover:
 
-<a href="#html_nodes">&#9312;</a> Basic knowledge of HTML element components you'll need to scrape with rvest   
-<a href="#scraping_nodes">&#9313;</a> How to extract text from the common HTML nodes in a webpage
-<br>
-<a href="#specific_nodes">&#9314;</a> How to extract text from specific HTML nodes of interest
-<br>
-<a href="#cleaning">&#9315;</a> Some of the common text cleaning that is required post-scraping
+<P CLASS="indented">
+        <a href="#html_nodes">&#9312;</a> Basic knowledge of HTML element components you'll need to scrape with rvest   
+        <a href="#scraping_nodes">&#9313;</a> How to extract text from the common HTML nodes in a webpage
+        <br>
+        <a href="#specific_nodes">&#9314;</a> How to extract text from specific HTML nodes of interest
+        <br>
+        <a href="#cleaning">&#9315;</a> Some of the common text cleaning that is required post-scraping
+</P>
 
 <br>
 
