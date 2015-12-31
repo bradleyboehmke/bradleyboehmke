@@ -3,8 +3,8 @@ layout: post
 title:  Data Wrangling Presentation
 date: 2015-10-01
 published: true
-tags: [r, data wrangling, dplyr, tidyr]
-categories: [r, data wrangling, dplyr, tidyr]
+tags: [r, data-wrangling, dplyr, tidyr]
+categories: [r, data-wrangling, dplyr, tidyr]
 ---
 
 A guest lecture I gave at Miami University of Ohio. Enjoy!
