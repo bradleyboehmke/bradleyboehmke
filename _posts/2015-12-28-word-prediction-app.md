@@ -3,8 +3,8 @@ layout: post
 title:  Word Prediction App
 date: 2015-10-05
 published: true
-tags: [r, shiny, text analysis]
-categories: [r, shiny, text analysis]
+tags: [r, shiny, text-analysis]
+categories: [r, shiny, text-analysis]
 ---
 
 A foray into the world of word prediction.
