@@ -15,7 +15,7 @@ tags: [r, rvest, xml, web-scraping]
 --> 
 </STYLE>
 
-<a href=""><img src="http://bradleyboehmke.github.io//2015/12/scraping-html-tables.html" alt="Scraping HTML Tables" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
+<a href="http://bradleyboehmke.github.io//2015/12/scraping-html-tables.html"><img src="https://analystatlarge.files.wordpress.com/2014/05/result.png" alt="Scraping HTML Tables" style="float:left; margin:0px 8px 0px 0px; width: 10%; height: 10%;"></a>
 With my previous two blog posts I implicitly started a series that covers common web scraping capabilities offered by R. In my first [post](http://bradleyboehmke.github.io//2015/12/scraping-tabular-and-excel-files-stored-online.html) I covered how to import tabular (i.e. .txt, .csv) or Excel files that are hosted online and in my last [post](http://bradleyboehmke.github.io//2015/12/scraping-html-text.html) I covered text scraping. In this post I cover how to scrape data from another common structure of data storage on the Web - HTML tables.<!--more--> 
 
 
