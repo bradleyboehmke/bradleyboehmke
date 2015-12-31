@@ -23,7 +23,7 @@ With my previous two blog posts I implicitly started a series that covers common
 Time deficient? Here's the synopsis. This tutorial reiterates some of the information from my previous text scraping [post](http://bradleyboehmke.github.io//2015/12/scraping-html-text.html); however, I focus solely on scraping data from HTML tables. To demonstrate, I focus on the [BLS employment statistics webpage](http://www.bls.gov/web/empsit/cesbmart.htm) and illustrate: 
 
 <P CLASS="indented">
-        <a href="#rvest">&#9312;</a> How to use <code>rvest</code> to extract all tables or only specified ones along with correcting for split heading tables.
+        <SPAN STYLE="font-size: 15pt"><a href="#rvest">&#9312;</a></SPAN> How to use <code>rvest</code> to extract all tables or only specified ones along with correcting for split heading tables.
         <br>
         <a href="#xml">&#9313;</a> Similarly, how to use <code>xml</code> to extract all or only specified tables along with exhibiting some of its handy arguments such as specifying column names, classes, and skipping rows.
 </P>
