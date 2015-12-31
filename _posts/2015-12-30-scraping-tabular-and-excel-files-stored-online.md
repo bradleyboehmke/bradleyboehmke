@@ -7,7 +7,7 @@ tags: [r, gdata, xml, data importing, web scraping]
 categories: [r, gdata, xml, data importing, web scraping]
 ---
 
-<a href="http://bradleyboehmke.github.io/2015/12/scraping-tabular-data.html"><img src="http://www.rcsb.org/pdb/general_information/releases/1504_images/icons/BatchDownloadTool.png" alt="Importing Online Data" style="float:left; margin:0px 5px 5px 0px; width: 8%; height: 8%;"></a>
+<a href="http://bradleyboehmke.github.io/2015/12/scraping-tabular-data.html"><img src="http://www.rcsb.org/pdb/general_information/releases/1504_images/icons/BatchDownloadTool.png" alt="Importing Online Data" style="float:left; margin:0px 8px 0px 0px; width: 15%; height: 15%;"></a>
 The most basic form of getting data from online is to import tabular (i.e. .txt, .csv) or Excel files that are being hosted online. This is often not considered *web scraping*<sup><a href="#fn1" id="ref1">1</a></sup>; however, I think its a good place to start introducing the user to interacting with the web for obtaining data. In this post I cover some of the common approaches applied for importing spreadsheet files via R.<!--more--> 
 
 <br>
@@ -15,15 +15,45 @@ The most basic form of getting data from online is to import tabular (i.e. .txt,
 ## tl;dr
 Not enough time to peruse this whole post? That’s fine; here's what I cover in a nutshell. Feel free to jump to specific sections.
 
-* [CSV](#CSV-Files): Downloading .csv files is no different than importing locally managed .csv files
-* [Excel](#Excel-Files): Use `gdata` to easily download online Excel files
-* [ZIP](#ZIP-Files): You can download and extract .zip files in a conventional manner; however, I also provide an efficient approach to temporarily download the .zip file, extract the desired data, and then discard the .zip file.
-* [Multiple files](#Multiple-Files): Need to download multiple files from a website? Snag the HTML links with `XML`, perform a little string manipulation, and download with a `for` loop.
+* <a href="#csv">CSV</a>: Downloading .csv files is no different than importing locally managed .csv files
+* <a href="#excel">Excel</a>: Use `gdata` to easily download online Excel files
+* ZIP: You can download and extract .zip files in a conventional manner; however, I also provide an efficient approach to temporarily download the .zip file, extract the desired data, and then discard the .zip file.
+* Multiple files: Need to download multiple files from a website? Snag the HTML links with `XML`, perform a little string manipulation, and download with a `for` loop.
 
 <br>
 
-## CSV-Files
+<a name="csv"></a>
 
+## CSV Files
+Hosting tabular-formatted data online is a garden-variety practice for many organizations, especially for the many types of government data available online.  A quick perusal of [Data.gov](https://www.data.gov/) illustrates nearly 188,510 examples. In fact, we can provide our first example of importing online tabular data by downloading the Data.gov CSV file that lists all the federal agencies that supply data to Data.gov.
+
+
+
+{% highlight r %}
+# the url for the online CSV
+url <- "https://www.data.gov/media/federal-agency-participation.csv"
+
+# use read.csv to import
+data_gov <- read.csv(url, stringsAsFactors = FALSE)
+
+# for brevity I only display first 6 rows
+data_gov[1:6,c(1,3:4)]
+##                                      Agency.Name Datasets Last.Entry
+## 1           Commodity Futures Trading Commission        3 01/12/2014
+## 2           Consumer Financial Protection Bureau        2 09/26/2015
+## 3           Consumer Financial Protection Bureau        2 09/26/2015
+## 4 Corporation for National and Community Service        3 01/12/2014
+## 5 Court Services and Offender Supervision Agency        1 01/12/2014
+## 6                      Department of Agriculture      698 12/01/2015
+{% endhighlight %}
+
+<small><a href="#">Go to top</a></small>
+
+<br>
+
+<a name="excel"></a>
+
+## Excel Files
 
 
 
