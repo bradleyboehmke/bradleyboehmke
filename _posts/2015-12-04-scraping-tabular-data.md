@@ -2,7 +2,7 @@
 layout: post
 title:  Scraping Data I - Tabular & Excel Files Stored Online
 date: 2015-11-22
-published: false
+published: true
 tags: [r, gdata, xml, data importing, web scraping]
 categories: [r, gdata, xml, data importing, web scraping]
 ---
@@ -23,7 +23,7 @@ Not enough time to peruse this whole post? That’s fine; here's what I cover in
 <br>
 
 ## CSV-Files
-Importing tabular data is especially common for the many types of government data available online.  A quick perusal of [Data.gov](https://www.data.gov/) illustrates nearly 188,510 examples. In fact, we can provide our first example of importing online tabular data by downloading the Data.gov CSV file that lists all the federal agencies that supply data to Data.gov. 
+Hosting tabular-formatted data online is a garden-variety practice for many organizations, especially for the many types of government data available online.  A quick perusal of [Data.gov](https://www.data.gov/) illustrates nearly 188,510 examples. In fact, we can provide our first example of importing online tabular data by downloading the Data.gov CSV file that lists all the federal agencies that supply data to Data.gov.
 
 
 {% highlight r %}
@@ -44,10 +44,12 @@ data_gov[1:6,c(1,3:4)]
 ## 6                      Department of Agriculture      698 12/01/2015
 {% endhighlight %}
 
+<small><a href="#">Go to top</a></small>
+
 <br>
 
 ## Excel-Files
-Downloading Excel spreadsheets hosted online can be performed just as easily.  Recall that there is not a base R function for importing Excel data; however, several packages exist to handle this capability.  One package that works smoothly with pulling Excel data from urls is [`gdata`](https://cran.r-project.org/web/packages/gdata/index.html).  With `gdata` we can use `read.xls()` to download this [Fair Market Rents for Section 8 Housing](http://catalog.data.gov/dataset/fair-market-rents-for-the-section-8-housing-assistance-payments-program) Excel file from the given url. 
+Downloading Excel spreadsheets hosted online can be performed just as easily.  Recall that there is not a base R function for importing Excel data; however, [several packages exist](http://bradleyboehmke.github.io//tutorials/importing_data#excel) to handle this capability.  One package that works smoothly with pulling Excel data from URLs is [`gdata`](https://cran.r-project.org/web/packages/gdata/index.html).  With `gdata` we can use `read.xls()` to download this [Fair Market Rents for Section 8 Housing](http://catalog.data.gov/dataset/fair-market-rents-for-the-section-8-housing-assistance-payments-program) Excel file from the given url. 
 
 
 {% highlight r %}
@@ -70,6 +72,8 @@ rents[1:6, 1:10]
 {% endhighlight %}
 
 Note that many of the arguments covered in the [Importing Data tutorial](http://bradleyboehmke.github.io/tutorials/importing_data#excel) (i.e. specifying sheets to read from, skipping lines) also apply to `read.xls()`. In addition, `gdata` provides some useful functions (`sheetCount()` and `sheetNames()`) for identifying if multiple sheets exist prior to downloading.
+
+<small><a href="#">Go to top</a></small>
 
 <br>
 
@@ -129,6 +133,8 @@ zip_data2[1:5, 1:10]
 ## 4 2825381     0 0.98    2        2  20510        3        D        2        D
 ## 5 2825381     0 2.50    2        2  20510        3        D        2        D
 {% endhighlight %}
+
+<small><a href="#">Go to top</a></small>
 
 <br>
 
@@ -230,6 +236,8 @@ str(data_ls)
 ##   .. ..$ footnote_codes: logi [1:122302] NA NA NA NA NA NA ...
 {% endhighlight %}
 
+## Wrapping Up
+These examples provide the fundamentals required for downloading most tabular and Excel files from online. Each instance likely contains its own peculiarities that will need to be dealt with but getting these basics down will get you the majority of the way there (wherever that might be). 
 
 <small><a href="#">Go to top</a></small>
 
