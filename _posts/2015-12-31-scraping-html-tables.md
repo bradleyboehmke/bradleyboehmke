@@ -25,7 +25,7 @@ Time deficient? Here's the synopsis. This tutorial reiterates some of the inform
 <P CLASS="indented">
         <SPAN STYLE="font-size: 20pt"><a href="#rvest">&#9312;</a></SPAN> How to use <code>rvest</code> to extract all tables or only specified ones along with correcting for split heading tables.
         <br>
-        <SPAN STYLE="font-size: 20pt"><a href="#rvest">&#9313;</a></SPAN> Similarly, how to use <code>xml</code> to extract all or only specified tables along with exhibiting some of its handy arguments such as specifying column names, classes, and skipping rows.
+        <SPAN STYLE="font-size: 20pt"><a href="#xml">&#9313;</a></SPAN> Similarly, how to use <code>xml</code> to extract all or only specified tables along with exhibiting some of its handy arguments such as specifying column names, classes, and skipping rows.
 </P>
 
 <br>
@@ -33,7 +33,7 @@ Time deficient? Here's the synopsis. This tutorial reiterates some of the inform
 <a name="rvest"></a>
 
 ## &#9312; Scraping HTML Tables with rvest
-Recall that HTML elements are written with a start tag, an end tag, and with the content in between: `<tagname>content</tagname>`. Don't recall? Read this [HTML element précis](http://bradleyboehmke.github.io//2015/12/scraping-html-text.html#html_nodes) from last week. HTML tables are contained within `<table>` tags; therefore, to extract the tables from the BLS employment statistics webpage we first use the `html_nodes()` function to select the `<table>` nodes.  In this case we are interested in all table nodes that exist on the webpage. In this example, `html_nodes` captures 15 HTML tables. This includes data from the 10 data tables seen on the webpage but also includes data from a few additional tables used to format parts of the page (i.e. table of contents, table of figures, advertisements).
+Recall that HTML elements are written with a start tag, an end tag, and with the content in between: `<tagname>content</tagname>`. Don't recall? Then read this [HTML element précis](http://bradleyboehmke.github.io//2015/12/scraping-html-text.html#html_nodes) from last week for a primer. HTML tables are contained within `<table>` tags; therefore, to extract the tables from the [BLS employment statistics webpage](http://www.bls.gov/web/empsit/cesbmart.htm) we first use the `html_nodes()` function to select the `<table>` nodes.  In this case we are interested in all table nodes that exist on the webpage. In this example, `html_nodes` captures 15 HTML tables. This includes data from the 10 data tables seen on the webpage but also includes data from a few additional tables used to format parts of the page (i.e. table of contents, table of figures, advertisements).
 
 
 
@@ -58,8 +58,8 @@ Remember that `html_nodes()` does not parse the data; rather, it [acts as a CSS 
 
 More often than not we want to parse specific tables. Lets assume we want to parse the second and third tables on the webpage:
 
-1. Table 2. Nonfarm employment benchmarks by industry, March 2014 (in thousands) and
-2. Table 3. Net birth/death estimates by industry supersector, April – December 2014 (in thousands) 
+- Table 2. Nonfarm employment benchmarks by industry, March 2014 (in thousands) and
+- Table 3. Net birth/death estimates by industry supersector, April – December 2014 (in thousands) 
 
 This can be accomplished two ways. First, we can assess the previous `tbls` list and try to identify the table(s) of interest. In this example it appears that `tbls` list items 3 and 4 correspond with Table 2 and Table 3, respectively. We can then subset the list of table nodes prior to parsing the data with `html_table()`. This results in a list of two data frames containing the data of interest.
 
