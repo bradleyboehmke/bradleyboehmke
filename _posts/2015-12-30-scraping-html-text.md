@@ -18,13 +18,13 @@ Short on time? Here's the gist. Throughout this post I illustrate how to use the
 
 <br>
 
-<a href="#html_nodes">&#9312</a> Basic knowledge of HTML element components you'll need to scrape with `rvest`   
+<a href="#html_nodes">&#9312;</a> Basic knowledge of HTML element components you'll need to scrape with `rvest`   
 <br>
-<a href="#scraping_nodes"><div class="numberCircle">2</div></a> How to extract text from the common HTML nodes in a webpage
+<a href="#scraping_nodes">&#9313;</a> How to extract text from the common HTML nodes in a webpage
 <br>
-<a href="#specific_nodes"><div class="numberCircle">3</div></a> How to extract text from specific HTML nodes of interest
+<a href="#specific_nodes">&#9314;</a> How to extract text from specific HTML nodes of interest
 <br>
-<a href="#cleaning"><div class="numberCircle">4</div></a> Some of the common text cleaning that is required post-scraping
+<a href="#cleaning">&#9315;</a> Some of the common text cleaning that is required post-scraping
 
 <br>
 
