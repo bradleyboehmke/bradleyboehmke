@@ -25,7 +25,7 @@ Time deficient? Here's the synopsis. This tutorial reiterates some of the inform
 <P CLASS="indented">
         <SPAN STYLE="font-size: 20pt"><a href="#rvest">&#9312;</a></SPAN> How to use <code>rvest</code> to extract all tables or only specified ones along with correcting for split heading tables.
         <br>
-        <a href="#xml">&#9313;</a> Similarly, how to use <code>xml</code> to extract all or only specified tables along with exhibiting some of its handy arguments such as specifying column names, classes, and skipping rows.
+        <SPAN STYLE="font-size: 20pt"><a href="#rvest">&#9313;</a></SPAN> Similarly, how to use <code>xml</code> to extract all or only specified tables along with exhibiting some of its handy arguments such as specifying column names, classes, and skipping rows.
 </P>
 
 <br>
