@@ -38,3 +38,5 @@ sitemap: false
     <br><br>
     {% endfor %}
 </div>
+
+<small><a href="#">Go to top</a></small>
