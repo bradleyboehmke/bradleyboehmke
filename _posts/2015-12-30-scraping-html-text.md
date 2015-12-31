@@ -16,9 +16,7 @@ Vast amount of information exists across the interminable webpages that exist on
 ## tl;dr
 Short on time? Here's the gist. Throughout this post I illustrate how to use the `rvest` package to extract different text components of webpages by dissecting the [Wikipedia page on web scraping](https://en.wikipedia.org/wiki/Web_scraping). As I foray I cover:
 
-<br>
-
-<a href="#html_nodes">&#9312;</a> Basic knowledge of HTML element components you'll need to scrape with `rvest`   
+<a href="#html_nodes">&#9312;</a> Basic knowledge of HTML element components you'll need to scrape with rvest   
 <br>
 <a href="#scraping_nodes">&#9313;</a> How to extract text from the common HTML nodes in a webpage
 <br>
