@@ -3,8 +3,8 @@ layout: post
 title:  Data Processing with dplyr & tidyr
 date: 2015-09-07
 published: true
-tags: [r, data wrangling, dplyr, tidyr]
-categories: [r, data wrangling, dplyr, tidyr]
+tags: [r, data-wrangling, dplyr, tidyr]
+categories: [r, data-wrangling, dplyr, tidyr]
 ---
 
 > It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data. (Dasu and Johnson, 2003)
