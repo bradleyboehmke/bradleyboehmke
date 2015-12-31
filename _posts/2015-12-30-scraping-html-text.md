@@ -68,7 +68,7 @@ It is through these tags that we can start to extract textual components (also r
 
 <a name="scraping_nodes"></a>
 
-## Scraping HTML Nodes
+## &#9313; Scraping HTML Nodes
 To scrape online text we'll make use of the relatively newer [`rvest`](https://cran.r-project.org/web/packages/rvest/index.html) package. `rvest` was created by the RStudio team inspired by libraries such as [beautiful soup](http://www.crummy.com/software/BeautifulSoup/) which has greatly simplified web scraping. `rvest` provides multiple functionalities; however, in this section we will focus only on extracting HTML text with `rvest`. Its important to note that `rvest` makes use of of the pipe operator (`%>%`) developed through the [`magrittr` package](https://cran.r-project.org/web/packages/magrittr/index.html). If you are not familiar with the functionality of `%>%` I recommend you jump to the tutorial on [Simplifying Your Code with `%>%`](#pipe) so that you have a better understanding of what's going on with the code.
 
 To extract text from a webpage of interest, we specify what HTML elements we want to select by using `html_nodes()`.  For instance, if we want to scrape the primary heading for the [Web Scraping Wikipedia webpage](https://en.wikipedia.org/wiki/Web_scraping) we simply identify the `<h1>` node as the node we want to select.  `html_nodes()` will identify all `<h1>` nodes on the webpage and return the HTML element.  In our example we see there is only one `<h1>` node on this webpage.
@@ -235,7 +235,7 @@ all_text <- scraping_wiki %>%
 
 <a name="specific_nodes"></a>
 
-## Scraping Specific HTML Nodes
+## &#9314; Scraping Specific HTML Nodes
 However, if we are concerned only with specific content on the webpage then we need to make our HTML node selection process a little more focused.  To do this we, we can use our browser's developer tools to examine the webpage we are scraping and get more details on specific nodes of interest.  If you are using Chrome or Firefox you can open the developer tools by clicking F12 (Cmd + Opt + I for Mac) or for Safari you would use Command-Option-I. An additional option which is recommended by Hadley Wickham is to use [selectorgadget.com](http://selectorgadget.com/), a Chrome extension, to help identify the web page elements you need<sup><a href="#fn1" id="ref1">1</a></sup>. 
 
 Once the developers tools are opened your primary concern is with the element selector. This is located in the top lefthand corner of the developers tools window. 
@@ -300,7 +300,7 @@ scraping_wiki %>%
 
 <a name="cleaning"></a>
 
-## Cleaning up
+## &#9315; Cleaning up
 With any webscraping activity, especially involving text, there is likely to be some clean-up involved. For example, in the previous example we saw that we can specifically pull the list of [**Notable Tools**](https://en.wikipedia.org/wiki/Web_scraping#Notable_tools); however, you can see that in between each list item rather than a space there contains one or more `\n` which is used in HTML to specify a new line. We can clean this up quickly with a little [character string manipulation](http://bradleyboehmke.github.io/tutorials/string_manipulation).
 
 
@@ -340,14 +340,22 @@ Similarly, as we saw in our example above with scraping the main body content (`
 
 
 
-{% highlight text %}
-## Error in substr(body_text, start = nchar(body_text) - 700, stop = nchar(body_text)): object 'body_text' not found
-{% endhighlight %}
+{% highlight r %}
+library(stringr)
 
+# read the last 700 characters
+substr(body_text, start = nchar(body_text)-700, stop = nchar(body_text))
+## [1] " 2010). \"Intellectual Property: Website Terms of Use\". Issue 26: June 2010. LK Shields Solicitors Update. p. 03. Retrieved 2012-04-19. \n^ National Office for the Information Economy (February 2004). \"Spam Act 2003: An overview for business\" (PDF). Australian Communications Authority. p. 6. Retrieved 2009-03-09. \n^ National Office for the Information Economy (February 2004). \"Spam Act 2003: A practical guide for business\" (PDF). Australian Communications Authority. p. 20. Retrieved 2009-03-09. \n^ \"Web Scraping: Everything You Wanted to Know (but were afraid to ask)\". Distil Networks. 2015-07-22. Retrieved 2015-11-04. \n\n\nSee also[edit]\n\nData scraping\nData wrangling\nKnowledge extraction\n\n\n\n\n\n\n\n\n"
 
-
-{% highlight text %}
-## Error in eval(expr, envir, enclos): object 'body_text' not found
+# clean up text
+body_text %>%
+        str_replace_all(pattern = "\n", replacement = " ") %>%
+        str_replace_all(pattern = "[\\^]", replacement = " ") %>%
+        str_replace_all(pattern = "\"", replacement = " ") %>%
+        str_replace_all(pattern = "\\s+", replacement = " ") %>%
+        str_trim(side = "both") %>%
+        substr(start = nchar(body_text)-700, stop = nchar(body_text))
+## [1] "012-04-19. National Office for the Information Economy (February 2004). Spam Act 2003: An overview for business (PDF). Australian Communications Authority. p. 6. Retrieved 2009-03-09. National Office for the Information Economy (February 2004). Spam Act 2003: A practical guide for business (PDF). Australian Communications Authority. p. 20. Retrieved 2009-03-09. Web Scraping: Everything You Wanted to Know (but were afraid to ask) . Distil Networks. 2015-07-22. Retrieved 2015-11-04. See also[edit] Data scraping Data wrangling Knowledge extraction"
 {% endhighlight %}
 
 <br>

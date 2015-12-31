@@ -7,6 +7,15 @@ tags: [r, rvest, web-scraping]
 categories: [r, rvest, web-scraping]
 ---
 
+<STYLE TYPE="text/css"> 
+<!-- 
+        .indented { 
+                padding-left: 25pt; 
+                padding-right: 50pt; 
+                } 
+--> 
+</STYLE>
+
 <a href="http://bradleyboehmke.github.io/2015/12/scraping-html-text.html"><img src="http://d1u2s20mo6at4b.cloudfront.net/wp-content/uploads/HTML.jpg" alt="Scraping HTML Text" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
 Vast amount of information exists across the interminable webpages that exist online.  Much of this information are considered "unstructured" texts since they don't come in a neatly packaged speadsheet. Fortunately, HTML websites are organized documents which means these texts are actually structured within underlying HTML code elements...we just need to figure out how to extract it! This post covers the basics of scraping text from online sources.<!--more-->  
 
@@ -15,21 +24,21 @@ Vast amount of information exists across the interminable webpages that exist on
 ## tl;dr
 Short on time? Here's the gist. Throughout this post I illustrate how to use the `rvest` package to extract different text components of webpages by dissecting the [Wikipedia page on web scraping](https://en.wikipedia.org/wiki/Web_scraping). As I foray I cover:
 
-<br>
-
-<a href="#html_nodes"><div class="numberCircle">1</div></a> Basic knowledge of HTML element components you'll need to scrape with `rvest`   
-<br>
-<a href="#scraping_nodes"><div class="numberCircle">2</div></a> How to extract text from the common HTML nodes in a webpage
-<br>
-<a href="#specific_nodes"><div class="numberCircle">3</div></a> How to extract text from specific HTML nodes of interest
-<br>
-<a href="#cleaning"><div class="numberCircle">4</div></a> Some of the common text cleaning that is required post-scraping
+<P CLASS="indented">
+        <a href="#html_nodes">&#9312;</a> Basic knowledge of HTML element components you'll need to scrape with rvest
+        <br>
+        <a href="#scraping_nodes">&#9313;</a> How to extract text from the common HTML nodes in a webpage
+        <br>
+        <a href="#specific_nodes">&#9314;</a> How to extract text from specific HTML nodes of interest
+        <br>
+        <a href="#cleaning">&#9315;</a> Some of the common text cleaning that is required post-scraping
+</P>
 
 <br>
 
 <a name="html_nodes"></a>
 
-## HTML Nodes
+## &#9312; HTML Nodes
 However, its important to first cover one of the basic components of HTML elements as we will leverage this information to pull desired information. I offer only enough insight required to begin scraping; I highly recommend [*XML and Web Technologies for Data Sciences with R*](http://www.amazon.com/XML-Web-Technologies-Data-Sciences/dp/1461478995) and [*Automated Data Collection with R*](http://www.amazon.com/Automated-Data-Collection-Practical-Scraping/dp/111883481X/ref=pd_sim_14_1?ie=UTF8&dpID=51Tm7FHxWBL&dpSrc=sims&preST=_AC_UL160_SR108%2C160_&refRID=1VJ1GQEY0VCPZW7VKANX) to learn more about HTML and XML element structures.
 
 HTML elements are written with a start tag, an end tag, and with the content in between: `<tagname>content</tagname>`. The tags which typically contain the textual content we wish to scrape, and the tags we will leverage in the next two sections, include:
@@ -58,7 +67,7 @@ It is through these tags that we can start to extract textual components (also r
 
 <a name="scraping_nodes"></a>
 
-## Scraping HTML Nodes
+## &#9313; Scraping HTML Nodes
 To scrape online text we'll make use of the relatively newer [`rvest`](https://cran.r-project.org/web/packages/rvest/index.html) package. `rvest` was created by the RStudio team inspired by libraries such as [beautiful soup](http://www.crummy.com/software/BeautifulSoup/) which has greatly simplified web scraping. `rvest` provides multiple functionalities; however, in this section we will focus only on extracting HTML text with `rvest`. Its important to note that `rvest` makes use of of the pipe operator (`%>%`) developed through the [`magrittr` package](https://cran.r-project.org/web/packages/magrittr/index.html). If you are not familiar with the functionality of `%>%` I recommend you jump to the tutorial on [Simplifying Your Code with `%>%`](#pipe) so that you have a better understanding of what's going on with the code.
 
 To extract text from a webpage of interest, we specify what HTML elements we want to select by using `html_nodes()`.  For instance, if we want to scrape the primary heading for the [Web Scraping Wikipedia webpage](https://en.wikipedia.org/wiki/Web_scraping) we simply identify the `<h1>` node as the node we want to select.  `html_nodes()` will identify all `<h1>` nodes on the webpage and return the HTML element.  In our example we see there is only one `<h1>` node on this webpage.
@@ -214,7 +223,7 @@ all_text <- scraping_wiki %>%
 
 <a name="specific_nodes"></a>
 
-## Scraping Specific HTML Nodes
+## &#9314; Scraping Specific HTML Nodes
 However, if we are concerned only with specific content on the webpage then we need to make our HTML node selection process a little more focused.  To do this we, we can use our browser's developer tools to examine the webpage we are scraping and get more details on specific nodes of interest.  If you are using Chrome or Firefox you can open the developer tools by clicking F12 (Cmd + Opt + I for Mac) or for Safari you would use Command-Option-I. An additional option which is recommended by Hadley Wickham is to use [selectorgadget.com](http://selectorgadget.com/), a Chrome extension, to help identify the web page elements you need<sup><a href="#fn1" id="ref1">1</a></sup>. 
 
 Once the developers tools are opened your primary concern is with the element selector. This is located in the top lefthand corner of the developers tools window. 
@@ -277,7 +286,7 @@ scraping_wiki %>%
 
 <a name="cleaning"></a>
 
-## Cleaning up
+## &#9315; Cleaning up
 With any webscraping activity, especially involving text, there is likely to be some clean-up involved. For example, in the previous example we saw that we can specifically pull the list of [**Notable Tools**](https://en.wikipedia.org/wiki/Web_scraping#Notable_tools); however, you can see that in between each list item rather than a space there contains one or more `\n` which is used in HTML to specify a new line. We can clean this up quickly with a little [character string manipulation](http://bradleyboehmke.github.io/tutorials/string_manipulation).
 
 
@@ -315,7 +324,7 @@ scraping_wiki %>%
 Similarly, as we saw in our example above with scraping the main body content (`body_text`), there are extra characters (i.e. `\n`, `\`, `^`) in the text that we may not want.  Using a [little regex](http://bradleyboehmke.github.io/tutorials/regex) we can clean this up so that our character string consists of only text that we see on the screen and no additional HTML code embedded throughout the text.
 
 
-```{r, echo=FALSE}
+```{r, eval=FALSE}
 library(stringr)
 
 # read the last 700 characters
