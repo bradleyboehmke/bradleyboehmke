@@ -5,7 +5,7 @@ permalink: /categoryview/
 sitemap: false
 ---
     
-<font size="5.5">Categories</font>
+<font size="5">Categories</font>
 <div>
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
