@@ -9,7 +9,13 @@ layout: default
       {% for category in page.categories %}
               <a href="http://bradleyboehmke.github.io/categoryview/#{{ category }}" style="color: rgb(128,128,128)">{{ category | replace:'-', ' ' }}</a>
               &nbsp;
-      {% endfor %}{% endif %}</p>
+      {% endfor %}{% endif %}
+      {% if page.tags %} &nbsp; • &nbsp; Tags: &nbsp;
+      {% for tag in page.tags %}
+              <a href="http://bradleyboehmke.github.io/categoryview/#{{ tag }}" style="color: rgb(128,128,128)">{{ tag | replace:'-', ' ' }}</a>
+              &nbsp;
+      {% endfor %}{% endif %}
+    </p>
       
       <br>
       
