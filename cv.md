@@ -187,7 +187,7 @@ Boehmke, B.C. (2012). "Use of ANOVA for everyday cost analysts." The Dayton Cost
 </p>
 <p>
 Boehmke, B.C. (2011). "Model for identifying cost savings by synchronizing the E-4B NAOC replacement and Presidential Aircraft Recapitalization programs." (Final report AFIT/GCA/ENV/11-J01).
-<p>
+</p>
 </ul>
 
 <small><a href="#">Go to top</a></small>
