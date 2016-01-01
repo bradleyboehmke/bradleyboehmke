@@ -9,7 +9,7 @@ layout: default
       {% assign categories = post.categories | sort %}
       {% for category in categories %}
           <span class="site-tag">
-              <a href="#http://bradleyboehmke.github.io/categoryview/">{{ category | replace:'-', ' ' }}</a>
+              <a href="#http://bradleyboehmke.github.io/categoryview/">{{ category[0] | replace:'-', ' ' }}</a>
               &nbsp;
           </span>
       {% endfor %}{% endif %}</p>
