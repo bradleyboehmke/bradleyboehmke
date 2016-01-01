@@ -36,6 +36,7 @@ std = sd(df$Change, na.rm = TRUE)
 
 ```
 
+<center>
 
 ```{r, echo=FALSE, fig.width=8, fig.height=4, message=FALSE, warning=FALSE, fig.align='center'}
 library(dplyr)
@@ -60,6 +61,8 @@ dygraph(adj.close, main = "Walmart's Historical Daily Adjusted Stock Price") %>%
         dyLimit(adj.close["2015-10-14",], color = "red") %>%
         dyRangeSelector(dateWindow = c("2011-10-01", "2015-10-16"))
 ```
+
+</center>
 
 <br>
 
