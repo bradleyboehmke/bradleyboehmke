@@ -162,8 +162,9 @@ Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  
 </p>
 <p>
 Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "A multilevel understanding of Tooth-to-Tail."  <em>Proceedings of the IIE Industrial and Systems Engineering Research Conference (ISERC).</em> <a href="https://www.researchgate.net/publication/282289694_A_Multilevel_Understanding_of_Tooth-to-Tail">[link]</a>
-</ul>
 </p>
+</ul>
+
 
 <strong>In Preparation</strong>
 <ul>
@@ -172,8 +173,9 @@ Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A., "Underst
 </p>
 <p>
 Boehmke, B.C. "An enterprise perspective of U.S. Air Force operations and support cost drivers."
-</ul>
 </p>
+</ul>
+
 
 <strong>Non-Refereed Research Reports</strong>
 <ul>
