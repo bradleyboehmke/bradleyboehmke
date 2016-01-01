@@ -41,7 +41,7 @@ sitemap: false
 <font size="5">Post by Categories</font>
 <div id="category-index">
     {% for category in categories %}
-        <a name="{{ category[0] }}"></a><font size="5" style="font-family:Gentium Basic">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font>
+        <a name="{{ category[0] }}"></a><font size="4" style="font-family:Gentium Basic">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font>
         <br>
     {% assign sorted_posts = site.posts | sort: 'title' %}
     {% for post in sorted_posts %}
@@ -63,7 +63,8 @@ sitemap: false
 <font size="5">Post by Tags</font>
 <div id="tag-index">
     {% for tag in tags %}
-    <a name="{{ tag[0] }}"></a><h4 style="font-family:Gentium Basic">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </h4>
+        <a name="{{ tag[0] }}"></a><font size="4" style="font-family:Gentium Basic">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
+        <br>
     {% assign sorted_posts = site.posts | sort: 'title' %}
     {% for post in sorted_posts %}
     {%if post.tags contains tag[0]%}
