@@ -268,8 +268,8 @@ Boehmke, B.C. (2015). "Data Processing with dplyr & tidyr." Wright State Univers
 
 # <center>Service<a name="service"></a></center>
 ***
-Chair:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multi-criteria Decision Analysis and Cost Management track.  Industrial and 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Systems Engineering Research Conference (ISERC). 2015.
+Chair:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multi-criteria Decision Analysis and Cost Management track.  Industrial and Systems
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering Research Conference (ISERC). 2015.
 <br>
 Reviewer:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Journal of Cost Analysis and Parametrics
 <br>
