@@ -236,6 +236,24 @@ Boehmke, B.C. (2015). "Data Processing with dplyr & tidyr." Wright State Univers
 
 <small><a href="#">Go to top</a></small>
 
+<br>
+
+# <center>Certifications<a name="certifications"></a></center>
+***
+<p style="text-align:left;"><strong>Certified Analytics Professional (CAP®)</strong></span><span style="float:right;"><em>May 2014 - Present</em></span>
+<br>The Institute for Operations Research and the Management Sciences (INFORMS)<br/>
+</p>
+
+<p style="text-align:left;"><strong>Certified Cost Estimator/Analyst (CCE/A)</strong></span><span style="float:right;"><em>November 2011 - Present</em></span>
+<br>International Cost Estimating and Analysis Association (ICEAA)<br/>
+</p>
+
+<p style="text-align:left;"><strong>Certified Data Scientist</strong></span><span style="float:right;"><em>January 2015 - Present</em></span>
+<br>Johns Hopkins Bloomberg School of Public Health<br/>
+</p>
+
+<small><a href="#">Go to top</a></small>
+
 
 
 
