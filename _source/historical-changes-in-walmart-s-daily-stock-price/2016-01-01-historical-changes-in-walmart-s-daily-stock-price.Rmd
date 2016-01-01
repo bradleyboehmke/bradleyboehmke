@@ -37,7 +37,7 @@ std = sd(df$Change, na.rm = TRUE)
 ```
 
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+```{r, echo=FALSE, fig.width=8, fig.height=4, message=FALSE, warning=FALSE, fig.align='center'}
 library(dplyr)
 library(dygraphs)
 
