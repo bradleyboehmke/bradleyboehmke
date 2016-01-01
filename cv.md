@@ -47,6 +47,7 @@ Minor in Aerospace Studies
 
 # <center>Experience<a name="experience"></a></center>
 ***
+<p>
 <p style="text-align:left;"><strong>HQ Air Force Materiel Command, Studies & Analysis</strong></span><span style="float:right;">June 2014 - Present</span>
 <br style="text-align:left;"><em>Operations Research Analyst</em></span><span style="float:right;">WPAFB, OH</span>
 </p>
@@ -61,7 +62,7 @@ specific growth curves in the current <em>Bending the Cost Curve</em> initiative
 to serve as a resource allocation tool for the LGM-30 Intercontinental Ballistic Missile weapon system
 parts. Contributes to Air Force Global Strike Command's initiative to better align itself with the
 aircraft operating business.</li>
-<li>Analyzed Air Force *Tooth-to-Tail* relationships using a multilevel regression approach to assess the
+<li>Analyzed Air Force <em>Tooth-to-Tail</em> relationships using a multilevel regression approach to assess the
 magnitude and variability of the relationship across the multiple levels of the Air Force enterprise.
 Illustrates economic trends previously concealed by historical aggregate analysis performed in this
 area.</li>
@@ -72,7 +73,9 @@ validating Air Force weapon system requirements. Provides decision-makers with r
 weapon system requirements.</li>
 </ul> 
 </p>
+</p>
 
+<p>
 <p style="text-align:left;"><strong>Booz | Allen | Hamilton</strong></span><span style="float:right;">June 2009 - June 2014</span>
 <br style="text-align:left;"><em>Decision Analyst</em></span><span style="float:right;">Dayton, OH</span>
 </p>
@@ -107,6 +110,7 @@ matter expert inputs for green aircraft procurement costs.</li>
 Monte Carlo simulations, tting distributions, assessing correlations; analyzing historical data with
 time-series analysis and regression, performing constraint-based optimality models, etc.</li>
 </ul> 
+</p>
 </p>
 
 
