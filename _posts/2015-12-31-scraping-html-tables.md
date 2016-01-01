@@ -4,7 +4,7 @@ title:  Scraping HTML Tables
 date: 2015-12-21
 published: true
 tags: [r, rvest, xml, web-scraping]
-categories: [r, rvest, xml, web-scraping]
+categories: [programming]
 ---
 
 <STYLE TYPE="text/css"> 
