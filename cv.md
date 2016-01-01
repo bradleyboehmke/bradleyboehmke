@@ -254,6 +254,16 @@ Boehmke, B.C. (2015). "Data Processing with dplyr & tidyr." Wright State Univers
 
 <small><a href="#">Go to top</a></small>
 
+<br>
+
+# <center>Technical Strengths<a name="technical"></a></center>
+***
+<strong>Computer Languages</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R, Shiny, LaTex, Markdown, HTML
+<br>
+<strong>Statistics Software</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R, JMP, Crystal Ball, BayesiaLab, Netica, SPSS, @Risk, Solver</br>
+
+<small><a href="#">Go to top</a></small>
+
 
 
 
