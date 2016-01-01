@@ -5,7 +5,8 @@ permalink: /categoryview/
 sitemap: false
 ---
     
-<h1>Categories</h1>
+<font size="6">Categories</font>
+<br>
 
 <div>
     {% assign categories = site.categories | sort %}
@@ -48,7 +49,6 @@ sitemap: false
     {% assign sorted_posts = site.posts | sort: 'title' %}
     {% for post in sorted_posts %}
     {%if post.categories contains category[0]%}
-
      <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     <br>
     {%endif%}
