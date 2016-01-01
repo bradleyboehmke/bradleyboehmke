@@ -52,8 +52,11 @@ Minor in Aerospace Studies
 <br style="text-align:left;"><em>Operations Research Analyst</em></span><span style="float:right;">WPAFB, OH</span>
 </p>
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
+  <li>Currently creating a text analysis capability to provide senior Air Force decision-makers with the ability to text mine planning and programming documents. This will provide an additional means to <em>i</em>) cross- validate document findings with human comprehension, and <em>ii</em>) to identify key document attributes of interest to planning and programming personnel for further investigation.</li>
+<li>Established a Data Envelopment Analysis methodology to benchmark installation support activities across the Air Force enterprise. Provides Air Force leadership with the ability to isolate best practices, identify potential cost savings, and establish performance expectations with available resources.</li>
+  <li>Applied a novel growth curve clustering approach to identify underlying cost curve behavior across the
+Air Force enterprise. Aides decision-makers in directing their focus, proposals, and policy actions towards
+specific growth curves in the current *Bending the Cost Curve* initiative.</li>
   <li>Milk</li>
 </ul>
 </div>
