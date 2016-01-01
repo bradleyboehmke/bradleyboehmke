@@ -5,9 +5,7 @@ permalink: /categoryview/
 sitemap: false
 ---
     
-<h1>Categories</h1>
-<br>
-
+<font size="5">Categories</font>
 <div>
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
@@ -23,8 +21,7 @@ sitemap: false
 <br>
 <br>
 
-<h1>Tags</h1>
-
+<font size="5">Tags</font>
 <div>
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
@@ -41,8 +38,7 @@ sitemap: false
 <br>
 
 
-<h1>Post by Categories</h1>
-
+<font size="5">Post by Categories</font>
 <div id="category-index">
     {% for category in categories %}
     <a name="{{ category[0] }}"></a><h4 style="font-family:Gentium Basic">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h4>
@@ -62,8 +58,8 @@ sitemap: false
 <br>
 <br>
 
-<h1>Post by Tags</h1>
 
+<font size="5">Post by Tags</font>
 <div id="tag-index">
     {% for tag in tags %}
     <a name="{{ tag[0] }}"></a><h4 style="font-family:Gentium Basic">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </h4>
