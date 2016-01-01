@@ -7,7 +7,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.categories %} &nbsp; • &nbsp; Categories: &nbsp;
       {% for category in page.categories %}
-              <a href="http://bradleyboehmke.github.io/categoryview/">{{ category | replace:'-', ' ' }}</a>
+              <a href="http://bradleyboehmke.github.io/categoryview/#{{ category }}">{{ category | replace:'-', ' ' }}</a>
               &nbsp;
       {% endfor %}{% endif %}</p>
   </header>
