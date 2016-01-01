@@ -148,37 +148,49 @@ time-series analysis and regression, performing constraint-based optimality mode
 ***
 <strong>Refereed Journals</strong>
 <ul>
-Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "Tooth-to-Tail impact analysis: Combining econometric modeling and Bayesian networks to assess support cost consequences due to changes in force structure." *Under Review - Journal of Cost Analysis and Parametrics*
-
-Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "Effectiveness myopia: Improving the Air Force's 'visual acuity' of performance for installation support activities through the evaluative prism of data envelopment analysis." *Under Review - Military Operations Research*
-
-Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "The influence of operational resources and activities on indirect personnel costs: A multilevel modeling approach." *Under Review - The Engineering Economist*
-
-Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "Bending the cost curve: Moving the focus from macro-level to micro-level cost trends with cluster analysis." *Journal of Cost Analysis and Parametrics, 8(2)*, 126-148. [[link]](https://www.researchgate.net/publication/282288766_Bending_the_Cost_Curve_Moving_the_Focus_from_Macro-level_to_Micro-level_Cost_Trends_with_Cluster_Analysis)
-
-Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "A multilevel understanding of Tooth-to-Tail."  *Proceedings of the IIE Industrial and Systems Engineering Research Conference (ISERC).* [[link]](https://www.researchgate.net/publication/282289694_A_Multilevel_Understanding_of_Tooth-to-Tail)
+<p>
+Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "Tooth-to-Tail impact analysis: Combining econometric modeling and Bayesian networks to assess support cost consequences due to changes in force structure." <em>Under Review - Journal of Cost Analysis and Parametrics</em>
+</p>
+<p>
+Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "Effectiveness myopia: Improving the Air Force's 'visual acuity' of performance for installation support activities through the evaluative prism of data envelopment analysis." <em>Under Review - Military Operations Research</em>
+</p>
+<p>
+Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "The influence of operational resources and activities on indirect personnel costs: A multilevel modeling approach." <em>Under Review - The Engineering Economist</em>
+</p>
+<p>
+Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "Bending the cost curve: Moving the focus from macro-level to micro-level cost trends with cluster analysis." <em>Journal of Cost Analysis and Parametrics, 8(2)</em>, 126-148. <a href="https://www.researchgate.net/publication/282288766_Bending_the_Cost_Curve_Moving_the_Focus_from_Macro-level_to_Micro-level_Cost_Trends_with_Cluster_Analysis">[link]</a>
+</p>
+<p>
+Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "A multilevel understanding of Tooth-to-Tail."  <em>Proceedings of the IIE Industrial and Systems Engineering Research Conference (ISERC).</em> <a href="https://www.researchgate.net/publication/282289694_A_Multilevel_Understanding_of_Tooth-to-Tail">[link]</a>
 </ul>
+</p>
 
 <strong>In Preparation</strong>
 <ul>
+<p>
 Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A., "Understanding strategic cost analytics across the supply chain."
-
+</p>
+<p>
 Boehmke, B.C. "An enterprise perspective of U.S. Air Force operations and support cost drivers."
 </ul>
+</p>
 
 <strong>Non-Refereed Research Reports</strong>
 <ul>
+<p>
 Boehmke, B.C. (2014). "Understanding Business Analytics." AFMC/A9 Technical Report.
-
+</p>
+<p>
 Boehmke, B.C. (2012). "Use of ANOVA for everyday cost analysts." The Dayton Coster, 13(1), 10-14.
-
+</p>
+<p>
 Boehmke, B.C. (2011). "Model for identifying cost savings by synchronizing the E-4B NAOC replacement and Presidential Aircraft Recapitalization programs." (Final report AFIT/GCA/ENV/11-J01).
+<p>
 </ul>
 
 <small><a href="#">Go to top</a></small>
 
 
-<small><a href="#">Go to top</a></small>
 
 
 
