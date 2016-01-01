@@ -139,7 +139,8 @@ time-series analysis and regression, performing constraint-based optimality mode
 
 <small><a href="#">Go to top</a></small>
 
-<div>
+<br>
+
 # <center>Publications<a name="publications"></a></center>
 ***
 <strong>Refereed Journals</strong>
@@ -170,7 +171,7 @@ Boehmke, B.C. (2012). "Use of ANOVA for everyday cost analysts." The Dayton Cost
 
 Boehmke, B.C. (2011). "Model for identifying cost savings by synchronizing the E-4B NAOC replacement and Presidential Aircraft Recapitalization programs." (Final report AFIT/GCA/ENV/11-J01).
 </ul>
-</div>
+
 
 <small><a href="#">Go to top</a></small>
 
