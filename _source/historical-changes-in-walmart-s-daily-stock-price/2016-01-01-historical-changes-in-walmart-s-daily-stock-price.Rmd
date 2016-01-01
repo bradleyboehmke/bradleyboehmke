@@ -7,7 +7,7 @@ tags: [economy]
 categories: [economy]
 ---
 
-<a href="http://bradleyboehmke.github.io/2015/12/scraping-html-text.html"><img src="http://3dprint.com/wp-content/uploads/2014/05/wal-1.jpg" alt="Walmart" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
+<a href="http://bradleyboehmke.github.io//2015/10/historical-changes-in-walmart-s-daily-stock-price.html"><img src="http://3dprint.com/wp-content/uploads/2014/05/wal-1.jpg" alt="Walmart" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
 Last Tuesday October 14, Walmart's stock price dropped by 10.04% due to their dim outlook on next year's predicted profits.  This drop was, reportedly, one of the [biggest single-day declines in Walmarts history](http://www.wsj.com/articles/wal-mart-lower-sales-earnings-outlook-1444835896) leaving the closing adjusted stock price at $60.03; the lowest its been since May 23, 2012.<!--more--> However, last Tuesday's drop was one of only eight times in history in which the daily stock price change was greater than -10% with the last occurance happening on January 8,1988.
 
 ```{r, echo=FALSE, cache=TRUE, message=FALSE, warning=FALSE}
