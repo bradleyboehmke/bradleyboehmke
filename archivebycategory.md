@@ -41,12 +41,34 @@ sitemap: false
 
 # Posts by Categories
 
-<div id="index">
+<div id="category-index">
     {% for category in categories %}
     <a name="{{ category[0] }}"></a><h4 style="font-family:Gentium Basic">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h4>
     {% assign sorted_posts = site.posts | sort: 'title' %}
     {% for post in sorted_posts %}
     {%if post.categories contains category[0]%}
+
+     <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <br>
+    {%endif%}
+    {% endfor %}
+    <br><br>
+    {% endfor %}
+</div>
+
+<small><a href="#">Go to top</a></small>
+
+<br>
+<br>
+
+# Posts by Tags
+
+<div id="tag-index">
+    {% for tag in tags %}
+    <a name="{{ tag[0] }}"></a><h4 style="font-family:Gentium Basic">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </h4>
+    {% assign sorted_posts = site.posts | sort: 'title' %}
+    {% for post in sorted_posts %}
+    {%if post.tags contains tag[0]%}
 
      <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     <br>
