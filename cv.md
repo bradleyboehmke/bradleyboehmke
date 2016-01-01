@@ -218,7 +218,7 @@ Boehmke, B.C. (2013). "The effect of using semi-variance in safety stock and re-
 </p>
 <p>
 Boehmke, B.C. (2012). "Model for identifying cost savings by synchronizing the E-4B NAOC replacement and Presidential Aircraft Recapitalization programs." Society of Cost Estimating & Analysis Annual Conference, Orlando, FL.
-<p>
+</p>
 </ul>
 
 <strong>Invited</strong>
@@ -231,7 +231,7 @@ Boehmke, B.C. (2015). "Bending the Cost Curve: Identifying Cost Trends to <em>'B
 </p>
 <p>
 Boehmke, B.C. (2015). "Data Processing with dplyr & tidyr." Wright State University, Dayton, OH. <a href="http://bradleyboehmke.github.io//2015/09/data-processing-with-dplyr-tidyr.html">[link]</a>
-<p>
+</p>
 </ul>
 
 <small><a href="#">Go to top</a></small>
