@@ -8,6 +8,7 @@ sitemap: false
 # Categories
 
 <div>
+<h1>Categories</h1>
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
      <span class="site-category">
