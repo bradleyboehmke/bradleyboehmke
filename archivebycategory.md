@@ -5,10 +5,9 @@ permalink: /categoryview/
 sitemap: false
 ---
     
-# Categories
+<h1>Categories</h1>
 
 <div>
-<h1>Categories</h1>
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
      <span class="site-category">
@@ -23,7 +22,7 @@ sitemap: false
 <br>
 <br>
 
-# Tags
+<h1>Tags</h1>
 
 <div>
     {% assign tags = site.tags | sort %}
@@ -40,7 +39,8 @@ sitemap: false
 <br>
 <br>
 
-# Posts by Categories
+
+<h1>Post by Categories</h1>
 
 <div id="category-index">
     {% for category in categories %}
@@ -62,7 +62,7 @@ sitemap: false
 <br>
 <br>
 
-# Posts by Tags
+<h1>Post by Tags</h1>
 
 <div id="tag-index">
     {% for tag in tags %}
