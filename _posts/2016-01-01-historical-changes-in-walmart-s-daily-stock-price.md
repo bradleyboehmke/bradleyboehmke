@@ -3,7 +3,7 @@ layout: post
 title:  Historical Changes in Walmart’s Daily Stock Price
 date: 2015-10-24
 published: true
-tags: [economy]
+tags: [stocks]
 categories: [economy]
 ---
 
