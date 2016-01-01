@@ -69,6 +69,8 @@ However, including Tuesday's -10.04% decrease, Walmart's stock price has only de
 
 <br>
 
+<center>
+
 ```{r, fig.width=8, fig.height=4, echo=FALSE, fig.align='center'}
 library(dygraphs)
 
@@ -82,4 +84,4 @@ dygraph(df, main = "Percent Change in Walmart's Daily Adjusted Stock Price") %>%
         dyRangeSelector()
 ```
 
-
+</center>
