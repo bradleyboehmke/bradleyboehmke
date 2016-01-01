@@ -260,7 +260,28 @@ Boehmke, B.C. (2015). "Data Processing with dplyr & tidyr." Wright State Univers
 ***
 <strong>Computer Languages</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R, Shiny, LaTex, Markdown, HTML
 <br>
-<strong>Statistics Software</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R, JMP, Crystal Ball, BayesiaLab, Netica, SPSS, @Risk, Solver</br>
+<strong>Statistics Software</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R, JMP, Crystal Ball, BayesiaLab, Netica, SPSS, @Risk, Solver
+
+<small><a href="#">Go to top</a></small>
+
+<br>
+
+# <center>Service<a name="service"></a></center>
+***
+Chair:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multi-criteria Decision Analysis and Cost Management track.  Industrial and 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Systems Engineering Research Conference (ISERC). 2015.
+<br>
+Reviewer:&nbsp;&nbsp;&nbsp;&nbsp; Journal of Cost Analysis and Parametrics
+<br>
+Organizer:&nbsp;&nbsp;&nbsp;  Air Force UseR Group
+
+<small><a href="#">Go to top</a></small>
+
+<br>
+
+# <center>References<a name="references"></a></center>
+***
+Available upon request
 
 <small><a href="#">Go to top</a></small>
 
