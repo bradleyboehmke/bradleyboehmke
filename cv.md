@@ -58,6 +58,12 @@ Minor in Aerospace Studies
 <p style="text-align:left;"><strong>Booz | Allen | Hamilton</strong></span><span style="float:right;">June 2009 - June 2014</span>
 <br style="text-align:left;"><em>Decision Analyst</em></span><span style="float:right;">Dayton, OH</span>
 </p>
+<ul> 
+    <li>Provided key statistical, cost and logistics research and technical support to the AFIT Center for
+Operational Analysis (COA). Assisted faculty and students in transitioning academic ideas into usable
+products for the Air Force.</li>
+
+</ul>
 </div>
 
 
