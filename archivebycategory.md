@@ -5,7 +5,7 @@ permalink: /categoryview/
 sitemap: false
 ---
     
-<font size="6">Categories</font>
+<h1>Categories</h1>
 <br>
 
 <div>
@@ -53,7 +53,7 @@ sitemap: false
     <br>
     {%endif%}
     {% endfor %}
-    <br><br>
+    <br>
     {% endfor %}
 </div>
 
