@@ -43,18 +43,20 @@ Minor in Aerospace Studies
 
 <small><a href="#">Go to top</a></small>
 
+<br>
 
 # <center>Experience<a name="experience"></a></center>
 ***
 <p style="text-align:left;"><strong>HQ Air Force Materiel Command, Studies & Analysis</strong></span><span style="float:right;">June 2014 - Present</span>
 <br style="text-align:left;"><em>Operations Research Analyst</em></span><span style="float:right;">WPAFB, OH</span>
 </p>
+<p>
 <ul> 
 <li>Currently creating a text analysis capability to provide senior Air Force decision-makers with the ability to text mine planning and programming documents. This will provide an additional means to <em>i</em>) cross- validate document findings with human comprehension, and <em>ii</em>) to identify key document attributes of interest to planning and programming personnel for further investigation.
 <li>Established a Data Envelopment Analysis methodology to benchmark installation support activities across the Air Force enterprise. Provides Air Force leadership with the ability to isolate best practices, identify potential cost savings, and establish performance expectations with available resources.</li>
 <li>Applied a novel growth curve clustering approach to identify underlying cost curve behavior across the
 Air Force enterprise. Aides decision-makers in directing their focus, proposals, and policy actions towards
-specific growth curves in the current *Bending the Cost Curve* initiative.</li>
+specific growth curves in the current <em>Bending the Cost Curve</em> initiative.</li>
 <li>Assessed and identified valid univariate metrics in addition to establishing a forecasting methodology
 to serve as a resource allocation tool for the LGM-30 Intercontinental Ballistic Missile weapon system
 parts. Contributes to Air Force Global Strike Command's initiative to better align itself with the
@@ -69,3 +71,44 @@ used descriptors. Allows the contracting organization to categorize contract spe
 validating Air Force weapon system requirements. Provides decision-makers with real-time analysis of
 weapon system requirements.</li>
 </ul> 
+</p>
+
+<p style="text-align:left;"><strong>Booz | Allen | Hamilton</strong></span><span style="float:right;">June 2009 - June 2014</span>
+<br style="text-align:left;"><em>Decision Analyst</em></span><span style="float:right;">Dayton, OH</span>
+</p>
+<p>
+<ul> 
+<li>Provided key statistical, cost and logistics research and technical support to the AFIT Center for
+Operational Analysis (COA). Assisted faculty and students in transitioning academic ideas into usable
+products for the Air Force.</li>
+<li>Analyzed inventory model comparing full versus semi-variance parameters for demand and lead-time
+variables to forecast safety stock requirements for the F-16 program. Incorporated an Excel general
+user interface which allows decision makers to quickly view stock shortage risks dependent on parameter
+inputs.</li>
+<li>As lead cost estimator for the KC-46 Maintenance Training Systems developed a feature-based life
+cycle cost estimate to decompose costs into individual processes and activities. In addition, created an
+interactive schedule with the life cycle cost estimate so that decision makers can assess cost impacts
+from acquisition delays, total production quantities and lot sizes, and secondary delays due to potential
+KC-46 acquisition delays.</li>
+<li>As lead cost estimator for the Global Hawk Business Case Analysis developed a generative cost model
+and directed the implementation of the various sensitivity analyses to identify cost and risk drivers
+using Crystal Ball software and Monte Carlo simulation. In addition, worked with the logistics lead to
+incorporate an analytic hierarchy process as a multi-criteria decision approach to establish a cost-benefit
+comparison.</li>
+<li>As lead cost estimator for the Presidential Aircraft Recapitalization program established an integrated
+lifecycle cost estimate which included, but was not limited to: using PRICE cost estimating software
+to develop the software cost estimate, man-hour workload and schedule length based on SLOC count
+and sophistication of software programming; forecasted operations and support costs by analyzing and
+adjusting historical costs for engine fuel efficiency, adjusting maintenance costs for weight by creating
+a historical relationship between the predecessor aircraft weight and historical maintenance costs, and
+forecasting new utilization rates; and integrating limited historical data, vendor quotes and subject
+matter expert inputs for green aircraft procurement costs.</li>
+<li>Provided a six week training course on Crystal Ball software which included what-if analyses with
+Monte Carlo simulations, tting distributions, assessing correlations; analyzing historical data with
+time-series analysis and regression, performing constraint-based optimality models, etc.</li>
+</ul> 
+</p>
+
+
+
+
