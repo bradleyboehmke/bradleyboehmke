@@ -78,9 +78,34 @@ weapon system requirements.</li>
 <br style="text-align:left;"><em>Decision Analyst</em></span><span style="float:right;">Dayton, OH</span>
 </p>
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+    <li>Provided key statistical, cost and logistics research and technical support to the AFIT Center for
+Operational Analysis (COA). Assisted faculty and students in transitioning academic ideas into usable
+products for the Air Force.</li>
+    <li>Analyzed inventory model comparing full versus semi-variance parameters for demand and lead-time
+variables to forecast safety stock requirements for the F-16 program. Incorporated an Excel general
+user interface which allows decision makers to quickly view stock shortage risks dependent on parameter
+inputs.</li>
+    <li>As lead cost estimator for the KC-46 Maintenance Training Systems developed a feature-based life
+cycle cost estimate to decompose costs into individual processes and activities. In addition, created an
+interactive schedule with the life cycle cost estimate so that decision makers can assess cost impacts
+from acquisition delays, total production quantities and lot sizes, and secondary delays due to potential
+KC-46 acquisition delays.</li>
+    <li>As lead cost estimator for the Global Hawk Business Case Analysis developed a generative cost model
+and directed the implementation of the various sensitivity analyses to identify cost and risk drivers
+using Crystal Ball software and Monte Carlo simulation. In addition, worked with the logistics lead to
+incorporate an analytic hierarchy process as a multi-criteria decision approach to establish a cost-benefit
+comparison.</li>
+    <li>As lead cost estimator for the Presidential Aircraft Recapitalization program established an integrated
+lifecycle cost estimate which included, but was not limited to: using PRICE cost estimating software
+to develop the software cost estimate, man-hour workload and schedule length based on SLOC count
+and sophistication of software programming; forecasted operations and support costs by analyzing and
+adjusting historical costs for engine fuel efficiency, adjusting maintenance costs for weight by creating
+a historical relationship between the predecessor aircraft weight and historical maintenance costs, and
+forecasting new utilization rates; and integrating limited historical data, vendor quotes and subject
+matter expert inputs for green aircraft procurement costs.</li>
+    <li>Provided a six week training course on Crystal Ball software which included what-if analyses with
+Monte Carlo simulations, fitting distributions, assessing correlations; analyzing historical data with
+time-series analysis and regression, performing constraint-based optimality models, etc.</li>
 </ul>
 </div>
 
