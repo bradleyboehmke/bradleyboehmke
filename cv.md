@@ -109,6 +109,36 @@ time-series analysis and regression, performing constraint-based optimality mode
 </ul>
 </div>
 
+<div>
+<p style="text-align:left;"><strong>Revival Property Group, LLC</strong></span><span style="float:right;">October 2007 - June 2009</span>
+<br style="text-align:left;"><em>Operations Manager</em></span><span style="float:right;">Dayton, OH</span>
+<ul> 
+<li>Acquired 75 units valued at approximately $2 Million and includes managing rental income of over $25,000 per month.</li>
+<li>Managed funds totaling over $350,000 for investors and analyzed investment options, executed acquisitions and provided monthly, quarterly and annual reports outlining investment returns, milestones reached, and expected vs. actual costs.</li>
+<li>Created estimates and managed rehab projects ranging from $5,000-$75,000 with three contracting crews</li>
+</ul>
+</div>
+
+<div>
+<p style="text-align:left;"><strong>U.S. Air Force Officer</strong></span><span style="float:right;">August 2006 - September 2007</span>
+<br style="text-align:left;"><em>Air Force Institute of Technology Student</em></span><span style="float:right;">WPAFB, OH</span>
+<ul> 
+<li>Completed courses including Statistics, Acquisition Management, Mathematical Economics, Finance Theory, Applied Econometrics, Defense Cost Modeling, Advanced Cost Analysis, Production Management, Strategic Cost Management, Managerial Economics, Contracting and Acquisition Management, Research Methods, Project Risk Analysis and Decision Analysis.</li>
+</ul>
+
+<p style="text-align:left;"><strong>U.S. Air Force Officer</strong></span><span style="float:right;">September 2003 - August 2006</span>
+<br style="text-align:left;"><em>Financial Management Officer</em></span><span style="float:right;">Grand Forks AFB, ND</span>
+<ul> 
+<li>Managed all aspects of federal government accounting and finance procedures to include all aspects of finance during the federal fiscal year and executed a $173.8M budget for the local base operations.</li>
+<li>Collected data and provided econometric analysis for the fiscal year 2003 Economic Impact Analysis; a 26 page report detailing the wing's $350M impact on the local community, which analyzes: manning levels, personnel pay, present values, outsourcing, local population and business revenue changes</li>
+<li>Managed and executed fiscal year-end closeout, which included a $44M end-of-year spend plan in 2004 and $8M in 2005</li>
+<li>Oversaw wing civilian payroll which exceeded $20M and was the first to identify a payroll shortfall in Fiscal Year 2006</li>
+<li>Provided quarterly budget and expenditure update briefings to the wing commander.</li>
+</ul>
+</div>
+
+<small><a href="#">Go to top</a></small>
+
 
 
 
