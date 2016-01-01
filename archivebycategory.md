@@ -63,17 +63,16 @@ sitemap: false
 <font size="5">Post by Tags</font>
 <div id="tag-index">
     {% for tag in tags %}
-        <a name="{{ tag[0] }}"></a><font size="4" style="font-family:Gentium Basic">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
+        <a name="{{ tag[0] }}"></a><strong>{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </strong>
         <br>
     {% assign sorted_posts = site.posts | sort: 'title' %}
     {% for post in sorted_posts %}
     {%if post.tags contains tag[0]%}
-
      <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     <br>
     {%endif%}
     {% endfor %}
-    <br><br>
+    <br>
     {% endfor %}
 </div>
 
