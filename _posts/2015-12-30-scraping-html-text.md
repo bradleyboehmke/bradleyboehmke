@@ -16,7 +16,7 @@ categories: [programming]
 --> 
 </STYLE>
 
-<a href="http://bradleyboehmke.github.io/2015/12/scraping-html-text.html"><img src="http://d1u2s20mo6at4b.cloudfront.net/wp-content/uploads/HTML.jpg" alt="Scraping HTML Text" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
+<a href="http://bradleyboehmke.github.io/2015/12/scraping-html-text.html"><img src="http://d1u2s20mo6at4b.cloudfront.net/wp-content/uploads/HTML.jpg" alt="Scraping HTML Text" style="float:left; margin:2px 8px 0px 0px; width: 17%; height: 17%;"></a>
 Vast amount of information exists across the interminable webpages that exist online.  Much of this information are considered "unstructured" texts since they don't come in a neatly packaged speadsheet. Fortunately, HTML websites are organized documents which means these texts are actually structured within underlying HTML code elements...we just need to figure out how to extract it! This post covers the basics of scraping text from online sources.<!--more-->  
 
 <br>
