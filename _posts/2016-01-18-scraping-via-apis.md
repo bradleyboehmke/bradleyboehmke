@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Scraping via APIs
-date: 2016-01-18 15:52:19
+date: 2016-01-18 16:04:27
 published: true
 tags: [r, httr, web-scraping]
 categories: [programming]
@@ -17,8 +17,9 @@ categories: [programming]
 --> 
 </STYLE>
 
-<a href="http://bradleyboehmke.github.io"><img src="https://d15n4q3o4x3svq.cloudfront.net/assets/tutorials/curl/api-a397cc184c5622fb5130af1b7baf149d.png" alt="Scraping with APIs" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
+<a href="http://bradleyboehmke.github.io/2016/01/scraping-via-apis.html"><img src="https://d15n4q3o4x3svq.cloudfront.net/assets/tutorials/curl/api-a397cc184c5622fb5130af1b7baf149d.png" alt="Scraping with APIs" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
 In the epic poem *Rime of the Ancient Mariner*, Samuel Taylor Coleridge states, “Water, water, everywhere, nor any a drop to drink.” Indeed, some would say the same about data. Data appear to be [everywhere](http://www.technologyreview.com/view/530371/big-data-creating-the-power-to-move-heaven-and-earth/) yet only a [fraction are analyzed](https://gigaom.com/2013/03/10/the-big-data-world-is-operating-at-1-percent/). There are several [arguments](http://www.mckinsey.com/insights/business_technology/big_data_the_next_frontier_for_innovation) as to why but one that has reached the concern of the [White House](https://www.whitehouse.gov/sites/default/files/omb/assets/memoranda_2010/m10-06.pdf) is data accessibility.  However, this is rapidly changing as growth in technology and resources are quickly opening the doors of many data vaults to the masses. We, the public minions, now have access to a wide range of data; from social, financial, government, and ecommerce data to geospatial, search engine, and even ant data. We just need to know how to *get* it. Enter APIs.<!--more-->  
+
 
 
 <br>
@@ -44,7 +45,7 @@ Here's what you should get out of this post:
 An [application-programming interface (API)](https://en.wikipedia.org/wiki/Application_programming_interface) in a nutshell is a method of communication between software programs.  APIs allow programs to interact and use each other's functions by acting as a middle man. Why is this useful? Lets say you want to pull weather data from the [NOAA](http://www.ncdc.noaa.gov/cdo-web/webservices).  You have a few options: 
 
 - You could query the data and download the spreadsheet or manually cut-n-paste the desired data and then import into R. Doesn't get you any coolness points. 
-- You could use some webscraping techniques previously covered [LINK HERE] to parse the desired data. Golf clap. The downfall of this strategy is if NOAA changes their website structure down the road your code will need to be adjusted.
+- You could use some webscraping techniques previously covered [here](http://bradleyboehmke.github.io/2015/12/scraping-tabular-and-excel-files-stored-online.html), [here](http://bradleyboehmke.github.io/2015/12/scraping-html-text.html), and [here](http://bradleyboehmke.github.io/2015/12/scraping-html-tables.html) to parse the desired data. Golf clap. The downfall of this strategy is if NOAA changes their website structure down the road your code will need to be adjusted.
 - Or, you can use the [`rnoaa`](https://ropensci.org/tutorials/rnoaa_tutorial.html) package which allows you to send specific instructions to the NOAA API via R, the API will then perform the action requested and return the desired information. The benefit of this strategy is if the NOAA changes its website structure it won't impact the API data retreival structure which means no impact to your code. Standing ovation!
 
 Consequently, APIs provide consistency in data retrieval processes which can be essential for recurring analyses. Luckily, the use of APIs by organizations that collect data are [growing exponentially](http://www.programmableweb.com/api-research). This is great for you and I as more and more data continues to be at our finger tips.  
@@ -107,9 +108,7 @@ layoffs_json <- blsAPI('MLUMS00NN0001003')
 
 # convert from JSON into R object
 layoffs <- fromJSON(layoffs_json)                   
-{% endhighlight %}
 
-{% highlight r %}
 List of 4
  $ status      : chr "REQUEST_SUCCEEDED"
  $ responseTime: num 38
@@ -141,11 +140,6 @@ for(i in seq_along(layoffs$Results$series[[1]]$data)) {
 }
 
 head(layoff_df)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##   year period periodName value
 ## 1 2013    M05        May  1383
 ## 2 2013    M04      April  1174
@@ -180,11 +174,6 @@ stations <- ncdc_stations(datasetid='GHCND',
               token = key)
 
 stations$data
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## Source: local data frame [23 x 9]
 ## 
 ##    elevation    mindate    maxdate latitude
@@ -213,11 +202,6 @@ library(dplyr)
 stations$data %>% 
         filter(name == "DAYTON INTERNATIONAL AIRPORT, OH US") %>% 
         select(mindate, maxdate, id)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## Source: local data frame [1 x 3]
 ## 
 ##      mindate    maxdate                id
@@ -236,11 +220,6 @@ climate <- ncdc(datasetid='GHCND',
             token = key)
 
 climate$data
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## Source: local data frame [25 x 8]
 ## 
 ##                   date datatype           station value  fl_m  fl_q
@@ -273,11 +252,6 @@ snow <- ncdc(datasetid='GHCND',
 
 snow$data %>% 
         arrange(desc(value))
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## Source: local data frame [365 x 8]
 ## 
 ##                   date datatype           station value  fl_m  fl_q
@@ -326,26 +300,11 @@ articles <- as_search(q = "Trump",
 
 # summary
 articles$meta
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##   hits time offset
 ## 1 4565   28      0
-{% endhighlight %}
-
-
-
-{% highlight r %}
 
 # pull info on 3rd article
 articles$data[3]
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [[1]]
 ## <NYTimes article>Donald Trump’s Strongest Supporters: A Certain Kind of Democrat
 ##   Type: News
@@ -365,11 +324,6 @@ trump <- cf_candidate_details(campaign_cycle = 2016,
 
 # pull summary data
 trump$meta
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##          id            name party
 ## 1 P80001571 TRUMP, DONALD J   REP
 ##                                             fec_uri
@@ -397,11 +351,6 @@ senator <- cg_memberbystatedistrict(chamber = "senate",
                                     state = "OH", 
                                     key = congress_key)
 senator$meta
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##        id           name               role gender party
 ## 1 B000944 Sherrod  Brown Senator, 1st Class      M     D
 ##   times_topics_url      twitter_id       youtube_id seniority
@@ -410,22 +359,12 @@ senator$meta
 ## 1          2018
 ##                                                                               api_url
 ## 1 http://api.nytimes.com/svc/politics/v3/us/legislative/congress/members/B000944.json
-{% endhighlight %}
-
-
-
-{% highlight r %}
 
 # use member ID to pull recent bill sponsorship
 bills <- cg_billscosponsor(memberid = "B000944", 
                            type = "cosponsored", 
                            key = congress_key)
 head(bills$data)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## Source: local data frame [6 x 11]
 ## 
 ##   congress    number
@@ -497,24 +436,9 @@ The results branch of this list provides information on lat-long location, schoo
 ndsu_data <- content(ndsu_req)
 
 names(ndsu_data)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] "metadata" "results"
-{% endhighlight %}
-
-
-
-{% highlight r %}
 
 names(ndsu_data$results[[1]])
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##  [1] "2008"     "2009"     "2006"     "ope6_id"  "2007"     "2004"    
 ##  [7] "2013"     "2005"     "location" "2002"     "2003"     "id"      
 ## [13] "1996"     "1997"     "school"   "1998"     "2012"     "2011"    
@@ -527,41 +451,16 @@ To see what kind of student data categories are offered we can assess a single y
 {% highlight r %}
 # student data categories available by year
 names(ndsu_data$results[[1]]$`2013`)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] "earnings"   "academics"  "student"    "admissions" "repayment" 
 ## [6] "aid"        "cost"       "completion"
-{% endhighlight %}
-
-
-
-{% highlight r %}
 
 # cost categories available by year
 names(ndsu_data$results[[1]]$`2013`$cost)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] "title_iv"      "avg_net_price" "attendance"    "tuition"      
 ## [5] "net_price"
-{% endhighlight %}
-
-
-
-{% highlight r %}
 
 # Avg net price cost categories available by year
 names(ndsu_data$results[[1]]$`2013`$cost$avg_net_price)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] "other_academic_year" "overall"             "program_year"       
 ## [4] "public"              "private"
 {% endhighlight %}
@@ -579,32 +478,17 @@ ndsu_yr <- ndsu_data$results[[1]][c(as.character(1996:2013))]
 ndsu_yr %>%
         sapply(function(x) x$aid$median_debt$completers$overall) %>% 
         unlist()
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##    1997    1998    1999    2000    2001    2002    2003    2004 
 ## 13388.0 13856.0 14500.0 15125.0 15507.0 15639.0 16251.0 16642.5 
 ##    2005    2006    2007    2008    2009    2010    2011    2012 
 ## 17125.0 17125.0 17125.0 17250.0 19125.0 21500.0 23000.0 24954.5 
 ##    2013 
 ## 25050.0
-{% endhighlight %}
-
-
-
-{% highlight r %}
 
 # extract net price for each year
 ndsu_yr %>% 
         sapply(function(x) x$cost$avg_net_price$overall) %>% 
         unlist()
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##  2009  2010  2011  2012  2013 
 ## 13474 12989 13808 15113 14404
 {% endhighlight %}
@@ -623,11 +507,6 @@ I'll demonstrate by accessing the Twitter API using my Twitter account. The firs
 {% highlight r %}
 twitter_endpts <- oauth_endpoints("twitter")
 twitter_endpts
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## <oauth_endpoint>
 ##  request:   https://api.twitter.com/oauth/request_token
 ##  authorize: https://api.twitter.com/oauth/authenticate
