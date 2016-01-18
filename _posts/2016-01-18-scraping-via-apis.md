@@ -17,7 +17,7 @@ categories: [programming]
 --> 
 </STYLE>
 
-<a href="http://bradleyboehmke.github.io/2016/01/scraping-via-apis.html"><img src="https://d15n4q3o4x3svq.cloudfront.net/assets/tutorials/curl/api-a397cc184c5622fb5130af1b7baf149d.png" alt="Scraping with APIs" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
+<a href="http://bradleyboehmke.github.io/2016/01/scraping-via-apis.html"><img src="https://d15n4q3o4x3svq.cloudfront.net/assets/tutorials/curl/api-a397cc184c5622fb5130af1b7baf149d.png" alt="Scraping with APIs" style="float:left; margin:0px 8px 0px 0px; width: 19%; height: 19%;"></a>
 In the epic poem *Rime of the Ancient Mariner*, Samuel Taylor Coleridge states, “Water, water, everywhere, nor any a drop to drink.” Indeed, some would say the same about data. Data appear to be [everywhere](http://www.technologyreview.com/view/530371/big-data-creating-the-power-to-move-heaven-and-earth/) yet only a [fraction are analyzed](https://gigaom.com/2013/03/10/the-big-data-world-is-operating-at-1-percent/). There are several [arguments](http://www.mckinsey.com/insights/business_technology/big_data_the_next_frontier_for_innovation) as to why but one that has reached the concern of the [White House](https://www.whitehouse.gov/sites/default/files/omb/assets/memoranda_2010/m10-06.pdf) is data accessibility.  However, this is rapidly changing as growth in technology and resources are quickly opening the doors of many data vaults to the masses. We, the public minions, now have access to a wide range of data; from social, financial, government, and ecommerce data to geospatial, search engine, and even ant data. We just need to know how to *get* it. Enter APIs.<!--more-->  
 
 
