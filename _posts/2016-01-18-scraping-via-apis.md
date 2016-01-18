@@ -63,7 +63,7 @@ So what do you need to get started?
 Each API is unique; however, there are a few fundamental pieces of information you'll need to work with an API.  First, the reason you're using an API is to request specific types of data from a specific data set from a specific organization. You at least need to know a little something about each one of these:
 
 <ol>
-  <li>The URL for the organization and data you are pulling. Most pre-built API packages already have this connection established but when using `httr` you'll need to specify.</li>
+  <li>The URL for the organization and data you are pulling. Most pre-built API packages already have this connection established but when using <code>httr</code> you'll need to specify.</li>
   <li>The data set you are trying to pull from. Most organizations have numerous data sets to peruse so you need to make yourself familiar with the names of the available data sets.</li>
   <li>The data content. You'll need to specify the specific data variables you want the API to retrieve so you'll need to be familiar with, or have access to, the data library.</li>
 </ol>
