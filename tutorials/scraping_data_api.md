@@ -377,7 +377,7 @@ Although numerous R API packages are available, and cover a wide range of data, 
 To give you a taste for how the `httr` package works, I'll quickly cover how to use it for a basic key-only API and an OAuth-required API:
 
 - <a href="#key_only">`Key-only API`</a> is illustrated by pulling U.S. Department of Education data available on [data.gov](https://api.data.gov/docs/)
-- <a href="#oauth">`OAuth-required API`</a> is  illustrated by pulling...
+- <a href="#oauth">`OAuth-required API`</a> is illustrated by pulling tweets from my personal Twitter feed
 
 <a name="key_only"></a>
 
