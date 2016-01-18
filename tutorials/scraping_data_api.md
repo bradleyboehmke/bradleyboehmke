@@ -45,7 +45,7 @@ In addition to these key components you will also, typically, need to provide a 
 
 <ol start="4">
   <li>API key (aka token). A key is used to identify the user along with track and control how the API is being used (guard against malicious use). A key is often obtained by supplying basic information (i.e. name, email) to the organization and in return they give you a multi-digit key.</li>
-  <li>[OAuth](http://oauth.net/). OAuth is an authorization framework that provides credentials as proof for access to certain information. Multiple forms of credentials exist and OAuth can actually be a fairly confusing topic; however, the `httr` package has simplified this greatly which we demonstrate <a href="#httr_api">later</a> in this post.</li>
+  <li><a href="http://oauth.net/">OAuth</a>. OAuth is an authorization framework that provides credentials as proof for access to certain information. Multiple forms of credentials exist and OAuth can actually be a fairly confusing topic; however, the <code>httr</code> package has simplified this greatly which we demonstrate <a href="#httr_api">later</a> in this post.</li>
 </ol>
 
 Rather than dwell on these components, they'll likely become clearer as we progress through examples. So, let's move on to the fun stuff. 
