@@ -62,14 +62,18 @@ So what do you need to get started?
 ## &#9313; Prereqs?
 Each API is unique; however, there are a few fundamental pieces of information you'll need to work with an API.  First, the reason you're using an API is to request specific types of data from a specific data set from a specific organization. You at least need to know a little something about each one of these:
 
-1. The URL for the organization and data you are pulling. Most pre-built API packages already have this connection established but when using `httr` you'll need to specify.
-2. The data set you are trying to pull from. Most organizations have numerous data sets to peruse so you need to make yourself familiar with the names of the available data sets.
-3. The data content. You'll need to specify the specific data variables you want the API to retrieve so you'll need to be familiar with, or have access to, the data library.
+<ol>
+  <li>The URL for the organization and data you are pulling. Most pre-built API packages already have this connection established but when using `httr` you'll need to specify.</li>
+  <li>The data set you are trying to pull from. Most organizations have numerous data sets to peruse so you need to make yourself familiar with the names of the available data sets.</li>
+  <li>The data content. You'll need to specify the specific data variables you want the API to retrieve so you'll need to be familiar with, or have access to, the data library.</li>
+</ol>
 
 In addition to these key components you will also, typically, need to provide a form of identification and/or authorization.  This is done via:
 
-4. API key (aka token). A key is used to identify the user along with track and control how the API is being used (guard against malicious use). A key is often obtained by supplying basic information (i.e. name, email) to the organization and in return they give you a multi-digit key.
-5. [OAuth](http://oauth.net/). OAuth is an authorization framework that provides credentials as proof for access to certain information. Multiple forms of credentials exist and OAuth can actually be a fairly confusing topic; however, the `httr` package has simplified this greatly which we demonstrate <a href="#httr_api">later</a> in this post.
+<ol start="4">
+  <li>API key (aka token). A key is used to identify the user along with track and control how the API is being used (guard against malicious use). A key is often obtained by supplying basic information (i.e. name, email) to the organization and in return they give you a multi-digit key.</li>
+  <li><a href="http://oauth.net/">OAuth</a>. OAuth is an authorization framework that provides credentials as proof for access to certain information. Multiple forms of credentials exist and OAuth can actually be a fairly confusing topic; however, the <code>httr</code> package has simplified this greatly which we demonstrate <a href="#httr_api">later</a> in this post.</li>
+</ol>
 
 Rather than dwell on these components, they'll likely become clearer as we progress through examples. So, let's move on to the fun stuff. 
 
