@@ -596,3 +596,8 @@ Also, note that `httr` provides several other useful functions not covered here 
 As the growth in publicly available data continues, APIs appear to be the preferred medium for access. This will require analysts to become more familiar with interacting with APIs and the prerequisites they often require. R API packages are being developed quickly and should be your first search when looking to request data via an API. As illustrated, these packages tend to be very easy to work with. However, when you want to leverage an organization's API that has not been integrated into an R package, the `httr` package provides a convenient way to request data.
 
 <small><a href="#">Go to top</a></small>
+
+*Edit: 2016-01-20*
+Thanks to [Patrick Hausmann](https://twitter.com/patrickhausmann) for providing the following comment; you may find it useful as I certainly did. "If you run the `httr` authentication inside a function you are always prompted for a response. You can surpress this by setting the `httr_oauth_cache` option to TRUE (see also [http://stackoverflow.com/q/28221405](http://stackoverflow.com/q/28221405))."
+
+
