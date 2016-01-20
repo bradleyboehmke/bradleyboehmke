@@ -599,8 +599,7 @@ As the growth in publicly available data continues, APIs appear to be the prefer
 
 <br>
 
-## Edits
-*2016-01-20*
+*Edit: 2016-01-20*
 
 Thanks to [Patrick Hausmann](https://twitter.com/patrickhausmann) for providing the following comment; you may find it useful as I certainly did. "If you run the `httr` authentication inside a function you are always prompted for a response. You can surpress this by setting the `httr_oauth_cache` option to TRUE (see also [http://stackoverflow.com/q/28221405](http://stackoverflow.com/q/28221405))."
 
