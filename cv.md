@@ -52,6 +52,7 @@ Minor in Aerospace Studies
 <br style="text-align:left;"><em>Operations Research Analyst</em></span><span style="float:right;">WPAFB, OH</span>
 </p>
 <ul>
+  <li>Currently leading a 3 person team in providing analytic support to the Air Force Installation & Mission Support Center. The aim is to develop a framework to <em>i</em>) assess the performance of installation and mission support (I&MS) activities across the AF enterprise, <em>ii</em>) provide a cost vs. capability risk assessment for I&MS activities and, <em>iii</em>) link these risks to mission outputs. Provides senior leadership with an enterprise perspective of the health of I&MS activities and aid in optimizing the $10B in I&MS resources while minimizing risk to mission performance</li>
   <li>Currently creating a text analysis capability to provide senior Air Force decision-makers with the ability to text mine planning and programming documents. This will provide an additional means to <em>i</em>) cross- validate document findings with human comprehension, and <em>ii</em>) to identify key document attributes of interest to planning and programming personnel for further investigation.</li>
 <li>Established a Data Envelopment Analysis methodology to benchmark installation support activities across the Air Force enterprise. Provides Air Force leadership with the ability to isolate best practices, identify potential cost savings, and establish performance expectations with available resources.</li>
   <li>Applied a novel growth curve clustering approach to identify underlying cost curve behavior across the
@@ -169,10 +170,13 @@ Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  
 <strong>In Preparation</strong>
 <ul>
 <p>
-Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A., "Understanding strategic cost analytics across the supply chain."
+Boehmke, B.C., Jackson, R.A., "What is truth?" Unpacking `the true cost of free statistical software'."
 </p>
 <p>
-Boehmke, B.C. "An enterprise perspective of U.S. Air Force operations and support cost drivers."
+Jackson, R.A., Boehmke, B.C. "Unpacking the United States Air Force's little blue books."
+</p>
+<p>
+Huelsman, J.T., Logan, J.V., Boehmke, B.C. "Business analytics: A value proposition."
 </p>
 </ul>
 
