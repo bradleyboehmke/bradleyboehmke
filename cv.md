@@ -268,6 +268,8 @@ Boehmke, B.C. (2015). "Data Processing with dplyr & tidyr." Wright State Univers
 
 # <center>Service<a name="service"></a></center>
 ***
+Committee:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vice President, The Institute for Operations Research and the Management Sciences (INFORMS). 2016.
+<br>
 Chair:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multi-criteria Decision Analysis and Cost Management track.  Industrial and Systems
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering Research Conference (ISERC). 2015.
 <br>
