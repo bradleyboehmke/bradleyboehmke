@@ -57,21 +57,13 @@ Minor in Aerospace Studies
   <li>Lead analyst in promoting and establishing requirements for an HQ AFMC/A9 Analytics and Data Science Lab (ADSL). The ADSL aims to bring cutting-edge resources and space for collaboration and training to WPAFB OR analysts along with serving a broader role by providing analytic support to
 the AFMC Centers.</li>
   <li>Worked with the HQ AFMC/A9 Technical Expert, Strategic Studies Group to establish a text analysis capability to provide senior Air Force decision-makers with the ability to mine strategic planning and programming text documents. Provides an additional means to <em>i</em>) cross-validate document findings with human comprehension, and <em>ii</em>) to identify key document attributes of interest to planning and programming personnel for further investigation.</li>
-<li>Established a Data Envelopment Analysis methodology to benchmark installation support activities across the Air Force enterprise. Provides Air Force leadership with the ability to isolate best practices, identify potential cost savings, and establish performance expectations with available resources.</li>
-  <li>Applied a novel growth curve clustering approach to identify underlying cost curve behavior across the
-Air Force enterprise. Aides decision-makers in directing their focus, proposals, and policy actions towards
-specific growth curves in the current <em>Bending the Cost Curve</em> initiative.</li>
-  <li>Assessed and identified valid univariate metrics in addition to establishing a forecasting methodology
-to serve as a resource allocation tool for the LGM-30 Intercontinental Ballistic Missile weapon system
-parts. Contributes to Air Force Global Strike Command's initiative to better align itself with the
-aircraft operating business.</li>
-    <li>Analyzed Air Force <em>Tooth-to-Tail</em> relationships using a multilevel regression approach to assess the
-magnitude and variability of the relationship across the multiple levels of the Air Force enterprise.
-Illustrates economic trends previously concealed by historical aggregate analysis performed in this
-area.</li>
-    <li>Created a text-mining algorithm to analyze contract description text and identify the most frequently
-used descriptors. Allows the contracting organization to categorize contract spend at lower fidelity.</li>
-<li>Developed and coded an interactive data mining and visualization tool to assist in analyzing and
+  <li>Lead analyst (1 of 5) in methodology development, analytic implementation, and report writing for a decision support tool that applies econometric modeling and Bayesian networks to model support cost consequences from force structure policy considerations. Provides senior Air Force decision-makers with visual illustration of cause-and-effect impacts, the ability to model uncertainty in the decision environment, and the ability to perform predictive and diagnostic reasoning in light of new information available to decision-makers.</li>
+  <li>Lead analyst (1 of 6) in methodology development, analytic implementation, and report writing for a Data Envelopment Analysis approach to benchmark installation support activities across the Air Force enterprise. In the process identified over $130M in resource inefficiencies across the AF enterprise. This novel methodology provides Air Force leadership with the ability to isolate best practices, identify potential cost savings, and establish performance expectations with available resources.</li>
+  <li>Lead analyst (1 of 5) in methodology development, analytic implementation, and report writing for a novel growth curve clustering approach to identify underlying cost curve behavior across the Air Force enterprise’s $30B support cost portfolio. Aides decision-makers to direct their focus, proposals, and policy actions towards specific growth curves in the current <em>Bending the Cost Curve</em> initiative.</li>
+  <li>Led a 2 person team in assessing and identifying valid univariate metrics along with establishing a forecasting methodology to serve as a resource allocation tool for the LGM-30 Intercontinental Ballistic Missile (ICBM) weapon system parts. Provided leadership with robust approach to forecast funding needs for the $30M ICBM parts portfolio and contributed to Air Force Global Strike Command’s initiative to better align itself with the aircraft operating business.</li>
+   <li>Lead analyst (1 of 5) in methodology development, analytic implementation, and report writing for analyzing Air Force <em>Tooth-to-Tail</em> relationships using a multilevel regression approach to assess the magnitude and variability of the relationship across the multiple levels of the Air Force enterprise. Illustrates economic trends previously concealed by historical aggregate analysis performed in this area.</li>
+  <li>Led a 2 person team in creating a text-mining algorithm to analyze contract description text and identifying the most frequently used descriptors. Allows the contracting organization to categorize contract spend at lower fidelity.</li>
+  <li>Developed and coded an interactive data mining and visualization tool to assist in analyzing and
 validating Air Force weapon system requirements. Provides decision-makers with real-time analysis of
 weapon system requirements.</li>
 </ul>
