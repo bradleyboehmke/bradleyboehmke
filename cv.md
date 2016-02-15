@@ -145,13 +145,16 @@ time-series analysis and regression, performing constraint-based optimality mode
 <strong>Refereed Journals</strong>
 <ul>
 <p>
-Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "Tooth-to-Tail impact analysis: Combining econometric modeling and Bayesian networks to assess support cost consequences due to changes in force structure." <em>Under Review - Journal of Cost Analysis and Parametrics</em>
+Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Effectiveness myopia: Improving the Air Force's 'visual acuity' of performance for installation support activities through the evaluative prism of data envelopment analysis." <em>Under Review - Military Operations Research</em>
 </p>
 <p>
-Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "Effectiveness myopia: Improving the Air Force's 'visual acuity' of performance for installation support activities through the evaluative prism of data envelopment analysis." <em>Under Review - Military Operations Research</em>
+Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Tooth-to-Tail impact analysis: Combining econometric modeling and Bayesian networks to assess support cost consequences due to changes in force structure." <em>Journal of Cost Analysis and Parametrics (forthcoming)</em>.  <a href="https://www.researchgate.net/publication/293695531_Tooth-to-Tail_Impact_Analysis_Combining_Econometric_Modeling_and_Bayesian_Networks_to_Assess_Support_Cost_Consequences_Due_to_Changes_in_Force_Structure">[link]</a>
 </p>
 <p>
-Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "The influence of operational resources and activities on indirect personnel costs: A multilevel modeling approach." <em>Under Review - The Engineering Economist</em>
+Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "The influence of operational resources and activities on indirect personnel costs: A multilevel modeling approach." <em>The Engineering Economist (forthcoming)</em>.
+</p>
+<p>
+Boehmke, B.C., Jackson, R.A. (2016). "What is truth?" Unpacking `the true cost of free statistical software'." <em>ORMS Today, 43(1)</em>. <a href="https://www.informs.org/ORMS-Today/Private-Articles/February-Volume-43-Number-1">[link]</a>
 </p>
 <p>
 Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "Bending the cost curve: Moving the focus from macro-level to micro-level cost trends with cluster analysis." <em>Journal of Cost Analysis and Parametrics, 8(2)</em>, 126-148. <a href="https://www.researchgate.net/publication/282288766_Bending_the_Cost_Curve_Moving_the_Focus_from_Macro-level_to_Micro-level_Cost_Trends_with_Cluster_Analysis">[link]</a>
@@ -164,9 +167,6 @@ Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  
 
 <strong>In Preparation</strong>
 <ul>
-<p>
-Boehmke, B.C., Jackson, R.A., "What is truth?" Unpacking `the true cost of free statistical software'."
-</p>
 <p>
 Jackson, R.A., Boehmke, B.C. "Unpacking the United States Air Force's little blue books."
 </p>
