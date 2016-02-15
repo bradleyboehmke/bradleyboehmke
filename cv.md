@@ -145,7 +145,7 @@ time-series analysis and regression, performing constraint-based optimality mode
 <strong>Refereed Journals</strong>
 <ul>
 <p>
-Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Effectiveness myopia: Improving the Air Force's 'visual acuity' of performance for installation support activities through the evaluative prism of data envelopment analysis." <em>Under Review - Military Operations Research</em>
+Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Effectiveness vs. efficiency: Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Under Review - Military Operations Research</em>  <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis">[link]</a>
 </p>
 <p>
 Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Tooth-to-Tail impact analysis: Combining econometric modeling and Bayesian networks to assess support cost consequences due to changes in force structure." <em>Journal of Cost Analysis and Parametrics (forthcoming)</em>.  <a href="https://www.researchgate.net/publication/293695531_Tooth-to-Tail_Impact_Analysis_Combining_Econometric_Modeling_and_Bayesian_Networks_to_Assess_Support_Cost_Consequences_Due_to_Changes_in_Force_Structure">[link]</a>
