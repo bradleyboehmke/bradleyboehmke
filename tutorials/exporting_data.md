@@ -9,6 +9,15 @@ title: NULL
 
 Although getting data into R is essential, getting data out of R can be just as important. Whether you need to export data or analytic results simply to store, share, or feed into another system it is generally a straight forward process. This section will cover how to export data to text files, Excel files (along with some additional formatting capabilities), and save to R data objects. In addition to the the commonly used base R functions to perform data importing, I will also cover functions from the popular `readr` and `xlsx` packages along with a lesser known but useful `r2excel` package for Excel formatting.
 
+* <a href="#csv">Writing data to text files</a>
+* <a href="#excel">Writing data to Excel files</a>
+* <a href="#robject">Saving R object files</a>
+* <a href="#exporting_resources">Additional resources</a>
+
+<br>
+
+<a name="csv"></a>
+
 ## Writing data to text files
 As mentioned in the importing data section, text files are a popular way to hold and exchange tabular data as almost any data application supports exporting data to the CSV (or other text file) formats.  Consequently, exporting data to a text file is a pretty standard operation. Plus, since you've already learned how to import text files you pretty much have the basics required to write to text files...we just use a slightly different naming convention. 
 
@@ -77,6 +86,7 @@ write_csv(df, path = "export_csv2", col_names = FALSE)
 write_delim(df, path = "export_txt2", col_names = FALSE)
 ```
 
+<a name="excel"></a>
 
 ## Writing data to Excel files
 As previously mentioned, many organizations still rely on Excel to hold and share data so exporting to Excel is a useful bit of knowledge.  And rather than saving to a .csv file to send to a co-worker who wants to work in Excel, its more efficient to just save R outputs directly to an Excel workbook. Since I covered importing data with the `xlsx` package, I'll also cover exporting data with this package.  However, the `readxl` package which I demonstrated in the importing data section does not have a function to export to Excel. But there is a lesser known package called `r2excel` that provides exporting and formatting functions for Excel which I will cover.
@@ -251,6 +261,8 @@ saveWorkbook(wb, file = "output_example_4.xlsx")
 
 <br>
 
+<a name="robject"></a>
+
 ## Saving R object files
 Sometimes you may need to save data or other R objects outside of your workspace.  You may want to share R data/objects with co-workers, transfer between projects or computers, or simply archive them.  There are three primary ways that people tend to save R data/objects: as .RData, .rda, or as .rds files.
 
@@ -276,6 +288,8 @@ x2 <- readRDS("x.rds")
 identical(x, x2)
 [1] TRUE
 ```
+
+<a name="exporting_resources"></a>
 
 ## Additional resources
 The following provides additional resources for exporting data:
