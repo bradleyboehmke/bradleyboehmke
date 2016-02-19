@@ -89,6 +89,8 @@ write_csv(df, path = "export_csv2", col_names = FALSE)
 write_delim(df, path = "export_txt2", col_names = FALSE)
 {% endhighlight %}
 
+<small><a href="#">Go to top</a></small>
+
 <br>
 
 <a name="excel"></a>
@@ -266,6 +268,8 @@ saveWorkbook(wb, file = "output_example_4.xlsx")
 <img src="/public/images/exporting_data/output_example_4.png" alt="Formatted Excel Output" align="middle" vspace="25">
 </center>  
 
+<small><a href="#">Go to top</a></small>
+
 <br>
 
 <a name="robject"></a>
@@ -296,6 +300,8 @@ identical(x, x2)
 [1] TRUE
 {% endhighlight %}
 
+<small><a href="#">Go to top</a></small>
+
 <br>
 
 <a name="exporting_resources"></a>
@@ -306,5 +312,7 @@ The following provides additional resources for exporting data:
 * [R data import/export manual](https://cran.r-project.org/doc/manuals/R-data.html)
 * [`WriteXLS` package](https://cran.r-project.org/web/packages/WriteXLS/WriteXLS.pdf)
 * [`XLConnect` package](https://cran.r-project.org/web/packages/XLConnect/vignettes/XLConnect.pdf)
+
+<small><a href="#">Go to top</a></small>
 
 [^excel_format]: This example was derived from [STHDA](http://www.sthda.com/english/). Additional options, such as adding plot outputs can be found at STHDA and also in the *XML and Web Technologies for Data Sciences with R* book.
