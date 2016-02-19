@@ -184,9 +184,9 @@ saveWorkbook(wb, file = "output_example_3.xlsx")
 ```
 
 <center>
-<img src="images/output_example_3.png" alt="Formatted Excel Output">
+<img src="/public/images/exporting_data/output_example_3.png" alt="Formatted Excel Output">
 </center>  
-<br>
+
 <br>
 
 ### r2excel package
@@ -246,9 +246,9 @@ saveWorkbook(wb, file = "output_example_4.xlsx")
 ```
 
 <center>
-<img src="images/output_example_4.png" alt="Formatted Excel Output">
+<img src="/public/images/exporting_data/output_example_4.png" alt="Formatted Excel Output">
 </center>  
-<br>
+
 <br>
 
 ## Saving R object files
