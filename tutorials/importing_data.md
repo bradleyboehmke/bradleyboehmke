@@ -434,9 +434,9 @@ In addition to text and Excel files, there are multiple other ways in which data
     * The [`foreign`](http://www.rdocumentation.org/packages/foreign) package provides functions that help you load data files from other programs such as [SPSS](http://www.r-bloggers.com/how-to-open-an-spss-file-into-r/), [SAS](http://rconvert.com/sas-vs-r-code-compare/5-ways-to-convert-sas-data-to-r/), [Stata](http://www.r-bloggers.com/how-to-read-and-write-stata-data-dta-files-into-r/), and others into R.
 
 
-
 <small><a href="#">Go to top</a></small>
+
 <br>
 <P CLASS="footnote" style="line-height:0.75">
-<sup id="fn1">1. These same arguments can be used in `read.table`, `read.csv`, and `read.delim`<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+<sup id="fn1">1. These same arguments can be used in <code>read.table</code>, <code>read.csv</code>, and <code>read.delim</code><a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
 </P>
