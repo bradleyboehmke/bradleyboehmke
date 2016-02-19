@@ -569,9 +569,3 @@ Also, note that `httr` provides several other useful functions not covered here 
 As the growth in publicly available data continues, APIs appear to be the preferred medium for access. This will require analysts to become more familiar with interacting with APIs and the prerequisites they often require. R API packages are being developed quickly and should be your first search when looking to request data via an API. As illustrated, these packages tend to be very easy to work with. However, when you want to leverage an organization's API that has not been integrated into an R package, the `httr` package provides a convenient way to request data.
 
 <small><a href="#">Go to top</a></small>
-
-<br>
-
-<a name="rvest"></a>
-
-## Scraping HTML tables with rvest
