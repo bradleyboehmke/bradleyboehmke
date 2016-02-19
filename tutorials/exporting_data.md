@@ -23,6 +23,8 @@ As mentioned in the importing data section, text files are a popular way to hold
 
 Similar to the examples provided in the importing text files section, the two main groups of functions that I will demonstrate to write to text files include base R functions and `readr` package functions.
 
+<br>
+
 ### Base R functions
 `write.table()` is the multipurpose work-horse function in base R for exporting data.  The functions `write.csv()` and `write.delim()` are special cases of `write.table()` in which the defaults have been adjusted for efficiency.  To illustrate these functions let's work with a data frame that we wish to export to a CSV file in our working directory.
 
@@ -65,6 +67,7 @@ write.delim(df, file = "export_txt")
 write.table(df, file = "export_txt", sep="\t")
 {% endhighlight %}
 
+<br>
 
 ### readr package
 The `readr` package uses write functions similar to base R. However, `readr` write functions are about twice as fast and they do not write row names. One thing to note, where base R write functions use the `file =` argument, `readr` write functions use `path =`.
@@ -86,10 +89,14 @@ write_csv(df, path = "export_csv2", col_names = FALSE)
 write_delim(df, path = "export_txt2", col_names = FALSE)
 {% endhighlight %}
 
+<br>
+
 <a name="excel"></a>
 
 ## Writing data to Excel files
 As previously mentioned, many organizations still rely on Excel to hold and share data so exporting to Excel is a useful bit of knowledge.  And rather than saving to a .csv file to send to a co-worker who wants to work in Excel, its more efficient to just save R outputs directly to an Excel workbook. Since I covered importing data with the `xlsx` package, I'll also cover exporting data with this package.  However, the `readxl` package which I demonstrated in the importing data section does not have a function to export to Excel. But there is a lesser known package called `r2excel` that provides exporting and formatting functions for Excel which I will cover.
+
+<br>
 
 ### xlsx package
 Saving a data frame to a .xlsx file is as easy as saving to a .csv file:
@@ -288,6 +295,8 @@ x2 <- readRDS("x.rds")
 identical(x, x2)
 [1] TRUE
 {% endhighlight %}
+
+<br>
 
 <a name="exporting_resources"></a>
 
