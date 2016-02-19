@@ -27,7 +27,7 @@ Similar to the examples provided in the importing text files section, the two ma
 `write.table()` is the multipurpose work-horse function in base R for exporting data.  The functions `write.csv()` and `write.delim()` are special cases of `write.table()` in which the defaults have been adjusted for efficiency.  To illustrate these functions let's work with a data frame that we wish to export to a CSV file in our working directory.
 
 
-```r
+{% highlight r %}
 df <- data.frame(var1 = c(10, 25, 8), 
                  var2 = c("beer", "wine", "cheese"), 
                           var3 = c(TRUE, TRUE, FALSE),
@@ -38,12 +38,12 @@ df
 ## billy      10   beer  TRUE
 ## bob        25   wine  TRUE
 ## thornton    8 cheese FALSE
-```
+{% endhighlight %}
 
 To export `df` to a CSV file we can use `write.csv()`. Additional arguments allow you to exclude row and column names, specify what to use for missing values, add or remove quotations around character strings, etc.  
 
 
-```r
+{% highlight r %}
 # write to a csv file
 write.csv(df, file = "export_csv")
 
@@ -52,25 +52,25 @@ write.csv(df, file = "/folder/subfolder/subsubfolder/export_csv")
 
 # write to a csv file with added arguments
 write.csv(df, file = "export_csv", row.names = FALSE, na = "MISSING!")
-```
+{% endhighlight %}
 
 In addition to CSV files, we can also write to other text files using `write.table` and `write.delim()`.
 
 
-```r
+{% highlight r %}
 # write to a tab delimited text files
 write.delim(df, file = "export_txt")
 
 # provides same results as read.delim
 write.table(df, file = "export_txt", sep="\t")
-```
+{% endhighlight %}
 
 
 ### readr package
 The `readr` package uses write functions similar to base R. However, `readr` write functions are about twice as fast and they do not write row names. One thing to note, where base R write functions use the `file =` argument, `readr` write functions use `path =`.
 
 
-```r
+{% highlight r %}
 library(readr)
 
 # write to a csv file
@@ -84,7 +84,7 @@ write_csv(df, path = "export_csv2", col_names = FALSE)
 
 # write to a txt file without column names
 write_delim(df, path = "export_txt2", col_names = FALSE)
-```
+{% endhighlight %}
 
 <a name="excel"></a>
 
@@ -95,7 +95,7 @@ As previously mentioned, many organizations still rely on Excel to hold and shar
 Saving a data frame to a .xlsx file is as easy as saving to a .csv file:
 
 
-```r
+{% highlight r %}
 library(xlsx)
 
 # write to a .xlsx file
@@ -103,12 +103,12 @@ write.xlsx(df, file = "output_example.xlsx")
 
 # write to a .xlsx file without row names
 write.xlsx(df, file = "output_example.xlsx", row.names = FALSE)
-```
+{% endhighlight %}
 
 In some cases you may wish to create a .xlsx file that contains multiple data frames.  In this you can just create an empty workbook and save the data frames on seperate worksheets within the same workbook:
 
 
-```r
+{% highlight r %}
 # create empty workbook
 multiple_df <- createWorkbook()
 
@@ -123,12 +123,12 @@ addDataFrame(x = iris, sheet = iris_df)
 
 # save as a .xlsx file 
 saveWorkbook(multiple_df, file = "output_example_2.xlsx")
-```
+{% endhighlight %}
 
 By default this saves the row and column names but this can be adjusted by adding `col.names = FALSE` and/or `row.names = FALSE` to the `addDataFrame()` function.  There is also the ability to do some formatting with the `xlsx` package.  The following provides several examples of how you can edit titles, subtitles, borders, column width, etc.[^excel_format] Although at first glance this can appear tedious for simple Excel editing, the real benefits present themselves when you integrate this editing into automated analyses. 
 
 
-```r
+{% highlight r %}
 # create new workbook
 wb <- createWorkbook()
 
@@ -191,7 +191,7 @@ setColumnWidth(sheet = Cars, colIndex = 1, colWidth = 18)
 
 # save workbook
 saveWorkbook(wb, file = "output_example_3.xlsx")
-```
+{% endhighlight %}
 
 <center>
 <img src="/public/images/exporting_data/output_example_3.png" alt="Formatted Excel Output" align="middle" vspace="25">
@@ -203,7 +203,7 @@ saveWorkbook(wb, file = "output_example_3.xlsx")
 Although Formatting Excel files using the `xlsx` package is possible, the last section illustrated that it is a bit cumbersome. For this reason, [A. Kassambara](https://github.com/kassambara) created the `r2excel` package which depends on the `xlsx` package but provides easy to use functions for Excel formatting.  The following provides a simple example but you can find many additional formatting functions [here](http://www.sthda.com/english/wiki/r2excel-read-write-and-format-easily-excel-files-using-r-software)
 
 
-```r
+{% highlight r %}
 # install.packages("devtools")
 devtools::install_github("kassambara/r2excel")
 library(r2excel)
@@ -253,7 +253,7 @@ xlsx.addTable(wb, sheet = Casualties, data = Seatbelts, startCol = 2)
  
 # save the workbook to an Excel file
 saveWorkbook(wb, file = "output_example_4.xlsx")
-```
+{% endhighlight %}
 
 <center>
 <img src="/public/images/exporting_data/output_example_4.png" alt="Formatted Excel Output" align="middle" vspace="25">
@@ -269,7 +269,7 @@ Sometimes you may need to save data or other R objects outside of your workspace
 .rda is just short for .RData, therefore, these file extensions represent the same underlying object type. You use the .rda or .RData file types when you want to save several, or all, objects and functions that exist in your global environment. On the other hand, if you only want to save a single R object such as a data frame, function, or statistical model results its best to use .rds file type. You can use .rda or .RData to save a single object but the benefit of .rds is it only saves a representation of the object and not the name whereas .rda and .RData save the both the object and its name. As a result, with .rds the saved object can be loaded into a named object within R that is different from the name it had when originally saved.  The following illustrates how you save R objects with each type.
 
 
-```r
+{% highlight r %}
 # save() can be used to save multiple objects in you global environment,
 # in this case I save two objects to a .RData file
 x <- stats::runif(20)
@@ -287,7 +287,7 @@ saveRDS(x, "x.rds")
 x2 <- readRDS("x.rds")
 identical(x, x2)
 [1] TRUE
-```
+{% endhighlight %}
 
 <a name="exporting_resources"></a>
 
