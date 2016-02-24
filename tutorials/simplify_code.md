@@ -30,7 +30,7 @@ Both functions complete the same task and the benefit of using `%>%` may not be 
 <u>Nested Option</u>:
 
 
-```r
+{% highlight r %}
 library(magrittr)
 library(dplyr)
 
@@ -51,14 +51,14 @@ arrange(
 ## 1     4   25.90
 ## 2     6   19.74
 ## 3     8   15.10
-```
+{% endhighlight %}
 
 This first option is considered a "nested" option such that functions are nested within one another. Historically, this has been the traditional way of integrating code; however, it becomes extremely difficult to read what exactly the code is doing and it also becomes easier to make mistakes when making updates to your code. Although not in violation of the DRY principle, it definitely violates the basic principle of readability and clarity, which makes communication of your analysis more difficult.  To make things more readable, people often move to the following approach...
 
 <u>Multiple Object Option</u>:
 
 
-```r
+{% highlight r %}
 a <- filter(mtcars, carb > 1)
 b <- group_by(a, cyl)
 c <- summarise(b, Avg_mpg = mean(mpg))
@@ -71,14 +71,14 @@ print(d)
 ## 1     4   25.90
 ## 2     6   19.74
 ## 3     8   15.10
-```
+{% endhighlight %}
 
 This second option helps in making the data wrangling steps more explicit and obvious but definitely violates the DRY principle. By sequencing multiple functions in this way you are likely saving multiple outputs that are not very informative to you or others; rather, the only reason you save them is to insert them into the next function to eventually get the final output you desire. This inevitably creates unnecessary copies and wrecks havoc on properly managing your objects...basically it results in a global environment charlie foxtrot! To provide the same readability (or even better), we can use `%>%` to string these arguments together without unnecessary object creation...
 
 <u>%>% Option</u>:
 
 
-```r
+{% highlight r %}
 mtcars %>%
         filter(carb > 1) %>%
         group_by(cyl) %>%
@@ -91,15 +91,13 @@ mtcars %>%
 ## 1     4   25.90
 ## 2     6   19.74
 ## 3     8   15.10
-```
+{% endhighlight %}
 
 This final option which integrates `%>%` operators makes for more efficient *and* legible code. Its efficient in that it doesn't save unncessary objects (as in option 2) and performs as effectively (as both option 1 & 2) but makes your code more readable in the process. Its legible in that you can read this as you would read normal prose (we read the `%>%` as *"and then"*)- "take `mtcars` *and then* `filter` *and then* `group by` *and then* `summarize` *and then* `arrange`."
 
 And since R is a functional programming language, meaning that everything you do is basically built on functions, you can use the pipe operator to feed into just about any argument call. For example, we can pipe into a linear regression function and then get the summary of the regression parameters. Note in this case I insert "`data = .`" into the `lm()` function. When using the `%>%` operator the default is the argument that you are forwarding will go in as the **first** argument of the function that follows the `%>%`.  However, in some functions the argument you are forwarding does not go into the default first position. In these cases, you place "." to signal which argument you want the forwarded expression to go to.
 
-
-
-```r
+{% highlight r %}
 mtcars %>%
         filter(carb > 1) %>%
         lm(mpg ~ cyl + hp, data = .) %>%
@@ -123,21 +121,21 @@ mtcars %>%
 ## Residual standard error: 2.689 on 22 degrees of freedom
 ## Multiple R-squared:  0.7601,	Adjusted R-squared:  0.7383 
 ## F-statistic: 34.85 on 2 and 22 DF,  p-value: 1.516e-07
-```
+{% endhighlight %}
 
 You can also use `%>%` to feed into plots:
 
-
-
-```r
+{% highlight r %}
 library(ggplot2)
 
 mtcars %>%
         filter(carb > 1) %>%
         qplot(x = wt, y = mpg, data = .)
-```
+{% endhighlight %}
 
-![](simplify_code_blog_files/figure-html/unnamed-chunk-5-1.png) 
+
+<img src="/public/images/dataWrangling/unnamed-chunk-5-1.png" alt="Pipe into a plot" align="middle" vspace="25">
+
 
 You will also find that the `%>%` operator is now being built into packages to make programming much easier.  For instance, in the tutorials where I illustrate how to [reshape](http://bradleyboehmke.github.io/tutorials/tidyr) and [transform](http://bradleyboehmke.github.io/tutorials/dplyr) your data with the `dplyr` and `tidyr` packages, you will see that the `%>%` operator is already built into these packages. It is also built into the `ggvis` and `dygraphs` packages (visualization packages), the `httr` package (which I covered in the [data scraping tutorials](http://bradleyboehmke.github.io/tutorials/scraping_data)), and a growing number of newer packages.
 
@@ -147,7 +145,7 @@ You will also find that the `%>%` operator is now being built into packages to m
 In addition to the `%>%` operator, `magrittr` provides several additional functions which make operations such as addition, multiplication, logical operators, re-naming, etc. more pleasant when composing chains using the `%>%` operator. Some examples follow but you can see the current list of the available aliased functions by typing `?magrittr::add` in your console.
 
 
-```r
+{% highlight r %}
 # subset with extract
 mtcars %>%
         extract(, 1:4) %>%
@@ -180,29 +178,21 @@ mtcars %>%
 mtcars %>%
         head %>%
         set_colnames(paste("Col", 1:11, sep = ""))
-##                   Col1 Col2 Col3 Col4 Col5  Col6  Col7 Col8 Col9 Col10
-## Mazda RX4         21.0    6  160  110 3.90 2.620 16.46    0    1     4
-## Mazda RX4 Wag     21.0    6  160  110 3.90 2.875 17.02    0    1     4
-## Datsun 710        22.8    4  108   93 3.85 2.320 18.61    1    1     4
-## Hornet 4 Drive    21.4    6  258  110 3.08 3.215 19.44    1    0     3
-## Hornet Sportabout 18.7    8  360  175 3.15 3.440 17.02    0    0     3
-## Valiant           18.1    6  225  105 2.76 3.460 20.22    1    0     3
-##                   Col11
-## Mazda RX4             4
-## Mazda RX4 Wag         4
-## Datsun 710            1
-## Hornet 4 Drive        1
-## Hornet Sportabout     2
-## Valiant               1
-```
+##                   Col1 Col2 Col3 Col4 Col5  Col6  Col7 Col8 Col9 Col10 Col11
+## Mazda RX4         21.0    6  160  110 3.90 2.620 16.46    0    1     4     4
+## Mazda RX4 Wag     21.0    6  160  110 3.90 2.875 17.02    0    1     4     4
+## Datsun 710        22.8    4  108   93 3.85 2.320 18.61    1    1     4     1
+## Hornet 4 Drive    21.4    6  258  110 3.08 3.215 19.44    1    0     3     1
+## Hornet Sportabout 18.7    8  360  175 3.15 3.440 17.02    0    0     3     2
+## Valiant           18.1    6  225  105 2.76 3.460 20.22    1    0     3     1
+{% endhighlight %}
 
 <br>
 
 ## Additional Pipe Operators
 `magrittr` also offers some alternative pipe operators. Some functions, such as plotting functions, will cause the string of piped arguments to terminate.  The tee (`%T>%`) operator allows you to continue piping functions that normally cause termination.
 
-
-```r
+{% highlight r %}
 # normal piping terminates with the plot() function resulting in
 # NULL results for the summary() function
 mtcars %>%
@@ -210,17 +200,17 @@ mtcars %>%
         extract(, 1:4) %>%
         plot() %>%
         summary()
-```
+{% endhighlight %}
 
-![](simplify_code_blog_files/figure-html/unnamed-chunk-7-1.png) 
+<img src="/public/images/dataWrangling/unnamed-chunk-7-1.png" alt="Terminating at a plot" align="middle" vspace="25">
 
-```
+{% highlight r %}
 ## Length  Class   Mode 
 ##      0   NULL   NULL
-```
+{% endhighlight %}
 
 
-```r
+{% highlight r %}
 # inserting %T>% allows you to plot and perform the functions that 
 # follow the plotting function
 mtcars %>%
@@ -228,11 +218,11 @@ mtcars %>%
         extract(, 1:4) %T>%
         plot() %>%
         summary()
-```
+{% endhighlight %}
 
-![](simplify_code_blog_files/figure-html/unnamed-chunk-8-1.png) 
+<img src="/public/images/dataWrangling/unnamed-chunk-8-1.png" alt="Piping through a plot" align="middle" vspace="25">
 
-```
+{% highlight r %}
 ##       mpg             cyl            disp             hp       
 ##  Min.   :10.40   Min.   :4.00   Min.   : 75.7   Min.   : 52.0  
 ##  1st Qu.:15.20   1st Qu.:6.00   1st Qu.:146.7   1st Qu.:110.0  
@@ -240,13 +230,12 @@ mtcars %>%
 ##  Mean   :18.62   Mean   :6.64   Mean   :257.7   Mean   :163.7  
 ##  3rd Qu.:21.00   3rd Qu.:8.00   3rd Qu.:351.0   3rd Qu.:205.0  
 ##  Max.   :30.40   Max.   :8.00   Max.   :472.0   Max.   :335.0
-```
+{% endhighlight %}
 
 The compound assignment `%<>%` operator is used to update a value by first piping it into one or more expressions, and then assigning the result. For instance, let's say you want to transform the `mpg` variable in the `mtcars` data frame to a square root measurement. Using `%<>%` will perform the functions to the right of `%<>%` and save the changes these functions perform to the variable or data frame called to the left of `%<>%`.
 
 
-
-```r
+{% highlight r %}
 # note that mpg is in its typical measurement
 head(mtcars)
 ##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
@@ -268,13 +257,12 @@ head(mtcars)
 ## Hornet 4 Drive    4.626013   6  258 110 3.08 3.215 19.44  1  0    3    1
 ## Hornet Sportabout 4.324350   8  360 175 3.15 3.440 17.02  0  0    3    2
 ## Valiant           4.254409   6  225 105 2.76 3.460 20.22  1  0    3    1
-```
+{% endhighlight %}
 
 Some functions (e.g. lm, aggregate, cor) have a data argument, which allows the direct use of names inside the data as part of the call. The exposition (`%$%`) operator is useful when you want to pipe a dataframe, which may contain many columns, into a function that is only applied to some of the columns.  For example, the correlation (`cor`) function only requires an `x` and `y` argument so if you pipe the `mtcars` data into the `cor` function using `%>%` you will get an error because `cor` doesn't know how to handle `mtcars`. However, using `%$%` allows you to say "take this dataframe and then perform `cor()` on these specified columns within `mtcars`."
 
 
-
-```r
+{% highlight r %}
 # regular piping results in an error
 mtcars %>%
         subset(vs == 0) %>%
@@ -286,7 +274,7 @@ mtcars %>%
         subset(vs == 0) %$%
         cor(mpg, wt)
 ## [1] -0.830671
-```
+{% endhighlight %}
 
 <br>
 
