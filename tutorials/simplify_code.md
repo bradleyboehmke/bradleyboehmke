@@ -18,7 +18,7 @@ The principal function provided by the `magrittr` package is `%>%`, or what's ca
 
 <p align="center">
 
-`filter(data, variable == numeric_value)`
+<code>filter(data, variable == numeric_value)</code>
 
 <br>
 
@@ -26,7 +26,7 @@ or
 
 <br>
 
-`data %>% filter(variable == numeric_value)`
+<code>data %>% filter(variable == numeric_value)</code>
 
 </p>
 
