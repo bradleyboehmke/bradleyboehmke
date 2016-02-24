@@ -14,7 +14,8 @@ permalink: /tutorials/
 * [Data structures](data_structures)
 * [Functions](functions_loops)
 * [Importing, scraping, and exporting data](data_inputs_outputs)
-* [Data wrangling](data_wrangling)
+* [Simplify your code with `%>%`](simplify_code)
+* [Tidy & transform your data](data_wrangling)
 * Visualization
 * Statistical Modeling
 * Text Analysis
