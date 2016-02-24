@@ -3,7 +3,7 @@ layout: page
 title: NULL
 ---
 
-[R Vocab Topics](index) &#187; Simplify your code with %>%
+[R Vocab Topics](index) &#187; Simplify your code with `%>%`
 
 <br>
 
