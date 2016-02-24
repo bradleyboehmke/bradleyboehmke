@@ -16,13 +16,13 @@ The [`magrittr`](https://cran.r-project.org/web/packages/magrittr/index.html) pa
 ## Pipe (%>%) Operator
 The principal function provided by the `magrittr` package is `%>%`, or what's called the "pipe" operator. This operator will forward a value, or the result of an expression, into the next function call/expression. For instance a function to filter data can be written as:
 
-<center>
-`filter(data, variable == numeric_value)`
+-> `filter(data, variable == numeric_value)` <-
 
 or
 
 `data %>% filter(variable == numeric_value)`
 </center>
+
 <br>
 
 Both functions complete the same task and the benefit of using `%>%` may not be immediately evident; however, when you desire to perform multiple functions its advantage becomes obvious. For instance, if we want to filter some data, group it by categories, summarize it, and then order the summarized results we could write it out three different ways. Don't worry, you'll learn how to operate these specific functions in the next section.
