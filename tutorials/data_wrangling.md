@@ -3,7 +3,7 @@ layout: page
 title: NULL
 ---
 
-[R Vocab Topics](index) &#187; Data wrangling
+[R Vocab Topics](index) &#187; Tidy & transform your data
 
 > *It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data.* (Dasu and Johnson, 2003)
 
