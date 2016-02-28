@@ -165,13 +165,10 @@ Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  
 </ul>
 
 
-<strong>In Preparation</strong>
+<strong>Books</strong>
 <ul>
 <p>
-Jackson, R.A., Boehmke, B.C. "Unpacking the United States Air Force's little blue books."
-</p>
-<p>
-Huelsman, J.T., Logan, J.V., Boehmke, B.C. "Business analytics: A value proposition."
+Boehmke, B.C. (2016). "Data Wrangling with R." <em>Leanpub.</em> <a href="https://leanpub.com/datawranglingwithr">[link]</a>
 </p>
 </ul>
 
