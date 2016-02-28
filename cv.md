@@ -151,7 +151,7 @@ Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher,
 Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Tooth-to-Tail impact analysis: Combining econometric modeling and Bayesian networks to assess support cost consequences due to changes in force structure." <em>Journal of Cost Analysis and Parametrics (forthcoming)</em>.  <a href="https://www.researchgate.net/publication/293695531_Tooth-to-Tail_Impact_Analysis_Combining_Econometric_Modeling_and_Bayesian_Networks_to_Assess_Support_Cost_Consequences_Due_to_Changes_in_Force_Structure">[link]</a>
 </p>
 <p>
-Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "The influence of operational resources and activities on indirect personnel costs: A multilevel modeling approach." <em>The Engineering Economist (forthcoming)</em>.
+Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "The influence of operational resources and activities on indirect personnel costs: A multilevel modeling approach." <em>The Engineering Economist (forthcoming)</em>. <a href="https://www.researchgate.net/publication/295678024_The_influence_of_operational_resources_and_activities_on_indirect_personnel_costs_A_multilevel_modeling_approach">[link]</a>
 </p>
 <p>
 Boehmke, B.C., Jackson, R.A. (2016). "What is truth?" Unpacking `the true cost of free statistical software'." <em>ORMS Today, 43(1)</em>. <a href="https://www.informs.org/ORMS-Today/Private-Articles/February-Volume-43-Number-1">[link]</a>
