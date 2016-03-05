@@ -154,6 +154,9 @@ Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  
 Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "The influence of operational resources and activities on indirect personnel costs: A multilevel modeling approach." <em>The Engineering Economist (forthcoming)</em>. <a href="https://www.researchgate.net/publication/295678024_The_influence_of_operational_resources_and_activities_on_indirect_personnel_costs_A_multilevel_modeling_approach">[link]</a>
 </p>
 <p>
+Jackson, R.A., Boehmke, B.C. (2016). "Unpacking the United States Air Force's little blue books." <em>Proceedings of the IIE Industrial and Systems Engineering Research Conference (ISERC), forthcoming.</em>
+</p>
+<p>
 Boehmke, B.C., Jackson, R.A. (2016). "What is truth?" Unpacking `the true cost of free statistical software'." <em>ORMS Today, 43(1)</em>. <a href="https://www.informs.org/ORMS-Today/Private-Articles/February-Volume-43-Number-1">[link]</a>
 </p>
 <p>
@@ -176,7 +179,10 @@ Boehmke, B.C. (2016). "Data Wrangling with R." <em>Leanpub.</em> <a href="https:
 <strong>Non-Refereed Research Reports</strong>
 <ul>
 <p>
-Boehmke, B.C. (2014). "Understanding Business Analytics." AFMC/A9 Technical Report.
+Boehmke, B.C. (2015). "A comparison of alternative univariate cost metrics for the LGM-30 intercontinental ballistic missile weapon system." AFMC/A9 Technical Report.
+</p>
+<p>
+Boehmke, B.C. (2014). "Understanding business analytics." AFMC/A9 Technical Report.
 </p>
 <p>
 Boehmke, B.C. (2012). "Use of ANOVA for everyday cost analysts." The Dayton Coster, 13(1), 10-14.
