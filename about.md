@@ -15,7 +15,7 @@ I am a Senior Operations Research Analyst for the U.S. Air Force and my research
 </p>
 
 <p>
-I am also an adjunct assistant professor at the Air Force Institute of Technology (AFIT). My academic research focuses on developing econometric models, algorithms and applications for forecasting, analyzing and visualizing data. I’ve also dabbled in text analysis and written a book on data wrangling with R.  
+I am also an adjunct assistant professor at the <a href="http://www.afit.edu/">Air Force Institute of Technology (AFIT)</a>. My <a href="http://bradleyboehmke.github.io/cv/#publications">academic research</a> focuses on developing econometric models, algorithms and applications for forecasting, analyzing and visualizing data. I’ve also dabbled in text analysis and written a <a href="https://leanpub.com/datawranglingwithr">book on data wrangling with R</a>.  
 </p>
 
 <p>
