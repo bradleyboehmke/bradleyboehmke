@@ -11,6 +11,10 @@ div {
 }
 </style>
 
+<center>
+<img src="/public/images/logo.png" alt="Brad" align="right" vspace="25">
+</center> 
+
 # <center>Quick and Dirty</center>
 <center><hr width="50%"></center>
 <br>
