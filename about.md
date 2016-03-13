@@ -11,11 +11,6 @@ div {
 }
 </style>
 
-<center>
-<img src="/public/images/logo.png" alt="Brad" align="right" vspace="25">
-</center> 
-
-<br>
 
 # <center>Quick and Dirty</center>
 <center><hr width="50%"></center>
@@ -25,6 +20,9 @@ Operations research analyst by title, data geek by self-proclamation.  R addict.
 </p>
 <br>
 
+<center>
+<img src="/public/images/logo.png" alt="Brad" align="center" vspace="25">
+</center> 
 
 # <center>Looking for More?</center>
 <center><hr width="50%"></center>
