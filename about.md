@@ -6,7 +6,7 @@ permalink: about/
 
 
 <center>
-<img src="/public/images/logo.png" alt="Brad" align="center" vspace="25">
+<img src="/public/images/logo.png" alt="Brad" align="right" vspace="25">
 </center> 
 
 
