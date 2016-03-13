@@ -23,3 +23,5 @@ permalink: /tutorials/
 
 ## Books
 
+<img src="/public/images/DataWranglingCover.jpg" alt="Data Wrangling with R" align="left" vspace="25" hspace="20">
+
