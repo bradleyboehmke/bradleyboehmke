@@ -176,7 +176,7 @@ Boehmke, B.C. (2016). "Data Wrangling with R." <em>Leanpub.</em> <a href="https:
 </ul>
 
 
-<strong>Non-Refereed Research Reports</strong>
+<strong>Technical Research Reports</strong>
 <ul>
 <p>
 Boehmke, B.C. (2015). "A comparison of alternative univariate cost metrics for the LGM-30 intercontinental ballistic missile weapon system." AFMC/A9 Technical Report.
