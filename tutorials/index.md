@@ -20,3 +20,6 @@ permalink: /tutorials/
 * Statistical Modeling
 * Text Analysis
 * Debugging
+
+## Books
+
