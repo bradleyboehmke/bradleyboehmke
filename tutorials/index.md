@@ -23,5 +23,5 @@ permalink: /tutorials/
 
 ## Books
 
-<a href="https://leanpub.com/datawranglingwithr"><img src="/public/images/DataWranglingCover.jpg" alt="Data Wrangling with R" align="left" vspace="25" hspace="20" height="75%" width="75%"></a>
+<a href="https://leanpub.com/datawranglingwithr"><img src="/public/images/DataWranglingCover.jpg" alt="Data Wrangling with R" align="left" vspace="25" hspace="20" height="25%" width="25%"></a>
 
