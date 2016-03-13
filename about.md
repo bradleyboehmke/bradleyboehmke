@@ -15,6 +15,8 @@ div {
 <img src="/public/images/logo.png" alt="Brad" align="right" vspace="25">
 </center> 
 
+<br>
+
 # <center>Quick and Dirty</center>
 <center><hr width="50%"></center>
 <br>
