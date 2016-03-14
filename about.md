@@ -23,5 +23,5 @@ I earned my Ph.D. from the Operational Sciences department at AFIT, which focuse
 <p>
 
 </p>
-In my free time I’m an avid reader, I enjoy tooling around with social economic data, and occasionally <a href="http://bradleyboehmke.github.io/">blog</a> about analytics, hacking, and socio-economic artifacts. 
+In my free time I’m an avid reader, I enjoy tooling around with socio-economic data, and occasionally <a href="http://bradleyboehmke.github.io/">blog</a> about analytics, hacking, and socio-economic artifacts. 
 </p>
