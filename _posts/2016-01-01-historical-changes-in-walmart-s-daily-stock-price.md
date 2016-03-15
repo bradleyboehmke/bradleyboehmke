@@ -4,7 +4,7 @@ title:  Historical Changes in Walmart’s Daily Stock Price
 date: 2015-10-24
 published: true
 tags: [stocks]
-categories: [economy]
+categories: [economics]
 ---
 
 <a href="http://bradleyboehmke.github.io//2015/10/historical-changes-in-walmart-s-daily-stock-price.html"><img src="http://3dprint.com/wp-content/uploads/2014/05/wal-1.jpg" alt="Walmart" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
