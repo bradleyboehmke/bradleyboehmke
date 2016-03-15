@@ -41,7 +41,7 @@ sitemap: false
 <font size="6">Post by Categories</font>
 <div id="category-index">
     {% for category in categories %}
-        <a name="{{ category[0] }}"></a><strong>{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </strong>
+        <a name="{{ category[0] }}"></a><strong><font style="font-variant: small-caps">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font></strong>
         <br>
     {% assign sorted_posts = site.posts | sort: 'title' %}
     {% for post in sorted_posts %}
