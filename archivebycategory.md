@@ -11,7 +11,7 @@ sitemap: false
     {% for category in categories %}
      <span class="site-category">
         <a href="#{{ category | first | slugify }}">
-               <font size="3" style="font-variant: small-caps"> {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font>
+               <font size="4" style="font-variant: small-caps"> {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font>
         </a>
         &nbsp;
     </span>
