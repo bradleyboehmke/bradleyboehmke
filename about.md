@@ -28,6 +28,6 @@ In my free time I’m an avid reader, I enjoy tooling around with socio-economic
 
 <br>
 
-<P CLASS="footnote" style="line-height:0.75; font-size:10px">
+<P CLASS="footnote" style="line-height:0.75; font-size:15px">
 <i>All opinions and views are my own and do not represent my employer.</i>
 </P>
