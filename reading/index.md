@@ -22,6 +22,9 @@ div {
 # <center>Imagination<a name="imagination"></a></center>
 ***
 <font size="5" style="font-variant: small-caps">Epics</font>
+<ul>
+  <li><em>The Iliad,</em> Homer</li>
+</ul>
 
 <br>
 
