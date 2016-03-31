@@ -21,3 +21,24 @@ div {
 
 # <center>Imagination<a name="imagination"></a></center>
 ***
+
+
+<br>
+
+# <center>Society<a name="society"></a></center>
+***
+
+
+<br>
+
+# <center>Mathematics & Sciences<a name="math"></a></center>
+***
+
+
+<br>
+
+# <center>Philosophy & Theology<a name="philosophy"></a></center>
+***
+
+
+<br>
