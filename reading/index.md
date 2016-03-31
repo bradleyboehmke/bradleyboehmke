@@ -28,42 +28,42 @@ div {
 
 <br>
 
-<font size="4" style="font-variant: small-caps">Poetry</font>
+<font size="5" style="font-variant: small-caps">Poetry</font>
 
 <br>
 
-<font size="4" style="font-variant: small-caps">Novels</font>
+<font size="5" style="font-variant: small-caps">Novels</font>
 
 <br>
 
-<font size="4" style="font-variant: small-caps">Essays</font>
+<font size="5" style="font-variant: small-caps">Essays</font>
 
 <br>
 
 
 # <center>Society<a name="society"></a></center>
 ***
-<font size="4" style="font-variant: small-caps">Economics & Politics</font>
+<font size="5" style="font-variant: small-caps">Economics & Politics</font>
 
 <br>
 
-<font size="4" style="font-variant: small-caps">History & Biographies</font>
+<font size="5" style="font-variant: small-caps">History & Biographies</font>
 
 <br>
 
-<font size="4" style="font-variant: small-caps">Letters & Speeches</font>
+<font size="5" style="font-variant: small-caps">Letters & Speeches</font>
 
 <br>
 
 
 # <center>Mathematics & Sciences<a name="math"></a></center>
 ***
-<font size="4" style="font-variant: small-caps">Mathematics</font>
+<font size="5" style="font-variant: small-caps">Mathematics</font>
 
 <br>
 
 
-<font size="4" style="font-variant: small-caps">Natural Sciences</font>
+<font size="5" style="font-variant: small-caps">Natural Sciences</font>
 
 <br>
 
@@ -71,10 +71,10 @@ div {
 
 # <center>Philosophy & Theology<a name="philosophy"></a></center>
 ***
-<font size="4" style="font-variant: small-caps">Philosophy</font>
+<font size="5" style="font-variant: small-caps">Philosophy</font>
 
 <br>
 
-<font size="4" style="font-variant: small-caps">Theology</font>
+<font size="5" style="font-variant: small-caps">Theology</font>
 
 <br>
