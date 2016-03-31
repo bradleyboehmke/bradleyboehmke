@@ -21,15 +21,37 @@ div {
 
 # <center>Imagination<a name="imagination"></a></center>
 ***
-
+<font size="4" style="font-variant: small-caps">Epics</font>
 
 <br>
+
+<font size="4" style="font-variant: small-caps">Poetry</font>
+
+<br>
+
+<font size="4" style="font-variant: small-caps">Novels</font>
+
+<br>
+
+<font size="4" style="font-variant: small-caps">Essays</font>
+
+<br>
+
 
 # <center>Society<a name="society"></a></center>
 ***
-
+<font size="4" style="font-variant: small-caps">Economics & Politics</font>
 
 <br>
+
+<font size="4" style="font-variant: small-caps">History & Biographies</font>
+
+<br>
+
+<font size="4" style="font-variant: small-caps">Letters & Speeches</font>
+
+<br>
+
 
 # <center>Mathematics & Sciences<a name="math"></a></center>
 ***
