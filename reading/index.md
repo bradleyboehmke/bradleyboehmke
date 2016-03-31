@@ -21,7 +21,7 @@ div {
 
 # <center>Imagination<a name="imagination"></a></center>
 ***
-<font size="4" style="font-variant: small-caps">Epics</font>
+<font size="5" style="font-variant: small-caps">Epics</font>
 
 <br>
 
