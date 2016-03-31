@@ -33,12 +33,23 @@ div {
 
 # <center>Mathematics & Sciences<a name="math"></a></center>
 ***
-
+<font size="4" style="font-variant: small-caps">Mathematics</font>
 
 <br>
 
+
+<font size="4" style="font-variant: small-caps">Natural Sciences</font>
+
+<br>
+
+
+
 # <center>Philosophy & Theology<a name="philosophy"></a></center>
 ***
+<font size="4" style="font-variant: small-caps">Philosophy</font>
 
+<br>
+
+<font size="4" style="font-variant: small-caps">Theology</font>
 
 <br>
