@@ -68,6 +68,10 @@ div {
 <br>
 
 
+<font size="5" style="font-variant: small-caps">Computer Sciences</font>
+
+<br>
+
 
 # <center>Philosophy & Theology<a name="philosophy"></a></center>
 ***
