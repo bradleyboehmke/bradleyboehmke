@@ -25,17 +25,18 @@ A new endeavor of mine is to track my reading a little better. Actually, trackin
 ## tl;dr
 What I read this week: 
 
-<p class="hangingindent"><SPAN STYLE="font-size: 20pt"><a href="#crusoe" style="color:black">&#9312;</a></SPAN>  Robinson Crusoe (Daniel Defoe, 1719) <a href="http://www.amazon.com/Robinson-Crusoe-Daniel-Defoe/dp/150329238X">&#x1f4d5</a> <i class="fa fa-book"></i> </p>
+<p class="hangingindent"><a href="#crusoe" style="color:black">&#9312;</a>  Robinson Crusoe (Daniel Defoe, 1719) <a href="http://www.amazon.com/Robinson-Crusoe-Daniel-Defoe/dp/150329238X">&#x1f4d5</a> <i class="fa fa-book"></i> </p>
 
-<p class="hangingindent"><SPAN STYLE="font-size: 20pt"><a href="#obligation" style="color:black">&#9313;</a></SPAN> The Moral Obligation to be Intelligent (John Erskine, 1915) <a href="http://keever.us/erskine.html">&#x1f4d5</a> </p>
+<p class="hangingindent"><a href="#obligation" style="color:black">&#9313;</a> The Moral Obligation to be Intelligent (John Erskine, 1915) <a href="http://keever.us/erskine.html">&#x1f4d5</a> </p>
 
-<p class="hangingindent"><SPAN STYLE="font-size: 20pt"><a href="#math" style="color:black">&#9314;</a></SPAN> Mathematics, the Mirror of Civilization (Lancelot Hogben, 1937) <a href="http://www.amazon.com/Mathematics-Million-Lancelot-Hogben/dp/1291585451">&#x1f4d5</a></p>
+<p class="hangingindent"><a href="#math" style="color:black">&#9314;</a> Mathematics, the Mirror of Civilization (Lancelot Hogben, 1937) <a href="http://www.amazon.com/Mathematics-Million-Lancelot-Hogben/dp/1291585451">&#x1f4d5</a></p>
 
-<p class="hangingindent"><SPAN STYLE="font-size: 20pt"><a href="#fingerprints" style="color:black">&#9315;</a></SPAN> Fingerprints (Tobias Dantzig, 1930) <a href="https://docs.google.com/file/d/0B8ITLJi5y4TKNlFZdy1yUEwwZ0k/edit">&#x1f4d5</a> </p>
+<p class="hangingindent"><a href="#fingerprints" style="color:black">&#9315;</a> Fingerprints (Tobias Dantzig, 1930) <a href="https://docs.google.com/file/d/0B8ITLJi5y4TKNlFZdy1yUEwwZ0k/edit">&#x1f4d5</a> </p>
 
-<p class="hangingindent"><SPAN STYLE="font-size: 20pt"><a href="#declaration" style="color:black">&#9316;</a></SPAN> Declaration of the Rights of Man and of the Citizen (1789) <a href="http://www1.curriculum.edu.au/ddunits/downloads/pdf/dec_of_rights.pdf">&#x1f4d5</a> </p>
+<p class="hangingindent"><a href="#declaration" style="color:black">&#9316;</a> Declaration of the Rights of Man and of the Citizen (1789) <a href="http://www1.curriculum.edu.au/ddunits/downloads/pdf/dec_of_rights.pdf">&#x1f4d5</a> </p>
 
-<p class="hangingindent"><SPAN STYLE="font-size: 20pt"><a href="#making" style="color:black">&#9317;</a></SPAN> The Making of Americans[^farmer] (Jean de Cr&egrave;vecoeur, 1793) <a href="http://www.gutenberg.org/ebooks/4666">&#x1f4d5</a> </p>
+<p class="hangingindent"><a href="#making" style="color:black">&#9317;</a> The Making of Americans[^farmer] (Jean de Cr&egrave;vecoeur, 1793) <a href="http://www.gutenberg.org/ebooks/4666">&#x1f4d5</a> </p>
+
 
 
 <br>
