@@ -49,7 +49,7 @@ What I read this week:
 
 ## &#9312; Robinson Crusoe
 
-A classic adventure novel of a cast away in the 17th century that survives on an empty island for 28+ years. Covers the gamut of of man vs. nature, man vs. self, and man vs. man plot themes. Illustrates human resourcefulness and creativity despite lack of knowledge, spirit and faith despite loneliness, and friendship and trust despite cultural differences.
+A classic adventure novel of a cast away in the 17th century that survives on an empty island for 28+ years. Covers the gamut of man vs. nature, man vs. self, and man vs. man plot themes. Illustrates human resourcefulness and creativity despite lack of knowledge, spirit and faith despite loneliness, and friendship and trust despite cultural differences.
 
 > *"...here I must observe that as reason is the substance and original of the mathematics, so by stating and squaring everything by reason, and by making the most rational judgment of things, every man may be in time master of every mechanic art."*
 
@@ -67,7 +67,7 @@ Discusses the common theme in much classic fiction literature that depicts man a
 
 <a name="math"></a>
 
-## &#9314; Mathematics, the Mirror of Civilization<sup><a href="#fn3" id="ref3">3</a></sup> 
+## &#9314; Mathematics, the Mirror of Civilization<sup><a href="#fn3" id="ref3"><font size="3">3</font></a></sup> 
 
 Hogben argues that, as people learned grammar to read and learn for themselves rather than relying on honest and truthful knowledge being told to them, people must now learn mathematics so they can correctly interpret statistics and information. He argues that if math is left to the highly specialized, then resulting "priestcraft" or deception can occur. Although "priestcraft" may be a bit strong one can surely sympathize considering our current state of surging data collection, analysis and statistical insights regarding almost every daily task and activity.  Hogben's principal point I certainly agree with, which is "mathematics is the language of size, and that it is an essential part of the equipment of an intelligent citizen to understand this language."
 
