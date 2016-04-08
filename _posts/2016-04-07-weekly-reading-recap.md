@@ -121,9 +121,9 @@ Possibly my favorite reading this week. This romantic essay emphasizes the great
 
 > *"Men are like plants; the goodness and flavor of the fruit proceeds from the peculiar soil and exposition in which they grow. We are nothing but what we derive from the air we breathe, the climate we inhabit, the government we obey, the system of religion we profess, and the nature of our employment."*
 
-<small><a href="#">Go to top</a></small>
-
 <br>
+
+<small><a href="#">Go to top</a></small>
 
 <hr>
 
