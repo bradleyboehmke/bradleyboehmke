@@ -108,6 +108,8 @@ Possibly my favorite reading this week. This romantic essay emphasizes the great
 
 <hr>
 
+<br>
+
 <P CLASS="footnote" style="line-height:0.75">
 <sup id="fn1">1. Most readings that I will document will be non work related with the exception of some works that are publicly releasable and have a strong influence on my macro perspective of the defense sector.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
 
