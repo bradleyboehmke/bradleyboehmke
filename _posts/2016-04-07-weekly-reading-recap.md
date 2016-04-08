@@ -67,7 +67,7 @@ Discusses the common theme in much classic fiction literature that depicts man a
 
 <a name="math"></a>
 
-## &#9314; Mathematics, the Mirror of Civilization[^mathematics] 
+## &#9314; Mathematics, the Mirror of Civilization<sup><a href="#fn3" id="ref3">3</a></sup> 
 
 Hogben argues that, as people learned grammar to read and learn for themselves rather than relying on honest and truthful knowledge being told to them, people must now learn mathematics so they can correctly interpret statistics and information. He argues that if math is left to the highly specialized, then resulting "priestcraft" or deception can occur. Although "priestcraft" may be a bit strong one can surely sympathize considering our current state of surging data collection, analysis and statistical insights regarding almost every daily task and activity.  Hogben's principal point I certainly agree with, which is "mathematics is the language of size, and that it is an essential part of the equipment of an intelligent citizen to understand this language."
 
@@ -115,11 +115,14 @@ Possibly my favorite reading this week. This romantic essay emphasizes the great
 </P>
 
 <P CLASS="footnote" style="line-height:0.75">
-<sup id="fn2">2. From Letter III of Cr&egrave;vecoeur's book titled "Letters from an American Farmer."<a href="#ref2" title="Jump back to footnote 2 in the text.">"&#8617;"</a><sup>
+<sup id="fn2">2. From Letter III of Cr&egrave;vecoeur's book titled <i>Letters from an American Farmer.</i><a href="#ref2" title="Jump back to footnote 2 in the text.">"&#8617;"</a><sup>
 </P>
 
+<P CLASS="footnote" style="line-height:0.75">
+<sup id="fn3">3. This essay forms chapter one of Hogben's book titled <i>Mathematics for the Million.</i><a href="#ref3" title="Jump back to footnote 3 in the text.">"&#8617;"</a><sup>
+</P>
 
 [^readings]: Most readings that I will document will be non work related with the exception of some works that are publicly releasable and have a strong influence on my macro perspective of the defense sector.
 [^mathematics]: This essay forms chapter one of Hogben's book titled "Mathematics for the Million."
 [^number]: This essay came to be chapter 1 of Dantzig's book titled "Number: The Language of Science."
-[^farmer]: From Letter III of Cr&egrave;vecoeur's book titled "Letters from an American Farmer."
+
