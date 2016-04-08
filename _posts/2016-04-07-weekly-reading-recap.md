@@ -112,9 +112,12 @@ Possibly my favorite reading this week. This romantic essay emphasizes the great
 
 <P CLASS="footnote" style="line-height:0.75">
 <sup id="fn1">1. Most readings that I will document will be non work related with the exception of some works that are publicly releasable and have a strong influence on my macro perspective of the defense sector.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+</P>
 
+<P CLASS="footnote" style="line-height:0.75">
 <sup id="fn2">2. From Letter III of Cr&egrave;vecoeur's book titled "Letters from an American Farmer."<a href="#ref2" title="Jump back to footnote 2 in the text.">"&#8617;"</a><sup>
 </P>
+
 
 [^readings]: Most readings that I will document will be non work related with the exception of some works that are publicly releasable and have a strong influence on my macro perspective of the defense sector.
 [^mathematics]: This essay forms chapter one of Hogben's book titled "Mathematics for the Million."
