@@ -38,7 +38,7 @@ What I read this week:
 
 <p class="hangingindent"><a href="#declaration" style="color:black">&#9316;</a> Declaration of the Rights of Man and of the Citizen (1789) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www1.curriculum.edu.au/ddunits/downloads/pdf/dec_of_rights.pdf"><i class="fa fa-book"></i></a> </p>
 
-<p class="hangingindent"><a href="#making" style="color:black">&#9317;</a> The Making of Americans[^farmer] (Jean de Cr&egrave;vecoeur, 1793) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.gutenberg.org/ebooks/4666"><i class="fa fa-book"></i></a> </p>
+<p class="hangingindent"><a href="#making" style="color:black">&#9317;</a> The Making of Americans<sup><a href="#fn2" id="ref2">2</a></sup> (Jean de Cr&egrave;vecoeur, 1793) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.gutenberg.org/ebooks/4666"><i class="fa fa-book"></i></a> </p>
 
 
 
@@ -106,8 +106,12 @@ Possibly my favorite reading this week. This romantic essay emphasizes the great
 
 <br>
 
+<hr>
+
 <P CLASS="footnote" style="line-height:0.75">
 <sup id="fn1">1. Most readings that I will document will be non work related with the exception of some works that are publicly releasable and have a strong influence on my macro perspective of the defense sector.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
+
+<sup id="fn2">2. From Letter III of Cr&egrave;vecoeur's book titled "Letters from an American Farmer."<a href="#ref2" title="Jump back to footnote 2 in the text.">"&#8617;"</a><sup>
 </P>
 
 [^readings]: Most readings that I will document will be non work related with the exception of some works that are publicly releasable and have a strong influence on my macro perspective of the defense sector.
