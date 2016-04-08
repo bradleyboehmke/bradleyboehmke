@@ -9,7 +9,7 @@ tags: [Literature]
 <STYLE TYPE="text/css"> 
 <!-- 
 .hangingindent {
-  padding-left: 80px ;
+  padding-left: 40px ;
   padding-right: 80px ;
   text-indent: -32px ;
 }
@@ -44,7 +44,7 @@ What I read this week:
 
 <a name="crusoe"></a>
 
-## &#9312; Robinson Crusoe (Daniel Defoe, 1719)
+## &#9312; Robinson Crusoe
 
 A classic adventure novel of a cast away in the 17th century that survives on an empty island for 28+ years. Covers the gamut of of man vs. nature, man vs. self, and man vs. man plot themes. Illustrates human resourcefulness and creativity despite lack of knowledge, spirit and faith despite loneliness, and friendship and trust despite cultural differences.
 
@@ -54,7 +54,7 @@ A classic adventure novel of a cast away in the 17th century that survives on an
 
 <a name="obligation"></a>
 
-## &#9313; The Moral Obligation to be Intelligent (John Erskine, 1915)
+## &#9313; The Moral Obligation to be Intelligent
 
 Discusses the common theme in much classic fiction literature that depicts man as either intelligent or virtuous but not both.  In essence, that wisdom and knowledge are typically used for clever strategm and is incompatible with morality. This, potentially, leaves one thinking "a man is clever or he is virtuous, but he cannot be both." Rather, Erskine argues we must not excuse ignorance even if the motives were good. Instead, morality and intelligence are inseparable and we have a "moral obligation to find out as far as possible whether a given action leads to a good or a bad end."
 
@@ -64,7 +64,7 @@ Discusses the common theme in much classic fiction literature that depicts man a
 
 <a name="math"></a>
 
-## &#9314; Mathematics, the Mirror of Civilization[^mathematics] (Lancelot Hogben, 1937)
+## &#9314; Mathematics, the Mirror of Civilization[^mathematics] 
 
 Hogben argues that, as people learned grammar to read and learn for themselves rather than relying on honest and truthful knowledge being told to them, people must now learn mathematics so they can correctly interpret statistics and information. He argues that if math is left to the highly specialized, then resulting "priestcraft" or deception can occur. Although "priestcraft" may be a bit strong one can surely sympathize considering our current state of surging data collection, analysis and statistical insights regarding almost every daily task and activity.  Hogben's principal point I certainly agree with, which is "mathematics is the language of size, and that it is an essential part of the equipment of an intelligent citizen to understand this language."
 
@@ -74,7 +74,7 @@ Hogben argues that, as people learned grammar to read and learn for themselves r
 
 <a name="fingerprints"></a>
 
-## &#9315; Fingerprints (Tobias Dantzig, 1930)
+## &#9315; Fingerprints
 
 An essay[^number] that discusses how fingers are at the root of our modern day number system. An "as man learns to rely more and more on his language, the sounds supersede the images for which they stood, and the originally concrete models take the abstract form of number words."
 
@@ -83,7 +83,7 @@ An essay[^number] that discusses how fingers are at the root of our modern day n
 
 <a name="declaration"></a>
 
-## &#9316; Declaration of the Rights of Man and of the Citizen (1789)
+## &#9316; Declaration of the Rights of Man and of the Citizen
 
 One of the key doctrines resulting from the French Revolution. Locally, it inspired the French constitution. Globally, with the American Declaration of Independence, Constitution, and Bill of Rights, it was a major contributor to the concept of freedom and democracy. Inspired by Thomas Jefferson, it has many of the key human and civil rights elements found in U.S. doctrine - freedom of speech, religion, property rights, etc.
 
@@ -93,7 +93,7 @@ One of the key doctrines resulting from the French Revolution. Locally, it inspi
 
 <a name="making"></a>
 
-## &#9317; The Making of Americans[^farmer] (Jean de Cr&egrave;vecoeur, 1793)
+## &#9317; The Making of Americans[^farmer]
 
 Possibly my favorite reading this week. This romantic essay emphasizes the greatness that was America back in the 18th century; some of which still exudes America's greatness while others have disappeared or have even, contestably, become America's side-thorns. Cr&egrave;vecoeur compares the differences between the Americans and English, is the first to discuss America's melting pot concept, emphasizes the uniqueness and opportunities offered by America's labor market, and even explains the differences that exist between American's living on the coast, plains, woods, urban and rural leading to my favorite quote:
 
