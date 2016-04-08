@@ -8,10 +8,11 @@ categories: [Literature]
 
 <STYLE TYPE="text/css"> 
 <!-- 
-        .indented { 
-                padding-left: 50pt; 
-                padding-right: 50pt; 
-                } 
+.hangingindent {
+  padding-left: 60px ;
+  padding-right: 80px ;
+  text-indent: -32px ;
+}
 --> 
 </STYLE>
 
