@@ -12,7 +12,7 @@ categories: [Literature]
 <!-- 
 .hangingindent {
   padding-left: 60px ;
-  padding-right: 80px ;
+  padding-right: 20px ;
   text-indent: -32px ;
 }
 --> 
@@ -30,15 +30,15 @@ What I read this week:
 
 <p class="hangingindent"><a href="#crusoe" style="color:black">&#9312;</a>  Robinson Crusoe (Daniel Defoe, 1719) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.amazon.com/Robinson-Crusoe-Daniel-Defoe/dp/150329238X"><i class="fa fa-book"></i></a> </p>
 
-<p class="hangingindent"><a href="#obligation" style="color:black">&#9313;</a> The Moral Obligation to be Intelligent (John Erskine, 1915) <a href="http://keever.us/erskine.html">&#x1f4d5</a> </p>
+<p class="hangingindent"><a href="#obligation" style="color:black">&#9313;</a> The Moral Obligation to be Intelligent (John Erskine, 1915) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://keever.us/erskine.html"><i class="fa fa-book"></i></a> </p>
 
-<p class="hangingindent"><a href="#math" style="color:black">&#9314;</a> Mathematics, the Mirror of Civilization (Lancelot Hogben, 1937) <a href="http://www.amazon.com/Mathematics-Million-Lancelot-Hogben/dp/1291585451">&#x1f4d5</a></p>
+<p class="hangingindent"><a href="#math" style="color:black">&#9314;</a> Mathematics, the Mirror of Civilization (Lancelot Hogben, 1937) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.amazon.com/Mathematics-Million-Lancelot-Hogben/dp/1291585451"><i class="fa fa-book"></i></a></p>
 
-<p class="hangingindent"><a href="#fingerprints" style="color:black">&#9315;</a> Fingerprints (Tobias Dantzig, 1930) <a href="https://docs.google.com/file/d/0B8ITLJi5y4TKNlFZdy1yUEwwZ0k/edit">&#x1f4d5</a> </p>
+<p class="hangingindent"><a href="#fingerprints" style="color:black">&#9315;</a> Fingerprints (Tobias Dantzig, 1930) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://docs.google.com/file/d/0B8ITLJi5y4TKNlFZdy1yUEwwZ0k/edit"><i class="fa fa-book"></i></a> </p>
 
-<p class="hangingindent"><a href="#declaration" style="color:black">&#9316;</a> Declaration of the Rights of Man and of the Citizen (1789) <a href="http://www1.curriculum.edu.au/ddunits/downloads/pdf/dec_of_rights.pdf">&#x1f4d5</a> </p>
+<p class="hangingindent"><a href="#declaration" style="color:black">&#9316;</a> Declaration of the Rights of Man and of the Citizen (1789) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www1.curriculum.edu.au/ddunits/downloads/pdf/dec_of_rights.pdf"><i class="fa fa-book"></i></a> </p>
 
-<p class="hangingindent"><a href="#making" style="color:black">&#9317;</a> The Making of Americans[^farmer] (Jean de Cr&egrave;vecoeur, 1793) <a href="http://www.gutenberg.org/ebooks/4666">&#x1f4d5</a> </p>
+<p class="hangingindent"><a href="#making" style="color:black">&#9317;</a> The Making of Americans[^farmer] (Jean de Cr&egrave;vecoeur, 1793) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.gutenberg.org/ebooks/4666"><i class="fa fa-book"></i></a> </p>
 
 
 
