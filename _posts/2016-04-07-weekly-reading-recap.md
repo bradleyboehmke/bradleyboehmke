@@ -28,7 +28,7 @@ A new endeavor of mine is to track my reading a little better. Actually, trackin
 ## tl;dr
 What I read this week: 
 
-<p class="hangingindent"><a href="#crusoe" style="color:black">&#9312;</a>  Robinson Crusoe (Daniel Defoe, 1719) &nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.amazon.com/Robinson-Crusoe-Daniel-Defoe/dp/150329238X"><i class="fa fa-book"></i></a> </p>
+<p class="hangingindent"><a href="#crusoe" style="color:black">&#9312;</a>  Robinson Crusoe (Daniel Defoe, 1719) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.amazon.com/Robinson-Crusoe-Daniel-Defoe/dp/150329238X"><i class="fa fa-book"></i></a> </p>
 
 <p class="hangingindent"><a href="#obligation" style="color:black">&#9313;</a> The Moral Obligation to be Intelligent (John Erskine, 1915) <a href="http://keever.us/erskine.html">&#x1f4d5</a> </p>
 
