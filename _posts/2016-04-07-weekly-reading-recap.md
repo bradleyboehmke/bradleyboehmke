@@ -98,7 +98,7 @@ Hogben argues that, as people learned grammar to read and learn for themselves r
 
 ## &#9315; Fingerprints
 
-An essay that discusses how fingers are at the root of our modern day number system. An "as man learns to rely more and more on his language, the sounds supersede the images for which they stood, and the originally concrete models take the abstract form of number words."
+An essay that discusses how fingers are at the root of our modern day number system. And "as man learns to rely more and more on his language, the sounds supersede the images for which they stood, and the originally concrete models take the abstract form of number words."
 
 
 <br>
