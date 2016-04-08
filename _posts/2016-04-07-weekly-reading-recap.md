@@ -28,17 +28,36 @@ A new endeavor of mine is to track my reading a little better. Actually, trackin
 ## tl;dr
 What I read this week: 
 
-<p class="hangingindent"><a href="#crusoe" style="color:black">&#9312;</a>  Robinson Crusoe (Daniel Defoe, 1719) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.amazon.com/Robinson-Crusoe-Daniel-Defoe/dp/150329238X"><i class="fa fa-book"></i></a> </p>
+<p class="hangingindent"><a href="#crusoe" style="color:black">&#9312;</a>  
+Robinson Crusoe (Daniel Defoe, 1719) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<a href="http://www.amazon.com/Robinson-Crusoe-Daniel-Defoe/dp/150329238X"><i class="fa fa-book"></i></a> </p>
 
-<p class="hangingindent"><a href="#obligation" style="color:black">&#9313;</a> The Moral Obligation to be Intelligent (John Erskine, 1915) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://keever.us/erskine.html"><i class="fa fa-book"></i></a> </p>
+<p class="hangingindent"><a href="#obligation" style="color:black">&#9313;</a> 
+The Moral Obligation to be Intelligent 
+(John Erskine, 1915) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://keever.us/erskine.html"><i class="fa fa-book"></i></a> </p>
 
-<p class="hangingindent"><a href="#math" style="color:black">&#9314;</a> Mathematics, the Mirror of Civilization (Lancelot Hogben, 1937) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.amazon.com/Mathematics-Million-Lancelot-Hogben/dp/1291585451"><i class="fa fa-book"></i></a></p>
+<p class="hangingindent"><a href="#math" style="color:black">&#9314;</a> 
+Mathematics, the Mirror of Civilization<sup><a href="#fn2" id="ref2">2</a></sup> 
+(Lancelot Hogben, 1937) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.amazon.com/Mathematics-Million-Lancelot-Hogben/dp/1291585451"><i class="fa fa-book"></i></a></p>
 
-<p class="hangingindent"><a href="#fingerprints" style="color:black">&#9315;</a> Fingerprints (Tobias Dantzig, 1930) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://docs.google.com/file/d/0B8ITLJi5y4TKNlFZdy1yUEwwZ0k/edit"><i class="fa fa-book"></i></a> </p>
+<p class="hangingindent"><a href="#fingerprints" style="color:black">&#9315;</a> 
+Fingerprints<sup><a href="#fn3" id="ref3">3</a></sup> 
+(Tobias Dantzig, 1930) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://docs.google.com/file/d/0B8ITLJi5y4TKNlFZdy1yUEwwZ0k/edit"><i class="fa fa-book"></i></a> </p>
 
-<p class="hangingindent"><a href="#declaration" style="color:black">&#9316;</a> Declaration of the Rights of Man and of the Citizen (1789) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www1.curriculum.edu.au/ddunits/downloads/pdf/dec_of_rights.pdf"><i class="fa fa-book"></i></a> </p>
+<p class="hangingindent"><a href="#declaration" style="color:black">&#9316;</a> 
+Declaration of the Rights of Man and of the Citizen 
+(1789) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<a href="http://www1.curriculum.edu.au/ddunits/downloads/pdf/dec_of_rights.pdf"><i class="fa fa-book"></i></a> </p>
 
-<p class="hangingindent"><a href="#making" style="color:black">&#9317;</a> The Making of Americans<sup><a href="#fn2" id="ref2">2</a></sup> (Jean de Cr&egrave;vecoeur, 1793) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.gutenberg.org/ebooks/4666"><i class="fa fa-book"></i></a> </p>
+<p class="hangingindent"><a href="#making" style="color:black">&#9317;</a> 
+The Making of Americans<sup><a href="#fn4" id="ref4">4</a></sup> 
+(Jean de Cr&egrave;vecoeur, 1793) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.gutenberg.org/ebooks/4666"><i class="fa fa-book"></i></a> </p>
 
 
 
@@ -67,7 +86,7 @@ Discusses the common theme in much classic fiction literature that depicts man a
 
 <a name="math"></a>
 
-## &#9314; Mathematics, the Mirror of Civilization<sup><a href="#fn3" id="ref3"><font size="3">3</font></a></sup> 
+## &#9314; Mathematics, the Mirror of Civilization 
 
 Hogben argues that, as people learned grammar to read and learn for themselves rather than relying on honest and truthful knowledge being told to them, people must now learn mathematics so they can correctly interpret statistics and information. He argues that if math is left to the highly specialized, then resulting "priestcraft" or deception can occur. Although "priestcraft" may be a bit strong one can surely sympathize considering our current state of surging data collection, analysis and statistical insights regarding almost every daily task and activity.  Hogben's principal point I certainly agree with, which is "mathematics is the language of size, and that it is an essential part of the equipment of an intelligent citizen to understand this language."
 
@@ -96,7 +115,7 @@ One of the key doctrines resulting from the French Revolution. Locally, it inspi
 
 <a name="making"></a>
 
-## &#9317; The Making of Americans[^farmer]
+## &#9317; The Making of Americans
 
 Possibly my favorite reading this week. This romantic essay emphasizes the greatness that was America back in the 18th century; some of which still exudes America's greatness while others have disappeared or have even, contestably, become America's side-thorns. Cr&egrave;vecoeur compares the differences between the Americans and English, is the first to discuss America's melting pot concept, emphasizes the uniqueness and opportunities offered by America's labor market, and even explains the differences that exist between American's living on the coast, plains, woods, urban and rural leading to my favorite quote:
 
@@ -115,14 +134,17 @@ Possibly my favorite reading this week. This romantic essay emphasizes the great
 </P>
 
 <P CLASS="footnote" style="line-height:0.75">
-<sup id="fn2">2. From Letter III of Cr&egrave;vecoeur's book titled <i>Letters from an American Farmer.</i><a href="#ref2" title="Jump back to footnote 2 in the text.">"&#8617;"</a><sup>
+<sup id="fn2">2. This essay forms chapter one of Hogben's book titled <i>Mathematics for the Million.</i><a href="#ref2" title="Jump back to footnote 2 in the text.">"&#8617;"</a><sup>
 </P>
 
 <P CLASS="footnote" style="line-height:0.75">
-<sup id="fn3">3. This essay forms chapter one of Hogben's book titled <i>Mathematics for the Million.</i><a href="#ref3" title="Jump back to footnote 3 in the text.">"&#8617;"</a><sup>
+<sup id="fn3">3. This essay came to be chapter 1 of Dantzig's book titled <i>Number: The Language of Science.</i><a href="#ref3" title="Jump back to footnote 3 in the text.">"&#8617;"</a><sup>
 </P>
 
-[^readings]: Most readings that I will document will be non work related with the exception of some works that are publicly releasable and have a strong influence on my macro perspective of the defense sector.
-[^mathematics]: This essay forms chapter one of Hogben's book titled "Mathematics for the Million."
-[^number]: This essay came to be chapter 1 of Dantzig's book titled "Number: The Language of Science."
+<P CLASS="footnote" style="line-height:0.75">
+<sup id="fn4">4. From Letter III of Cr&egrave;vecoeur's book titled <i>Letters from an American Farmer.</i><a href="#ref4" title="Jump back to footnote 4 in the text.">"&#8617;"</a><sup>
+</P>
+
+
+
 
