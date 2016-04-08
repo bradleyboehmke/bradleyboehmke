@@ -3,7 +3,7 @@ layout: post
 title:  Weekly Reading Recap
 date: 2016-04-08 18:58:09
 published: true
-tags: [Literature]
+categories: [Literature]
 ---
 
 <STYLE TYPE="text/css"> 
