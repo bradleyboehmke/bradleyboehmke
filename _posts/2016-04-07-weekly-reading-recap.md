@@ -3,7 +3,7 @@ layout: post
 title:  Weekly Reading Recap
 date: 2016-04-08 18:58:09
 published: true
-categories: [Literature]
+categories: [literature]
 ---
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
