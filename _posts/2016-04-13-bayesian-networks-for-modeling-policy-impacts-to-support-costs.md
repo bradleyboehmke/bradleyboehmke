@@ -7,7 +7,7 @@ categories: [business, economics]
 tags: [bayesian networks, econometrics, business analytics]
 ---
 
-<a href="http://bradleyboehmke.github.io/2016/02/just-another-open-source-software-debate.html"><img src="http://bradleyboehmke.github.io/figure/source/bayesian-networks-for-modeling-policy-impacts-to-support-costs/2016-04-13-bayesian-networks-for-modeling-policy-impacts-to-support-costs/screen_shot.png" alt="JCAP article" style="float:left; margin: 0px 5px -5px 0px; width: 19%; height: 19%;"></a>
+<a href="http://bradleyboehmke.github.io//2016/04/bayesian-networks-for-modeling-policy-impacts-to-support-costs.html"><img src="http://bradleyboehmke.github.io/figure/source/bayesian-networks-for-modeling-policy-impacts-to-support-costs/2016-04-13-bayesian-networks-for-modeling-policy-impacts-to-support-costs/screen_shot.png" alt="JCAP article" style="float:left; margin: 0px 5px -5px 0px; width: 19%; height: 19%;"></a>
 Whether its industry or government agencies indirect/support activities tend to get the short end of the stick with regards to analytic rigor.  Much of my [dissertation](https://www.researchgate.net/publication/284179123_Grabbing_the_Air_Force_by_the_Tail_Applying_Strategic_Cost_Analytics_to_Understand_and_Manage_Indirect_Cost_Behavior) research focused on injecting more analytic rigor to better understand the economics of, and policy impacts, to these activities.  This was one of my papers that assessed the potential application of bayesian networks to provide decision support.
 <!--more--> 
 
