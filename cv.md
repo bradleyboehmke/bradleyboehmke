@@ -148,7 +148,7 @@ time-series analysis and regression, performing constraint-based optimality mode
 Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Effectiveness vs. efficiency: Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Under Review - Military Operations Research</em>  <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis">[link]</a>
 </p>
 <p>
-Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Tooth-to-Tail impact analysis: Combining econometric modeling and Bayesian networks to assess support cost consequences due to changes in force structure." <em>Journal of Cost Analysis and Parametrics (forthcoming)</em>.  <a href="https://www.researchgate.net/publication/293695531_Tooth-to-Tail_Impact_Analysis_Combining_Econometric_Modeling_and_Bayesian_Networks_to_Assess_Support_Cost_Consequences_Due_to_Changes_in_Force_Structure">[link]</a>
+Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Tooth-to-Tail impact analysis: Combining econometric modeling and Bayesian networks to assess support cost consequences due to changes in force structure." <em>Journal of Cost Analysis and Parametrics,</em> 9(1), 2-31.  <a href="https://www.researchgate.net/publication/293695531_Tooth-to-Tail_Impact_Analysis_Combining_Econometric_Modeling_and_Bayesian_Networks_to_Assess_Support_Cost_Consequences_Due_to_Changes_in_Force_Structure">[link]</a>
 </p>
 <p>
 Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "The influence of operational resources and activities on indirect personnel costs: A multilevel modeling approach." <em>The Engineering Economist (forthcoming)</em>. <a href="https://www.researchgate.net/publication/295678024_The_influence_of_operational_resources_and_activities_on_indirect_personnel_costs_A_multilevel_modeling_approach">[link]</a>
@@ -225,6 +225,15 @@ Boehmke, B.C. (2012). "Model for identifying cost savings by synchronizing the E
 
 <strong>Invited</strong>
 <ul>
+<p>
+Boehmke, B.C. (2016). "Incorporating a Measure of Efficiency in the Air Force's Installation \& Mission Support Performance Assessment." DoD Infrastructure Workshop, Washington D.C. <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis">[link]</a>
+</p>
+<p>
+Boehmke, B.C. (2016). "Using Bayesian Networks to Model Tooth-to-Tail Policy Impacts." DoD Infrastructure Workshop, Washington D.C. <a href="https://www.researchgate.net/publication/301293479_Bayesian_network_Presentation">[link]</a>
+</p>
+<p>
+Boehmke, B.C. (2016). "The Infuence of Operational Resources and Activities on Indirect Costs: A Multilevel Modeling Approach." DoD Infrastructure Workshop, Washington D.C. <a href="https://www.researchgate.net/publication/295678024_The_influence_of_operational_resources_and_activities_on_indirect_personnel_costs_A_multilevel_modeling_approach#share">[link]</a>
+</p>
 <p>
 Boehmke, B.C. (2015). "Data Wrangling with R." Miami University, Oxford, OH. <a href="http://bradleyboehmke.github.io//2015/10/data-wrangling-presentation.html">[link]</a>
 </p>
