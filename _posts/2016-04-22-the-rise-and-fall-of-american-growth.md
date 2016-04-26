@@ -22,7 +22,7 @@ tags: [book review]
 <a href="http://bradleyboehmke.github.io/2016/04/the-rise-and-fall-of-american-growth.html"><img src="http://t2.gstatic.com/images?q=tbn:ANd9GcR-hfDlu6WgA7G-gs4eBiqU-XYBpr6RIt8mud9_OwjE_GnTmAQk" alt="The Rise and Fall of American Growth" style="float:left; margin: 0px 5px -5px 0px; width: 17%; height: 17%;"></a>
 Americans believe "in the green light, the orgastic future that year by year recedes before us. It eludes us then, but that's no matter — tomorrow we will run faster, stretch out our arms farther...So we beat on, boats against the current, borne back ceaselessly into the past."<sup><a href="#fn1" id="ref1">1</a></sup> Like Gatsby, American's never lose their optimism for an ever-brighter future; and our vehicle of choice to get to this destination is technology. But should we expect technology to move us to a future that transcends our past? 
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; > *"We wanted flying cars, instead we got 140 characters."* ― Peter Thiel
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <blockquote> *"We wanted flying cars, instead we got 140 characters."* ― Peter Thiel </blockquote>
 
 <!--more-->
 
