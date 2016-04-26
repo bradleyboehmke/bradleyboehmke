@@ -42,7 +42,7 @@ The special century of 1870-1970 experienced the most remarkable economic growth
 </p>
 
 <p class="hangingindent"><a href="#industrial" style="color:black">&#9313;</a> 
-The net result Gordon argues, is that the ICT revolution has given us pretty cool stuff but this stuff is creating only marginal rather than fundamental improvements in our lives and businesses' productivity.
+Gordon argues that although the ICT revolution has given us pretty cool stuff, this stuff is creating only marginal rather than fundamental improvements in our lives and businesses' productivity.
 </p>
 
 <p class="hangingindent"><a href="#forecast" style="color:black">&#9314;</a> 
