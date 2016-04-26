@@ -61,10 +61,7 @@ Although I'm hesitant of long-term macro predictions, and the policy recommendat
 ## &#9312; The Special Century
 Throughout the first half of his 700 page book, Gordon argues that the period from 1870 to 1970 was a "special century," when America was fundamentally changed and the foundations of modern American life were laid.  A central theme of Gordon's book is that many inventions are one-time-only events subject to a long succession of subsequent incremental improvements.  Truly transformative inventions are ones that impact nearly all individuals and the time period between 1870 and 1920 witnessed the momentum of a unique clustering of "Great Inventions".  This included electricity, flushing toilets, internal combustion engines, central heating, refrigeration, radio, telephony, clean water, vaccines, antibiotics, etc. These were inventions that offered the opportunity to impact every American in almost every aspect of daily life.
 
-<figure>
-    <img src="http://www.archives.gov/historical-docs/doc-content/images/edison-patent-light-bulb-m.jpg" alt="Edison" style="float:right;" width="50%">
-    <figcaption style="float:right;>Thomas Edison's Original Lightbulb Patent Rendering</figcaption>
-</figure>
+<img src="http://www.archives.gov/historical-docs/doc-content/images/edison-patent-light-bulb-m.jpg" alt="Edison" style="float:right;" width="50%">
 
 The integration of these inventions in the early 20<sup>th</sup> century initiated many of the truly transformative advancements.  Electricity illuminated households and changed the workplace.  Plumbing and running water changed the most basic daily tasks of bathing and washing clothes. The internal combustion engine and automobile created a networked America connected by roads, allowed for mail-order and delivery of consumable goods, rapidly changed farming, and created suburbia as we know it.  
 
