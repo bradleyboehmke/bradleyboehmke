@@ -38,7 +38,7 @@ Most recently techno-optimists are embracing big data, artificial intelligence (
 If you're short on time here are the big take-aways: 
 
 <p class="hangingindent"><a href="#special" style="color:black">&#9312;</a>  
-The special century of 1870-1970 experienced the most remarkable economic growth and no other 100-year period in world history has brought comparable progress and Gordon suggests that this special century should be our baseline for what real transformation looks like.
+The special century of 1870-1970 experienced the most remarkable economic growth. No other 100-year period in world history has brought comparable progress and Gordon suggests that this special century should be our baseline for what real transformation looks like.
 </p>
 
 <p class="hangingindent"><a href="#industrial" style="color:black">&#9313;</a> 
