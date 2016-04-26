@@ -63,7 +63,7 @@ Throughout the first half of his 700 page book, Gordon argues that the period fr
 
 <figure>
     <img src="http://www.archives.gov/historical-docs/doc-content/images/edison-patent-light-bulb-m.jpg" alt="Edison" style="float:right;" width="50%">
-    <figcaption>Thomas Edison's Original Lightbulb Patent Rendering</figcaption>
+    <figcaption style="float:right;>Thomas Edison's Original Lightbulb Patent Rendering</figcaption>
 </figure>
 
 The integration of these inventions in the early 20<sup>th</sup> century initiated many of the truly transformative advancements.  Electricity illuminated households and changed the workplace.  Plumbing and running water changed the most basic daily tasks of bathing and washing clothes. The internal combustion engine and automobile created a networked America connected by roads, allowed for mail-order and delivery of consumable goods, rapidly changed farming, and created suburbia as we know it.  
