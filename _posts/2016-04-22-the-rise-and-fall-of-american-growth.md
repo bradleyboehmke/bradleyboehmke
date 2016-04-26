@@ -97,7 +97,7 @@ The net result Gordon argues, is that the ICT revolution has given us pretty coo
 ## Gordon's Forecast of America's Growth
 So what should we expect over the next 25 years? Gordon provides his predictions for the primary indicators of productivity and standards of living.  In a nutshell they are grim with the expectation that our growth rates will be more in line with the past 10 years, which has experienced some of the worst growth rates in the 20<sup>th</sup> and 21<sup>st</sup> centuries.
 
-![TFP](http://bradleyboehmke.github.io/figure/source/the-rise-and-fall-of-american-growth/2016-04-22-the-rise-and-fall-of-american-growth/gordon_forecast)
+<center><img src="http://bradleyboehmke.github.io/figure/source/the-rise-and-fall-of-american-growth/2016-04-22-the-rise-and-fall-of-american-growth/gordon_forecast.png" alt="Gordon's Forecast" width="75%"></center>
 
 Although, Gordon predicts productivity growth rates to be positive, his argument focuses on four "headwinds" that he believes will make standard of living for the majority of American's to be stagnant.  
 
