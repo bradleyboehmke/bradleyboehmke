@@ -11,7 +11,7 @@ permalink: about/
 
 
 <p>
-I am a Senior Operations Research Analyst for the U.S. Air Force and my research primarily focuses on economic and decision analysis modeling to provide senior leadership robust understanding of economic behavior and potential policy impacts for the Air Force enterprise. 
+I am a Senior Operations Research Analyst for the U.S. Air Force. My research primarily focuses on economic and decision analyses to provide senior leadership robust understanding of economic behavior and potential policy impacts for the Air Force enterprise. 
 </p>
 
 <p>
@@ -29,5 +29,5 @@ In my free time I’m an avid reader, I enjoy tooling around with socio-economic
 <br>
 
 <P CLASS="footnote" style="line-height:0.75; font-size:15px">
-&#10070; <i>All opinions and views are my own and do not represent my employer.</i>
+&#10070; <i>All opinions and views are my own and do not represent my employer(s).</i>
 </P>
