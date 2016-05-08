@@ -19,14 +19,14 @@ categories: [literature]
 </STYLE>
 
 <a href="http://bradleyboehmke.github.io"><img src="http://www.free-icons-download.net/images/open-book-icon-92485.png" alt="Books" style="float:left; margin:-20px 5px -10px -5px; width: 19%; height: 19%;"></a>
-A new endeavor of mine is to track my reading a little better. Actually, tracking it at all will be an improvement from before. One thing I realized from my PhD studies is that you can read far more than you ever imagined; however, if you don't take the time to document what you've read and translate it into your own words, even if it is just a one paragraph synopsis, your retention suffers greatly.  Consequently, I plan to document my readings<sup><a href="#fn1" id="ref1">1</a></sup> in a weekly blog format for my own benefit and personal archiving purposes.  But if you draw any benefits from these posts then you are welcome!
+A new endeavor of mine is to track my reading a little better. Actually, tracking it at all will be an improvement from before. One thing I realized from my PhD studies is that you can read far more than you ever imagined; however, if you don't take the time to document what you've read and translate it into your own words, even if it is just a one paragraph synopsis, your retention suffers greatly.  Consequently, I plan to document my readings<sup><a href="#fn1" id="ref1">1</a></sup> in a monthly blog format for my own benefit and personal archiving purposes.  But if you draw any benefits from these posts then you are welcome!
 <!--more-->  
 
 
 <br>
 
 ## tl;dr
-What I read this week: 
+What I read this month: 
 
 <p class="hangingindent"><a href="#crusoe" style="color:black">&#9312;</a>  
 Robinson Crusoe (Daniel Defoe, 1719) 
@@ -58,6 +58,12 @@ Declaration of the Rights of Man and of the Citizen
 The Making of Americans<sup><a href="#fn4" id="ref4">4</a></sup> 
 (Jean de Cr&egrave;vecoeur, 1793) 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.gutenberg.org/ebooks/4666"><i class="fa fa-book"></i></a> </p>
+
+<p class="hangingindent"><a href="#growth" style="color:black">&#9318;</a> 
+The Rise and Fall of American Growth
+(2016) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<a href="http://www.amazon.com/The-Rise-Fall-American-Growth/dp/0691147728"><i class="fa fa-book"></i></a> </p>
 
 
 
@@ -117,9 +123,17 @@ One of the key doctrines resulting from the French Revolution. Locally, it inspi
 
 ## &#9317; The Making of Americans
 
-Possibly my favorite reading this week. This romantic essay emphasizes the greatness that was America back in the 18th century; some of which still exudes America's greatness while others have disappeared or have even, contestably, become America's side-thorns. Cr&egrave;vecoeur compares the differences between the Americans and English, is the first to discuss America's melting pot concept, emphasizes the uniqueness and opportunities offered by America's labor market, and even explains the differences that exist between American's living on the coast, plains, woods, urban and rural leading to my favorite quote:
+One of my favorite readings this month. This romantic essay emphasizes the greatness that was America back in the 18th century; some of which still exudes America's greatness while others have disappeared or have even, contestably, become America's side-thorns. Cr&egrave;vecoeur compares the differences between the Americans and English, is the first to discuss America's melting pot concept, emphasizes the uniqueness and opportunities offered by America's labor market, and even explains the differences that exist between American's living on the coast, plains, woods, urban and rural leading to my favorite quote:
 
 > *"Men are like plants; the goodness and flavor of the fruit proceeds from the peculiar soil and exposition in which they grow. We are nothing but what we derive from the air we breathe, the climate we inhabit, the government we obey, the system of religion we profess, and the nature of our employment."*
+
+<br>
+
+<a name="growth"></a>
+
+## &#9318; The Making of Americans
+
+This 700+ page book from economist Robert Gordon provides an unbelievable historical recount of the economic progress of America and, more so, the insight into the life of average Americans between 1870 - present. Gordon argues that the period from 1870 to 1970 was a "special century," when America was fundamentally changed and the foundations of modern American life were laid. No other 100-year period in world history has brought comparable progress and Gordon suggests that this special century should be our baseline for what real transformation looks like. Gordon goes on to argue that although the internet and technology revolution has given us some pretty cool stuff, this stuff is creating only marginal rather than fundamental improvements in our lives and businesses' productivity. Moreover, Gordon discusses four headwinds (income inequality, education, demography, and government debt) that he projects will cause near-term growth in business productivity and personal living standards to be in line with the abysmal rates we've experienced during the past decade rather than the fundamental forward leaps that techno-optimists predict and America experienced during the special century. This was a great book and one that I highly recommend.  You can see my full review [here](http://bradleyboehmke.github.io//2016/04/the-rise-and-fall-of-american-growth.html).
 
 <br>
 
