@@ -42,7 +42,7 @@ From the civilian noninstitutional population, the next objective is to identify
 
 In April, we had about 37% of the civilian noninstitutional population not actively engaged in the labor force, taking us back to 1978 levels. 
 
-<img src="http://bradleyboehmke.github.io/figure/source/understanding-the-unemployment-rate/2016-05-08-understanding-the-unemployment-rate/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/understanding-the-unemployment-rate/2016-05-08-understanding-the-unemployment-rate/participation.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
 
 However, its important to keep in mind that individuals in this category are not the same.  On one hand you have individuals that are retired, full-time students, or stay at home mom's that have no desire to currently be engaged in the labor force.  However, there are individuals who desire to work but do not meet the technical definition of being actively engaged in the labor force. This includes:
 
