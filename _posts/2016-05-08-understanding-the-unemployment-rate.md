@@ -44,7 +44,7 @@ From the civilian noninstitutional population, the next objective is to identify
 
 In April, we had about 37% of the civilian noninstitutional population not actively engaged in the labor force, taking us back to 1978 levels. 
 
-<img src="http://bradleyboehmke.github.io/figure/source/understanding-the-unemployment-rate/2016-05-08-understanding-the-unemployment-rate/participation.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/understanding-the-unemployment-rate/2016-05-08-understanding-the-unemployment-rate/participation.png" title="Labor Participation Rate" alt="Labor Participation Rate" style="display: block; margin: auto;" />
 
 However, its important to keep in mind that individuals in this category are not the same.  On one hand you have individuals that are retired, full-time students, or stay at home mom's that have no desire to currently be engaged in the labor force.  However, there are individuals who desire to work but do not meet the technical definition of being actively engaged in the labor force. This includes:
 
@@ -88,7 +88,7 @@ This obviously excludes individuals who are only passively looking for work by m
 
 Therefore, the unemployment rate includes people who have quit their jobs to look for other employment, workers whose temporary jobs have ended, individuals looking for their first job, and experienced workers looking for jobs after an absence from the labor force (i.e. stay-at-home parents who return to the labor force after their children have entered school).
 
-<img src="http://bradleyboehmke.github.io/figure/source/understanding-the-unemployment-rate/2016-05-08-understanding-the-unemployment-rate/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/understanding-the-unemployment-rate/2016-05-08-understanding-the-unemployment-rate/unemployment.png" title="Unemployment Rate" alt="Unemployment Rate" style="display: block; margin: auto;" />
 
 <br>
 
