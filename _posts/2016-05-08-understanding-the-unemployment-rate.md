@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Understanding the Unemployment Rate
-date: 2016-05-09
+date: 2016-05-08
 published: true
 categories: [economics]
 tags: [unemployment]
