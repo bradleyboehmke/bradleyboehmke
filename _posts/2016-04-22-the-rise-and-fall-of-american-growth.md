@@ -4,7 +4,7 @@ title:  The Rise and Fall of American Growth
 date: 2016-04-25 12:25:45
 published: true
 categories: [literature, economics]
-tags: [book review]
+tags: [book-review]
 ---
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
