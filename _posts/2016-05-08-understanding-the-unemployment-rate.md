@@ -8,12 +8,12 @@ tags: [unemployment]
 ---
 
 Early this week the Bureau of Labor Statistics (BLS) released the most recent [unemployment statistics for March](http://www.bls.gov/news.release/pdf/empsit.pdf). No surprises in the umployment rate were experienced with the rate holding steady at about 5% over the past eight months and down from 5.5% in March of 2015.  Each month the BLS reports these figures and each month the media spends a fair amount of time debating the relevance of the changes experienced and what these changes may indicate about our economy. It's amazing how such a *"simple"* statistic can cause so much national debate and can be a central actor used by decision-makers to guide future policy decisions. However, coming up with this statistic is far from *"simple"*.[^simple] Moreover, few American's understand just what makes up the components of this macro-economic indicator. This post, hopefully, will help shed some light on this latter issue.
+<!--more-->
 
 <center>
 <img src="http://bradleyboehmke.github.io/figure/source/understanding-the-unemployment-rate/2016-05-08-understanding-the-unemployment-rate/unemployment1.png"/>
 </center>
 
-<!--more-->
 
 ## Measuring the Unemployed
 How well an economy uses its resources is a major aspect of economic performance; and one of the most important resources is people. Consequently, keeping people employed is a major concern for policymakers and the unemployment rate provides understanding regarding this in addition to providing an indication of labor market conditions. For instance, low unemployment rates reflect job availability and the potential for wage growth whereas high unemployment rates signal economic hardship for individuals who need to earn a living and seek work.  To provide these insights the unemployment rate measures the percentage of people "wanting" to work who do not have jobs. More technically, it is the percentage of the unemployed in the civilian labor force. 
