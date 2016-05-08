@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Weekly Reading Recap
+title:  Monthly Reading Recap
 date: 2016-04-08 18:58:09
 published: true
 categories: [literature]
