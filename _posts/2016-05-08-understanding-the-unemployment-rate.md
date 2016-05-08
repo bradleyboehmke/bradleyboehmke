@@ -7,7 +7,7 @@ categories: [economics]
 tags: [unemployment]
 ---
 
-<a href="http://bradleyboehmke.github.io/2016/05/understanding-the-unemployment-rate.html"><img src="http://premiercredco.com/wp-content/uploads/2013/08/UNEMPLOYMENT-500x359.png" alt="The Rise and Fall of American Growth" style="float:left; margin: 0px 5px -5px 0px; width: 17%; height: 17%;"></a>
+<a href="http://bradleyboehmke.github.io/2016/05/understanding-the-unemployment-rate.html"><img src="http://premiercredco.com/wp-content/uploads/2013/08/UNEMPLOYMENT-500x359.png" alt="The Rise and Fall of American Growth" style="float:left; margin: 0px 5px -5px 5px; width: 17%; height: 17%;"></a>
 Early this week the Bureau of Labor Statistics (BLS) released the most recent [unemployment statistics for March](http://www.bls.gov/news.release/pdf/empsit.pdf). No surprises in the umployment rate were experienced with the rate holding steady at about 5% over the past eight months and down from 5.5% in March of 2015.  Each month the BLS reports these figures and each month the media spends a fair amount of time debating the relevance of the changes experienced and what these changes may indicate about our economy. It's amazing how such a *"simple"* statistic can cause so much national debate and can be a central actor used by decision-makers to guide future policy decisions. However, coming up with this statistic is far from *"simple"*.<sup><a href="#fn1" id="ref1">1</a></sup> Moreover, few American's understand just what makes up the components of this macro-economic indicator. This post, hopefully, will help shed some light on this latter issue.
 <!--more-->
 
@@ -97,6 +97,8 @@ Hopefully this clarifies (for some at least) just what makes up the components o
 
 
 <a href="#top">Go to top</a>
+
+<br>
 
 <hr>
 
