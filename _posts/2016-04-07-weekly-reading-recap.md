@@ -4,6 +4,7 @@ title:  Monthly Reading Recap
 date: 2016-04-08 18:58:09
 published: true
 categories: [literature]
+tags: [book review]
 ---
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
