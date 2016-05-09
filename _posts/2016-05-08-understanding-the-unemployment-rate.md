@@ -11,10 +11,6 @@ tags: [unemployment]
 Last week the Bureau of Labor Statistics (BLS) released the most recent [unemployment statistics for April](http://www.bls.gov/news.release/pdf/empsit.pdf). No surprises in the umployment rate were experienced with the rate holding steady at about 5% over the past eight months and down from 5.4% in April of 2015.  Each month the BLS reports these figures and each month the media spends a fair amount of time debating the relevance of the changes experienced and what these changes may indicate about our economy. It's amazing how such a *"simple"* statistic can cause so much national debate and can be a central actor used by decision-makers to guide future policy decisions. However, coming up with this statistic is far from *"simple"*.<sup><a href="#fn1" id="ref1">1</a></sup> Moreover, few American's understand just what makes up the components of this macro-economic indicator. This post, hopefully, will help shed some light on this latter issue.
 <!--more-->
 
-<center>
-<img src="http://bradleyboehmke.github.io/figure/source/understanding-the-unemployment-rate/2016-05-08-understanding-the-unemployment-rate/unemployment1.png"/>
-</center>
-
 <br>
 
 ## Measuring the Unemployed
@@ -23,6 +19,10 @@ How well an economy uses its resources is a major aspect of economic performance
 To measure the unemployed, among [other statistics](http://www.bls.gov/cps/cpsaz.htm), the BLS conducts the Current Population Survey (CPS). The CPS surveys 60,000 households across the U.S., translating to approximately 110,000 individuals each month. The sample is selected to best represent the U.S. population by demographics (i.e. age, race, sex, vocation) and geography (i.e. region, state, urban, rural). Households included in the sample are on a 16 month rotation in which they are interviewed for 4 consecutive months, removed from the sample for 8 months, and then re-interviewed for 4 additional months before being removed from the sample permenantly.  The households being surveyed are on a staggered rotation so that every month 25% of the households in the sample are changed; meaning that from month-to-month 75% of the households surveyed remain the same and year-to-year 50% of the households surveyed remain the same. This means the the month-to-month and year-to-year changes can be considered quite reliable.
 
 The objective of the CPS is to categorize each adult in the household into one of three buckets - employed, unemployed, or not in the labor force. This is done through a series of [questions](http://www.bls.gov/cps/cps_htgm.htm#unemployed) asked either in-person or over the phone. These questions cover personal characteristics (i.e. demographics) and then covers a series of questions that will determine the persons' categorization. So rather than the person stating whether they are employed or not, the answers to the questions will determine which category they fall into.  And it are these categories that I want to clarify but to do so, I want to start by outlining the big picture - what constitutes the "adult" population and the civilian labor force - and then I'll discuss what determines the three categories.
+
+<center>
+<img src="http://bradleyboehmke.github.io/figure/source/understanding-the-unemployment-rate/2016-05-08-understanding-the-unemployment-rate/unemployment1.png"/>
+</center>
 
 <br>
 
