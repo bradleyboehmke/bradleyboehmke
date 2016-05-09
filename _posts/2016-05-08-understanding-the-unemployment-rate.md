@@ -93,7 +93,7 @@ Therefore, the unemployment rate includes people who have quit their jobs to loo
 <br>
 
 ## Wrap-up
-Hopefully this clarifies (for some at least) just what makes up the components of the unemployment rate so that when in the future, when the monthly unemployment rates are released and the media discussions ensue, you can have a more thorough understanding regarding the information hidden in the statistic.
+Hopefully this clarifies (for some at least) just what makes up the components of the unemployment rate so that in the future, when the monthly unemployment rates are released and the media discussions ensue, you can have a more thorough understanding regarding the information hidden in the statistic.
 
 
 <a href="#top">Go to top</a>
