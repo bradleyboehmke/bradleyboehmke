@@ -16,8 +16,7 @@ permalink: /tutorials/
 * [Simplify your code with `%>%`](simplify_code)
 * [Tidy & transform your data](data_wrangling)
 * Visualization
-* Statistical Modeling
-* Text Analysis
+* Analytics
 * Debugging
 
 <br>
