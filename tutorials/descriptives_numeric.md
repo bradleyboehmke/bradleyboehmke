@@ -54,6 +54,8 @@ get_mode(salaries$Salary)
 ## [1] 414000
 {% endhighlight %}
 
+<a href="#top">Go to top</a>
+
 <br>
 
 ### Variability
@@ -141,6 +143,8 @@ mad(salaries$Salary, center = median(salaries$Salary))
 ## [1] 1126776
 {% endhighlight %}
 
+<a href="#top">Go to top</a>
+
 <br>
 
 ### Shape
@@ -159,6 +163,8 @@ skewness(salaries$Salary, na.rm = TRUE)
 kurtosis(salaries$Salary, na.rm = TRUE)
 ## [1] 8.682261
 {% endhighlight %}
+
+<a href="#top">Go to top</a>
 
 <br>
 
@@ -196,6 +202,8 @@ which(scores(salaries$Salary, type = "iqr", lim = 1.5))
 {% endhighlight %}
 
 How you deal with outliers is a topic worthy of its own tutorial; however, if you want to simply remove an outlier or replace it with the sample mean or median then I recommend the `rm.outlier()` function provided also by the `outliers` package.
+
+<a href="#top">Go to top</a>
 
 <br>
 
