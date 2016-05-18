@@ -14,7 +14,7 @@ When summarizing categorical variables we are primarily limited to assessing:
 3. [Marginals:](#marginals)  The totals in a cross tabulation by row or column
 4. [Visualization:](#visualization) We should understand these features of the data through statistics *and* visualization
 
-To illustrate ways to compute these summary statistics and to visualize categorical data, I'll demonstrate using this data which contains artificial supermarket transaction data:
+To illustrate ways to compute these summary statistics and to visualize categorical data, I'll demonstrate using this [data](https://github.com/bradleyboehmke/bradleyboehmke.github.io/blob/master/public/data/Supermarket%20Transactions.xlsx) which contains artificial supermarket transaction data:
 
 
 {% highlight r %}
