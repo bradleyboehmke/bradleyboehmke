@@ -38,7 +38,7 @@ ggplot(golf, aes(`Driving Accuracy`)) +
         xlab("Driving Accuracy (%)")
 {% endhighlight %}
 
-<img src="assumptions-normality_files/figure-html/unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/normality/unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
 
 If we compare this to the `Earnings` variable we'll see a larger discrepency between the actual distribution and the reference normal distribution had earnings followed a normal distribution. This does not necessarily answer the question of whether the values are normally distributed but it helps provide indication of one way or the other.
 
@@ -51,7 +51,7 @@ ggplot(golf, aes(Earnings)) +
         scale_x_continuous(label = scales::dollar)
 {% endhighlight %}
 
-<img src="assumptions-normality_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/normality/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
 
 Another useful graph that we can inspect to see if a distribution is normal is the Q-Q plot. This graph plots the cumulative values we have in our data against the cumulative probability of  a particular distribution (in this case we specify a normal distribution). In essence, this plot compares the actual value against the expected value that the score should ave in a normal distribution. If the data are normally distributed the plot will display a straight (or nearly straight) line. If the data deviates from normality then the line will display strong curvature or "snaking."
 
@@ -62,13 +62,13 @@ We can illustrate with the same two variables we looked at above. You can see ho
 qqnorm(golf$`Driving Accuracy`, main = "Normal Q-Q Plot for Driving Accuracy")
 {% endhighlight %}
 
-<img src="assumptions-normality_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/normality/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
 
 {% highlight r %}
 qqnorm(golf$Earnings, main = "Normal Q-Q Plot for Earnings")
 {% endhighlight %}
 
-<img src="assumptions-normality_files/figure-html/unnamed-chunk-3-2.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/normality/unnamed-chunk-3-2.png" style="display: block; margin: auto;" />
 
 <a href="#top">Go to top</a>
 
