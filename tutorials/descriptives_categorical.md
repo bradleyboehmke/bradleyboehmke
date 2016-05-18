@@ -66,6 +66,8 @@ ftable(table1)
 ##   M   239  717  242      105      25  631       89 1107     161       309
 {% endhighlight %}
 
+<a href="#top">Go to top</a>
+
 <br>
 
 ### Proportions
@@ -99,6 +101,7 @@ ftable(round(prop.table(table1), 3))
 ##   M  0.017 0.051 0.017    0.007   0.002 0.045    0.006 0.079   0.011     0.022
 {% endhighlight %}
 
+<a href="#top">Go to top</a>
 
 <br>
 
@@ -147,6 +150,8 @@ prop.table(table3, margin = 2)
 ##   M 0.5023710 0.4737988
 ##   S 0.4976290 0.5262012
 {% endhighlight %}
+
+<a href="#top">Go to top</a>
 
 <br>
 
