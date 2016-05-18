@@ -17,7 +17,7 @@ When summarizing numerical values, the key features we are initially interested 
 To illustrate ways to compute different summary statistics and visualize the data to provide understanding of these key features, I'll demonstrate using this data which contains data on 843 MLB players in the 2011 season:
 
 
-```
+{% highlight r %}
 ##            Player                Team Position   Salary
 ## 1    A.J. Burnett    New York Yankees  Pitcher 16500000
 ## 2      A.J. Ellis Los Angeles Dodgers  Catcher   421000
@@ -25,7 +25,7 @@ To illustrate ways to compute different summary statistics and visualize the dat
 ## 4      Aaron Cook    Colorado Rockies  Pitcher  9875000
 ## 5      Aaron Crow  Kansas City Royals  Pitcher  1400000
 ## 6    Aaron Harang    San Diego Padres  Pitcher  3500000
-```
+{% endhighlight %}
 
 <br>
 
@@ -33,17 +33,17 @@ To illustrate ways to compute different summary statistics and visualize the dat
 There are three common measures of central tendency, all of which try to answer the basic question of which value is the most "typical." These are the mean (average of all observations), median (middle observation), and mode (appears most often). Each of these measures can be calculated for an individual variable or across all variables in a particular data frame. 
 
 
-```r
+{% highlight r %}
 mean(salaries$Salary, na.rm = TRUE)
 ## [1] 3305055
 median(salaries$Salary, na.rm = TRUE)
 ## [1] 1175000
-```
+{% endhighlight %}
 
 Unfortunately, there is not a built in function to compute the mode of a variable[^mode]. However, we can create a function that takes the vector as an input and gives the mode value as an output:
 
 
-```r
+{% highlight r %}
 get_mode <- function(v) {
         unique_value <- unique(v)
         unique_value[which.max(tabulate(match(v, unique_value)))]
@@ -51,7 +51,7 @@ get_mode <- function(v) {
 
 get_mode(salaries$Salary)
 ## [1] 414000
-```
+{% endhighlight %}
 
 <br>
 
@@ -62,7 +62,7 @@ The central tendencies give you a sense of the most typical values (salaries in 
 The range is a fairly crude measure of variability, defining the maximum and minimum values and the difference thereof.  We can compute range summaries with the following:
 
 
-```r
+{% highlight r %}
 # get the minimum value
 min(salaries$Salary, na.rm = FALSE)
 ## [1] 414000
@@ -78,13 +78,13 @@ range(salaries$Salary, na.rm = FALSE)
 # compute the spread between min & max values
 max(salaries$Salary, na.rm = FALSE) - min(salaries$Salary, na.rm = FALSE)
 ## [1] 31586000
-```
+{% endhighlight %}
 
 #### Percentiles
 Given a certain percentage such as 25%, what is the salary value such that this percentage of salaries is below it? This type of question leads to **percentiles** and **quartiles**. Specifically, for any percentage $p$, the $p$th percentile is the value such that a percentage $p$ of all values are less than it. Similarly, the first, second, and third quartiles are the percentiles corresponding to $p=25%$, $p=50%$, and $p=75%$. These three values divide the data into four groups, each with (approximately) a quarter of all observations. Note that the second quartile is equal to the median by definition. These measures are easily computed in R:
 
 
-```r
+{% highlight r %}
 # fivenum() function provides min, 25%, 50% (median), 75%, and max
 fivenum(salaries$Salary)
 ## [1]   414000   430325  1175000  4306250 32000000
@@ -105,23 +105,23 @@ quantile(salaries$Salary, probs = seq(from = 0, to = 1, by = .1), na.rm = TRUE)
 # we can quickly compute the difference between the 1st and 3rd quantile
 IQR(salaries$Salary)
 ## [1] 3875925
-```
+{% endhighlight %}
 
 An alternative approach to is to use the `summary()` function with is a generic R function used to produce min, 1st quantile, median, mean, 3rd quantile, and max summary measures.  However, note that the 1st and 3rd quantiles produced by `summary()` differ from the 1st and 3rd quantiles produced by `fivenum()` and the default `quantile()`.  The reason for this is due to the lack of universal agreement on how the 1st and 3rd quartiles should be calculated.[^disagreement] Eric Cai provided a good [blog post](https://chemicalstatistician.wordpress.com/2013/08/12/exploratory-data-analysis-the-5-number-summary-two-different-methods-in-r-2/) that discusses this difference in the R functions. 
 
 
-```r
+{% highlight r %}
 summary(salaries$Salary)
 ##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
 ##   414000   430300  1175000  3305000  4306000 32000000
-```
+{% endhighlight %}
 
 
 #### Variance
 Although the range provides a crude measure of variability and percentiles/quartiles provide an understanding of divisions of the data, the most common measures to summarize variability are variance and its derivatives (standard deviation and mean/median absolute deviation). We can compute each of these as follows:
 
 
-```r
+{% highlight r %}
 # variance
 var(salaries$Salary)
 ## [1] 2.056389e+13
@@ -138,7 +138,7 @@ mad(salaries$Salary, center = mean(salaries$Salary))
 # so it does not need to be specified, although I do just be clear
 mad(salaries$Salary, center = median(salaries$Salary))
 ## [1] 1126776
-```
+{% endhighlight %}
 
 <br>
 
@@ -150,14 +150,14 @@ Kurtosis is a measure of <u>peakedness</u> for a distribution. Negative values i
 We can get both skewness and kurtosis values using the [`moments`](https://cran.r-project.org/web/packages/moments/moments.pdf) package:
 
 
-```r
+{% highlight r %}
 library(moments)
 
 skewness(salaries$Salary, na.rm = TRUE)
 ## [1] 2.252809
 kurtosis(salaries$Salary, na.rm = TRUE)
 ## [1] 8.682261
-```
+{% endhighlight %}
 
 <br>
 
@@ -165,7 +165,7 @@ kurtosis(salaries$Salary, na.rm = TRUE)
 Outliers in data can distort predictions and affect their accuracy. Consequently, its important to understand if outliers are present and, if so, which observations are considered outliers.  The [`outliers`]() package provides a number of useful functions to systematically extract outliers. The functions of most use are `outlier()` and `scores()`.  The `outlier()` function gets the most extreme observation from the mean.  The `scores()` function computes the normalized (*z*, *t*, *chisq*, etc.) score which you can use to find observation(s) that lie beyond a given value.
 
 
-```r
+{% highlight r %}
 library(outliers)
 
 # gets most extreme right-tail observation
@@ -192,7 +192,7 @@ which(scores(salaries$Salary, type = "iqr", lim = 1.5))
 ## [35] 355 370 384 408 440 441 442 452 460 475 484 493 496 517 520 535 538
 ## [52] 547 576 577 585 601 620 627 629 649 664 679 692 695 707 728 729 733
 ## [69] 737 760 790 794 801 803 816 818 843
-```
+{% endhighlight %}
 
 How you deal with outliers is a topic worthy of its own tutorial; however, if you want to simply remove an outlier or replace it with the sample mean or median then I recommend the `rm.outlier()` function provided also by the `outliers` package.
 
@@ -204,16 +204,16 @@ There are many graphical representations to illustrate these summary measures fo
 Histograms are the most common type of chart for showing the distribution of a numerical variable. Histograms display a 1D distribution by dividing into bins and counting the number of observations in each bin.  Whereas the previously discussed summary measures - mean, median, standard deviation, skewness - describes only one aspect of a numerical variable, a histogram provides the complete picture by illustrating the center of the distribution, the variability, skewness, and other aspects in one convenient chart. We can quickly visualize the histogram for our MLB salaries using base R graphics:
 
 
-```r
+{% highlight r %}
 hist(salaries$Salary)
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
 
 However, we can use `ggplot` to customize our graphic and create a more presentable product:
 
 
-```r
+{% highlight r %}
 library(ggplot2)
 
 ggplot(salaries, aes(Salary)) + 
@@ -223,17 +223,17 @@ ggplot(salaries, aes(Salary)) +
                    color = "red", linetype = "dashed") +  # add line for mean
         annotate("text", x = mean(salaries$Salary) * 2, y = 155,
                  label = paste0("Avg: $", round(mean(salaries$Salary)/1000000, 1),"M"))
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
 
 An alternative, and highly effective way to visualize data is with `dotplots`. In a dotplot a dot is placed at the appropriate value on the x axis for each case with multiples cases of a particular value resulting in dots stacking up. The dotplot below helps to illustrate that there is one unique player with a salary greater than $30M (Alex Rodriguez) and only six players with salaries greater than $20M. 
 
-```r
+{% highlight r %}
 ggplot(salaries, aes(x = Salary)) + 
         geom_dotplot() +
         scale_x_continuous(labels = scales::dollar)
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
 
@@ -246,17 +246,17 @@ Boxplots are an alternative way to illustrate the distribution of a variable and
 For a quick univariate assessment we can use the `boxplot()` function in base R graphics. This single boxplot illustrates the highly skewed nature of the distribution with many outliers on the right side.
 
 
-```r
+{% highlight r %}
 # I use a log scale to spread out the data
 boxplot(salaries$Salary, horizontal = TRUE, log = "x")
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-13-1.png" style="display: block; margin: auto;" />
 
 As before, we can use `ggplot` to refine the boxplot and add additional features such as a point illustrating the mean and also show the actual distribution of observations:
 
 
-```r
+{% highlight r %}
 ggplot(salaries, aes(x = factor(0), y = Salary)) +
         geom_boxplot() +
         xlab("") +
@@ -265,19 +265,19 @@ ggplot(salaries, aes(x = factor(0), y = Salary)) +
         coord_flip() +
         geom_jitter(shape = 16, position = position_jitter(0.4), alpha = .3) +
         stat_summary(fun.y = mean, geom = "point", shape = 23, size = 4, fill = "blue")
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-14-1.png" style="display: block; margin: auto;" />
 
 However, boxplots are more useful when comparing distributions.  For instance, if you wanted to compare the distributions of salaries across the different positions boxplots provide a quick comparative assessment:
 
 
-```r
+{% highlight r %}
 ggplot(salaries, aes(x = Position, y = Salary)) +
         geom_boxplot() +
         scale_y_continuous(labels = scales::dollar) +
         coord_flip()
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
 
