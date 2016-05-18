@@ -18,20 +18,13 @@ To illustrate ways to compute these summary statistics and to visualize categori
 
 
 {% highlight r %}
-##   Customer ID Gender Marital Status Annual Income          City
-## 1        7223      F              S   $30K - $50K   Los Angeles
-## 2        7841      M              M   $70K - $90K   Los Angeles
-## 3        8374      F              M   $50K - $70K     Bremerton
-## 4        9619      M              M   $30K - $50K      Portland
-## 5        1900      F              S $130K - $150K Beverly Hills
-## 6        6696      F              M   $10K - $30K Beverly Hills
-##       Product Category Units Sold Revenue
-## 1          Snack Foods          5   27.38
-## 2           Vegetables          5   14.90
-## 3          Snack Foods          3    5.52
-## 4                Candy          4    4.44
-## 5 Carbonated Beverages          4   14.00
-## 6          Side Dishes          3    4.37
+##   Customer ID Gender Marital Status Annual Income          City     Product Category Units Sold Revenue
+## 1        7223      F              S   $30K - $50K   Los Angeles          Snack Foods          5   27.38
+## 2        7841      M              M   $70K - $90K   Los Angeles           Vegetables          5   14.90
+## 3        8374      F              M   $50K - $70K     Bremerton          Snack Foods          3    5.52
+## 4        9619      M              M   $30K - $50K      Portland                Candy          4    4.44
+## 5        1900      F              S $130K - $150K Beverly Hills Carbonated Beverages          4   14.00
+## 6        6696      F              M   $10K - $30K Beverly Hills          Side Dishes          3    4.37
 {% endhighlight %}
 
 <br>
