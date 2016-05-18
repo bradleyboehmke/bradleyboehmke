@@ -25,6 +25,7 @@ To illustrate ways to compute these summary statistics and to visualize categori
 ## 4        9619      M              M   $30K - $50K      Portland                Candy          4    4.44
 ## 5        1900      F              S $130K - $150K Beverly Hills Carbonated Beverages          4   14.00
 ## 6        6696      F              M   $10K - $30K Beverly Hills          Side Dishes          3    4.37
+
 {% endhighlight %}
 
 <br>
