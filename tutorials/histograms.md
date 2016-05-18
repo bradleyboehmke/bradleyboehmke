@@ -1,3 +1,12 @@
+---
+layout: page
+title: NULL
+---
+
+[R Vocab Topics](index) &#187; [Visualizations](visualization) &#187; Histograms & density plots
+
+<br>
+
 Histograms are a useful way to look at the shape of a distribution of numerical data and are, typically, our first step in assessing normality. They are used by displaying the numeric values on the x-axis where the continuous variable is broken into intervals (aka bins) and the the y-axis represents the frequency or percent of observations that fall into that bin. Density plots provide a similar plot; however, the y-axis displays the probability of getting an x value.
 
 - [Replication requirements](#replication)
