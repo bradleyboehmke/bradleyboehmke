@@ -16,7 +16,7 @@ Histograms are a useful way to look at the shape of a distribution of numerical 
 
 <br>
 
-## Relication Requirements {#replication}
+## Replication Requirements {#replication}
 We'll illustrate with the following data:
 
 
