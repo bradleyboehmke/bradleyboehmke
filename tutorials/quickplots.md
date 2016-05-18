@@ -3,7 +3,9 @@ layout: page
 title: NULL
 ---
 
-[R Vocab Topics](index) &#187; Visualizations &#187; Quick plots
+[R Vocab Topics](index) &#187; [Visualizations](visualization) &#187; Quick plots
+
+<br>
 
 For quick data exploration, base R plotting functions can provide a quick and straightforward approach to understanding your data. These functions are installed by default with R and do not require additional visualization packages to be installed. This tutorial shows how to use these base functions for visualizations and I'll use data sets that come with R.  
 
