@@ -53,7 +53,7 @@ ggplot(golf, aes(Earnings)) +
 
 <img src="assumptions-normality_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
 
-Another useful graph that we can inspect to see if a distribution is normal is the Q-Q plot. This graph plots the cumulative values we have in our data against the cumulative probability of  a particular distribution (in this case we specify a normal distribution). IN essence, this plot compares the actual value against the expected value that the score should ave in a normal distribution. If the data are normally distributed the plot will display a straight (or nearly straight) line. If the data deviates from normality then the line will display strong curvature or "snaking."
+Another useful graph that we can inspect to see if a distribution is normal is the Q-Q plot. This graph plots the cumulative values we have in our data against the cumulative probability of  a particular distribution (in this case we specify a normal distribution). In essence, this plot compares the actual value against the expected value that the score should ave in a normal distribution. If the data are normally distributed the plot will display a straight (or nearly straight) line. If the data deviates from normality then the line will display strong curvature or "snaking."
 
 We can illustrate with the same two variables we looked at above. You can see how the Q-Q plot for the driving accuracy displays a nice straight line whereas the Q-Q plot for earnings is heavily skewed.
 
