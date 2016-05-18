@@ -13,6 +13,7 @@ When summarizing numerical values, the key features we are initially interested 
 2. [Variability:](#variability) How do the values vary?
 3. [Shape:](#range) Are the values symmetrically or assymetrically distributed?
 4. [Outliers:](#shape) Are there values that represent abnormalities in the data?
+5. [Visualization:](#visualization) We should understand these features of the data through statistics *and* visualization
 
 To illustrate ways to compute different summary statistics and visualize the data to provide understanding of these key features, I'll demonstrate using this data which contains data on 843 MLB players in the 2011 season:
 
