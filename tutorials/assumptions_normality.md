@@ -10,7 +10,7 @@ title: NULL
 The assumption of normality claims that the sampling distribution of the mean is normal or that the distribution of means across samples is normal. This should not be confused with the presumption that the values within a given sample are normally distributed or that the values within the population from which the sample was taken are normal. Rather, the core element of this assumption is that the distribution of <u>sample means</u> (across independent samples) is normally distributed. Luckily, we know from the Central Limit Theorem (CLT) that if the sample data are *approximately* normal then the sampling distribution will be as well. We also know from the CLT that in big samples the sampling distribution tends to be normal anyway.
 
 <p class="indented">
-<b><u>Central Limit Theorem</u>:<b/> <i>given random and independent samples of N observations each, the distribution of sample means approaches normality as the size of N increases, regardless of the shape of the population distribution.</i>
+<b><u>Central Limit Theorem</u>:</b> <i>given random and independent samples of N observations each, the distribution of sample means approaches normality as the size of N increases, regardless of the shape of the population distribution.</i>
 </p>
 
 The assumption of normality is important for hypothesis testing and in regression models. In general linear models, the assumption comes in to play with regards to residuals (aka errors). In both cases it useful to test for normality and that's what this tutorial covers. I'll illustrate how to assess normality through:
