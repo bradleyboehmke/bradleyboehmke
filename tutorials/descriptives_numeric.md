@@ -81,7 +81,7 @@ max(salaries$Salary, na.rm = FALSE) - min(salaries$Salary, na.rm = FALSE)
 {% endhighlight %}
 
 #### Percentiles
-Given a certain percentage such as 25%, what is the salary value such that this percentage of salaries is below it? This type of question leads to **percentiles** and **quartiles**. Specifically, for any percentage $p$, the $p$th percentile is the value such that a percentage $p$ of all values are less than it. Similarly, the first, second, and third quartiles are the percentiles corresponding to $p=25%$, $p=50%$, and $p=75%$. These three values divide the data into four groups, each with (approximately) a quarter of all observations. Note that the second quartile is equal to the median by definition. These measures are easily computed in R:
+Given a certain percentage such as 25%, what is the salary value such that this percentage of salaries is below it? This type of question leads to **percentiles** and **quartiles**. Specifically, for any percentage *p*, the *p*th percentile is the value such that a percentage *p* of all values are less than it. Similarly, the first, second, and third quartiles are the percentiles corresponding to *p=25%*, *p=50%*, and *p=75%*. These three values divide the data into four groups, each with (approximately) a quarter of all observations. Note that the second quartile is equal to the median by definition. These measures are easily computed in R:
 
 
 {% highlight r %}
