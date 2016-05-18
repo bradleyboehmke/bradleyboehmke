@@ -17,7 +17,7 @@ When summarizing categorical variables we are primarily limited to assessing:
 To illustrate ways to compute these summary statistics and to visualize categorical data, I'll demonstrate using this data which contains artificial supermarket transaction data:
 
 
-```
+{% highlight r %}
 ##   Customer ID Gender Marital Status Annual Income          City
 ## 1        7223      F              S   $30K - $50K   Los Angeles
 ## 2        7841      M              M   $70K - $90K   Los Angeles
@@ -32,7 +32,7 @@ To illustrate ways to compute these summary statistics and to visualize categori
 ## 4                Candy          4    4.44
 ## 5 Carbonated Beverages          4   14.00
 ## 6          Side Dishes          3    4.37
-```
+{% endhighlight %}
 
 <br>
 
@@ -40,7 +40,7 @@ To illustrate ways to compute these summary statistics and to visualize categori
 To produce contingency tables with which calculate counts for each combination of categorical variables we can use R's `table()` function:
 
 
-```r
+{% highlight r %}
 # counts for gender categories
 table(supermarket$Gender)
 ## 
@@ -53,12 +53,12 @@ table(supermarket$`Marital Status`, supermarket$Gender)
 ##        F    M
 ##   M 3602 3264
 ##   S 3568 3625
-```
+{% endhighlight %}
 
 We can also produce multidimensional tables based on three or more categorical variables. For this, we leverage the `ftable()` function to print the results more attractively:
 
 
-```r
+{% highlight r %}
 # customer counts across location by gender and marital status
 table1 <- table(supermarket$`Marital Status`, supermarket$Gender, 
                 supermarket$`State or Province`)
@@ -70,7 +70,7 @@ ftable(table1)
 ##   M   197  692  210       94       5  514      108 1160     129       155
 ## S F   183  686  175      107      30  607      125 1134     164       357
 ##   M   239  717  242      105      25  631       89 1107     161       309
-```
+{% endhighlight %}
 
 <br>
 
@@ -78,7 +78,7 @@ ftable(table1)
 We can also produce contingency tables that present the proportions (percentages) of each category or combination of categories. To do this we simply feed the frequency tables produced by `table()` to the `prop.table()` function
 
 
-```r
+{% highlight r %}
 # percentages of gender categories
 table2 <- table(supermarket$Gender)
 prop.table(table2)
@@ -103,7 +103,7 @@ ftable(round(prop.table(table1), 3))
 ##   M  0.014 0.049 0.015    0.007   0.000 0.037    0.008 0.083   0.009     0.011
 ## S F  0.013 0.049 0.012    0.008   0.002 0.043    0.009 0.081   0.012     0.025
 ##   M  0.017 0.051 0.017    0.007   0.002 0.045    0.006 0.079   0.011     0.022
-```
+{% endhighlight %}
 
 
 <br>
@@ -112,18 +112,18 @@ ftable(round(prop.table(table1), 3))
 Marginals show the total counts or percentages across columns or rows in a contingency table.  For instance, if we go back to `table3` which is the cross classication counts for gender by marital status:
 
 
-```r
+{% highlight r %}
 table3
 ##    
 ##        F    M
 ##   M 3602 3264
 ##   S 3568 3625
-```
+{% endhighlight %}
 
 We can compute the marginal frequencies with `margin.table()` and the percentages for these marginal frequencies with `prop.table()` using the `margin` argument:
 
 
-```r
+{% highlight r %}
 # FREQUENCY MARGINALS
 # row marginals - totals for each marital status across gender
 margin.table(table3, 1)
@@ -152,7 +152,7 @@ prop.table(table3, margin = 2)
 ##             F         M
 ##   M 0.5023710 0.4737988
 ##   S 0.4976290 0.5262012
-```
+{% endhighlight %}
 
 <br>
 
@@ -160,24 +160,23 @@ prop.table(table3, margin = 2)
 Bar charts are most often used to visualize categorical variables. 
 
 
-```r
+{% highlight r %}
 # Frequency bar charts
 ggplot(supermarket, aes(x = Gender)) +
         geom_bar()
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-1.png" style="display: block; margin: auto;" />
 
-```r
-
+{% highlight r %}
 ggplot(supermarket, aes(x = `State or Province`)) +
         geom_bar() +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-2.png" style="display: block; margin: auto;" />
 
-```r
+{% highlight r %}
 
 # reorder bar chart in descending order - note that there are multiple ways
 # to reorder bar charts - just search "Order Bars in ggplot2 bar graph" in 
@@ -190,11 +189,11 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         geom_bar() +
         xlab("State or Province") +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-3.png" style="display: block; margin: auto;" />
 
-```r
+{% highlight r %}
 
 # Proportions bar charts
 ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
@@ -202,11 +201,11 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         xlab("State or Province") +
         scale_y_continuous(labels = scales::percent, name = "Proportion") +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-4.png" style="display: block; margin: auto;" />
 
-```r
+{% highlight r %}
 
 # We can also create contingency table-like bar charts by creating facets
 # Here I plot customer proportions across location and by Gender
@@ -216,11 +215,11 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         scale_y_continuous(labels = scales::percent, name = "Proportion") +
         facet_grid(~ Gender) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-5.png" style="display: block; margin: auto;" />
 
-```r
+{% highlight r %}
 
 # I can also do the same plot by Gender and by Marital status
 ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
@@ -229,7 +228,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         scale_y_continuous(labels = scales::percent, name = "Proportion") +
         facet_grid(`Marital Status` ~ Gender) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
-```
+{% endhighlight %}
 
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-6.png" style="display: block; margin: auto;" />
 
