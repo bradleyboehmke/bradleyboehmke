@@ -34,7 +34,7 @@ ggplot(golf, aes(x = Rank, y = Birdies)) +
         ggtitle("Figure 1: Number of Birdies versus Player Rank")
 {% endhighlight %}
 
-<img src="assumptions-homogeneity_files/figure-html/unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/homogeneity/unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
 
 In figure 2, however, the variance appears to increase as the number of events played increases.  This is an example of heterogeneity of variance, meaning that the variance (or spread) is not consistent across the ranges of values.
 
@@ -46,7 +46,7 @@ ggplot(golf, aes(x = Events, y = Birdies)) +
          ggtitle("Figure 2: Birdies versus Number of Events Played")
 {% endhighlight %}
 
-<img src="assumptions-homogeneity_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/homogeneity/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
 
 An alternative vizualization is the boxplot. This is commonly used to compare groupings against one-another. In this case we may want to assess how the number of birdies differ among players who have won zero, one, and two tournaments. This plot illustrates that the number of birdies vary widely for players who have no tournament wins.  However, players who have one and two tournament wins have an increasing median number of birdies achieved and less variance. This is logical as we would expect players that win more tournaments to have scored more birdies and to be more consistent with the number of birdies scored. 
 
@@ -57,7 +57,7 @@ ggplot(golf, aes(x = factor(Wins), y = Birdies)) +
          ggtitle("Number of Birdies by Number of Tournaments Won")
 {% endhighlight %}
 
-<img src="assumptions-homogeneity_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/homogeneity/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
 
 Keep in mind that visualizing variance provides indications rather than statistical confirmation of homogeneity (or heterogeneity). To confirm we can perform statistical tests which I cover next.
 
