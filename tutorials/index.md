@@ -15,8 +15,8 @@ permalink: /tutorials/
 * [Importing, scraping, and exporting data](data_inputs_outputs)
 * [Simplify your code with `%>%`](simplify_code)
 * [Tidy & transform your data](data_wrangling)
-* Visualization
-* Analytics
+* [Visualization](visualization)
+* [Analytics](analytics)
 * Debugging
 
 <br>
