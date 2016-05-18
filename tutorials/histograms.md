@@ -27,7 +27,7 @@ df <- data.frame(group = factor(rep(c("A", "B"), each = 200)),
                  rating = c(rnorm(200), rnorm(200, mean = .8)))
 {% endhighlight %}
 
-Although histograms can be produced quickly with base R functions and `ggplot2`'s `qplot()` function, for this tutorial I will demonstrate how to generate more refined histograms with `ggplot2`s full syntax.
+Although histograms can be produced quickly with base R functions and `ggplot2`'s `qplot()` function, for this tutorial I will demonstrate how to generate more refined histograms with `ggplot2`'s full syntax.
 
 
 {% highlight r %}
