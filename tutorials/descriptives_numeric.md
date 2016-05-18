@@ -9,10 +9,10 @@ title: NULL
 
 When summarizing numerical values, the key features we are initially interested in understanding include:
 
-1. [**Central Tendency:**](#central) What are the most typical values?
-2. [**Variability:**](#variability) How do the values vary?
-3. [**Shape:**](#range) Are the values symmetrically or assymetrically distributed?
-4. [**Outliers:**](#shape) Are there values that represent abnormalities in the data?
+1. [Central Tendency:](#central) What are the most typical values?
+2. [Variability:](#variability) How do the values vary?
+3. [Shape:](#range) Are the values symmetrically or assymetrically distributed?
+4. [Outliers:](#shape) Are there values that represent abnormalities in the data?
 
 To illustrate ways to compute different summary statistics and visualize the data to provide understanding of these key features, I'll demonstrate using this data which contains data on 843 MLB players in the 2011 season:
 
@@ -81,7 +81,7 @@ max(salaries$Salary, na.rm = FALSE) - min(salaries$Salary, na.rm = FALSE)
 {% endhighlight %}
 
 #### Percentiles
-Given a certain percentage such as 25%, what is the salary value such that this percentage of salaries is below it? This type of question leads to **percentiles** and **quartiles**. Specifically, for any percentage *p*, the *p*th percentile is the value such that a percentage *p* of all values are less than it. Similarly, the first, second, and third quartiles are the percentiles corresponding to *p=25%*, *p=50%*, and *p=75%*. These three values divide the data into four groups, each with (approximately) a quarter of all observations. Note that the second quartile is equal to the median by definition. These measures are easily computed in R:
+Given a certain percentage such as 25%, what is the salary value such that this percentage of salaries is below it? This type of question leads to <u>percentiles</u> and <u>quartiles</u>. Specifically, for any percentage *p*, the *p*th percentile is the value such that a percentage *p* of all values are less than it. Similarly, the first, second, and third quartiles are the percentiles corresponding to *p=25%*, *p=50%*, and *p=75%*. These three values divide the data into four groups, each with (approximately) a quarter of all observations. Note that the second quartile is equal to the median by definition. These measures are easily computed in R:
 
 
 {% highlight r %}
@@ -143,7 +143,7 @@ mad(salaries$Salary, center = median(salaries$Salary))
 <br>
 
 ### Shape
-Two additional measures of a distribution that you will hear occasionally include **skewness** and **kurtosis**. Skewness is a measure of <u>symmetry</u> for a distribution. Negative values represent a *left-skewed* distribution where there are more extreme values to the left causing the mean to be less than the median. Positive values represent a *right-skewed* distribution where there are more extreme values to the right causing the mean to be more than the median.
+Two additional measures of a distribution that you will hear occasionally include <u>skewness</u> and <u>kurtosis</U>. Skewness is a measure of <u>symmetry</u> for a distribution. Negative values represent a *left-skewed* distribution where there are more extreme values to the left causing the mean to be less than the median. Positive values represent a *right-skewed* distribution where there are more extreme values to the right causing the mean to be more than the median.
 
 Kurtosis is a measure of <u>peakedness</u> for a distribution. Negative values indicate a flat (platykurtic) distribution, positive values indicate a peaked (leptokurtic) distribution, and a near-zero value indicates a normal (mesokurtic) distribution. 
 
