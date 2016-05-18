@@ -22,7 +22,7 @@ The assumption of normality is important for hypothesis testing and in regressio
 <br>
 
 ## Visualizing Normality {#visualization}
-Frequency distributions are a useful way to look at the shape of a distribution and are, typically, our first step in assessing normality. Not only can we assess the distribution of the data we are analyzing, we can also add a reference normal distribution onto our plot to compare. We can illustrate with some golf data provided by [ESPN](http://espn.go.com/golf/statistics). Here we are assessing the distribution of Driving Accuracy across 200 players and when we add the reference normal distribution with the `stat_function()` argument we see that the data does in fact appear to be normally distributed.
+Frequency distributions are a useful way to look at the shape of a distribution and are, typically, our first step in assessing normality. Not only can we assess the distribution of the data we are analyzing, we can also add a reference normal distribution onto our plot to compare. We can illustrate with some [golf data](bradleyboehmke.github.io/public/data/Golf Stats.xlsx) provided by [ESPN](http://espn.go.com/golf/statistics). Here we are assessing the distribution of Driving Accuracy across 200 players and when we add the reference normal distribution with the `stat_function()` argument we see that the data does in fact appear to be normally distributed.
 
 
 {% highlight r %}
