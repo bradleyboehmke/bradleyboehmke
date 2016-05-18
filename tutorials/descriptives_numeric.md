@@ -282,3 +282,11 @@ ggplot(salaries, aes(x = Position, y = Salary)) +
 <img src="descriptive-statistics_files/figure-html/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
 
 <a href="#top">Go to top</a>
+
+<br>
+
+<br>
+
+[^mode]: There is a `mode()` function in R; however, it is used to get or set the type or storage mode of an object rather than to compute the statistical mode of a variable.
+
+[^disagreement]: See Hyndman, R. & Fan, Y. (1996). Sample Quantiles in Statistical Packages, **The American Statistician, 50*(4), 361-365 for more discussion.
