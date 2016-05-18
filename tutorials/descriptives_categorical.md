@@ -159,7 +159,7 @@ ggplot(supermarket, aes(x = Gender)) +
         geom_bar()
 {% endhighlight %}
 
-<img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-21-1.png" style="display: block; margin: auto;" />
 
 {% highlight r %}
 ggplot(supermarket, aes(x = `State or Province`)) +
@@ -167,7 +167,7 @@ ggplot(supermarket, aes(x = `State or Province`)) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-2.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-21-2.png" style="display: block; margin: auto;" />
 
 {% highlight r %}
 
@@ -184,7 +184,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-3.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-21-3.png" style="display: block; margin: auto;" />
 
 {% highlight r %}
 
@@ -196,7 +196,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-4.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-21-4.png" style="display: block; margin: auto;" />
 
 {% highlight r %}
 
@@ -210,7 +210,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-5.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-21-5.png" style="display: block; margin: auto;" />
 
 {% highlight r %}
 
@@ -223,7 +223,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="descriptive-statistics_files/figure-html/unnamed-chunk-21-6.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-21-6.png" style="display: block; margin: auto;" />
 
 
 <a href="#top">Go to top</a>
