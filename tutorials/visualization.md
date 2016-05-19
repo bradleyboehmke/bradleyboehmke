@@ -5,8 +5,9 @@ title: NULL
 
 [R Vocab Topics](index) &#187; Visualizations
 
-<div class="container">
-   <div class="column-center">Column center</div>
-   <div class="column-left">Column left</div>
-   <div class="column-right">Column right</div>
+<div style="width: 500px;">
+ <div style="float: left; width: 200px;">Left Stuff</div>
+ <div style="float: left; width: 100px;">Middle Stuff</div>
+ <div style="float: left; width: 200px;">Right Stuff</div>
+ <br style="clear: left;" />
 </div>
