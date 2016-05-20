@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A Correlation Significance Curve
+title:  A Correlation Validation Curve
 date: 2016-05-19
 published: true
 categories: [analytics]
