@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A Correlation Validation Curve
-date: 2016-05-19
+date: 2016-05-23
 published: true
 categories: [analytics]
 tags: [business analytics, statistics]
