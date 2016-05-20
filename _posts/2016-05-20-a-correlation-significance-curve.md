@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A Correlation Significance Curve
-date: 2016-05-23
+date: 2016-05-19
 published: true
 categories: [analytics]
 tags: [business analytics, statistics]
