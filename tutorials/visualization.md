@@ -9,11 +9,11 @@ title: NULL
 
 <div style="float: left; width: 30%;">
 
-<a href="http://www.w3schools.com">
+<a href="http://bradleyboehmke.github.io/tutorials/quickplots">
 <img src="/public/images/visual/quickplots/quickplots.png" style="display: block; margin: auto;" />
 </a>
 
-## [Quick Plots](quickplots)
+<h2>Quick Plots</h2>
  
 </div>
  
