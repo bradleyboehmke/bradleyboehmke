@@ -9,7 +9,9 @@ title: NULL
 
 <div style="float: left; width: 30%;">
 
+<a href="http://www.w3schools.com">
 <img src="/public/images/visual/quickplots/quickplots.png" style="display: block; margin: auto;" />
+</a>
 
 ## [Quick Plots](quickplots)
  
