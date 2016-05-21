@@ -7,16 +7,42 @@ title: NULL
 
 <br>
 
-For quick data exploration, base R plotting functions can provide a quick and straightforward approach to understanding your data. These functions are installed by default with R and do not require additional visualization packages to be installed. This tutorial shows how to use these base functions for visualizations and I'll use data sets that come with R.  
+For quick data exploration, base R plotting functions can provide an expeditious and straightforward approach to understanding your data. These functions are installed by default in base R and do not require additional visualization packages to be installed. This straightforward tutorial should teach you the basics, and give you a good idea of what you want to do next.  
 
 In addition, I'll show how to make similar graphics with the `qplot()` function in `ggplot2`, which has a syntax similar to the base graphics functions. For each `qplot()` graph, there is also an equivalent using the more powerful `ggplot()` function which I illustrate in later visualization tutorials. This will, hopefully, help you transition to using `ggplot2` when you want to make more sophisticated graphics. 
 
+<br>
+
+## tl;dr
+Don't have the time to scroll through the full tutorial?  Skip directly to the section of interest:
+
+- [Replication requirements](#replication)
 - [Scatter plot](#scatter)
 - [Line chart](#line)
 - [Bar chart](#bar)
 - [Histogram](#histogram)
 - [Box plot](#box)
 - [Stem & leaf plot](#stem)
+
+<br>
+
+## Replication Requirements {#replication}
+To illustrate these quick plots I'll use several built in data sets that come with base R. R has 104 built in data sets that can be viewed with `data()`. The ones I'll use below include `mtcars`, `pressure`, `BOD`, and `faithful`. You can type these in your R console at anytime to see the data.  Also, in addition to base R plotting functions I illustrate how to use the `qplot()` function from the `ggplot2` package.
+
+
+{% highlight r %}
+# data sets used
+mtcars
+pressure
+BOD
+faithful
+
+# package used
+library(ggplot2)
+{% endhighlight %}
+
+&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/basics/packages/) for more information on installing, loading, and getting help with packages.*
+
 
 <br>
 
@@ -29,7 +55,7 @@ To make a scatter plot use `plot()` with a vector of x values and a vector of y 
 plot(x = mtcars$wt, y = mtcars$mpg)
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 
 You can get a similar result using `qplot()`:
 
@@ -39,9 +65,9 @@ library(ggplot2)
 qplot(x = mtcars$wt, y = mtcars$mpg)
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
 
-If the two vectors are already in the same data frame, note that the following functions produce the same outpt:
+If the two vectors are already in the same data frame, note that the following functions produce the same output:
 
 
 {% highlight r %}
@@ -55,6 +81,15 @@ qplot(x = wt, y = mpg, data = mtcars)
 ggplot(data = mtcars, aes(x = wt, y = mpg)) +
         geom_point()
 {% endhighlight %}
+
+You can also get a scatter plot matrix to observe several plots at once.  In this case you just pass the multiple variables (columns) in the data frame to `plot()` and a scatter plot matrix will be returned. The `qplot()` function does not have this same functionality; however, you can do more advanced plotting matrices by using `ggplot()`'s facetting arguments.  This will be covered in later tutorials.
+
+{% highlight r %}
+# passing multiple variables to plot
+plot(mtcars[, 4:6])
+{% endhighlight %}
+
+<img src="/public/images/visual/quickplots/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
 
 <a href="#top">Go to top</a>
 
