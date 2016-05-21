@@ -7,17 +7,18 @@ title: NULL
 
 <br>
 
+<center>
+<img src="/public/images/visual/quickplots/quickplots.png" style="display: block; margin: auto;" />
+</center>
+
+<br>
+
 For quick data exploration, base R plotting functions can provide an expeditious and straightforward approach to understanding your data. These functions are installed by default in base R and do not require additional visualization packages to be installed. This straightforward tutorial should teach you the basics, and give you a good idea of what you want to do next.  
 
 In addition, I'll show how to make similar graphics with the `qplot()` function in `ggplot2`, which has a syntax similar to the base graphics functions. For each `qplot()` graph, there is also an equivalent using the more powerful `ggplot()` function which I illustrate in later visualization tutorials. This will, hopefully, help you transition to using `ggplot2` when you want to make more sophisticated graphics. 
 
 <br>
 
-<center>
-<img src="/public/images/visual/quickplots/quickplots.png" style="display: block; margin: auto;" />
-</center>
-
-<br>
 
 ## tl;dr
 Don't have the time to scroll through the full tutorial?  Skip directly to the section of interest:
