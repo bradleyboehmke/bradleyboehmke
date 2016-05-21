@@ -13,8 +13,8 @@ title: NULL
 <img src="/public/images/visual/quickplots/quickplot2.png" style="display: block; margin: auto;" />
 </a>
 
-<h3>Quick Plots</h3>
- 
+<h4>Quick Plots</h4>
+<p>Getting started with charts in R</p> 
 </div>
  
 <div style="float: left; width: 30%;">
