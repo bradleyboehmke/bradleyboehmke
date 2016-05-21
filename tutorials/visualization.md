@@ -10,6 +10,7 @@ title: NULL
 <div style="float: left; width: 30%;">
 
 <img src="/public/images/visual/quickplots/quickplots.png" style="display: block; margin: auto;" />
+
 ## [Quick Plots](quickplots)
  
 </div>
