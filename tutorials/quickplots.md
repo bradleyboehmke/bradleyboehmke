@@ -96,14 +96,22 @@ plot(mtcars[, 4:6])
 <br>
 
 ## Line Chart {#line}
-To make a line graph using `plot()`, pass it the vector of x and y values, and specify type =" l" for *line*:
+By default the `plot()` function produces a scatter plot with dots. To make a line graph, pass it the vector of x and y values, and specify `type = "l"` for *line*:
 
 
 {% highlight r %}
 plot(x = pressure$temperature, y = pressure$pressure, type = "l")
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
+
+Similarly, you can pass it the argument `type = "s"` to produce a stepped line chart:
+
+{% highlight r %}
+plot(x = pressure$temperature, y = pressure$pressure, type = "s")
+{% endhighlight %}
+
+<img src="/public/images/visual/quickplots/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
 
 To include multiple lines or to plot the points, first call `plot()` for the first line, then add additional lines and points with `lines()` and `points()` respectively: 
 
@@ -122,7 +130,7 @@ lines(x = pressure$temperature, y = pressure$pressure/2, col = "red")
 points(x = pressure$temperature, y = pressure$pressure/2, col = "red")
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-14-1.png" style="display: block; margin: auto;" />
 
 We can use `qplot()` to get similar results by using the `geom` argument. `geom` means adding a geometric object (line, points, etc.) to visually represent the data and in this case we want to represent the data using a line and then also points:
 
@@ -132,14 +140,22 @@ We can use `qplot()` to get similar results by using the `geom` argument. `geom`
 qplot(temperature, pressure, data = pressure, geom = "line")
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
+
+{% highlight r %}
+# using qplot for a stepped line chart
+qplot(temperature, pressure, data = pressure, geom = "step")
+{% endhighlight %}
+
+<img src="/public/images/visual/quickplots/unnamed-chunk-15-2.png" style="display: block; margin: auto;" />
+
 
 {% highlight r %}
 # using qplot for a line chart with points
 qplot(temperature, pressure, data = pressure, geom = c("line", "point"))
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-6-2.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-15-3.png" style="display: block; margin: auto;" />
 
 We can get the same output using the full `ggplot()` syntax:
 
@@ -148,6 +164,10 @@ We can get the same output using the full `ggplot()` syntax:
 ggplot(pressure, aes(x = temperature, y = pressure)) +
         geom_line()
 
+# step chart
+ggplot(pressure, aes(x = temperature, y = pressure)) +
+        geom_step()
+        
 # line chart with points
 ggplot(pressure, aes(x = temperature, y = pressure)) +
         geom_line() +
@@ -167,7 +187,7 @@ To make a bar chart of values, use `barplot()` and pass it a vector of values fo
 barplot(height = BOD$demand, names.arg = BOD$Time)
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-18-1.png" style="display: block; margin: auto;" />
 
 When you want the bar chart to represent the *count* of cases in each category then you need to generate the count of unique values. For instance, in the `mtcars` dataset we may want to look at the cylinder variable and understand the distribtion. To do this we can use the `table()` function which will provide us the count of each unique value in this variable.  We can then pass this to the `barplot()` function to plot the counts of cylinders:
 
@@ -187,7 +207,7 @@ table(mtcars$cyl)
 barplot(table(mtcars$cyl))
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-20-1.png" style="display: block; margin: auto;" />
 
 To get the same result using `qplot()` we use `geom = "bar"`.
 
@@ -197,14 +217,18 @@ To get the same result using `qplot()` we use `geom = "bar"`.
 qplot(mtcars$cyl, geom = "bar")
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-21-1.png" style="display: block; margin: auto;" />
+
+Note how the x axis defaults to a continuous variable in the plot above. Since bar charts are designed for categorical variables we want our x variable to a factor variable so that our x axis appropriately represents the data.  
 
 {% highlight r %}
 # use factor(x) to make it discrete
 qplot(factor(mtcars$cyl), geom = "bar")
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-10-2.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-22-1.png" style="display: block; margin: auto;" />
+
+&#9755; *See the [Factors](http://bradleyboehmke.github.io/tutorials/factors) tutorial for more information on categorical variables (aka factors) in R.*
 
 <a href="#top">Go to top</a>
 
@@ -219,14 +243,14 @@ To make a histogram, use `hist()` and pass it a single vector of values. You can
 hist(mtcars$mpg)
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-24-1.png" style="display: block; margin: auto;" />
 
 {% highlight r %}
 # adjust binning
 hist(mtcars$mpg, breaks = 10)
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-11-2.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-26-1.png" style="display: block; margin: auto;" />
 
 To get the same result using `qplot()` we use don't need to specify a `geom` argument as when you feed `qplot()` with a single variable it will default to using a histogram. You can also control the binning by using the `binwidth` argument. Although not necessary I add the `color` argument to outline the bars.
 
@@ -235,14 +259,14 @@ To get the same result using `qplot()` we use don't need to specify a `geom` arg
 qplot(mtcars$mpg, binwidth = 3, color = I("white"))
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-27-1.png" style="display: block; margin: auto;" />
 
 <a href="#top">Go to top</a>
 
 <br>
 
 ## Box Plot {#box}
-To make a box-whisker plot (aka box plot), use plot() and pass it a <u>factor</u> of x values and a vector of y values. When x is a factor (as opposed to a numeric vector), it will automatically create a box plot:
+To make a box-whisker plot (aka box plot), use plot() and pass it x values that are categorical (aka factor) and a vector of y values. However, you need to ensure that the x values are factors otherwise you will get a scatter plot by default:
 
 
 {% highlight r %}
@@ -250,16 +274,28 @@ To make a box-whisker plot (aka box plot), use plot() and pass it a <u>factor</u
 plot(mtcars$cyl, mtcars$mpg)
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-13-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-29-1.png" style="display: block; margin: auto;" />
+
+When x is a [factor](http://bradleyboehmke.github.io/tutorials/factors) (as opposed to a numeric vector), it will automatically create a box plot:
 
 {% highlight r %}
 # if x is a factor it will produce a box plot
 plot(factor(mtcars$cyl), mtcars$mpg)
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-13-2.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-31-1.png" style="display: block; margin: auto;" />
 
-Alternatively, we can use the `boxplot()` function to get the same results. In this case we use the "~" to state that we want to assess *y* by *x*.  
+Alternatively, we can use the `boxplot()` function to create a box plot.  We can create a single box plot with the following:
+
+
+{% highlight r %}
+# boxplot of mpg
+boxplot(mtcars$mpg)
+{% endhighlight %}
+
+<img src="/public/images/visual/quickplots/unnamed-chunk-33-1.png" style="display: block; margin: auto;" />
+
+To get a box plot that displays the distribution of mpg values across the different cylinders we use the "~" to state that we want to assess *y* by *x*:  
 
 
 {% highlight r %}
@@ -267,9 +303,10 @@ Alternatively, we can use the `boxplot()` function to get the same results. In t
 boxplot(mpg ~ cyl, data = mtcars)
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-14-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-35-1.png" style="display: block; margin: auto;" />
 
-We can also assess interactions. In this case we look at the distribution of mpg by cylinders and V/S. Note on the y axis is mpg and on the x axis are the cylinder~V/S interaction. So the x-axis values of 4.0, 6.0, 8.0, 4.1, etc. represent 4 cylinder without V/S, 6 cylinder without V/S, 8 cylinder without V/S, 4 cylinder with V/S, etc. 
+
+We can also assess interactions. In this case we look at the distribution of mpg by cylinders and transmission. Note on the y axis is mpg and on the x axis are the cylinder ~ transmission interaction. Note that the transmission variable is coded as 0 for automatic and 1 for manual. So the x-axis values of 4.0, 6.0, 8.0, 4.1, etc. represent 4 cylinder with automatic transmission, 6 cylinder with automatic transmission, 8 cylinder with automatic transmission, 4 cylinder with manual transmission, etc. 
 
 
 {% highlight r %}
@@ -277,7 +314,7 @@ We can also assess interactions. In this case we look at the distribution of mpg
 boxplot(mpg ~ cyl + am, data = mtcars)
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-37-1.png" style="display: block; margin: auto;" />
 
 Similar results are attained with `qplot()` using `geom = "boxplot"`:
 
@@ -286,7 +323,7 @@ Similar results are attained with `qplot()` using `geom = "boxplot"`:
 qplot(x = factor(cyl), y = mpg, data = mtcars, geom = "boxplot")
 {% endhighlight %}
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-16-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/unnamed-chunk-38-1.png" style="display: block; margin: auto;" />
 
 <a href="#top">Go to top</a>
 
