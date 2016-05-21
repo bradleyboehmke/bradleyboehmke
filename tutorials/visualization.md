@@ -10,7 +10,7 @@ title: NULL
 <div style="float: left; width: 30%;">
 
 <a href="http://bradleyboehmke.github.io/tutorials/quickplots">
-<img src="/public/images/visual/quickplots/quickplots2.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/quickplot2.png" style="display: block; margin: auto;" />
 </a>
 
 <h3>Quick Plots</h3>
