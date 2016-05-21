@@ -13,7 +13,7 @@ title: NULL
 <img src="/public/images/visual/quickplots/quickplots.png" style="display: block; margin: auto;" />
 </a>
 
-<h2>Quick Plots</h2>
+<h3>Quick Plots</h3>
  
 </div>
  
