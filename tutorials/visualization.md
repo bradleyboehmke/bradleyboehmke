@@ -9,7 +9,7 @@ title: NULL
 
 <div style="float: left; width: 30%;">
 
-<img src="/public/images/visual/quickplots/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/quickplots.png" style="display: block; margin: auto;" />
 ## [Quick Plots](quickplots)
  
 </div>
