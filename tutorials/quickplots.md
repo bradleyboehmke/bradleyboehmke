@@ -13,6 +13,12 @@ In addition, I'll show how to make similar graphics with the `qplot()` function 
 
 <br>
 
+<center>
+<img src="/public/images/visual/quickplots/quickplots.png" style="display: block; margin: auto;" />
+</center>
+
+<br>
+
 ## tl;dr
 Don't have the time to scroll through the full tutorial?  Skip directly to the section of interest:
 
