@@ -2,6 +2,7 @@
 layout: post
 title:  Scraping Tabular and Excel Files Stored Online
 date: 2015-12-04
+author: Bradley Boehmke
 published: true
 tags: [r, gdata, xml, data-importing, web-scraping]
 categories: [programming]
