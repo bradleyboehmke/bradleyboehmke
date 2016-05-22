@@ -2,6 +2,7 @@
 layout: post
 title:  Data Wrangling Presentation
 date: 2015-10-01
+author: Bradley Boehmke
 published: true
 tags: [r, data-wrangling, dplyr, tidyr]
 categories: [programming]
