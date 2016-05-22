@@ -2,6 +2,7 @@
 layout: post
 title:  U.S. Median Income Growth
 date: 2015-09-21
+author: Bradley Boehmke
 published: true
 tags: [r, ggplot2]
 categories: [programming, visualization, economics]
