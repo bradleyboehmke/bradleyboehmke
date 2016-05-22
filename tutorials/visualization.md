@@ -5,9 +5,16 @@ title: NULL
 
 [R Vocab Topics](index) &#187; Visualizations
 
+
+<STYLE TYPE="text/css"> 
+<!-- 
 p {
     margin-top: 0cm;
 }
+--> 
+</STYLE>
+
+
 
 
 <div style="width: 150%;">
