@@ -4,7 +4,7 @@ title:  Bayesian networks for modeling policy impacts to support costs
 date: 2016-04-13 12:25:45
 author: Bradley Boehmke
 published: true
-categories: [business, economics]
+categories: [analytics, economics]
 tags: [bayesian-networks, econometrics, business-analytics]
 ---
 
