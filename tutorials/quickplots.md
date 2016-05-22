@@ -1,6 +1,8 @@
 ---
 layout: page
 title: NULL
+categories: [visualization]
+tags: [r, ggplot]
 ---
 
 [R Vocab Topics](index) &#187; [Visualizations](visualization) &#187; Quick plots
