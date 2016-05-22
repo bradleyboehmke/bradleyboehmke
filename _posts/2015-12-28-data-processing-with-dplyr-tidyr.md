@@ -2,6 +2,7 @@
 layout: post
 title:  Data Processing with dplyr & tidyr
 date: 2015-09-07
+author: Bradley Boehmke
 published: true
 tags: [r, data-wrangling, dplyr, tidyr]
 categories: [programming]
