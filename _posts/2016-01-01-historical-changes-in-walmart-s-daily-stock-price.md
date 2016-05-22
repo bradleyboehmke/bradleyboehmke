@@ -2,6 +2,7 @@
 layout: post
 title:  Historical Changes in Walmart’s Daily Stock Price
 date: 2015-10-24
+author: Bradley Boehmke
 published: true
 tags: [stocks]
 categories: [economics]
