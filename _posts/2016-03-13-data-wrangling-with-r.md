@@ -2,6 +2,7 @@
 layout: post
 title:  Data Wrangling with R!
 date: 2016-03-13 14:34:23
+author: Bradley Boehmke
 published: true
 tags: [r, data-wrangling]
 categories: [programming]
