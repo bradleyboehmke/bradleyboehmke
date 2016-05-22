@@ -12,6 +12,11 @@ title: NULL
   margin-top: 0px;
   padding: 0px;
 }
+
+.headmargin {
+  margin-bottom: 0px;
+  padding: 0px;
+}
 --> 
 </STYLE>
 
@@ -25,7 +30,7 @@ title: NULL
 <img src="/public/images/visual/quickplots/quickplot2.png" style="display: block; margin: auto;" />
 </a>
 
-<h4><a href="http://bradleyboehmke.github.io/tutorials/quickplots"><font color="#821122;">Quick Plots</font></a></h4>
+<h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/quickplots"><font color="#821122;">Quick Plots</font></a></h4>
 <p class="nomargin">Getting started with charts in R</p>
 
 
