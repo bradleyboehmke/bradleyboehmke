@@ -5,7 +5,7 @@ date: 2016-05-23
 author: Bradley Boehmke
 published: true
 categories: [analytics]
-tags: [business analytics, statistics]
+tags: [business-analytics, statistics]
 ---
 
 <a href="http://bradleyboehmke.github.io"><img src="http://bradleyboehmke.github.io/figure/source/a-correlation-significance-curve/2016-05-20-a-correlation-significance-curve/correlation.png" alt="Significance of Correlation" style="float:left; margin: 0px 5px -5px 0px; width: 19%; height: 19%;"></a>
