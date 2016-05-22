@@ -27,7 +27,7 @@ p {
 
 <h4><a href="http://bradleyboehmke.github.io/tutorials/quickplots"><font color="#821122;">Quick Plots</font></a></h4>
 <div class="entry smaller">
-Getting started with charts in R
+<p>Getting started with charts in R</p>
 </div>
 
 </div>
