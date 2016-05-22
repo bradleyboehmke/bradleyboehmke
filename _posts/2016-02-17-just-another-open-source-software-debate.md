@@ -2,6 +2,7 @@
 layout: post
 title:  Just Another Open-Source Software Debate
 date: 2016-02-17 22:31:04
+author: Bradley Boehmke
 published: true
 tags: [r]
 categories: [programming]
