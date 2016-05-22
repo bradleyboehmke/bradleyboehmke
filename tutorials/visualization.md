@@ -8,13 +8,12 @@ title: NULL
 
 <STYLE TYPE="text/css"> 
 <!-- 
-p {
-    margin-top: 0cm;
-    padding: 0px;
+.nomargin {
+  margin-top: 0cm;
+  padding: 0px;
 }
 --> 
 </STYLE>
-
 
 
 
@@ -28,7 +27,7 @@ p {
 
 <h4><a href="http://bradleyboehmke.github.io/tutorials/quickplots"><font color="#821122;">Quick Plots</font></a></h4>
 <div class="entry smaller">
-<p>Getting started with charts in R</p>
+<p class="nomargin">Getting started with charts in R</p>
 </div>
 
 </div>
