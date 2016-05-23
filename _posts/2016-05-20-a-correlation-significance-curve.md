@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A Correlation Validation Curve
-date: 2016-05-23
+date: 2016-05-22
 author: Bradley Boehmke
 published: true
 categories: [analytics]
