@@ -31,13 +31,19 @@ title: NULL
 </a>
 
 <h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/quickplots"><font color="#821122;">Quick Plots</font></a></h4>
-<p class="nomargin">Getting started with charts in R</p>
+<p class="nomargin">Getting started with charts in R.</p>
 
 
 </div>
  
 <div style="float: left; width: 30%;">
 
+<a href="http://bradleyboehmke.github.io/tutorials/histograms">
+<img src="/public/images/visual/histograms/histogram_icon.png" style="display: block; margin: auto;" />
+</a>
+
+<h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/histograms"><font color="#821122;">Histograms</font></a></h4>
+<p class="nomargin">An often overlooked, yet efficient means for communicating the distribution of numerical data.</p>
  
 </div>
  
