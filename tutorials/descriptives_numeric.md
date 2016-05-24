@@ -7,9 +7,10 @@ title: NULL
 
 <br>
 
+<img src="/public/images/analytics/descriptives/descriptive_stats_numeric.png"  style="float:right; margin: 0px 5px 5px 0px; width: 20%; height: 20%;" />
 Descriptive statistics are the first pieces of information used to understand and represent a dataset. There goal, in essence, is to describe the main features of numerical and categorical information with simple summaries.  These summaries can be presented with a single numeric measure, using summary tables, or via graphical representation. Here, I illustrate the most common forms of descriptive statistics for numerical data but keep in mind there are numerous ways to describe and illustrate key features of data. 
 
-<img src="/public/images/analytics/descriptives/descriptive_stats_numeric.png" style="display: block; margin: auto;" />
+<br>
 
 ## tl;dr
 This tutorial covers the key features we are initially interested in understanding for numerical data, to include:
@@ -19,6 +20,8 @@ This tutorial covers the key features we are initially interested in understandi
 3. [Shape:](#range) Are the values symmetrically or assymetrically distributed?
 4. [Outliers:](#shape) Are there values that represent abnormalities in the data?
 5. [Visualization:](#visualization) We should understand these features of the data through statistics *and* visualization
+
+<br>
 
 ## Replication Requirements
 To illustrate ways to compute different summary statistics, and to visualize the data to provide understanding of these key features, I'll demonstrate using this [data](https://github.com/bradleyboehmke/bradleyboehmke.github.io/blob/master/public/data/Baseball%20Salaries%202011.xlsx) which contains data on 843 MLB players in the 2011 season:
