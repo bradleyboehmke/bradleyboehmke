@@ -46,7 +46,7 @@ library(ggplot2)        # for generating visualizations
 
 <br>
 
-### Central Tendency {#central}
+## Central Tendency {#central}
 There are three common measures of central tendency, all of which try to answer the basic question of which value is the most "typical." These are the mean (average of all observations), median (middle observation), and mode (appears most often). Each of these measures can be calculated for an individual variable or across all variables in a particular data frame. 
 
 
@@ -74,10 +74,10 @@ get_mode(salaries$Salary)
 
 <br>
 
-### Variability
+## Variability
 The central tendencies give you a sense of the most typical values (salaries in this case) but do not provide you with information on the variability of the values. Variability can be summarized in different ways, each providing you unique understanding of how the values are spread out. 
 
-#### Range
+### Range
 The range is a fairly crude measure of variability, defining the maximum and minimum values and the difference thereof.  We can compute range summaries with the following:
 
 
@@ -99,7 +99,7 @@ max(salaries$Salary, na.rm = FALSE) - min(salaries$Salary, na.rm = FALSE)
 ## [1] 31586000
 {% endhighlight %}
 
-#### Percentiles
+### Percentiles
 Given a certain percentage such as 25%, what is the salary value such that this percentage of salaries is below it? This type of question leads to <u>percentiles</u> and <u>quartiles</u>. Specifically, for any percentage *p*, the *p*th percentile is the value such that a percentage *p* of all values are less than it. Similarly, the first, second, and third quartiles are the percentiles corresponding to *p=25%*, *p=50%*, and *p=75%*. These three values divide the data into four groups, each with (approximately) a quarter of all observations. Note that the second quartile is equal to the median by definition. These measures are easily computed in R:
 
 
@@ -136,7 +136,7 @@ summary(salaries$Salary)
 {% endhighlight %}
 
 
-#### Variance
+### Variance
 Although the range provides a crude measure of variability and percentiles/quartiles provide an understanding of divisions of the data, the most common measures to summarize variability are variance and its derivatives (standard deviation and mean/median absolute deviation). We can compute each of these as follows:
 
 
@@ -163,7 +163,7 @@ mad(salaries$Salary, center = median(salaries$Salary))
 
 <br>
 
-### Shape
+## Shape
 Two additional measures of a distribution that you will hear occasionally include <u>skewness</u> and <u>kurtosis</U>. Skewness is a measure of <u>symmetry</u> for a distribution. Negative values represent a *left-skewed* distribution where there are more extreme values to the left causing the mean to be less than the median. Positive values represent a *right-skewed* distribution where there are more extreme values to the right causing the mean to be more than the median.
 
 Kurtosis is a measure of <u>peakedness</u> for a distribution. Negative values indicate a flat (platykurtic) distribution, positive values indicate a peaked (leptokurtic) distribution, and a near-zero value indicates a normal (mesokurtic) distribution. 
@@ -184,7 +184,7 @@ kurtosis(salaries$Salary, na.rm = TRUE)
 
 <br>
 
-### Outliers
+## Outliers
 Outliers in data can distort predictions and affect their accuracy. Consequently, its important to understand if outliers are present and, if so, which observations are considered outliers.  The [`outliers`]() package provides a number of useful functions to systematically extract outliers. The functions of most use are `outlier()` and `scores()`.  The `outlier()` function gets the most extreme observation from the mean.  The `scores()` function computes the normalized (*z*, *t*, *chisq*, etc.) score which you can use to find observation(s) that lie beyond a given value.
 
 
@@ -223,10 +223,10 @@ How you deal with outliers is a topic worthy of its own tutorial; however, if yo
 
 <br>
 
-### Visualization
+## Visualization
 There are many graphical representations to illustrate these summary measures for numerical variables, but there are a couple fundamental ones that nearly everyone agrees needs to be assessed - histograms and boxplots.
 
-Histograms are the most common type of chart for showing the distribution of a numerical variable. Histograms display a 1D distribution by dividing into bins and counting the number of observations in each bin.  Whereas the previously discussed summary measures - mean, median, standard deviation, skewness - describes only one aspect of a numerical variable, a histogram provides the complete picture by illustrating the center of the distribution, the variability, skewness, and other aspects in one convenient chart. We can quickly visualize the histogram for our MLB salaries using base R graphics:
+[Histograms](http://bradleyboehmke.github.io/tutorials/histograms) are the most common type of chart for showing the distribution of a numerical variable. Histograms display a 1D distribution by dividing into bins and counting the number of observations in each bin.  Whereas the previously discussed summary measures - mean, median, standard deviation, skewness - describes only one aspect of a numerical variable, a histogram provides the complete picture by illustrating the center of the distribution, the variability, skewness, and other aspects in one convenient chart. We can quickly visualize the histogram for our MLB salaries using base R graphics:
 
 
 {% highlight r %}
