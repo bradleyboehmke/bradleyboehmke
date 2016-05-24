@@ -233,7 +233,7 @@ Histograms are the most common type of chart for showing the distribution of a n
 hist(salaries$Salary)
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-11-1 2.png" style="display: block; margin: auto;" />
 
 However, we can use `ggplot` to customize our graphic and create a more presentable product:
 
@@ -250,7 +250,7 @@ ggplot(salaries, aes(Salary)) +
                  label = paste0("Avg: $", round(mean(salaries$Salary)/1000000, 1),"M"))
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-13-1 2.png" style="display: block; margin: auto;" />
 
 An alternative, and highly effective way to visualize data is with `dotplots`. In a dotplot a dot is placed at the appropriate value on the x axis for each case with multiples cases of a particular value resulting in dots stacking up. The dotplot below helps to illustrate that there is one unique player with a salary greater than $30M (Alex Rodriguez) and only six players with salaries greater than $20M. 
 
@@ -260,7 +260,7 @@ ggplot(salaries, aes(x = Salary)) +
         scale_x_continuous(labels = scales::dollar)
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-14-1 2.png" style="display: block; margin: auto;" />
 
 Boxplots are an alternative way to illustrate the distribution of a variable and is a concise way to illustrate the standard quantiles, shape, and outliers of data. As the generic diagram indicates, the box itself extends, left to right, from the 1st quartile to the 3rd quartile. This means that it contains the middle half of the data. The line inside the box is positioned at the median. The lines (whiskers) coming out either side of the box extend to 1.5 interquartlie ranges (IQRs) from the quartlies. These generally include most of the data outside the box. More distant values, called outliers, are denoted separately by individual points.
 
@@ -276,7 +276,7 @@ For a quick univariate assessment we can use the `boxplot()` function in base R 
 boxplot(salaries$Salary, horizontal = TRUE, log = "x")
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-13-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-16-1.png" style="display: block; margin: auto;" />
 
 As before, we can use `ggplot` to refine the boxplot and add additional features such as a point illustrating the mean and also show the actual distribution of observations:
 
@@ -292,7 +292,7 @@ ggplot(salaries, aes(x = factor(0), y = Salary)) +
         stat_summary(fun.y = mean, geom = "point", shape = 23, size = 4, fill = "blue")
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-14-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-17-1.png" style="display: block; margin: auto;" />
 
 However, boxplots are more useful when comparing distributions.  For instance, if you wanted to compare the distributions of salaries across the different positions boxplots provide a quick comparative assessment:
 
@@ -304,7 +304,7 @@ ggplot(salaries, aes(x = Position, y = Salary)) +
         coord_flip()
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-18-1.png" style="display: block; margin: auto;" />
 
 <a href="#top">Go to top</a>
 
