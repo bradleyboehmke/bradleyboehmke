@@ -5,13 +5,13 @@ categories: [visualization]
 tags: [r, ggplot]
 ---
 
-[R Vocab Topics](index) &#187; [Visualizations](visualization) &#187; Histograms & density plots
+[R Vocab Topics](index) &#187; [Visualizations](visualization) &#187; Histograms
 
 <br>
 
 Histograms are often overlooked, yet they are a very efficient means for communicating the distribution of numerical data. Formulated by [Karl Pearson](https://en.wikipedia.org/wiki/Karl_Pearson), histograms display numeric values on the x-axis where the continuous variable is broken into intervals (aka bins) and the the y-axis represents the frequency of observations that fall into that bin. Histograms quickly signal what the most common observations are for the variable being assessed (the higher the bar the more frequent those values are observed in the data); they also signal the shape of your data by illustrating if the observed values cluster towards one end or the other of the distribution. 
 
-<img src="histogram_explanation.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/histogram_explanation.png" style="display: block; margin: auto;" />
 
 ## tl;dr
 This tutorial will cover how to go from a basic histogram to a more refined, publication worthy histogram graphic. If you're short on time jump to the sections of interest:
@@ -74,7 +74,7 @@ ggplot(income, aes(x = All_14)) +
         geom_histogram()
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 
 By default, `geom_histogram()` will divide your data into 30 equal bins or intervals. Since 2014 median incomes range from $39,751 - $90,743, dividing this range into 30 equal bins means the bin width is about $1,758. So the first bar will represent the frequency of 2014 median incomes that range from $39,751 to 41,510, the second bar represents the income range from 41,510 to 43,268, and so on. 
 
@@ -97,7 +97,7 @@ p3 <- ggplot(income, aes(x = All_14)) +
 grid.arrange(p1, p2, p3, ncol=3)
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
 
 
 We can also view a *smoothed* histogram in which a non-parametric approach is used to estimate the density function. This results in a *smoothed* curve known as the density plot that allows us visualize the distribution.  More on the finer details of density plots in another tutorial, but you will often see density plots layered on histograms so they are appropriate to demonstrate here. We can get a simple density plot with the `geom_density()` function:
@@ -109,7 +109,7 @@ ggplot(income, aes(x = All_14)) +
         geom_density()
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
 
 To layer the density plot onto the histogram we need to first draw the histogram but tell `ggplot()` to have the y-axis in density[^density] form rather than count. You can then add the `geom_density()` function to add the density plot on top. In addition, I add some color to the density plot along with an `alpha` parameter to give it some transparency.
 
@@ -122,7 +122,7 @@ ggplot(income, aes(x = All_14)) +
         geom_density(alpha = .2, fill = "antiquewhite3")
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
 
 
 <a href="#top">Go to top</a>
@@ -146,7 +146,7 @@ ggplot(compare, aes(x = Income, fill = Year)) +
         geom_histogram(binwidth = 2000, alpha = .5, position = "identity")
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
 
 &#9755; *See the tutorial on [tidying and transforming](http://bradleyboehmke.github.io/tutorials/data_wrangling) your data for more information on the functions used to turn the data to long form.*
 
@@ -159,7 +159,7 @@ ggplot(compare, aes(x = Income, fill = Year)) +
         geom_histogram(binwidth = 2000, position = "dodge")
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
 
 And we can overlay the density plots:
 
@@ -170,7 +170,7 @@ ggplot(compare, aes(x = Income, fill = Year)) +
         geom_density(alpha = .5)
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
 
 We can also separate the histograms by using facets with the `facet_grid()` function:
 
@@ -181,7 +181,7 @@ ggplot(compare, aes(x = Income)) +
         facet_grid(Year ~ .)
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
 
 The `facet_grid()` utility becomes very useful when assessing multiple groupings.  In essence, it produces a series of similar graphs based on similar scales and axes, which allows them to be easily compared.  This series of small graphs is also known as *small multiples* and was popularized by [Edward Tufte]().
 
@@ -202,7 +202,7 @@ ggplot(class_comparison, aes(x = Income)) +
         facet_grid(Year ~ Class, scales = "free_x")
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
 
 <a href="#top">Go to top</a>
 
@@ -219,7 +219,7 @@ ggplot(income, aes(x = All_14)) +
         geom_vline(xintercept = mean(income$All_14), color = "red", linetype = "dashed")
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-13-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-13-1.png" style="display: block; margin: auto;" />
 
 To add lines for grouped data we need to do a little computation prior to graphing.  Here we simply create a new data frame with the mean values for each group and use that data to plot the mean lines:
 
@@ -236,7 +236,7 @@ ggplot(compare, aes(x = Income, fill = Year)) +
                    linetype = "dashed", size = 1)
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-14-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-14-1.png" style="display: block; margin: auto;" />
 
 Similarly, to add lines to small multiples we need to create a new data frame with the mean values for each group and use that data to plot the mean lines:
 
@@ -253,7 +253,7 @@ ggplot(class_comparison, aes(x = Income, fill = as.factor(Year))) +
         facet_grid(Year ~ Class, scales = "free")
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
 
 <a href="#top">Go to top</a>
 
@@ -271,7 +271,7 @@ ggplot(class_comparison, aes(x = Income, fill = as.factor(Year))) +
         facet_grid(Year ~ Class, scales = "free")
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-16-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-16-1.png" style="display: block; margin: auto;" />
 
 First, let's change the naming of the income tiers so that it is explicit that we are discussing the lower, middle and upper class incomes.  I need to do this to both the main data frame I use for the graphic (`class_comparison`) plus the data frame I use for marking the means of each small multiple (`class_mean`).
 
@@ -310,7 +310,7 @@ p <- ggplot(class_comparison, aes(x = Income/1000, fill = as.factor(Year))) +
 p
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-18-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-18-1.png" style="display: block; margin: auto;" />
 
 So far not too bad.  Next, let's add the mean value for each small mutliple so that the viewer can get actual dollar comparisons. Since this is for a final output I want the dollar values to appear polished so I use `paste0("$", prettyNum(round(Mean, 0), big.mark = ","))` to produce a "pretty" number such as $26,971 rather than 26971.27. I also change the theme to a black and white version...personal preferences.
 
@@ -328,7 +328,7 @@ p <- p +
 p
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-19-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-19-1.png" style="display: block; margin: auto;" />
 
 Getting better.  Now let's do some final theme changes. I remove the legend, minor grid lines, and axis tick marks because they are not necessary and it simplifies the visual. I mute the text and title of the y-axis since it is not a critical requirement. I add some margins around the title, subtitle, and caption along with slight adjustment in color and size. I also increase the size of the strip text, which is the facet titles to help them stand out. And I mute the caption text and right-align the text. Lastly I change the text to a Georgia font because, well, I like it. 
 
@@ -351,7 +351,7 @@ p <- p +
 p
 {% endhighlight %}
 
-<img src="Histogram_files/figure-html/unnamed-chunk-20-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-20-1.png" style="display: block; margin: auto;" />
 
 <a href="#top">Go to top</a>
 
