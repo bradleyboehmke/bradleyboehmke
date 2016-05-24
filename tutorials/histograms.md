@@ -24,7 +24,7 @@ This tutorial will cover how to go from a basic histogram to a more refined, pub
 
 <br>
 
-## Relication Requirements {#replication}
+## Replication Requirements {#replication}
 To reproduce the code throughout this tutorial you will need to load the following packages. The primary package of interest is [`ggplot2`](http://ggplot2.org/), which is a plotting system for R. You can build histograms with [base R graphics](http://bradleyboehmke.github.io/tutorials/quickplots#histogram), but when I'm building more refined graphics I lean towards `ggplot2`.
 
 
