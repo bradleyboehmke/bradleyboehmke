@@ -328,7 +328,7 @@ p <- p +
 p
 {% endhighlight %}
 
-<img src="/public/images/visual/histograms/unnamed-chunk-19-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-20-1 2.png" style="display: block; margin: auto;" />
 
 Getting better.  Now let's do some final theme changes. I remove the legend, minor grid lines, and axis tick marks because they are not necessary and it simplifies the visual. I mute the text and title of the y-axis since it is not a critical requirement. I add some margins around the title, subtitle, and caption along with slight adjustment in color and size. I also increase the size of the strip text, which is the facet titles to help them stand out. And I mute the caption text and right-align the text. Lastly I change the text to a Georgia font because, well, I like it. 
 
@@ -351,7 +351,7 @@ p <- p +
 p
 {% endhighlight %}
 
-<img src="/public/images/visual/histograms/unnamed-chunk-20-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/unnamed-chunk-22-1.png" style="display: block; margin: auto;" />
 
 <a href="#top">Go to top</a>
 
