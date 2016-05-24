@@ -21,7 +21,7 @@ title: NULL
 
 
 
-<div style="width: 125%;">
+<div style="width: 150%;">
 
 <div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
 
