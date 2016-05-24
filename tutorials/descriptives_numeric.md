@@ -7,7 +7,12 @@ title: NULL
 
 <br>
 
-When summarizing numerical values, the key features we are initially interested in understanding include:
+Descriptive statistics are the first pieces of information used to understand and represent a dataset. There goal, in essence, is to describe the main features of numerical and categorical information with simple summaries.  These summaries can be presented with a single numeric measure, using summary tables, or via graphical representation. Here, I illustrate the most common forms of descriptive statistics for numerical data but keep in mind there are numerous ways to describe and illustrate key features of data. 
+
+<img src="/public/images/analytics/descriptives/descriptive_stats_numeric.png" style="display: block; margin: auto;" />
+
+## tl;dr
+This tutorial covers the key features we are initially interested in understanding for numerical data, to include:
 
 1. [Central Tendency:](#central) What are the most typical values?
 2. [Variability:](#variability) How do the values vary?
@@ -15,7 +20,8 @@ When summarizing numerical values, the key features we are initially interested 
 4. [Outliers:](#shape) Are there values that represent abnormalities in the data?
 5. [Visualization:](#visualization) We should understand these features of the data through statistics *and* visualization
 
-To illustrate ways to compute different summary statistics and visualize the data to provide understanding of these key features, I'll demonstrate using this [data](https://github.com/bradleyboehmke/bradleyboehmke.github.io/blob/master/public/data/Baseball%20Salaries%202011.xlsx) which contains data on 843 MLB players in the 2011 season:
+## Replication Requirements
+To illustrate ways to compute different summary statistics, and to visualize the data to provide understanding of these key features, I'll demonstrate using this [data](https://github.com/bradleyboehmke/bradleyboehmke.github.io/blob/master/public/data/Baseball%20Salaries%202011.xlsx) which contains data on 843 MLB players in the 2011 season:
 
 
 {% highlight r %}
@@ -27,6 +33,16 @@ To illustrate ways to compute different summary statistics and visualize the dat
 ## 5      Aaron Crow  Kansas City Royals  Pitcher  1400000
 ## 6    Aaron Harang    San Diego Padres  Pitcher  3500000
 {% endhighlight %}
+
+In addition, the packages we will leverage include the following:
+
+{% highlight r %}
+library(moments)        # for calculating the skew and kurtosis
+library(outliers)       # identifying and extracting outliers
+library(ggplot2)        # for generating visualizations
+{% endhighlight %}
+
+&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/basics/packages/) for more information on installing, loading, and getting help with packages.*
 
 <br>
 
