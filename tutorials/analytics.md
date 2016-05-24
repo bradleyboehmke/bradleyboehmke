@@ -13,6 +13,7 @@ title: NULL
 }
 
 .headmargin {
+  margin-top: .5px;
   margin-bottom: 0px;
   padding: 0px;
 }
