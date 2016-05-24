@@ -7,9 +7,8 @@ title: NULL
 
 <br>
 
-<img src="/public/images/analytics/descriptives/descriptive_stats_numeric.png"  style="float:right; margin: 0px 5px 5px 0px; width: 50%; height: 50%;" />
 Descriptive statistics are the first pieces of information used to understand and represent a dataset. There goal, in essence, is to describe the main features of numerical and categorical information with simple summaries.  These summaries can be presented with a single numeric measure, using summary tables, or via graphical representation. Here, I illustrate the most common forms of descriptive statistics for numerical data but keep in mind there are numerous ways to describe and illustrate key features of data. 
-
+<img src="/public/images/analytics/descriptives/descriptive_stats_numeric.png"  style="float:right; margin: 0px 5px 5px 0px; width: 30%; height: 30%;" />
 <br>
 
 ## tl;dr
