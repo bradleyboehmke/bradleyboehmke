@@ -24,7 +24,7 @@ title: NULL
 
 <div style="width: 150%;">
 
-<div style="float: left; width: 30%;">
+<div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
 
 <a href="http://bradleyboehmke.github.io/tutorials/quickplots">
 <img src="/public/images/visual/quickplots/quickplot2.png" style="display: block; margin: auto;" />
@@ -36,7 +36,7 @@ title: NULL
 
 </div>
  
-<div style="float: left; width: 30%;">
+<div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
 
 <a href="http://bradleyboehmke.github.io/tutorials/histograms">
 <img src="/public/images/visual/histograms/histogram_icon.png" style="display: block; margin: auto;" />
@@ -48,7 +48,7 @@ title: NULL
 </div>
  
  
-<div style="float: left; width: 30%;">
+<div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
 
 
 </div>
