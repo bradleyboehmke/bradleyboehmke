@@ -13,7 +13,7 @@ When assumptions are broken we stop being able to draw accurate conclusions abou
 <br>
 
 ## tl;dr
-The assumption of normality is important for hypothesis testing and in regression models. In general linear models, the assumption comes in to play with regards to residuals (aka errors). In both cases it is useful to test for normality and that's what this tutorial covers. 
+The assumption of normality is important for hypothesis testing and in regression models. In general linear models, the assumption comes in to play with regards to residuals (aka errors). In both cases it is useful to test for normality; therefore, this tutorial covers the following: 
 
 1. [What is normality](#normality)
 2. [Replication requirements](#replication)
