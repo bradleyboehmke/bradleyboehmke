@@ -13,10 +13,9 @@ title: NULL
 }
 
 .headmargin {
-  margin-top: .5px;
+  margin-top: 10px;
   margin-bottom: 0px;
-  padding-top: 1px;
-  padding-bottom: 0px;
+  padding: 0px;
 }
 --> 
 </STYLE>
