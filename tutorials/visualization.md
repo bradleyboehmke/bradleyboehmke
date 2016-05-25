@@ -25,7 +25,7 @@ title: NULL
 
 <div style="width: 125%;">
 
-<div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
+<div style="float: left; width: 30%; margin-right: 1em;">
 
 <a href="http://bradleyboehmke.github.io/tutorials/quickplots">
 <img src="/public/images/visual/quickplots/quickplots_icon2.png" style="display: block; margin: auto;" />
@@ -56,7 +56,7 @@ An often overlooked, yet efficient means for communicating the distribution of n
 </div>
  
  
-<div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
+<div style="float: left; width: 30%; margin-left: 1em;">
 
 
 </div>
