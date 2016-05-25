@@ -7,6 +7,7 @@ title: NULL
 
 <br>
 
+<img src="/public/images/analytics/descriptives/descriptive_stats_categorical_icon2.png"  style="float:right; margin: 0px 0px 0px 10px; width: 30%; height: 30%;" />
 Descriptive statistics are the first pieces of information used to understand and represent a dataset. There goal, in essence, is to describe the main features of numerical and categorical information with simple summaries. These summaries can be presented with a single numeric measure, using summary tables, or via graphical representation. Here, I illustrate the most common forms of descriptive statistics for categorical data but keep in mind there are numerous ways to describe and illustrate key features of data.
 
 <br>
@@ -176,16 +177,7 @@ prop.table(table3, margin = 2)
 <br>
 
 ## Visualization
-Bar charts are most often used to visualize categorical variables. 
-
-
-{% highlight r %}
-# Frequency bar charts
-ggplot(supermarket, aes(x = Gender)) +
-        geom_bar()
-{% endhighlight %}
-
-<img src="/public/images/analytics/descriptives/unnamed-chunk-21-1.png" style="display: block; margin: auto;" />
+Bar charts are most often used to visualize categorical variables. Here we can assess the count of customers by location:
 
 {% highlight r %}
 ggplot(supermarket, aes(x = `State or Province`)) +
@@ -193,7 +185,7 @@ ggplot(supermarket, aes(x = `State or Province`)) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-21-2.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
 
 
 To make the bar chart easier to digest we can reorder the bars in descending order. Note that there are multiple ways to reorder bar charts, just search "Order Bars in ggplot2 bar graph" in [Stackoverflow](http://stackoverflow.com/).  Here I create a function that sorts the underlying factors and then apply that function in `ggplot`.
@@ -210,7 +202,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-21-3.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-7-2.png" style="display: block; margin: auto;" />
 
 We can also produce a proportions bar chart where the y-axis now provides the percentage of the total that that category makes up.
 
@@ -224,7 +216,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-21-4.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-7-3.png" style="display: block; margin: auto;" />
 
 We can also create contingency table-like bar charts by using the `facet_grid()` function to produce small multiples. Here I plot customer proportions across location and by Gender.
 
@@ -238,7 +230,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-21-5.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-7-4.png" style="display: block; margin: auto;" />
 
 
 I can also do the same plot by Gender and by Marital status.
@@ -253,7 +245,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-21-6.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-7-5.png" style="display: block; margin: auto;" />
 
 
 <a href="#top">Go to top</a>
