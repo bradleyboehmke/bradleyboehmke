@@ -22,9 +22,21 @@ This tutorial covers the key features we are initially interested in understandi
 <br>
 
 ## Replication Requirements
-To illustrate ways to compute these summary statistics and to visualize categorical data, I'll demonstrate using this [data](https://github.com/bradleyboehmke/bradleyboehmke.github.io/blob/master/public/data/Supermarket%20Transactions.xlsx) which contains artificial supermarket transaction data:
+To illustrate ways to compute these summary statistics and to visualize categorical data, I'll demonstrate using this [data](https://github.com/bradleyboehmke/bradleyboehmke.github.io/blob/master/public/data/Supermarket%20Transactions.xlsx) which contains artificial supermarket transaction data.  In addition, the packages we will leverage include the following:
 
 {% highlight r %}
+library(readxl)         # for reading in excel data
+library(ggplot2)        # for generating visualizations
+{% endhighlight %}
+
+&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/basics/packages/) for more information on installing, loading, and getting help with packages.*
+
+First, let's read in the data.  The data frame consists of 16 variables, which I illustrate a select few below:
+
+{% highlight r %}
+supermarket <- read_excel("Data/Supermarket Transactions.xlsx", sheet = 2)
+
+head(supermarket[, c(3:5,8:9,14:16)])
 ##   Customer ID Gender Marital Status Annual Income          City     Product Category Units Sold Revenue
 ## 1        7223      F              S   $30K - $50K   Los Angeles          Snack Foods          5   27.38
 ## 2        7841      M              M   $70K - $90K   Los Angeles           Vegetables          5   14.90
@@ -34,19 +46,11 @@ To illustrate ways to compute these summary statistics and to visualize categori
 ## 6        6696      F              M   $10K - $30K Beverly Hills          Side Dishes          3    4.37
 {% endhighlight %}
 
-In addition, the packages we will leverage include the following:
-
-{% highlight r %}
-library(ggplot2)        # for generating visualizations
-{% endhighlight %}
-
-&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/basics/packages/) for more information on installing, loading, and getting help with packages.*
 
 <br>
 
 ## Frequencies
-To produce [contingency tables](https://en.wikipedia.org/wiki/Contingency_table) with which calculate counts for each combination of categorical variables we can use R's `table()` function:
-
+To produce [contingency tables](https://en.wikipedia.org/wiki/Contingency_table) which calculate counts for each combination of categorical variables we can use R's `table()` function. For instance, we may want to get the total count of female and male customers.
 
 {% highlight r %}
 # counts for gender categories
@@ -54,7 +58,11 @@ table(supermarket$Gender)
 ## 
 ##    F    M 
 ## 7170 6889
+{% endhighlight %}
 
+If we want to understand the number of married and single females and male customers we can produce a cross classification table:
+
+{% highlight r %}
 # cross classication counts for gender by marital status
 table(supermarket$`Marital Status`, supermarket$Gender)
 ##    
@@ -63,7 +71,7 @@ table(supermarket$`Marital Status`, supermarket$Gender)
 ##   S 3568 3625
 {% endhighlight %}
 
-We can also produce multidimensional tables based on three or more categorical variables. For this, we leverage the `ftable()` function to print the results more attractively:
+We can also produce multidimensional tables based on three or more categorical variables. For this, we leverage the `ftable()` function to print the results more attractively. In this case we assess the count of customers by marital status, gender, and location:
 
 
 {% highlight r %}
@@ -85,8 +93,7 @@ ftable(table1)
 <br>
 
 ## Proportions
-We can also produce contingency tables that present the proportions (percentages) of each category or combination of categories. To do this we simply feed the frequency tables produced by `table()` to the `prop.table()` function
-
+We can also produce contingency tables that present the proportions (percentages) of each category or combination of categories. To do this we simply feed the frequency tables produced by `table()` to the `prop.table()` function. The following reproduces the previous tables but calculates the proportions rather than counts:
 
 {% highlight r %}
 # percentages of gender categories
@@ -121,7 +128,6 @@ ftable(round(prop.table(table1), 3))
 
 ## Marginals
 Marginals show the total counts or percentages across columns or rows in a contingency table.  For instance, if we go back to `table3` which is the cross classication counts for gender by marital status:
-
 
 {% highlight r %}
 table3
