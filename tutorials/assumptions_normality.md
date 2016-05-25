@@ -15,11 +15,11 @@ When assumptions are broken we stop being able to draw accurate conclusions abou
 ## tl;dr
 The assumption of normality is important for hypothesis testing and in regression models. In general linear models, the assumption comes in to play with regards to residuals (aka errors). In both cases it is useful to test for normality; therefore, this tutorial covers the following: 
 
-- [What is normality](#normality)
-- [Replication requirements](#replication)
-- [Visualization](#visualization)
-- [Descriptives statistics](#descriptive) 
-- [Shapiro-Wilk test](#shapiro) 
+- [What is normality](#normality): The sampling distribution of the mean is normal.
+- [Replication requirements](#replication): What you need to reproduce the results in this tutorial.
+- [Visualization](#visualization): Visual assessment is often the first step in evaluating normality.
+- [Descriptives statistics](#descriptive): Objective quantifications help to describe the shape of the distribution and to look for outliers.
+- [Shapiro-Wilk test](#shapiro): Statistical test to identify if the data deviates from a comparable normal distribution.
  
 
 <br>
