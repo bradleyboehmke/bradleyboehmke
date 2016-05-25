@@ -27,7 +27,7 @@ title: NULL
 <div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
 
 <a href="http://bradleyboehmke.github.io/tutorials/quickplots">
-<img src="/public/images/visual/quickplots/quickplot2.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/quickplots/quickplot_icon2.png" style="display: block; margin: auto;" />
 </a>
 
 <h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/quickplots"><font color="#821122;">Quick Plots</font></a></h4>
@@ -39,7 +39,7 @@ title: NULL
 <div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
 
 <a href="http://bradleyboehmke.github.io/tutorials/histograms">
-<img src="/public/images/visual/histograms/histogram_icon.png" style="display: block; margin: auto;" />
+<img src="/public/images/visual/histograms/histogram_icon2.png" style="display: block; margin: auto;" />
 </a>
 
 <h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/histograms"><font color="#821122;">Histograms</font></a></h4>
