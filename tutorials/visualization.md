@@ -40,7 +40,7 @@ Getting started with charts in R.
 
 </div>
  
-<div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
+<div style="float: left; width: 30%; margin-right: 1em;">
 
 <a href="http://bradleyboehmke.github.io/tutorials/histograms">
 <img src="/public/images/visual/histograms/histogram_icon2.png" style="display: block; margin: auto;" />
@@ -56,7 +56,7 @@ An often overlooked, yet efficient means for communicating the distribution of n
 </div>
  
  
-<div style="float: left; width: 30%; margin-left: 1em;">
+<div style="float: left; width: 30%; margin-right: 1em;">
 
 
 </div>
