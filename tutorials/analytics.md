@@ -51,6 +51,12 @@ title: NULL
  
 <div style="float: left; width: 30%; margin-left: 1em;">
 
+<a href="http://bradleyboehmke.github.io/tutorials/assumptions_normality">
+<img src="/public/images/analytics/normality/assumption_normality_icon.png" style="display: block; margin: auto;" />
+</a>
+
+<h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/assumptions_normality"><font color="#821122;">Categorical Data Descriptive Statistics</font></a></h4>
+<p class="nomargin" style="line-height:1.0"><font size="3">Testing for one of the fundamental assumptions required by most parametric tests.</font></p>
 
 </div>
 
