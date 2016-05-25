@@ -43,7 +43,25 @@ library(psych)          # provide summary statistics
 library(pastecs)        # provide summary statistics
 {% endhighlight %}
 
+&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/basics/packages/) for more information on installing, loading, and getting help with packages.*
 
+First, let's read in the data.  The data frame consists of 18 variables, which I illustrate the first 10 below:
+
+{% highlight r %}
+library(readxl)
+
+golf <- read_excel("Data/Assumptions/Golf Stats.xlsx", sheet = "2011")
+
+head(golf[, 1:10])
+##   Rank         Player Age Events Rounds Cuts Made Top 10s Wins Earnings Yards/Drive
+## 1    1    Luke Donald  34     19     67        17      14    2  6683214       284.1
+## 2    2   Webb Simpson  26     26     98        23      12    2  6347354       296.2
+## 3    3    Nick Watney  30     22     77        19      10    2  5290674       301.9
+## 4    4      K.J. Choi  41     22     75        18       8    1  4434690       285.6
+## 5    5 Dustin Johnson  27     21     71        17       6    1  4309962       314.2
+## 6    6    Matt Kuchar  33     24     88        22       9    0  4233920       286.2
+
+{% endhighlight %}
 
 <br>
 
