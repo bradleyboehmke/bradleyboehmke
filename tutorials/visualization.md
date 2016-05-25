@@ -31,8 +31,11 @@ title: NULL
 </a>
 
 <h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/quickplots"><font color="#821122;">Quick Plots</font></a></h4>
-<p class="nomargin">Getting started with charts in R.</p>
-
+<p class="nomargin" style="line-height:1.0">
+<font size="3">
+Getting started with charts in R.
+</font>
+</p>
 
 </div>
  
@@ -43,7 +46,11 @@ title: NULL
 </a>
 
 <h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/histograms"><font color="#821122;">Histograms</font></a></h4>
-<p class="nomargin">An often overlooked, yet efficient means for communicating the distribution of numerical data.</p>
+<p class="nomargin" style="line-height:1.0">
+<font size="3">
+An often overlooked, yet efficient means for communicating the distribution of numerical data.
+</font>
+</p>
  
 </div>
  
