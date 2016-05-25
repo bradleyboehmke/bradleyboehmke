@@ -24,7 +24,7 @@ title: NULL
 
 <div style="width: 150%;">
 
-<div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
+<div style="float: left; width: 30%; margin-right: 1em;">
 
 <a href="http://bradleyboehmke.github.io/tutorials/descriptives_numeric">
 <img src="/public/images/analytics/descriptives/descriptive_stats_numeric_icon2.png" style="display: block; margin: auto;" />
@@ -43,7 +43,7 @@ title: NULL
 </div>
  
  
-<div style="float: left; width: 30%; margin-right: 1em; margin-left: 1em;">
+<div style="float: left; width: 30%; margin-left: 1em;">
 
 
 </div>
