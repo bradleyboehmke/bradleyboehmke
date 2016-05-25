@@ -30,7 +30,7 @@ title: NULL
 <img src="/public/images/analytics/descriptives/descriptive_stats_numeric_icon.png" style="display: block; margin: auto;" />
 </a>
 
-<h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/descriptives_numeric"><font color="#821122;">Numerical Data Descriptive Statistics</font></a></h4>
+<h3 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/descriptives_numeric"><font color="#821122;">Numerical Data Descriptive Statistics</font></a></h3>
 <p class="nomargin" style="line-height:1.0"><font size="3">Describe main features of numerical information with simple summaries and visualizations.</font></p>
 
 
