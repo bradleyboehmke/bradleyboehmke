@@ -230,7 +230,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-7-4.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
 
 
 I can also do the same plot by Gender and by Marital status.
@@ -245,7 +245,7 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         theme(axis.text.x = element_text(angle = 45, hjust = 1))
 {% endhighlight %}
 
-<img src="/public/images/analytics/descriptives/unnamed-chunk-7-5.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/descriptives/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
 
 
 <a href="#top">Go to top</a>
