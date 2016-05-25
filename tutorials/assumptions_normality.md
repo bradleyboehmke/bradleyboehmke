@@ -50,7 +50,7 @@ First, let's read in the data.  The data frame consists of 18 variables, which I
 {% highlight r %}
 library(readxl)
 
-golf <- read_excel("Data/Assumptions/Golf Stats.xlsx", sheet = "2011")
+golf <- read_excel("Golf Stats.xlsx", sheet = "2011")
 
 head(golf[, 1:10])
 ##   Rank         Player Age Events Rounds Cuts Made Top 10s Wins Earnings Yards/Drive
