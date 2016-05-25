@@ -15,10 +15,10 @@ Descriptive statistics are the first pieces of information used to understand an
 ## tl;dr
 This tutorial covers the key features we are initially interested in understanding for categorical data, to include:
 
-1. [Frequencies:](#frequencies)  The number of observations for a particular category
-2. [Proportions:](#proportions)  The percent that each category accounts for out of the whole
-3. [Marginals:](#marginals)  The totals in a cross tabulation by row or column
-4. [Visualization:](#visualization) We should understand these features of the data through statistics *and* visualization
+- [Frequencies:](#frequencies)  The number of observations for a particular category
+- [Proportions:](#proportions)  The percent that each category accounts for out of the whole
+- [Marginals:](#marginals)  The totals in a cross tabulation by row or column
+- [Visualization:](#visualization) We should understand these features of the data through statistics *and* visualization
 
 <br>
 
