@@ -3,21 +3,47 @@ layout: page
 title: NULL
 ---
 
-[R Vocab Topics](index) &#187; [Analytics](analytics) &#187; [Exploratory data analysis](exploratory) &#187; [Assessing assumptions](assumptions) &#187; Normality 
+[R Vocab Topics](index) &#187; [Analytics](analytics) &#187; Assessing the assumption of normality 
 
 <br>
 
+<img src="/public/images/analytics/normality/assumptions-normality-main-pic.png"  style="float:right; margin: 0px 0px 0px 10px; width: 30%; height: 30%;" />
+When assumptions are broken we stop being able to draw accurate conclusions about reality. Different statistitical models assume different things, and if these models are going to reflect reality accurately then these assumptions need to be true. Parametric models are statistical techniques (i.e. regression, means testing, factorial designs) designed for use when data have certain distributional characteristics.[^char] For data to be parametric certain assumptions must be fulfilled; if you use a parametric test when your data are not parametric then the results are likely to be inaccurate. Therefore, it is very important that you check the assumptions before deciding which statistical test is appropriate; and one of the first parametric assumptions most people think of is the assumption of <u>*normality*</u>. 
+
+<br>
+
+## tl;dr
+The assumption of normality is important for hypothesis testing and in regression models. In general linear models, the assumption comes in to play with regards to residuals (aka errors). In both cases it useful to test for normality and that's what this tutorial covers. 
+
+1. [What is normality](#normality)
+2. [Replication requirements](#replication)
+3. [Visualization](#visualization)
+4. [Descriptives statistics](#descriptive) 
+5. [Shapiro-Wilk test](#shapiro) 
+ 
+
+<br>
+
+## The Assumption of Normality {#normality}
 The assumption of normality claims that the sampling distribution of the mean is normal or that the distribution of means across samples is normal. This should not be confused with the presumption that the values within a given sample are normally distributed or that the values within the population from which the sample was taken are normal. Rather, the core element of this assumption is that the distribution of <u>sample means</u> (across independent samples) is normally distributed. Luckily, we know from the Central Limit Theorem (CLT) that if the sample data are *approximately* normal then the sampling distribution will be as well. We also know from the CLT that in big samples the sampling distribution tends to be normal anyway.
 
 <p class="indented">
 <b><u>Central Limit Theorem</u>:</b> <i>given random and independent samples of N observations each, the distribution of sample means approaches normality as the size of N increases, regardless of the shape of the population distribution.</i>
 </p>
 
-The assumption of normality is important for hypothesis testing and in regression models. In general linear models, the assumption comes in to play with regards to residuals (aka errors). In both cases it useful to test for normality and that's what this tutorial covers. I'll illustrate how to assess normality through:
+<br>
 
-1. [Visualization](#visualization)
-2. [Descriptives Statistics](#descriptive) 
-3. [Shapiro-Wilk Test](#shapiro) 
+## Replication Requirements {#replication}
+To illustrate ways to assess normality, I’ll demonstrate with some [golf data](https://github.com/bradleyboehmke/bradleyboehmke.github.io/blob/master/public/data/Golf%20Stats.xlsx) provided by [ESPN](http://espn.go.com/golf/statistics). In addition, the packages we will leverage include the following:
+
+{% highlight r %}
+library(readxl)         # read in Excel data
+library(ggplot2)        # create visualizations
+library(psych)          # provide summary statistics
+library(pastecs)        # provide summary statistics
+{% endhighlight %}
+
+
 
 <br>
 
@@ -164,3 +190,7 @@ Its important to note that there are limitations to the Shapiro-Wilk test. As th
 The principal message is that to assess for normality we should not rely on only one approach to assess our data. Rather, we should understand the distribution visually, through descriptive statistics, and formal testing procedures to come to our conclusion of whether our data meets the normality assumption or not.
 
 <a href="#top">Go to top</a>
+
+<br>
+
+[^char]: Most commonly when data approximate a normal distribution and are measurable with interval or ratio scales.
