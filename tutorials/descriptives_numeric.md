@@ -15,11 +15,11 @@ Descriptive statistics are the first pieces of information used to understand an
 ## tl;dr
 This tutorial covers the key features we are initially interested in understanding for numerical data, to include:
 
-1. [Central Tendency:](#central) What are the most typical values?
-2. [Variability:](#variability) How do the values vary?
-3. [Shape:](#range) Are the values symmetrically or assymetrically distributed?
-4. [Outliers:](#shape) Are there values that represent abnormalities in the data?
-5. [Visualization:](#visualization) We should understand these features of the data through statistics *and* visualization
+- [Central Tendency:](#central) What are the most typical values?
+- [Variability:](#variability) How do the values vary?
+- [Shape:](#range) Are the values symmetrically or assymetrically distributed?
+- [Outliers:](#shape) Are there values that represent abnormalities in the data?
+- [Visualization:](#visualization) We should understand these features of the data through statistics *and* visualization
 
 <br>
 
