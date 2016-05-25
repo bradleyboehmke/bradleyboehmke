@@ -3,19 +3,26 @@ layout: page
 title: NULL
 ---
 
-[R Vocab Topics](index) &#187; [Analytics](analytics) &#187; [Exploratory data analysis](exploratory) &#187; [Descriptive statistics](descriptives) &#187; Categorical data
+[R Vocab Topics](index) &#187; [Analytics](analytics) &#187; Categorical data descriptive statistics
 
 <br>
 
-When summarizing categorical variables we are primarily limited to assessing:
+Descriptive statistics are the first pieces of information used to understand and represent a dataset. There goal, in essence, is to describe the main features of numerical and categorical information with simple summaries. These summaries can be presented with a single numeric measure, using summary tables, or via graphical representation. Here, I illustrate the most common forms of descriptive statistics for categorical data but keep in mind there are numerous ways to describe and illustrate key features of data.
+
+<br>
+
+## tl;dr
+This tutorial covers the key features we are initially interested in understanding for categorical data, to include:
 
 1. [Frequencies:](#frequencies)  The number of observations for a particular category
 2. [Proportions:](#proportions)  The percent that each category accounts for out of the whole
 3. [Marginals:](#marginals)  The totals in a cross tabulation by row or column
 4. [Visualization:](#visualization) We should understand these features of the data through statistics *and* visualization
 
-To illustrate ways to compute these summary statistics and to visualize categorical data, I'll demonstrate using this [data](https://github.com/bradleyboehmke/bradleyboehmke.github.io/blob/master/public/data/Supermarket%20Transactions.xlsx) which contains artificial supermarket transaction data:
+<br>
 
+## Replication Requirements
+To illustrate ways to compute these summary statistics and to visualize categorical data, I'll demonstrate using this [data](https://github.com/bradleyboehmke/bradleyboehmke.github.io/blob/master/public/data/Supermarket%20Transactions.xlsx) which contains artificial supermarket transaction data:
 
 {% highlight r %}
 ##   Customer ID Gender Marital Status Annual Income          City     Product Category Units Sold Revenue
@@ -25,13 +32,20 @@ To illustrate ways to compute these summary statistics and to visualize categori
 ## 4        9619      M              M   $30K - $50K      Portland                Candy          4    4.44
 ## 5        1900      F              S $130K - $150K Beverly Hills Carbonated Beverages          4   14.00
 ## 6        6696      F              M   $10K - $30K Beverly Hills          Side Dishes          3    4.37
-
 {% endhighlight %}
+
+In addition, the packages we will leverage include the following:
+
+{% highlight r %}
+library(ggplot2)        # for generating visualizations
+{% endhighlight %}
+
+&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/basics/packages/) for more information on installing, loading, and getting help with packages.*
 
 <br>
 
-### Frequencies
-To produce contingency tables with which calculate counts for each combination of categorical variables we can use R's `table()` function:
+## Frequencies
+To produce [contingency tables](https://en.wikipedia.org/wiki/Contingency_table) with which calculate counts for each combination of categorical variables we can use R's `table()` function:
 
 
 {% highlight r %}
@@ -70,7 +84,7 @@ ftable(table1)
 
 <br>
 
-### Proportions
+## Proportions
 We can also produce contingency tables that present the proportions (percentages) of each category or combination of categories. To do this we simply feed the frequency tables produced by `table()` to the `prop.table()` function
 
 
@@ -105,7 +119,7 @@ ftable(round(prop.table(table1), 3))
 
 <br>
 
-### Marginals
+## Marginals
 Marginals show the total counts or percentages across columns or rows in a contingency table.  For instance, if we go back to `table3` which is the cross classication counts for gender by marital status:
 
 
@@ -155,7 +169,7 @@ prop.table(table3, margin = 2)
 
 <br>
 
-### Visualization
+## Visualization
 Bar charts are most often used to visualize categorical variables. 
 
 
@@ -175,15 +189,15 @@ ggplot(supermarket, aes(x = `State or Province`)) +
 
 <img src="/public/images/analytics/descriptives/unnamed-chunk-21-2.png" style="display: block; margin: auto;" />
 
-{% highlight r %}
 
-# reorder bar chart in descending order - note that there are multiple ways
-# to reorder bar charts - just search "Order Bars in ggplot2 bar graph" in 
-# Stackoverflow. Here I create a function that sorts the underlying factors  
-# and then apply that function in ggplot
+To make the bar chart easier to digest we can reorder the bars in descending order. Note that there are multiple ways to reorder bar charts, just search "Order Bars in ggplot2 bar graph" in [Stackoverflow](http://stackoverflow.com/).  Here I create a function that sorts the underlying factors and then apply that function in `ggplot`.
+
+{% highlight r %}
+# re-order levels
 reorder_size <- function(x) {
         factor(x, levels = names(sort(table(x), decreasing = TRUE)))
 }
+
 ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         geom_bar() +
         xlab("State or Province") +
@@ -191,6 +205,8 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
 {% endhighlight %}
 
 <img src="/public/images/analytics/descriptives/unnamed-chunk-21-3.png" style="display: block; margin: auto;" />
+
+We can also produce a proportions bar chart where the y-axis now provides the percentage of the total that that category makes up.
 
 {% highlight r %}
 
@@ -204,10 +220,10 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
 
 <img src="/public/images/analytics/descriptives/unnamed-chunk-21-4.png" style="display: block; margin: auto;" />
 
+We can also create contingency table-like bar charts by using the `facet_grid()` function to produce small multiples. Here I plot customer proportions across location and by Gender.
+
 {% highlight r %}
 
-# We can also create contingency table-like bar charts by creating facets
-# Here I plot customer proportions across location and by Gender
 ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         geom_bar(aes(y = (..count..)/sum(..count..))) +
         xlab("State or Province") +
@@ -218,9 +234,11 @@ ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
 
 <img src="/public/images/analytics/descriptives/unnamed-chunk-21-5.png" style="display: block; margin: auto;" />
 
+
+I can also do the same plot by Gender and by Marital status.
+
 {% highlight r %}
 
-# I can also do the same plot by Gender and by Marital status
 ggplot(supermarket, aes(x = reorder_size(`State or Province`))) +
         geom_bar(aes(y = (..count..)/sum(..count..))) +
         xlab("State or Province") +
