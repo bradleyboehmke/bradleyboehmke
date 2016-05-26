@@ -44,7 +44,7 @@ In addition, for all of my examples I will illustrate with data that was used fo
 
 {% highlight r %}
 # read in PEW data
-income <- read.xlsx("Data/Middle-Class-U.S.-Metro-Areas-5-12-16-Supplementary-Tables.xlsx",
+income <- read.xlsx("Middle-Class-U.S.-Metro-Areas-5-12-16-Supplementary-Tables.xlsx",
           sheetIndex = "3. Median HH income, metro",
           startRow = 8, colIndex = c(1:5, 7:10)) %>%
         set_colnames(c("Metro", "All_99", "Lower_99", "Middle_99", "Upper_99",
@@ -341,7 +341,7 @@ p <- p +
               axis.ticks = element_blank(),
               axis.text.y = element_text(color = "grey70"),
               axis.title.y = element_text(margin = margin(r = 20), color = "grey70"),
-               axis.title.x = element_text(margin = margin(t = 20), color = "darkslategrey"),
+              axis.title.x = element_text(margin = margin(t = 20), color = "darkslategrey"),
               plot.title = element_text(size = 20, margin = margin(b = 10)),
               plot.subtitle = element_text(size = 12, color = "darkslategrey", margin = margin(b = 25)),
               plot.caption = element_text(size = 8, margin = margin(t = 10), color = "grey70", hjust = 0),
