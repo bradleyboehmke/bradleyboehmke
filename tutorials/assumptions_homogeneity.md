@@ -32,13 +32,13 @@ library(ggplot2)        # for generating visualizations
 library(car)            # for performing the Levene's test
 {% endhighlight %}
 
-To illustrate ways to visualize homogeneity and compute the statistics, I will demonstrate with some golf data provided by [ESPN](http://espn.go.com/golf/statistics). The golf data has 18 variables, you can see the first 10 below.
+To illustrate ways to visualize homogeneity and compute the statistics, I will demonstrate with some [golf data](https://www.dropbox.com/s/t8uxau3sanra2f0/Golf%20Stats.xlsx?dl=0) provided by [ESPN](http://espn.go.com/golf/statistics). The golf data has 18 variables, you can see the first 10 below.
 
 
 {% highlight r %}
 library(readxl)
 
-golf <- read_excel("Data/Assumptions/Golf Stats.xlsx", sheet = "2011")
+golf <- read_excel("Golf Stats.xlsx", sheet = "2011")
 
 head(golf[, 1:10])
 ##   Rank         Player Age Events Rounds Cuts Made Top 10s Wins Earnings Yards/Drive
