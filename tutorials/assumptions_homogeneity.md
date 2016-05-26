@@ -3,18 +3,51 @@ layout: page
 title: NULL
 ---
 
-[R Vocab Topics](index) &#187; [Analytics](analytics) &#187; [Exploratory data analysis](exploratory) &#187; [Assessing assumptions](assumptions) &#187; Homogeneity 
+[R Vocab Topics](index) &#187; [Analytics](analytics) &#187; Assessing the assumption of homogeneity 
 
 <br>
 
 The assumption of homogeneity of variance means that the level of variance for a particular variable is constant across the sample. If you've collected groups of data then this means that the variance of your outcome variable(s) should be the same in each of these groups (i.e. across schools, years, testing groups or predicted values). 
 
-The assumption of homogeneity is important for ANOVA testing and in regression models. In ANOVA, when homogeneity of variance is violated there is a greater probability of falsely rejecting the null hypothesis.  In regression models, the assumption comes in to play with regards to residuals (aka errors). In both cases it useful to test for homogeneity and that's what this tutorial covers. I'll illustrate how to assess homogeneity of variance through:
+The assumption of homogeneity is important for ANOVA testing and in regression models. In ANOVA, when homogeneity of variance is violated there is a greater probability of falsely rejecting the null hypothesis.  In regression models, the assumption comes in to play with regards to residuals (aka errors). In both cases it useful to test for homogeneity and that's what this tutorial covers. 
 
-1. [Visualization](#visualization)
-2. [Levene's Test](#levene) 
-3. [Bartlett's Test](#bartlett)
-3. [Fligner-Killeen's Test](#fligner) 
+## tl;dr
+This tutorial serves as an introduction to assessing the assumption of homogeneity. First, I provide the data and packages required to replicate the analysis and then I walk through the ways to visualize and test your data for this assumption.
+
+1. [Replication requirements](#replication): What you need to reproduce this analysis.
+2. [Visualization](#visualization): Assessing homogeneity through visualization.
+3. [Bartlett's test](#bartlett): A good first test for homogeneity of variance across groups.
+4. [Levene's test](#levene): More robust to departures from normality than the Bartlett’s test.
+5. [Fligner-Killeen's test](#fligner): A non-parametric test for homogeneity of variance across groups.
+
+<br>
+
+## Replication Requirements {#replication}
+This tutorial leverages the following packages:
+
+
+{% highlight r %}
+library(ggplot2)        # for generating visualizations
+library(car)            # for performing the Levene's test
+{% endhighlight %}
+
+To illustrate ways to visualize homogeneity and compute the statistics, I will demonstrate with some golf data provided by [ESPN](http://espn.go.com/golf/statistics). The golf data has 18 variables, you can see the first 10 below.
+
+
+{% highlight r %}
+library(readxl)
+
+golf <- read_excel("Data/Assumptions/Golf Stats.xlsx", sheet = "2011")
+
+head(golf[, 1:10])
+##   Rank         Player Age Events Rounds Cuts Made Top 10s Wins Earnings Yards/Drive
+## 1    1    Luke Donald  34     19     67        17      14    2  6683214       284.1
+## 2    2   Webb Simpson  26     26     98        23      12    2  6347354       296.2
+## 3    3    Nick Watney  30     22     77        19      10    2  5290674       301.9
+## 4    4      K.J. Choi  41     22     75        18       8    1  4434690       285.6
+## 5    5 Dustin Johnson  27     21     71        17       6    1  4309962       314.2
+## 6    6    Matt Kuchar  33     24     88        22       9    0  4233920       286.2
+{% endhighlight %}
 
 <br>
 
@@ -34,7 +67,7 @@ ggplot(golf, aes(x = Rank, y = Birdies)) +
         ggtitle("Figure 1: Number of Birdies versus Player Rank")
 {% endhighlight %}
 
-<img src="/public/images/analytics/homogeneity/unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/homogeneity/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 
 In figure 2, however, the variance appears to increase as the number of events played increases.  This is an example of heterogeneity of variance, meaning that the variance (or spread) is not consistent across the ranges of values.
 
@@ -46,7 +79,7 @@ ggplot(golf, aes(x = Events, y = Birdies)) +
          ggtitle("Figure 2: Birdies versus Number of Events Played")
 {% endhighlight %}
 
-<img src="/public/images/analytics/homogeneity/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/homogeneity/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
 
 An alternative vizualization is the boxplot. This is commonly used to compare groupings against one-another. In this case we may want to assess how the number of birdies differ among players who have won zero, one, and two tournaments. This plot illustrates that the number of birdies vary widely for players who have no tournament wins.  However, players who have one and two tournament wins have an increasing median number of birdies achieved and less variance. This is logical as we would expect players that win more tournaments to have scored more birdies and to be more consistent with the number of birdies scored. 
 
@@ -57,7 +90,7 @@ ggplot(golf, aes(x = factor(Wins), y = Birdies)) +
          ggtitle("Number of Birdies by Number of Tournaments Won")
 {% endhighlight %}
 
-<img src="/public/images/analytics/homogeneity/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/homogeneity/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
 
 Keep in mind that visualizing variance provides indications rather than statistical confirmation of homogeneity (or heterogeneity). To confirm we can perform statistical tests which I cover next.
 
@@ -149,4 +182,4 @@ Similar to the assumption of normality, when we test for violations of constant 
 
 <br>
 
-[^glass]: See [Levene (1960)]() and [Glass (1966)](http:www.jstor.org/stable/1161802?seq=1#page_scan_tab_contents) for further discussion.
+[^glass]: See [Levene (1960)](https://books.google.com/books?hl=en&lr=&id=ZUSsAAAAIAAJ&oi=fnd&pg=PA278&dq=Robust+tests+for+equality+of+variances&ots=GchQhzwLZT&sig=Z3ZV7yvi_M2DcvOqyIpla6KqSxQ#v=onepage&q=Robust%20tests%20for%20equality%20of%20variances&f=false) and [Glass (1966)](http:www.jstor.org/stable/1161802?seq=1#page_scan_tab_contents) for further discussion.
