@@ -68,7 +68,7 @@ title: NULL
 <div style="float: left; width: 30%; margin-right: 1em;">
 
 <a href="http://bradleyboehmke.github.io/tutorials/assumptions_homogeneity">
-<img src="/public/images/analytics/normality/assumption_homogeneity_icon.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/homogeneity/assumption_homogeneity_icon.png" style="display: block; margin: auto;" />
 </a>
 
 <h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/assumptions_homogeneity"><font color="#821122;">Assumption of Homogeneity</font></a></h4>
