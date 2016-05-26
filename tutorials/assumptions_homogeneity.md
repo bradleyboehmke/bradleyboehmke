@@ -7,6 +7,7 @@ title: NULL
 
 <br>
 
+<img src="/public/images/analytics/homogeneity/assumption_homogeneity_main_pic.png"  style="float:right; margin: 0px 0px 0px 10px; width: 25%; height: 25%;" />
 The assumption of homogeneity of variance means that the level of variance for a particular variable is constant across the sample. If you've collected groups of data then this means that the variance of your outcome variable(s) should be the same in each of these groups (i.e. across schools, years, testing groups or predicted values). 
 
 The assumption of homogeneity is important for ANOVA testing and in regression models. In ANOVA, when homogeneity of variance is violated there is a greater probability of falsely rejecting the null hypothesis.  In regression models, the assumption comes in to play with regards to residuals (aka errors). In both cases it useful to test for homogeneity and that's what this tutorial covers. 
