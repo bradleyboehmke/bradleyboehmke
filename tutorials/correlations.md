@@ -1,9 +1,12 @@
-# Correlations
+---
+layout: page
+title: NULL
+---
 
-
-[R Vocab Topics](index) &#187; [Analytics](analytics) &#187; Assessing the assumption of homogeneity 
+[R Vocab Topics](index) &#187; [Analytics](analytics) &#187; Correlation
 
 <br>
+
 
 Correlation is a bivariate analysis that measures the extent that two variables are related ("co-related") to one another. The value of the correlation coefficient varies between +1 and -1. When the value of the correlation coefficient lies around &#177;1, then it is said to be a perfect degree of association between the two variables (near +1 implies a strong positive association and near -1 implies a strong negative association). As the correlation coefficient nears 0, the relationship between the two variables weakens with a near 0 value implying no association between the two variables. This tutorial covers the different ways to visualize and assess correlation.
 
