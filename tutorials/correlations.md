@@ -3,7 +3,7 @@ layout: page
 title: NULL
 ---
 
-[R Vocab Topics](index) &#187; [Analytics](analytics) &#187; Correlation
+[R Vocab Topics](index) &#187; [Analytics](analytics) &#187; Correlations
 
 <br>
 
@@ -30,7 +30,7 @@ This tutorial serves as an introduction to assessing correlation between variabl
 This tutorial leverages the following packages:
 
 
-```r
+{% highlight r %}
 library(readxl)         # reading in data
 library(ggplot2)        # visualizing data
 library(gridExtra)      # combining multiple plots
@@ -38,12 +38,12 @@ library(corrgram)       # visualizing data
 library(corrplot)       # visualizing data       
 library(Hmisc)          # produces correlation matrices with p-values
 library(ppcor)          # assesses partial correlations
-```
+{% endhighlight %}
 
 To illustrate ways to visualize correlation and compute the statistics, I will demonstrate with some [golf data](https://www.dropbox.com/s/t8uxau3sanra2f0/Golf%20Stats.xlsx?dl=0) provided by [ESPN](http://espn.go.com/golf/statistics) and also with some artifical [survey data](). The golf data has 18 variables, which you can see the first 9 below; and the survey data has 11.
 
 
-```r
+{% highlight r %}
 library(readxl)
 
 golf <- read_excel("~/Desktop/Personal/Analytics Tutorials/Data/Assumptions/Golf Stats.xlsx", 
@@ -69,7 +69,7 @@ head(survey)
 ## 4           4  0  0  3  0  1  1 -1  0  1   1
 ## 5           5  0 -1  2 -1 -1 -1 -1 -1 -1  -1
 ## 6           6  2  1  2 -1  1  0  1  0  1   1
-```
+{% endhighlight %}
 
 <br>
 
@@ -79,18 +79,18 @@ A correlation is a single-number measure of the relationship between two variabl
 
 
 
-```r
+{% highlight r %}
 qplot(x = Events, y = Rounds, data = golf) +
         geom_smooth(method = "lm", se = FALSE) +
         ggtitle("Fig. A: Strong Positive Association")
-```
+{% endhighlight %}
 
 <img src="/public/images/analytics/correlation/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 
 Contrast this to the following two plots which shows as driving accuracy increases the distance of the player's drive tends to decrease (Fig. B) but this association is far weaker than we saw above due to greater variance around the trend line. In addition we can easily see that as a player's age increases their greens in regulation percentage does not appear to change (Fig. C).
 
 
-```r
+{% highlight r %}
 library(gridExtra)
 
 p1 <- qplot(x = `Driving Accuracy`, y = `Yards/Drive`, data = golf) +
@@ -102,14 +102,14 @@ p2 <- qplot(x = Age, y = `Greens in Regulation`, data = golf) +
         ggtitle("Fig. C: Weak/No Association")
 
 grid.arrange(p1, p2, ncol = 2)
-```
+{% endhighlight %}
 
 <img src="/public/images/analytics/correlation/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
 
 In addition, scatter plots illustrate the linearity of the relationship, which can influence how you approach assessing correlations (i.e. data transformation, using a parametric vs non-parametric test, removing outliers). [Francis Anscombe](https://en.wikipedia.org/wiki/Frank_Anscombe) illustrated this in 1973[^anscombe] when he constructed four data sets that have the same mean, variance, and correlation; however, there are significant differences in the variable relationships. Using the `anscombe` data, which R has as a built in data set, the plots below demonstrate the importance of graphing data rather than just relying on correlation coefficients. Each x-y combination in the plot below has a correlation of .82 (strong positive) but there are definitely differences in the association between these variables.
 
 
-```r
+{% highlight r %}
 library(gridExtra)
 library(grid)
 
@@ -120,7 +120,7 @@ p4 <- qplot(x = x4, y = y4, data = anscombe)
 
 grid.arrange(p1, p2, p3, p4, ncol = 2, 
              top = textGrob("Anscombe's Quartet"))
-```
+{% endhighlight %}
 
 <img src="/public/images/analytics/correlation/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
 
@@ -129,33 +129,33 @@ Visualization can also give you a quick approach to assessing multiple relations
 
 
 
-```r
+{% highlight r %}
 pairs(golf[, c(1, 3:10)])
-```
+{% endhighlight %}
 
 <img src="/public/images/analytics/correlation/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
 
 There are multiple ways to produce scatter plot matrices such as these.  Additional means includes the [corrgram](https://cran.r-project.org/web/packages/corrgram/index.html) and [corrplot](https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html) packages. Note that multiple options exist with both these visualizations (i.e. formatting, correlation method applied, illustrating significance and confidence intervals, etc.) so they are worth exploring. 
 
 
-```r
+{% highlight r %}
 library(corrgram)
 
 par(bg = "#fdfdfd")
 corrgram(golf[, c(1, 3:10)], lower.panel = panel.shade, upper.panel = panel.pts)
-```
+{% endhighlight %}
 
 <img src="/public/images/analytics/correlation/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
 
 For `corrplot` you must first compute the correlation matrix and then feed that information into the graphic function.
 
 
-```r
+{% highlight r %}
 library(corrplot)
 
 cor_matrix <- cor(golf[, c(1, 3:10)], use = 'complete.obs')
 corrplot.mixed(cor_matrix, lower = "circle", upper = "number", tl.pos = "lt", diag = "u")
-```
+{% endhighlight %}
 
 <img src="/public/images/analytics/correlation/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
 
@@ -178,7 +178,7 @@ Unfortunately, the assumptions for Pearson's correlation are often overlooked. T
 R provides multiple functions to analyze correlations.  To calculate the correlation between two variables we use `cor()`.  When using `cor()` there are two arguments (other than the variables) that need to be considered.  The first is `use =` which allows us to decide how to handle missing data. The default is `use = everything` but if there is missing data in your data set this will cause the output to be `NA` unless we explicitly state to only use complete observations with `use = complete.obs`. The second argument is `method =` which allows us to specify if we want to use "pearson", "kendall", or "spearman". Pearson is the default method so we do not need to specify for that option.
 
 
-```r
+{% highlight r %}
 # If we don't filter out NAs we get NA in return
 cor(golf$Age, golf$`Yards/Drive`)
 ## [1] NA
@@ -210,12 +210,12 @@ cor(golf[, c(1, 3:10)], use = 'complete.obs')
 ## Wins         0.4939828  1.00000000  0.7313615  0.21563889
 ## Earnings     0.8957970  0.73136149  1.0000000  0.25041021
 ## Yards/Drive  0.1939759  0.21563889  0.2504102  1.00000000
-```
+{% endhighlight %}
 
 Unfortunately `cor()` only provides the $r$ coefficient(s) and does not test for significance nor provide confidence intervals.  To get these parameters for a simple two variable analysis I use `cor.test()`.  In our example we see that the $p$-value is significant and the 95% confidence interval confirms this as the range does not contain zero. This suggests the correlation between age and yards per drive is $r = -0.396$ with 95% confidence of being between -0.27 and -0.51.
 
 
-```r
+{% highlight r %}
 cor.test(golf$Age, golf$`Yards/Drive`, use = 'complete.obs')
 ## 
 ## 	Pearson's product-moment correlation
@@ -228,12 +228,12 @@ cor.test(golf$Age, golf$`Yards/Drive`, use = 'complete.obs')
 ## sample estimates:
 ##        cor 
 ## -0.3960891
-```
+{% endhighlight %}
 
 We can also get the correlation matrix and the $p$-values across all variables by using the `rcorr()` function in the [Hmisc](https://cran.r-project.org/package=Hmisc) package. This function will provide the correlation matrix, number of pairwise observations used, and the $p$-values. Note that `rcorr()` does not provide confidence intervals like `cor.test()`.
 
 
-```r
+{% highlight r %}
 library(Hmisc)
 rcorr(as.matrix(golf[, c(1, 3:9)]))
 ##            Rank   Age Events Rounds Cuts Made Top 10s  Wins Earnings
@@ -267,7 +267,7 @@ rcorr(as.matrix(golf[, c(1, 3:9)]))
 ## Top 10s   0.0000 0.0056 0.0238 0.0000 0.0000            0.0000 0.0000  
 ## Wins      0.0000 0.0197 0.5953 0.0953 0.0003    0.0000         0.0000  
 ## Earnings  0.0000 0.0041 0.0499 0.0000 0.0000    0.0000  0.0000
-```
+{% endhighlight %}
 
 
 
@@ -288,7 +288,7 @@ The assumptions for Spearman's correlation include:
 To assess correlations with Spearman's rank we can use the same functions introduced for the [Pearson correlations](#pearson) and simply change the correlation method. To illustrate, we'll assess results from our artificial survey data in which the questions are answered on a 5 point Likert scale (Never: -2, Rarely: -1, Sometimes: 0, Often: 1, All the time: 2):
 
 
-```
+{% highlight r %}
 ##   Observation Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10
 ## 1           1  1 -1  1  0  1  1  1  0  0   0
 ## 2           2  1 -1  2 -2  1  1  0  0  0   1
@@ -296,12 +296,12 @@ To assess correlations with Spearman's rank we can use the same functions introd
 ## 4           4  0  0  3  0  1  1 -1  0  1   1
 ## 5           5  0 -1  2 -1 -1 -1 -1 -1 -1  -1
 ## 6           6  2  1  2 -1  1  0  1  0  1   1
-```
+{% endhighlight %}
 
 To assess the correlation between any two questions or create a correlation matrix across all questions we can use the `cor()`, `cor.test()`, and `rcorr()` ([Hmisc](https://cran.r-project.org/package=Hmisc) package) functions and simply specify `method = 'spearman'`:
 
 
-```r
+{% highlight r %}
 # correlation between any two questions
 cor(survey_data$Q1, survey_data$Q2, method = 'spearman')
 ## [1] 0.3414006
@@ -357,7 +357,7 @@ rcorr(as.matrix(survey_data[, -1]), type = 'spearman')
 ## Q8  0.1044 0.0004 0.2514 0.0450 0.1343 0.0860 0.1410        0.0070 0.0423
 ## Q9  0.1837 0.0800 0.4129 0.4890 0.0444 0.0669 0.1895 0.0070        0.0293
 ## Q10 0.0535 0.4424 0.9585 0.1813 0.0175 0.0002 0.5218 0.0423 0.0293
-```
+{% endhighlight %}
 
 
 <a href="#top">Go to top</a>
@@ -370,7 +370,7 @@ Like Spearman's rank correlation, Kendall's tau is a non-parametric rank correla
 Similar to Spearman and Pearson, we apply the same functions and simply adjust the method type to calculate Kendall's tau.  Using the same survey data as in the [Spearman example](#spearman), we can compute the correlations using `cor()` and `cor.test()`; however, `rcorr()` from the [Hmisc](https://cran.r-project.org/package=Hmisc) package (illustrated in the [Spearman](#spearman) and [Pearson](#pearson) examples) does not compute Kendall's tau.
 
 
-```r
+{% highlight r %}
 # correlation between any two questions
 cor(survey_data$Q1, survey_data$Q2, method = 'kendall')
 ## [1] 0.3231124
@@ -386,7 +386,7 @@ cor.test(survey_data$Q1, survey_data$Q2, method = 'kendall')
 ## sample estimates:
 ##       tau 
 ## 0.3231124
-```
+{% endhighlight %}
 
 
 <a href="#top">Go to top</a>
@@ -399,7 +399,7 @@ Partial correlation is a measure of the strength and direction of association be
 Partial correlation can be performed with Pearson, Spearman, or Kendall's correlation.  Consequently, the assumptions required must align with the assumptions previously outlined above for each of these correlation approaches. The functions I rely on to analyze partial correlations are from the [ppcor](https://cran.r-project.org/web/packages/ppcor/index.html)[^semi] package. To illustrate, let's go back to the golf data I've been using throughout this tutorial. We may be interested in assessing the relationship between driving distance and getting to the green in regulation. A simple correlation test suggests that there is no statistically significant relationship between the two. This may seem a bit paradoxical because you would think players who can drive the ball further off the tee box are more likely to get to the green in less strokes. However, as we saw in the visualization section, those players who drive the ball further are less accurate so this could also be influencing their ability to get to the green in regulation. 
 
 
-```r
+{% highlight r %}
 cor.test(x = golf$`Yards/Drive`, y = golf$`Greens in Regulation`, 
          use = "complete.obs")
 ## 
@@ -413,13 +413,13 @@ cor.test(x = golf$`Yards/Drive`, y = golf$`Greens in Regulation`,
 ## sample estimates:
 ##        cor 
 ## 0.08980047
-```
+{% endhighlight %}
 
 If we want to identify the unique measure of the relationship between yards per drive and greens in regulation then we need to control for driving accuracy; this is known as a **first-order partial correlation**.  We can do this by applying the `pcor.test()` function to assess the partial correlation between two specific variables controlling for a third; or we can use `pcor()` which provides the same information but for all variables assessed. The results illustrate that when we control for driving accuracy, the relationship between yards per drive and greens in regulation is significant.  The simple correlation suggested an $r = 0.09$ (*p*-value $=0.21$); however, after controlling for driving accuracy the first-order correlation between yards per drive and greens in regulation is $r = 0..40$ (*p*-value $<0.01$). This makes sense as it suggests that when we hold driving accuracy constant, the length of drive is associated positively with getting to the green in regulation.
 
 
 
-```r
+{% highlight r %}
 library(ppcor)
 
 # pcor() and pcor.test() do not accept missing values so you must filter them
@@ -433,19 +433,19 @@ pcor.test(x = golf_complete$`Yards/Drive`, y = golf_complete$`Greens in Regulati
           z = golf_complete$`Driving Accuracy`)
 ##    estimate      p.value statistic   n gp  Method
 ## 1 0.3962423 3.048395e-07  5.355616 157  1 pearson
-```
+{% endhighlight %}
 
 What if we want to control for the effects of two (*second-order partial correlation*), three (*third-order partial correlation*), or more variables at the same time? For instance, what if we wanted to assess the correlation between yards per drive and greens in regulation while controlling for driving accuracy and age; then we just include all the control variables of concern (driving accuracy and age) in the `z` variable for `pcor.test()`. As we can see below, controlling for age appears to have very little impact on the relationship between yards per drive and greens in regulation.
 
 
 
-```r
+{% highlight r %}
 # partial correlation
 pcor.test(x = golf_complete$`Yards/Drive`, y = golf_complete$`Greens in Regulation`, 
           z = golf_complete[, c("Driving Accuracy", "Age")])
 ##    estimate      p.value statistic   n gp  Method
 ## 1 0.3802898 1.056049e-06  5.086053 157  2 pearson
-```
+{% endhighlight %}
 
 
 <a href="#top">Go to top</a>
