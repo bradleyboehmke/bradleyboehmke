@@ -80,7 +80,12 @@ title: NULL
  
 <div style="float: left; width: 30%; margin-right: 1em;;">
 
+<a href="http://bradleyboehmke.github.io/tutorials/correlations">
+<img src="/public/images/analytics/correlation/correlation_icon.png" style="display: block; margin: auto;" />
+</a>
 
+<h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/correlations"><font color="#821122;">Assessing Correlations</font></a></h4>
+<p class="nomargin" style="line-height:1.0"><font size="3">Start identifying bi-variate relationships between your variables.</font></p>
 
  
 </div>
