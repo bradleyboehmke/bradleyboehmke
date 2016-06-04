@@ -42,14 +42,13 @@ library(Hmisc)          # produces correlation matrices with p-values
 library(ppcor)          # assesses partial correlations
 {% endhighlight %}
 
-To illustrate ways to visualize correlation and compute the statistics, I will demonstrate with some [golf data](https://www.dropbox.com/s/t8uxau3sanra2f0/Golf%20Stats.xlsx?dl=0) provided by [ESPN](http://espn.go.com/golf/statistics) and also with some artifical [survey data](). The golf data has 18 variables, which you can see the first 9 below; and the survey data has 11.
+To illustrate ways to visualize correlation and compute the statistics, I will demonstrate with some [golf data](https://www.dropbox.com/s/t8uxau3sanra2f0/Golf%20Stats.xlsx?dl=0) provided by [ESPN](http://espn.go.com/golf/statistics) and also with some artifical [survey data](https://www.dropbox.com/s/2ahf1ixgm97la5s/Survey_Results.xlsx?dl=0). The golf data has 18 variables, which you can see the first 9 below; and the survey data has 11.
 
 
 {% highlight r %}
 library(readxl)
 
-golf <- read_excel("~/Desktop/Personal/Analytics Tutorials/Data/Assumptions/Golf Stats.xlsx", 
-           sheet = "2011")
+golf <- read_excel("Golf Stats.xlsx", sheet = "2011")
 
 head(golf[, 1:9])
 ##   Rank         Player Age Events Rounds Cuts Made Top 10s Wins Earnings
@@ -60,8 +59,7 @@ head(golf[, 1:9])
 ## 5    5 Dustin Johnson  27     21     71        17       6    1  4309962
 ## 6    6    Matt Kuchar  33     24     88        22       9    0  4233920
 
-survey <- read_excel("~/Desktop/Personal/Analytics Tutorials/Data/Survey_Results.xlsx", 
-                   sheet = "Sheet1", skip = 2)
+survey <- read_excel("Survey_Results.xlsx", sheet = "Sheet1", skip = 2)
 
 head(survey)
 ##   Observation Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10
