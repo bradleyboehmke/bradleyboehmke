@@ -14,6 +14,8 @@ Correlation is a bivariate analysis that measures the extent that two variables 
 <img src="/public/images/analytics/correlation/correlation_icon.png" alt="Correlation Matrix">
 </center>
 
+<br>
+
 # tl;dr
 This tutorial serves as an introduction to assessing correlation between variables. First, I provide the data and packages required to replicate the analysis and then I walk through the ways to visualize associations followed by demonstrating four different approaches to assess correlations. 
 
