@@ -11,7 +11,7 @@ title: NULL
 Correlation is a bivariate analysis that measures the extent that two variables are related ("co-related") to one another. The value of the correlation coefficient varies between +1 and -1. When the value of the correlation coefficient lies around &#177;1, then it is said to be a perfect degree of association between the two variables (near +1 implies a strong positive association and near -1 implies a strong negative association). As the correlation coefficient nears 0, the relationship between the two variables weakens with a near 0 value implying no association between the two variables. This tutorial covers the different ways to visualize and assess correlation.
 
 <center>
-<img src="correlation_icon.png" alt="Correlation Matrix">
+<img src="/public/images/analytics/correlation/correlation_icon.png" alt="Correlation Matrix">
 </center>
 
 # tl;dr
@@ -85,7 +85,7 @@ qplot(x = Events, y = Rounds, data = golf) +
         ggtitle("Fig. A: Strong Positive Association")
 ```
 
-<img src="correlations_files/figure-html/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/correlation/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 
 Contrast this to the following two plots which shows as driving accuracy increases the distance of the player's drive tends to decrease (Fig. B) but this association is far weaker than we saw above due to greater variance around the trend line. In addition we can easily see that as a player's age increases their greens in regulation percentage does not appear to change (Fig. C).
 
@@ -104,7 +104,7 @@ p2 <- qplot(x = Age, y = `Greens in Regulation`, data = golf) +
 grid.arrange(p1, p2, ncol = 2)
 ```
 
-<img src="correlations_files/figure-html/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/correlation/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
 
 In addition, scatter plots illustrate the linearity of the relationship, which can influence how you approach assessing correlations (i.e. data transformation, using a parametric vs non-parametric test, removing outliers). [Francis Anscombe](https://en.wikipedia.org/wiki/Frank_Anscombe) illustrated this in 1973[^anscombe] when he constructed four data sets that have the same mean, variance, and correlation; however, there are significant differences in the variable relationships. Using the `anscombe` data, which R has as a built in data set, the plots below demonstrate the importance of graphing data rather than just relying on correlation coefficients. Each x-y combination in the plot below has a correlation of .82 (strong positive) but there are definitely differences in the association between these variables.
 
@@ -122,7 +122,7 @@ grid.arrange(p1, p2, p3, p4, ncol = 2,
              top = textGrob("Anscombe's Quartet"))
 ```
 
-<img src="correlations_files/figure-html/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/correlation/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
 
 
 Visualization can also give you a quick approach to assessing multiple relationships. We can produce scatter plot matrices multiple ways to visualize and compare relationships across the entire data set we are analyzing. With base R plotting we can use the `pairs()` function. Lets look at the first 10 variables of the golf data set (minus the player name variable). You can instantly see those variables that are strongly associated (i.e. Events, Rounds, Cuts Made), not associated (i.e. Rank, Age, Events), nonlinearly associated (i.e. Rank, Top 10s), or categorical in nature (Wins). 
@@ -133,7 +133,7 @@ Visualization can also give you a quick approach to assessing multiple relations
 pairs(golf[, c(1, 3:10)])
 ```
 
-<img src="correlations_files/figure-html/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/correlation/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
 
 There are multiple ways to produce scatter plot matrices such as these.  Additional means includes the [corrgram](https://cran.r-project.org/web/packages/corrgram/index.html) and [corrplot](https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html) packages. Note that multiple options exist with both these visualizations (i.e. formatting, correlation method applied, illustrating significance and confidence intervals, etc.) so they are worth exploring. 
 
@@ -145,7 +145,7 @@ par(bg = "#fdfdfd")
 corrgram(golf[, c(1, 3:10)], lower.panel = panel.shade, upper.panel = panel.pts)
 ```
 
-<img src="correlations_files/figure-html/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/correlation/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
 
 For `corrplot` you must first compute the correlation matrix and then feed that information into the graphic function.
 
@@ -157,7 +157,7 @@ cor_matrix <- cor(golf[, c(1, 3:10)], use = 'complete.obs')
 corrplot.mixed(cor_matrix, lower = "circle", upper = "number", tl.pos = "lt", diag = "u")
 ```
 
-<img src="correlations_files/figure-html/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
+<img src="/public/images/analytics/correlation/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
 
 Once you've visualized the data and understand the associations that appear to be present and their attributes (strength, outliers, linearity) you can begin assessing the statistical relationship by applying the appropriate correlation method.
 
