@@ -166,13 +166,13 @@ Once you've visualized the data and understand the associations that appear to b
 <br>
 
 ## Pearson's Correlation {#pearson}
-The Pearson correlation is so widely used that when most people refer to correlation they are referring to the Pearson approach. The Pearson product-moment correlation coefficient measures the strength of the linear relationship between two variables and is represented by *r* when referring to a sample or &#961; when referring to the population. Considering we most often deal with samples I'll use $r$ unless otherwise noted.
+The Pearson correlation is so widely used that when most people refer to correlation they are referring to the Pearson approach. The Pearson product-moment correlation coefficient measures the strength of the linear relationship between two variables and is represented by *r* when referring to a sample or &#961; when referring to the population. Considering we most often deal with samples I'll use *r* unless otherwise noted.
 
 Unfortunately, the assumptions for Pearson's correlation are often overlooked. These assumptions include:
 
 - Level of measurement: The variables should be continuous. If one or both of the variables are ordinal in measurement, then a [Spearman rank correlation](#spearman) should be conducted.
 - Linear relationship: The variables need to be linearly related. If they are not, the data could be transformed (i.e. logarithmic transformation) or a non-parametric approach such as the  [Spearman's](#spearman) or [Kendall's](#kendall) rank correlation tests could be used.
-- Homoscedasticity: If the variance between the two variables is not constant then $r$ will not provide a good measure of association.
+- Homoscedasticity: If the variance between the two variables is not constant then *r* will not provide a good measure of association.
 - Bivariate Normality: Technically, Pearson's $r$ does not require normality when the sample size is fairly large; however, when the variables consist of high levels of skewness or contain significant outliers it is recommended to use [Spearman's rank correlation](#spearman) or, at a minimum, compare Pearson's and Spearman's coefficients.
 
 R provides multiple functions to analyze correlations.  To calculate the correlation between two variables we use `cor()`.  When using `cor()` there are two arguments (other than the variables) that need to be considered.  The first is `use =` which allows us to decide how to handle missing data. The default is `use = everything` but if there is missing data in your data set this will cause the output to be `NA` unless we explicitly state to only use complete observations with `use = complete.obs`. The second argument is `method =` which allows us to specify if we want to use "pearson", "kendall", or "spearman". Pearson is the default method so we do not need to specify for that option.
@@ -212,7 +212,7 @@ cor(golf[, c(1, 3:10)], use = 'complete.obs')
 ## Yards/Drive  0.1939759  0.21563889  0.2504102  1.00000000
 {% endhighlight %}
 
-Unfortunately `cor()` only provides the $r$ coefficient(s) and does not test for significance nor provide confidence intervals.  To get these parameters for a simple two variable analysis I use `cor.test()`.  In our example we see that the $p$-value is significant and the 95% confidence interval confirms this as the range does not contain zero. This suggests the correlation between age and yards per drive is $r = -0.396$ with 95% confidence of being between -0.27 and -0.51.
+Unfortunately `cor()` only provides the *r* coefficient(s) and does not test for significance nor provide confidence intervals.  To get these parameters for a simple two variable analysis I use `cor.test()`.  In our example we see that the *p*-value is significant and the 95% confidence interval confirms this as the range does not contain zero. This suggests the correlation between age and yards per drive is *r* = -0.396 with 95% confidence of being between -0.27 and -0.51.
 
 
 {% highlight r %}
@@ -230,7 +230,7 @@ cor.test(golf$Age, golf$`Yards/Drive`, use = 'complete.obs')
 ## -0.3960891
 {% endhighlight %}
 
-We can also get the correlation matrix and the $p$-values across all variables by using the `rcorr()` function in the [Hmisc](https://cran.r-project.org/package=Hmisc) package. This function will provide the correlation matrix, number of pairwise observations used, and the $p$-values. Note that `rcorr()` does not provide confidence intervals like `cor.test()`.
+We can also get the correlation matrix and the *p*-values across all variables by using the `rcorr()` function in the [Hmisc](https://cran.r-project.org/package=Hmisc) package. This function will provide the correlation matrix, number of pairwise observations used, and the *p*-values. Note that `rcorr()` does not provide confidence intervals like `cor.test()`.
 
 
 {% highlight r %}
@@ -365,7 +365,7 @@ rcorr(as.matrix(survey_data[, -1]), type = 'spearman')
 <br>
 
 ## Kendall's tau {#kendall}
-Like Spearman's rank correlation, Kendall's tau is a non-parametric rank correlation that assesses statistical associations based on the ranks of the data. Therefore, the relevant questions that Kendall's tau answers and the assumptions required are the same as discussed in the [Spearman's Rank Correlation section](#spearman). The benefits of Kendall's tau over Spearman's is it is less sensitive to error and the $p$-values are more accurate with smaller sample sizes. However, in most of the situations, the interpretations of Kendall’s tau and Spearman’s rank correlation coefficient are very similar and thus invariably lead to the same inferences.
+Like Spearman's rank correlation, Kendall's tau is a non-parametric rank correlation that assesses statistical associations based on the ranks of the data. Therefore, the relevant questions that Kendall's tau answers and the assumptions required are the same as discussed in the [Spearman's Rank Correlation section](#spearman). The benefits of Kendall's tau over Spearman's is it is less sensitive to error and the *p*-values are more accurate with smaller sample sizes. However, in most of the situations, the interpretations of Kendall’s tau and Spearman’s rank correlation coefficient are very similar and thus invariably lead to the same inferences.
 
 Similar to Spearman and Pearson, we apply the same functions and simply adjust the method type to calculate Kendall's tau.  Using the same survey data as in the [Spearman example](#spearman), we can compute the correlations using `cor()` and `cor.test()`; however, `rcorr()` from the [Hmisc](https://cran.r-project.org/package=Hmisc) package (illustrated in the [Spearman](#spearman) and [Pearson](#pearson) examples) does not compute Kendall's tau.
 
@@ -415,7 +415,7 @@ cor.test(x = golf$`Yards/Drive`, y = golf$`Greens in Regulation`,
 ## 0.08980047
 {% endhighlight %}
 
-If we want to identify the unique measure of the relationship between yards per drive and greens in regulation then we need to control for driving accuracy; this is known as a **first-order partial correlation**.  We can do this by applying the `pcor.test()` function to assess the partial correlation between two specific variables controlling for a third; or we can use `pcor()` which provides the same information but for all variables assessed. The results illustrate that when we control for driving accuracy, the relationship between yards per drive and greens in regulation is significant.  The simple correlation suggested an $r = 0.09$ (*p*-value $=0.21$); however, after controlling for driving accuracy the first-order correlation between yards per drive and greens in regulation is $r = 0..40$ (*p*-value $<0.01$). This makes sense as it suggests that when we hold driving accuracy constant, the length of drive is associated positively with getting to the green in regulation.
+If we want to identify the unique measure of the relationship between yards per drive and greens in regulation then we need to control for driving accuracy; this is known as a **first-order partial correlation**.  We can do this by applying the `pcor.test()` function to assess the partial correlation between two specific variables controlling for a third; or we can use `pcor()` which provides the same information but for all variables assessed. The results illustrate that when we control for driving accuracy, the relationship between yards per drive and greens in regulation is significant.  The simple correlation suggested an *r* = 0.09 (*p*-value = 0.21); however, after controlling for driving accuracy the first-order correlation between yards per drive and greens in regulation is *r* = 0.40 (*p*-value < 0.01). This makes sense as it suggests that when we hold driving accuracy constant, the length of drive is associated positively with getting to the green in regulation.
 
 
 
