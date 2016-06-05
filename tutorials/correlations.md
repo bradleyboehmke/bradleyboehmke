@@ -166,7 +166,7 @@ Once you've visualized the data and understand the associations that appear to b
 <br>
 
 ## Pearson's Correlation {#pearson}
-The Pearson correlation is so widely used that when most people refer to correlation they are referring to the Pearson approach. The Pearson product-moment correlation coefficient measures the strength of the linear relationship between two variables and is represented by $r$ when referring to a sample or &#961; when referring to the population. Considering we most often deal with samples I'll use $r$ unless otherwise noted.
+The Pearson correlation is so widely used that when most people refer to correlation they are referring to the Pearson approach. The Pearson product-moment correlation coefficient measures the strength of the linear relationship between two variables and is represented by *r* when referring to a sample or &#961; when referring to the population. Considering we most often deal with samples I'll use $r$ unless otherwise noted.
 
 Unfortunately, the assumptions for Pearson's correlation are often overlooked. These assumptions include:
 
