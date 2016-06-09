@@ -178,7 +178,9 @@ p2 <- ggplot(mtcars, aes(x = row.names(mtcars), y = mpg)) +
 grid.arrange(p1, p2, ncol = 1)
 {% endhighlight %}
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-9-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+</center>
 
 However, if you're like me then you probably hate to read rotated x-axis labels.  In cases like these I think rotated bar charts are far more appealing. We can rotate the the axes by applying the `coord_flip()` function, which flips the x and y coordinates. To make this even easier to digest we can order the vehicles based on their mpg values as illustrated in Fig B. To do this just reorder the x variable by applying the `reorder()` function. 
 
@@ -303,7 +305,9 @@ ggplot(avg_mpg, aes(factor(cyl), mpg, fill = factor(am))) +
         geom_bar(stat = "identity")
 {% endhighlight %}
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-14-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+</center>
 
 Unfortunately, the way ggplot color codes the bars is opposite to how the colors are displayed in the legend. We can resolve this two different ways; either reverse the legend with the arguments displayed in the `guides()` function in Fig A. or [specify the direction of the levels](http://bradleyboehmke.github.io/tutorials/factors#order) when transforming the transmission (`am`) variable into a factor as displayed in the first line of code in Fig B. Both will align the legend color coding layout to the color coding of the stacked bars but each option also helps determine which color is top versus on the bottom.
 
@@ -338,7 +342,9 @@ ggplot(avg_mpg, aes(factor(cyl), mpg, fill = factor(am, levels = c(1, 0)))) +
         labs(fill = "AM")
 {% endhighlight %}
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-16-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+</center>
 
 A common version of the stacked bar chart that you will see is the proportional stacked bar chart. In the proportional stacked bar chart each x-axis category will have stacked bars that combine to equal 100%. This allows you to see what percentage of that x-axis category is determined by an additional variable. For example, what if we want to understand what percentage of cars with 4, 6, and 8 cylinders are manual versus automatic transmission? In this case, we first tally the number of vehicles in each cylinder and transmission category and then calculate the percentages of the total cars in each cylinder category. We then use this information to create a stacked bar chart. 
 
@@ -373,8 +379,9 @@ ggplot(proportion, aes(factor(cyl), pct, fill = factor(am, levels = c(1, 0)))) +
 
 &#9755; *See [Tidy & transform your data](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-17-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
-
+</center>
 
 <a href="#top">Go to top</a>
 
@@ -419,7 +426,9 @@ ggplot(cars, aes(reorder(Make, mpg), mpg, fill = ID)) +
 
 &#9755; *See [Tidy & transform your data](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-19-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+</center>
 
 Labelling grouped bars is similar, however, we need to add a `position = position_dodge(0.9)` argument to the `geom_text()` function to tell ggplot to adjust the text location. By default, the values will be centered on the top of the bar (Fig. A) but you can adjust the text to the top of the bar by including a `vjust = .5` argument or adjust the text to within the bar with `vjust = 1.5` (Fig. B).
 
@@ -459,8 +468,9 @@ ggplot(proportion, aes(factor(cyl), pct, fill = factor(am, levels = c(1, 0)))) +
 
 &#9755; *See [Tidy & transform your data](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-21-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
-
+</center>
 
 <a href="#top">Go to top</a>
 
@@ -501,7 +511,9 @@ plot <- ggplot(dayton, aes(x = class, y = value, fill = factor(year))) +
 plot
 {% endhighlight %}
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-23-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+</center>
 
 Now let's add some labels to the plot; however, I want to create nicely formatted labels so rather than just use the `value` variable I'll create a new `y_label` variable with a percent formatted number.  We can now add these values to our plot with `geom_text()`.
 
@@ -528,8 +540,9 @@ plot <- ggplot(dayton, aes(x = class, y = value, fill = factor(year))) +
 plot
 {% endhighlight %}
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-24-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
-
+</center>
 
 This is looking pretty good but now let's add some clarity to our message by making the y axis displayed in percent form via `scale_y_continuous()`, create better labels for our x-axis categories via `scale_x_discrete()`, and add a title, subtitle and caption via `labs()`.
 
@@ -546,7 +559,9 @@ plot <- plot +
 plot
 {% endhighlight %}
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-25-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+</center>
 
 Lastly, let's do some theme editing.  I usually use a minimalistic plot so I set my base theme via `theme_minimal()`. Next, I remove axis titles since it become self explanatory through the title and subtitle. I also remove unecessary gridlines, rotate the legend, set the font family, and then do some title, subtitle, and caption editing. 
 
@@ -568,7 +583,9 @@ plot +
         
 {% endhighlight %}
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-27-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+</center>
 
 <a href="#top">Go to top</a>
 
