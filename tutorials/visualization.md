@@ -58,6 +58,16 @@ An often overlooked, yet efficient means for communicating the distribution of n
  
 <div style="float: left; width: 30%; margin-right: 1em;">
 
+<a href="http://bradleyboehmke.github.io/tutorials/barchart">
+<img src="/public/images/visual/barcharts/barcharts_icon.png" style="display: block; margin: auto;" />
+</a>
+
+<h4 class="headmargin"><a href="http://bradleyboehmke.github.io/tutorials/barchart"><font color="#821122;">Bar Charts</font></a></h4>
+<p class="nomargin" style="line-height:1.0">
+<font size="3">
+One of the most common data graphics that can simplistically illustrate and compare your data.
+</font>
+</p>
 
 </div>
 
