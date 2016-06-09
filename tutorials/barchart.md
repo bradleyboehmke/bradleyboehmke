@@ -118,9 +118,9 @@ ggplot(cyl_mpg, aes(x = factor(cyl), y = avg_mpg)) +
         geom_bar(stat = "identity")
 {% endhighlight %}
 
-&#9755; *See [Working with packages](http://bradleyboehmke.github.io//tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
+&#9755; *See [Tidy & transform your data](http://bradleyboehmke.github.io//tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
 
-<img src="/public/images/visual/barcharts/unnamed-chunk-6-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+<img src="/public/images/visual/barcharts/unnamed-chunk-6-1.png"  align="middle" style="display: block; margin-top:20px; margin-bottom: 20px;" />
 
 Although the default width of the bars is aesthetically pleasing, you do have the ability to adjust this attribute by setting the `width` in `geom_bar()`.  The default width is 0.9; smaller values make the bars narrower and larger values (max width of 1) make the bars wider.
 
@@ -260,7 +260,7 @@ p2 <- ggplot(avg_mpg, aes(factor(cyl), mpg, fill = factor(am))) +
 grid.arrange(p1, p2, ncol = 2)
 {% endhighlight %}
 
-&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
+&#9755; *See [Tidy & transform your data](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
 
 <img src="/public/images/visual/barcharts/unnamed-chunk-12-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
 
@@ -367,7 +367,7 @@ ggplot(proportion, aes(factor(cyl), pct, fill = factor(am, levels = c(1, 0)))) +
         labs(fill = "AM")
 {% endhighlight %}
 
-&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
+&#9755; *See [Tidy & transform your data](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
 
 <img src="/public/images/visual/barcharts/unnamed-chunk-17-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
 
@@ -413,7 +413,7 @@ ggplot(cars, aes(reorder(Make, mpg), mpg, fill = ID)) +
         theme(legend.position = "none")
 {% endhighlight %}
 
-&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
+&#9755; *See [Tidy & transform your data](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
 
 <img src="/public/images/visual/barcharts/unnamed-chunk-19-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
 
@@ -453,7 +453,7 @@ ggplot(proportion, aes(factor(cyl), pct, fill = factor(am, levels = c(1, 0)))) +
         labs(fill = "AM")
 {% endhighlight %}
 
-&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
+&#9755; *See [Tidy & transform your data](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
 
 <img src="/public/images/visual/barcharts/unnamed-chunk-21-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
 
@@ -484,7 +484,7 @@ dayton
 ## 6 Dayton, OH  Upper 2014 0.2035
 {% endhighlight %}
 
-&#9755; *See [Working with packages](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation and reshaping with the dplyr and tidyr packages.*
+&#9755; *See [Tidy & transform your data](http://bradleyboehmke.github.io/tutorials/data_wrangling) for more information on data transformation and reshaping with the dplyr and tidyr packages.*
 
 We can now create our basic bar chart that is a side-by-side comparison.
 
