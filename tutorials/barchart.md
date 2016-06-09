@@ -120,7 +120,9 @@ ggplot(cyl_mpg, aes(x = factor(cyl), y = avg_mpg)) +
 
 &#9755; *See [Tidy & transform your data](http://bradleyboehmke.github.io//tutorials/data_wrangling) for more information on data transformation with the dplyr package.*
 
-<img src="/public/images/visual/barcharts/unnamed-chunk-6-1.png"  align="middle" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+<center>
+<img src="/public/images/visual/barcharts/unnamed-chunk-6-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+</center>
 
 Although the default width of the bars is aesthetically pleasing, you do have the ability to adjust this attribute by setting the `width` in `geom_bar()`.  The default width is 0.9; smaller values make the bars narrower and larger values (max width of 1) make the bars wider.
 
@@ -156,7 +158,9 @@ ggplot(mtcars, aes(x = factor(cyl))) +
         geom_bar(fill = "dodgerblue", color = "grey40", alpha = .5)
 {% endhighlight %}
 
+<center>
 <img src="/public/images/visual/barcharts/unnamed-chunk-8-1.png" style="display: block; margin-top:20px; margin-bottom: 20px;" />
+</center>
 
 There are also times when we want to plot many categories along the x-axis and the length of the names make it difficult to read. One approach to resolving this issue is to use `axis.text.x` argument within the `theme()` function to rotate the text.
 
