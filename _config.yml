@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Site settings
 title: Bradley Boehmke
 email: bradleyboehmke@gmail.com
@@ -10,24 +10,7 @@ twitter_username: bradleyboehmke
 github_username:  bradleyboehmke
 permalink: /:year/:month/:title.html
 excerpt_separator: <!--more-->
-=======
-# Dependencies
-gems:                [jekyll-paginate]
-paginate: 5
-paginate_path: "page:num"
 
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-
-# Setup
-title:               Bradley Boehmke
-tagline:             ''
-description:         '<img src="https://raw.githubusercontent.com/bradleyboehmke/bradleyboehmke.github.io/master/public/logo.png" height=60 </img>  Follow us on twitter <a href="https://twitter.com/bradleyboehmke">@something</a>'
-url:                 http://bradleyboehmke.github.io
-baseurl:             ''
->>>>>>> origin/master
 
 # Build settings
 markdown: kramdown
