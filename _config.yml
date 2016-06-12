@@ -9,9 +9,9 @@ paginate_path: "page:num"
 permalink:           pretty
 
 # Setup
-title:               R Programming @ UC
+title:               Bradley Boehmke
 tagline:             ''
-description:         '<img src="https://raw.githubusercontent.com/uc-r/uc-r.github.io/master/public/uc_logo.png" height=60 </img>  Follow us on twitter <a href="https://twitter.com/bradleyboehmke">@something</a>'
-url:                 http://uc-r.github.io
+description:         '<img src="https://raw.githubusercontent.com/uc-r/uc-r.github.io/master/public/logo.png" height=60 </img>  Follow me on twitter <a href="https://twitter.com/bradleyboehmke">@something</a>'
+url:                 http://bradleyboehmke.github.io
 baseurl:             ''
 
