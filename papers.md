@@ -30,16 +30,16 @@ Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  
 <strong>Technical Research Reports</strong>
 <ul>
 <p>
-Boehmke, B. C. (2015). <em>Grabbing the Air Force by the Tail: Applying Strategic Cost Analytics to Understand and Manage Indirect Cost Behavior</em> (Dissertation: No. AFIT-ENS-DS-15-S-076). Air Force Institute of Technology Graduate School of Engineering and Management. DOI: 10.13140/RG.2.1.1310.1524. <a href="https://www.researchgate.net/publication/284179123_Grabbing_the_Air_Force_by_the_Tail_Applying_Strategic_Cost_Analytics_to_Understand_and_Manage_Indirect_Cost_Behavior">[link]</a>
+Boehmke, B.C. (2015). <em>Grabbing the Air Force by the Tail: Applying Strategic Cost Analytics to Understand and Manage Indirect Cost Behavior</em> (Dissertation: No. AFIT-ENS-DS-15-S-076). Air Force Institute of Technology Graduate School of Engineering and Management. DOI: 10.13140/RG.2.1.1310.1524. <a href="https://www.researchgate.net/publication/284179123_Grabbing_the_Air_Force_by_the_Tail_Applying_Strategic_Cost_Analytics_to_Understand_and_Manage_Indirect_Cost_Behavior">[link]</a>
 </p>
 <p>
-Boehmke, B.C. (2015). "A comparison of alternative univariate cost metrics for the LGM-30 intercontinental ballistic missile weapon system." AFMC/A9 Technical Report.
+Boehmke, B.C. (2015). <em>A comparison of alternative univariate cost metrics for the LGM-30 intercontinental ballistic missile weapon system.<em> Technical Report: Headquarters Air Force Materiel Command, Studies and Analyses Division.
 </p>
 <p>
-Boehmke, B.C. (2014). "Understanding business analytics." AFMC/A9 Technical Report.
+Boehmke, B.C. (2014). <em>Understanding business analytics.<em> Technical Report: Headquarters Air Force Materiel Command, Studies and Analyses Division.
 </p>
 <p>
-Boehmke, B.C. (2011). "Model for identifying cost savings by synchronizing the E-4B NAOC replacement and Presidential Aircraft Recapitalization programs." (Final report AFIT/GCA/ENV/11-J01).
+Boehmke, B.C. (2011). <em>Model for identifying cost savings by synchronizing the E-4B NAOC replacement and Presidential Aircraft Recapitalization programs.<em> (Thesis: No. AFIT/GCA/ENV/11-J01). Air Force Institute of Technology Graduate School of Engineering and Management.
 </p>
 </ul>
 
