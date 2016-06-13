@@ -2,7 +2,7 @@
 # Site settings
 title: Bradley Boehmke
 email: bradleyboehmke@gmail.com
-description:         '<img src="https://raw.githubusercontent.com/bradleyboehmke/bradleyboehmke.github.io/master/public/logo.png" height=80 </img>  Follow me on twitter <a href="https://twitter.com/bradleyboehmke">@bradleyboehmke</a>'
+description:         '<div><center><img src="https://raw.githubusercontent.com/bradleyboehmke/bradleyboehmke.github.io/master/public/logo.png" height=80 </img></center></div>  Follow me on twitter <a href="https://twitter.com/bradleyboehmke">@bradleyboehmke</a>'
 
   
 baseurl: "http://bradleyboehmke.github.io" # the subpath of your site, e.g. /blog/
