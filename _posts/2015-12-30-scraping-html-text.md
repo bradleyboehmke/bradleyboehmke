@@ -76,7 +76,7 @@ To extract text from a webpage of interest, we specify what HTML elements we wan
 
 
 
-{% highlight r %}
+```r
 library(rvest)
 
 scraping_wiki <- read_html("https://en.wikipedia.org/wiki/Web_scraping")
@@ -85,7 +85,7 @@ scraping_wiki %>%
         html_nodes("h1")
 ## {xml_nodeset (1)}
 ## [1] <h1 id="firstHeading" class="firstHeading" lang="en">Web scraping</h1>
-{% endhighlight %}
+```
 
 To extract only the heading text for this `<h1>` node, and not include all the HTML syntax we use `html_text()` which returns the heading text we see at the top of the [Web Scraping Wikipedia page](https://en.wikipedia.org/wiki/Web_scraping).
 
