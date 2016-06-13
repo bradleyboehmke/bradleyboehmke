@@ -22,13 +22,16 @@ Jackson, R.A., Boehmke, B.C. (2016). "Unpacking the United States Air Force's li
 Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "Bending the cost curve: Moving the focus from macro-level to micro-level cost trends with cluster analysis." <em>Journal of Cost Analysis and Parametrics, 8(2)</em>, 126-148. DOI: 10.1080/1941658X.2015.1064046. <a href="https://www.researchgate.net/publication/282288766_Bending_the_Cost_Curve_Moving_the_Focus_from_Macro-level_to_Micro-level_Cost_Trends_with_Cluster_Analysis">[link]</a>
 </p>
 <p>
-Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "A multilevel understanding of Tooth-to-Tail."  <em>Proceedings of the IIE Industrial and Systems Engineering Research Conference (ISERC), Nashville, TN, May 30 - June 2, 2016.</em> <a href="https://www.researchgate.net/publication/282289694_A_Multilevel_Understanding_of_Tooth-to-Tail">[link]</a>
+Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  "A multilevel understanding of Tooth-to-Tail."  <em>Proceedings of the IIE Industrial and Systems Engineering Research Conference (ISERC), Nashville, TN, May 30 - June 2, 2016.</em> DOI: 10.13140/RG.2.1.1708.2964.  <a href="https://www.researchgate.net/publication/282289694_A_Multilevel_Understanding_of_Tooth-to-Tail">[link]</a>
 </p>
 </ul>
 
 
 <strong>Technical Research Reports</strong>
 <ul>
+<p>
+Boehmke, B. C. (2015). <em>Grabbing the Air Force by the Tail: Applying Strategic Cost Analytics to Understand and Manage Indirect Cost Behavior</em> (Dissertation: No. AFIT-ENS-DS-15-S-076). Air Force Institute of Technology Graduate School of Engineering and Management. DOI: 10.13140/RG.2.1.1310.1524. <a href="https://www.researchgate.net/publication/284179123_Grabbing_the_Air_Force_by_the_Tail_Applying_Strategic_Cost_Analytics_to_Understand_and_Manage_Indirect_Cost_Behavior">[link]</a>
+</p>
 <p>
 Boehmke, B.C. (2015). "A comparison of alternative univariate cost metrics for the LGM-30 intercontinental ballistic missile weapon system." AFMC/A9 Technical Report.
 </p>
