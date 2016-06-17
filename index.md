@@ -4,7 +4,7 @@ layout: page
 
 
 <center>
-<img src="/public/Brad Boehmke.jpg" alt="Brad" align="right" style="width: 38%; height: 38%" hspace="20" vspace="10">
+<img src="/public/Brad Boehmke.jpg" alt="Brad" align="right" style="width: 38%; height: 38%; padding:5px" hspace="20" vspace="10">
 </center> 
 
 
