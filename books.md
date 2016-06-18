@@ -4,7 +4,17 @@ title: Books
 permalink: books/
 ---
 
-## Data Wrangling with R <i class="fa fa-leanpub" aria-hidden="true"></i>  <i class="fa fa-amazon" aria-hidden="true"></i>
+## Data Wrangling with R
+
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-leanpub" fa-stack-1x ></i>
+</span>
+<br>
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-amazon" fa-stack-1x ></i>
+</span>
 
 <a href="http://bradleyboehmke.github.io/2016/03/data-wrangling-with-r.html"><img src="/public/images/DataWranglingCover.jpg" alt="Data Wrangling with R" style="float:right; margin: 5px 0px 10px 10px; width: 30%; height: 30%;"></a>
 Data wrangling, which is also commonly referred to as data munging, transformation, manipulation, janitor work, etc. can be a painstakenly laborious process. In fact, its been stated that up to 80% of data analysis is spent on the process of cleaning and preparing data. However, being a prerequisite to the rest of the data analysis workflow (visualization, analysis, reporting), it's essential that you become fluent <em>and</em> efficient in data wrangling techniques.  <em><a href="https://leanpub.com/datawranglingwithr">Data Wrangling with R!</a></em> will help you learn the essentials of preprocessing data leveraging the R programming language to easily and quickly turn noisy data into usable pieces of information.
