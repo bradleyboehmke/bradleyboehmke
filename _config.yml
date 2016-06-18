@@ -2,7 +2,7 @@
 # Site settings
 title: Bradley Boehmke
 email: bradleyboehmke@gmail.com
-description:         '<div><img src="https://raw.githubusercontent.com/bradleyboehmke/bradleyboehmke.github.io/master/public/logo.png" width="95%" height="95%" </img></div>'
+description:         '<div><img src="https://raw.githubusercontent.com/bradleyboehmke/bradleyboehmke.github.io/master/public/logo.png" width="90%" height="90%" </img></div>'
   
 baseurl: "http://bradleyboehmke.github.io" # the subpath of your site, e.g. /blog/
 url: "http://bradleyboehmke.github.io" # the base hostname & protocol for your site
