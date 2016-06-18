@@ -7,7 +7,7 @@ permalink: presentations/
 <strong>Conferences</strong>
 <ul>
 <p>
-Boehmke, B.C. (2015). "The Infuence of Front-line Activities on Indirect Costs: A Multilevel Modeling Approach." 83<sup>rd</sup> Military Operations Research Symposium, Washington D.C. &nbsp; <a href="https://www.dropbox.com/s/mkz8yn3qlni12ht/MORS_Presentation.pdf?dl=0" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Boehmke, B.C. (2015). "The Infuence of Front-line Activities on Indirect Costs: A Multilevel Modeling Approach." 83<sup>rd</sup> Military Operations Research Symposium, Washington D.C. &nbsp; <a href="https://www.dropbox.com/s/mkz8yn3qlni12ht/MORS_Presentation.pdf?dl=0" style="color:#515151;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Boehmke, B.C. (2015). "A Multilevel Understanding of Tooth-to-Tail." Institute of Industrial Engineering Annual Conference, Nashville, Tennessee. &nbsp; <a href="https://www.dropbox.com/s/l7h76n61cobudf0/Multilevel.pdf?dl=0" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
