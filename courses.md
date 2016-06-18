@@ -9,6 +9,6 @@ permalink: /courses/
 
 
 ## Intro to R Bootcamp
-Provides an intensive, hands-on introduction to the R programming language. Prepares students with the fundamental programming skills required to start your journey to becoming a modern day data analyst.
+A two day course for all incoming [Business Analytics M.S.](http://business.uc.edu/graduate/ms-business-analytics.html) students at the [University of Cincinnati](http://www.uc.edu/) that provides an intensive, hands-on introduction to the R programming language. This short course repares students with the fundamental programming skills required to start their journey to becoming a modern day data analyst.
 
 ## Supply Chain Management
