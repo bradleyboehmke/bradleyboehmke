@@ -32,7 +32,7 @@ Boehmke, B.C. (2012). "Model for identifying cost savings by synchronizing the E
 <strong>Invited</strong>
 <ul>
 <p>
-Boehmke, B.C. (2016). "Incorporating a Measure of Efficiency in the Air Force's Installation \& Mission Support Performance Assessment." DoD Infrastructure Workshop, Washington D.C. &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Boehmke, B.C. (2016). "Incorporating a Measure of Efficiency in the Air Force's Installation & Mission Support Performance Assessment." DoD Infrastructure Workshop, Washington D.C. &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Boehmke, B.C. (2016). "Using Bayesian Networks to Model Tooth-to-Tail Policy Impacts." DoD Infrastructure Workshop, Washington D.C. &nbsp; <a href="https://www.researchgate.net/publication/301293479_Bayesian_network_Presentation" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
