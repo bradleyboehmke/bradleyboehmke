@@ -5,6 +5,8 @@ permalink: /about/
 sitemap: false
 ---
 
+ <A HREF="http://bradleyboehmke.github.io/notebook/">&#8617;</A>
+ 
 <h1 class="post-title">{{ page.title }}</h1>
 
 <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> &nbsp; Disclaimer: Not a Blog
