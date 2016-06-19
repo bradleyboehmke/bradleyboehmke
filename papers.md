@@ -4,6 +4,8 @@ title: Papers
 permalink: papers/
 ---
 
+<h1 class="post-title">{{ page.title }}</h1>
+
 <strong>Refereed</strong>
 <ul>
 <p>
