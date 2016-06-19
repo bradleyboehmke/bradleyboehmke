@@ -13,6 +13,6 @@ Find me on [Github](https://github.com/bradleyboehmke)
 <b>learningCurve:</b> An R package for computing, simulating, fitting, and plotting unit and cumulative average learning curves. <a href="https://github.com/bradleyboehmke/learningCurve" style="color:#303030;"><i class="fa fa-github" style="font-size:1em"></i></a>
 </p>
 <p>
-<br>evmR:</b> An R package for performing earned value management for measuring and monitoring project performance. <a href="https://github.com/bradleyboehmke/evmR" style="color:#303030;"><i class="fa fa-github" style="font-size:1em"></i></a>
+<b>evmR:</b> An R package for performing earned value management for measuring and monitoring project performance. <a href="https://github.com/bradleyboehmke/evmR" style="color:#303030;"><i class="fa fa-github" style="font-size:1em"></i></a>
 </p>
 </ul>
