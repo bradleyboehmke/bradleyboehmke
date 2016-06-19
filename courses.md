@@ -16,3 +16,4 @@ A two day course for all incoming [Business Analytics M.S.](http://business.uc.e
 <br>
 
 ## Supply Chain Management
+Supply Chain Management is a hot topic in today’s business world because of its potential impact on organizational performance in a fast-paced global economy. Effective supply chain management helps a company "get into the mind" of customers, capture the heart of customers, and deliver to the dock, door, or trunk of customers. Doing this well involves the integration of your suppliers who are experts at what they do. This 10 week course offered as part of the [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program teaches the essentials of of the nature and dynamics of integrated supply chain management along with introducing the analytic techniques required in each element of the supply chain to obtain a competitive advantage.
