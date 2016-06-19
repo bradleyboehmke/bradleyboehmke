@@ -4,6 +4,9 @@ title: Books
 permalink: books/
 ---
 
+<h1 class="post-title">{{ page.title }}</h1>
+
+
 ## Data Wrangling with R &nbsp;&nbsp; <a href="https://leanpub.com/datawranglingwithr" style="color:black;"><i class="fa fa-leanpub" style="font-size:.75em"></i></a> &nbsp; <a href="https://www.amazon.com/Data-Wrangling-R-Bradley-Boehmke-ebook/dp/B01CC54CEK/ref=sr_1_1?ie=UTF8&qid=1466214352&sr=8-1&keywords=data+wrangling+with+r" style="color:black;"><i class="fa fa-amazon" style="font-size:.7em"></i></a>
 
 <a href="http://bradleyboehmke.github.io/2016/03/data-wrangling-with-r.html"><img src="/public/images/DataWranglingCover.jpg" alt="Data Wrangling with R" style="float:right; margin: 5px 0px 10px 10px; width: 30%; height: 30%;"></a>
