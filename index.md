@@ -9,7 +9,7 @@ layout: page
 
 
 <p>
-I am a Senior Operations Research Analyst for the U.S. Air Force. My research primarily focuses on economic and decision analyses to provide senior leadership robust understanding of economic behavior and potential policy impacts for the Air Force enterprise. 
+I am a supply chain data scientist. My research primarily focuses on economic and decision analyses to provide senior leadership robust understanding of economic behavior and potential policy impacts across an organization.  
 </p>
 
 <p>
