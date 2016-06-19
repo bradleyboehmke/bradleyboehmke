@@ -7,7 +7,7 @@ permalink: papers/
 <h1 class="post-title">{{ page.title }}</h1>
 
 
-<strong>Refereed</strong>
+## Refereed
 <ul>
 <p>
 Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Effectiveness vs. efficiency: Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Under Review - Military Operations Research</em>  &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
@@ -30,7 +30,7 @@ Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2015).  
 </ul>
 
 
-<strong>Technical Research Reports</strong>
+<h2>Technical Research Reports</h2>
 <ul>
 <p>
 Boehmke, B.C. (2015). <em>Grabbing the Air Force by the Tail: Applying Strategic Cost Analytics to Understand and Manage Indirect Cost Behavior</em> (Dissertation: No. AFIT-ENS-DS-15-S-076). Air Force Institute of Technology Graduate School of Engineering and Management. DOI: 10.13140/RG.2.1.1310.1524. &nbsp; <a href="https://www.researchgate.net/publication/284179123_Grabbing_the_Air_Force_by_the_Tail_Applying_Strategic_Cost_Analytics_to_Understand_and_Manage_Indirect_Cost_Behavior" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
@@ -47,7 +47,7 @@ Boehmke, B.C. (2011). <em>Model for identifying cost savings by synchronizing th
 </ul>
 
 
-<strong>Op-Ed / Trade Journals</strong>
+<h2>Op-Ed / Trade Journals</h2>
 <ul>
 <p>
 Boehmke, B.C., Jackson, R.A. (2016). "What is truth?" Unpacking `the true cost of free statistical software'." <em>ORMS Today, 43(1)</em>. &nbsp; <a href="https://www.informs.org/ORMS-Today/Private-Articles/February-Volume-43-Number-1" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
