@@ -7,7 +7,7 @@ permalink: presentations/
 <h1 class="post-title">{{ page.title }}</h1>
 
 
-<strong>Conferences</strong>
+<h2>Conferences</h2>
 <ul>
 <p>
 Boehmke, B.C. (2015). "The Infuence of Front-line Activities on Indirect Costs: A Multilevel Modeling Approach." 83<sup>rd</sup> Military Operations Research Symposium, Washington D.C. &nbsp; <a href="https://www.dropbox.com/s/mkz8yn3qlni12ht/MORS_Presentation.pdf?dl=0" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
@@ -32,7 +32,7 @@ Boehmke, B.C. (2012). "Model for identifying cost savings by synchronizing the E
 </p>
 </ul>
 
-<strong>Invited</strong>
+<h2>Invited</h2>
 <ul>
 <p>
 Boehmke, B.C. (2016). "Incorporating a Measure of Efficiency in the Air Force's Installation & Mission Support Performance Assessment." DoD Infrastructure Workshop, Washington D.C. &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
