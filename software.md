@@ -4,9 +4,7 @@ title: Software
 permalink: software/
 ---
 
-<h1 class="post-title">{{ page.title }}</h1>
-
-Find me on [Github](https://github.com/bradleyboehmke)
+<h1 class="post-title">{{ page.title }} <a href="https://github.com/bradleyboehmke" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h1>
 
 <ul>
 <p>
