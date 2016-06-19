@@ -4,7 +4,7 @@ title: Software
 permalink: software/
 ---
 
-<h1 class="post-title">{{ page.title }} <a href="https://github.com/bradleyboehmke" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h1>
+<h1 class="post-title">{{ page.title }} </h1>
 
 <h2> learningCurve <a href="https://github.com/bradleyboehmke/learningCurve" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 An R package for computing, simulating, fitting, and plotting unit and cumulative average learning curves. 
