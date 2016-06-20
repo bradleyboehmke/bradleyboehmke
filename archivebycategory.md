@@ -27,7 +27,7 @@ sitemap: false
     {% for tag in tags %}
      <span class="site-tag">
         <a href="#{{ tag | first | slugify }}">
-               <font size="3" style="font-variant: small-caps"> {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
+               <font size="4" style="font-variant: small-caps"> {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
         </a>
         &nbsp;
     </span>
