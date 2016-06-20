@@ -5,7 +5,7 @@ date: 2015-12-04
 author: Bradley Boehmke
 published: true
 tags: [programming]
-categories: [r-tutorial]
+categories: [r-tutorials]
 ---
 
 <a href="http://bradleyboehmke.github.io/2015/12/scraping-tabular-and-excel-files-stored-online.html"><img src="http://www.rcsb.org/pdb/general_information/releases/1504_images/icons/BatchDownloadTool.png" alt="Importing Online Data" style="float:left; margin:0px 8px 0px 0px; width: 17%; height: 17%;"></a>
