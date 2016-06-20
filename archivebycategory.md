@@ -34,7 +34,7 @@ sitemap: false
         <a href="#{{ tag | first | slugify }}">
                <font size="5" style="font-variant: small-caps"> {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
         </a>
-        &nbsp;
+        <br>
     </span>
     {% endfor %}
 </div>
