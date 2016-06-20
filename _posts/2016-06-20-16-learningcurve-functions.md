@@ -71,7 +71,7 @@ unit_cum_exact(t = 100, n = 125, r = .85)
 ## unit_cum_appx( )
 The `unit_cum_appx()` function provides the approximate cumulative relationship for the unit model.  Provides nearly the exact output as `unit_cum_exact()`, usually only off by 1-2 units but reduces computational time drastically if trying to calculate cumulative hours (costs) for over a million units.
 
-$$y_{m,n} = [t_{1}/(1+b)][(n+0.5)^{1+b} – (m-0.5)^{1+b}]$$
+$$y_{m,n} = \frac{t_{1}}{(1+b)} * [(n+0.5)^{1+b} – (m-0.5)^{1+b}]$$
 
 where:
 
@@ -109,7 +109,7 @@ system.time(unit_cum_exact(t = 100, n = 1000000, r = .85))
 
 {% highlight text %}
 ##    user  system elapsed 
-##   0.082   0.004   0.086
+##   0.083   0.003   0.087
 {% endhighlight %}
 
 
