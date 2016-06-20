@@ -4,8 +4,8 @@ title:  Bayesian networks for modeling policy impacts to support costs
 date: 2016-04-13 12:25:45
 author: Bradley Boehmke
 published: true
-categories: [analytics, economics]
-tags: [bayesian-networks, econometrics, business-analytics]
+categories: [t2t-bayesian-network]
+tags: [business-analytics]
 ---
 
 <a href="http://bradleyboehmke.github.io//2016/04/bayesian-networks-for-modeling-policy-impacts-to-support-costs.html"><img src="http://bradleyboehmke.github.io/figure/source/bayesian-networks-for-modeling-policy-impacts-to-support-costs/2016-04-13-bayesian-networks-for-modeling-policy-impacts-to-support-costs/screen_shot.png" alt="JCAP article" style="float:left; margin: 0px 5px -5px 0px; width: 19%; height: 19%;"></a>
