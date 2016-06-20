@@ -8,9 +8,6 @@ categories: [learningCurve]
 tags: [programming]
 ---
 
-<script type="text/javascript" async
-  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
 I completed 17 functions for the learningCurve package this week:
 
