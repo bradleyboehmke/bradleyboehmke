@@ -109,7 +109,7 @@ system.time(unit_cum_exact(t = 100, n = 1000000, r = .85))
 
 {% highlight text %}
 ##    user  system elapsed 
-##   0.084   0.005   0.088
+##   0.082   0.004   0.086
 {% endhighlight %}
 
 
@@ -129,7 +129,7 @@ system.time(unit_cum_appx(t = 100, n = 1000000, r = .85))
 ## unit_midpoint( )
 The unit_midpoint() function provides the so-called "midpoint" or average unit between units m and n, where ($$n > m$$).
 
-$$k = \frac{[(n+0.5)^{1+b} – (m-.5)^{1+b}]}{(1+b)(n-m+1)}^{1/b}$$
+$$k = \left[\frac{(n+0.5)^{1+b} – (m-.5)^{1+b}}{(1+b)(n-m+1)}\right]^{1/b}$$
 
 where:
 
