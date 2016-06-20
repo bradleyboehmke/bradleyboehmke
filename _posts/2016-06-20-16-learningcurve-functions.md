@@ -8,13 +8,12 @@ categories: [learningCurve]
 tags: [programming]
 ---
 
-
 I completed 17 functions for the learningCurve package this week:
 
 ## Unit Learning Curve Models
 
 ### unit_curve()
-The `unit_curve()` model predicts the time or cost of the nth unit given the time of the mth unit and the learning rate. Since most people think in terms of learning rates rather than natural slopes ($b$ below), I built the functions to take in learning rates and conver them to the corresponding natural slope.
+The `unit_curve()` model predicts the time or cost of the nth unit given the time of the mth unit and the learning rate. Since most people think in terms of learning rates rather than natural slopes ($\beta$ below), I built the functions to take in learning rates and conver them to the corresponding natural slope.
 
 $$y = t * (n/m)^b$$
 
