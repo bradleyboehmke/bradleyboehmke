@@ -4,8 +4,8 @@ title:  Understanding the Unemployment Rate
 date: 2016-05-09
 author: Bradley Boehmke
 published: true
-categories: [economics]
-tags: [unemployment]
+categories: [blog]
+tags: [economics]
 ---
 
 <a href="http://bradleyboehmke.github.io/2016/05/understanding-the-unemployment-rate.html"><img src="http://premiercredco.com/wp-content/uploads/2013/08/UNEMPLOYMENT-500x359.png" alt="The Rise and Fall of American Growth" style="float:left; margin: 5px 5px -5px 0px; width: 17%; height: 17%;"></a>
