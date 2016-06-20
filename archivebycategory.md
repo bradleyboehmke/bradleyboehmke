@@ -65,7 +65,7 @@ sitemap: false
     {% for tag in tags %}
         <a name="{{ tag[0] }}"></a><strong>{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </strong>
         <br>
-    {% assign sorted_posts = site.posts | sort: 'title' %}
+    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
     {% for post in sorted_posts %}
     {%if post.tags contains tag[0]%}
      <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
