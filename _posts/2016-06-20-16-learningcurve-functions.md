@@ -35,11 +35,6 @@ where
 
 {% highlight r %}
 unit_curve(t = 100, n = 125, r = .85)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] 32.23647
 {% endhighlight %}
 
@@ -51,7 +46,7 @@ We can also plot this learning curve from unit *m* to unit *n* with `plot_unit_c
 plot_unit_curve(t = 100, m = 1, n = 125, r = .85, model = "u", level = "u")
 {% endhighlight %}
 
-<img src="http://bradleyboehmke.github.iofigure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 
 ### unit_cum_exact( )
@@ -74,11 +69,6 @@ where:
 
 {% highlight r %}
 unit_cum_exact(t = 100, n = 125, r = .85)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] 5201.085
 {% endhighlight %}
 
@@ -104,11 +94,6 @@ This model computes the time for the first unit of production ($$t_{1}$$) based 
 
 {% highlight r %}
 unit_cum_appx(t = 100, n = 125, r = .85)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] 5202.988
 {% endhighlight %}
 
@@ -117,25 +102,10 @@ unit_cum_appx(t = 100, n = 125, r = .85)
 
 {% highlight r %}
 system.time(unit_cum_exact(t = 100, n = 1000000, r = .85))
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##    user  system elapsed 
-##   0.098   0.004   0.102
-{% endhighlight %}
-
-
-
-{% highlight r %}
+##   0.095   0.004   0.100
 
 system.time(unit_cum_appx(t = 100, n = 1000000, r = .85))
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##    user  system elapsed 
 ##       0       0       0
 {% endhighlight %}
@@ -148,7 +118,7 @@ We can also plot the cumulative learning curve for the unit model by changing th
 plot_unit_curve(t = 100, m = 1, n = 125, r = .85, model = "u", level = "c")
 {% endhighlight %}
 
-<img src="http://bradleyboehmke.github.iofigure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-10-1.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-10-1.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" style="display: block; margin: auto;" />
 
 
 ### unit_midpoint( )
@@ -171,11 +141,6 @@ slope of 75%, what is the midpoint unit?
 
 {% highlight r %}
 unit_midpoint(m = 201, n = 500, r = .75)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] 334.6103
 {% endhighlight %}
 
@@ -198,11 +163,6 @@ The arguments requested include:
 
 {% highlight r %}
 unit_block_summary(t = 125, m = 201, n = 500, r = .75)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## $`block units`
 ## [1] 300
 ## 
@@ -226,7 +186,7 @@ You can also plot this block summary with the `plot_block_summary()` function:
 plot_block_summary(t = 125, m = 201, n = 500, r = .75)
 {% endhighlight %}
 
-<img src="http://bradleyboehmke.github.iofigure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-16-1.png" title="plot of chunk unnamed-chunk-16" alt="plot of chunk unnamed-chunk-16" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-16-1.png" title="plot of chunk unnamed-chunk-16" alt="plot of chunk unnamed-chunk-16" style="display: block; margin: auto;" />
 
 <br>
 
@@ -255,11 +215,6 @@ Similar to the unit models I built the cumulative average functions to take in l
 
 {% highlight r %}
 ca_unit(t = 110, m = 1, n = 2200, r = .885)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] 23.34001
 {% endhighlight %}
 
@@ -270,7 +225,7 @@ We can also plot the learning curve for the cumulative average model by changing
 plot_unit_curve(t = 100, m = 1, n = 125, r = .85, model = "ca", level = "u")
 {% endhighlight %}
 
-<img src="http://bradleyboehmke.github.iofigure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-19-1.png" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-19-1.png" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" style="display: block; margin: auto;" />
 
 ### ca_block( )
 The `ca_block()` function computes total hours for a production block using the cumulative average model assuming the block begins at unit m and ends at unit n. 
@@ -292,11 +247,6 @@ where:
 
 {% highlight r %}
 ca_block(t = 75, m = 201, n = 250, r = .85)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] 806.772
 {% endhighlight %}
 
@@ -308,7 +258,7 @@ And we can plot the cumulative learning curve for the cumulative average model b
 plot_unit_curve(t = 100, m = 1, n = 125, r = .85, model = "ca", level = "c")
 {% endhighlight %}
 
-<img src="http://bradleyboehmke.github.iofigure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-22-1.png" title="plot of chunk unnamed-chunk-22" alt="plot of chunk unnamed-chunk-22" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-22-1.png" title="plot of chunk unnamed-chunk-22" alt="plot of chunk unnamed-chunk-22" style="display: block; margin: auto;" />
 
 <br>
 
@@ -329,11 +279,6 @@ You can show the projected deltas for each unit and plot the unit level deltas
 
 {% highlight r %}
 delta(t = 50, m = 1, n = 25, r = .885, level = "u")
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##  [1] 0.000000 5.750000 6.103821 6.110519 6.041146 5.953271 5.863560
 ##  [8] 5.777401 5.696436 5.620942 5.550687 5.485263 5.424223 5.367136
 ## [15] 5.313606 5.263280 5.215844 5.171025 5.128579 5.088293 5.049980
@@ -347,17 +292,12 @@ delta(t = 50, m = 1, n = 25, r = .885, level = "u")
 plot_delta(t = 50, m = 1, n = 25, r = .885, level = "u")
 {% endhighlight %}
 
-<img src="http://bradleyboehmke.github.iofigure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-24-1.png" title="plot of chunk unnamed-chunk-24" alt="plot of chunk unnamed-chunk-24" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-24-1.png" title="plot of chunk unnamed-chunk-24" alt="plot of chunk unnamed-chunk-24" style="display: block; margin: auto;" />
 
 or show the projected cumulative deltas at each unit along with plot the cumulative deltas:
 
 {% highlight r %}
 delta(t = 50, m = 1, n = 25, r = .885, level = "c")
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ##  [1]   0.00000   5.75000  11.85382  17.96434  24.00549  29.95876
 ##  [7]  35.82232  41.59972  47.29615  52.91710  58.46778  63.95305
 ## [13]  69.37727  74.74440  80.05801  85.32129  90.53713  95.70816
@@ -372,7 +312,7 @@ delta(t = 50, m = 1, n = 25, r = .885, level = "c")
 plot_delta(t = 50, m = 1, n = 25, r = .885, level = "c")
 {% endhighlight %}
 
-<img src="http://bradleyboehmke.github.iofigure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-25-1.png" title="plot of chunk unnamed-chunk-25" alt="plot of chunk unnamed-chunk-25" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-25-1.png" title="plot of chunk unnamed-chunk-25" alt="plot of chunk unnamed-chunk-25" style="display: block; margin: auto;" />
 
 ### cum_error( )
 The `cum_error()` function computes the approximate percent error in cumulative hours (or cost) due to an incorrect choice of learning curve 
@@ -394,11 +334,6 @@ As in all the other models, this functions asks for the learning rate (*r*) and 
 
 {% highlight r %}
 cum_error(n = 250, r1 = .85, r2 = .87)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] 0.2035303
 {% endhighlight %}
 
@@ -449,13 +384,9 @@ t <- c(70, 45, 25)
 r <- c(.85, .87, .80)
 
 agg_curve(t = t, r = r, n = 300)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] 11000.96
 {% endhighlight %}
+
 
 ## Slope & Rate Models
 Lastly, we include some models to do conversions between natural slopes (*b*) and rates (*r*) and also predict the natural slopes and rates based on historical performance.
@@ -476,11 +407,6 @@ r - learning curve rate
 
 {% highlight r %}
 natural_slope(r = c(.80, .85, .90))
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] -0.3219281 -0.2344653 -0.1520031
 {% endhighlight %}
 
@@ -500,16 +426,12 @@ where:
 
 {% highlight r %}
 lc_rate(b = c(-.19, -.22, -.25))
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## [1] 0.8766057 0.8585654 0.8408964
 {% endhighlight %}
 
+
 ### natural_slope_est( )
-The `natural_slope_est()` function computes the natural slope
+The `natural_slope_est()` function computes the natural slope of a production block when the total units produced, total time of block production, and the time for the first unit are known.
 
 $$b <- \frac{log(T) - log(t)}{log(n) - 1}$$
 
@@ -519,5 +441,31 @@ where:
 - t = time (or cost) required to produce the first unit
 - n = total n units produced
 
-**Example:** Estimate the natural slope when 
+**Example:** Estimate the natural slope for 250 units when the time for unit 1 took 80 hours and the total time for all 250 units took 8,250 hours.
 
+
+
+
+{% highlight r %}
+natural_slope_est(T = 8250, t = 80, n = 250)
+## [1] -0.1603777
+{% endhighlight %}
+
+
+### lc_rate_est( )
+The `lc_rate_est()` function computes the learning rate of a production block when the total units produced, total time of block production, and the time for the first unit are known. First, *b* is calculated per the `natural_slope_est()` function and then *b* is fed into the same function performed by `lc_rate()`
+
+**Example:** Estimate the learning rate for 250 units when the time for unit 1 took 80 hours and the total time for all 250 units took 8,250 hours.
+
+
+
+
+
+{% highlight r %}
+lc_rate_est(T = 8250, t = 80, n = 250)
+## [1] 0.8947908
+{% endhighlight %}
+
+
+## Summary
+And there you have it.  Between the unit, cumulative average, delta, aggregate, slope & learning curve, and plotting functions we have 17 functions to kick start the package. Next up is to incorporate these into the prebuilt package and do some testing, validation, and wrap it up with proper documentation.

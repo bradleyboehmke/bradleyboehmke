@@ -800,7 +800,7 @@ lc_rate(b = c(-.19, -.22, -.25))
 ```
 
 ### natural_slope_est( )
-The `natural_slope_est()` function computes the natural slope
+The `natural_slope_est()` function computes the natural slope of a production block when the total units produced, total time of block production, and the time for the first unit are known.
 
 $$b <- \frac{log(T) - log(t)}{log(n) - 1}$$
 
@@ -810,5 +810,60 @@ where:
 - t = time (or cost) required to produce the first unit
 - n = total n units produced
 
-**Example:** Estimate the natural slope when 
+**Example:** Estimate the natural slope for 250 units when the time for unit 1 took 80 hours and the total time for all 250 units took 8,250 hours.
 
+```{r, echo=FALSE}
+natural_slope_est <- function(T, t, n){
+        
+        if(!is.numeric(T) | !is.numeric(t) | !is.numeric(n)){
+                stop('This function only works for numeric inputs!\n', 
+                     'You have provided objects of the following classes:\n', 
+                     'T: ', class(T), '\n',
+                     't: ', class(t), '\n',
+                     'n: ', class(n))
+        }
+        
+        b <- (log(T) - log(t)) / log(n) - 1
+        
+        return(b)
+        
+} 
+```
+
+```{r, collapse=TRUE}
+natural_slope_est(T = 8250, t = 80, n = 250)
+```
+
+
+### lc_rate_est( )
+The `lc_rate_est()` function computes the learning rate of a production block when the total units produced, total time of block production, and the time for the first unit are known. First, *b* is calculated per the `natural_slope_est()` function and then *b* is fed into the same function performed by `lc_rate()`
+
+**Example:** Estimate the learning rate for 250 units when the time for unit 1 took 80 hours and the total time for all 250 units took 8,250 hours.
+
+
+```{r, echo=FALSE}
+lc_rate_est <- function(T, t, n){
+        
+        if(!is.numeric(T) | !is.numeric(t) | !is.numeric(n)){
+                stop('This function only works for numeric inputs!\n', 
+                     'You have provided objects of the following classes:\n', 
+                     'T: ', class(T), '\n',
+                     't: ', class(t), '\n',
+                     'n: ', class(n))
+        }
+        
+        b <- (log(T) - log(t)) / log(n) - 1
+        y = 10^(b * log10(2) + 2)/100
+        
+        return(y)
+        
+} 
+```
+
+```{r, collapse=TRUE}
+lc_rate_est(T = 8250, t = 80, n = 250)
+```
+
+
+## Summary
+And there you have it.  Between the unit, cumulative average, delta, aggregate, slope & learning curve, and plotting functions we have 17 functions to kick start the package. Next up is to incorporate these into the prebuilt package and do some testing, validation, and wrap it up with proper documentation.
