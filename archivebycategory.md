@@ -24,7 +24,7 @@ sitemap: false
 
 </div>
  
-<div style="float: left; width: 50%; margin-right: 1em;">
+<div style="float: right; width: 50%; margin-right: 1em;">
 
 <font size="5">Tags</font>
 <div>
