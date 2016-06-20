@@ -4,8 +4,8 @@ title:  A Baseline Understanding of Business Analytics
 date: 2015-10-19
 author: Bradley Boehmke
 published: true
-tags: [blog]
-categories: [business-analytics]
+tags: [business-analytics]
+categories: [blog]
 ---
 
 <style>
