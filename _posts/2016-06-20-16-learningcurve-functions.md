@@ -317,7 +317,7 @@ plot_delta(t = 50, m = 1, n = 25, r = .885, level = "c")
 ### cum_error( )
 The `cum_error()` function computes the approximate percent error in cumulative hours (or cost) due to an incorrect choice of learning curve 
 
-$$y = n^{(b2 - b1)} - 1$$
+$$y = n^{(b_{2} - b_{1})} - 1$$
 
 where:
 
