@@ -15,12 +15,12 @@ I completed 17 functions for the learningCurve package this week:
 ### unit_curve( )
 The `unit_curve()` model predicts the time or cost of the nth unit given the time of the mth unit and the learning rate. Since most people think in terms of learning rates rather than natural slopes (*b* below), I built the functions to take in learning rates and conver them to the corresponding natural slope.
 
-$$y_n = t_m * \frac{n}{m}^b$$
+$$y_n = t_m * \left\frac{n}{m}\right^b$$
 
 where
 
-- $y_n$ = the time (or cost) required for the nth unit of production.
-- $t_m$ = time (or cost) required for the mth unit of production
+- $$y_n$$ = the time (or cost) required for the nth unit of production.
+- $t_{m}$ = time (or cost) required for the mth unit of production
 - m = mth unit of production (default set to 1st production unit)
 - n = nth unit you wish to predict the time (or cost) for
 - b = natural slope of the learning curve rate
