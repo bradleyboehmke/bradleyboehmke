@@ -5,7 +5,7 @@ date: 2015-12-21
 author: Bradley Boehmke
 published: true
 tags: [programming]
-categories: [r-tutorial]
+categories: [r-tutorials]
 ---
 
 <STYLE TYPE="text/css"> 
