@@ -9,20 +9,21 @@ layout: page
 
 
 <p>
-I am a supply chain data scientist. My research primarily focuses on economic and decision analyses to provide senior leadership robust understanding of economic behavior and potential policy impacts across an organization.  
+Hello! I'm a supply chain data scientist focused on applying advanced evidence-based analytics to provide decision makers robust understanding of economic behavior, performance, and potential policy impacts across an organization.  
 </p>
 
 <p>
-I am also an adjunct assistant professor at the <a href="http://www.afit.edu/">Air Force Institute of Technology (AFIT)</a>. My <a href="http://bradleyboehmke.github.io/cv/#publications">academic research</a> focuses on developing econometric models, algorithms and applications for forecasting, analyzing and visualizing data. I’ve also dabbled in text analysis and written a <a href="https://leanpub.com/datawranglingwithr">book on data wrangling with R</a>.  
+I am an Assistant Professor of Logistics and Supply Chain Management at the Air Force Institute of Technology Department of Operational Sciences and an Adjunct Assistant Professor of Business Analytics at the University of Cincinnati Lindner College of Business. Previously, I was a Senior Operations Research Analyst with the Air Force and spent many years developing life cycle forecasting, risk and decision analysis models.
 </p>
 
 <p>
-I earned my Ph.D. from the Operational Sciences department at AFIT, which focused on applying advanced analytics to understand and manage indirect cost behavior across the Air Force enterprise. I received my M.S. in Cost Analytics at AFIT and earned my B.S. at North Dakota State University. 
+I work on supply chain analytics [research](http://bradleyboehmke.github.io/papers/), write data analysis [software](http://bradleyboehmke.github.io/software/), [teach](http://bradleyboehmke.github.io/courses/) people about supply chain analytics and R programming, and write [books](http://bradleyboehmke.github.io/books/). 
+</p>
+
+<p>
+I also keep an open science [notebook](http://bradleyboehmke.github.io/notebook/) where I log my scientific and academic inquiries and activities. Note that this is <u>not</u> a blog; however, potential collaborators and fellow researchers may find interesting tidbits scattered throughout these entries. 
 <p>
 
-</p>
-In my free time I’m an avid reader, I enjoy tooling around with socio-economic data, and occasionally <a href="http://bradleyboehmke.github.io/">blog</a> about analytics, hacking, and socio-economic artifacts. 
-</p>
 
 <br>
 
