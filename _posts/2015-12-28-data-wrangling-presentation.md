@@ -4,8 +4,8 @@ title:  Data Wrangling Presentation
 date: 2015-10-01
 author: Bradley Boehmke
 published: true
-tags: [r, data-wrangling, dplyr, tidyr]
-categories: [programming]
+tags: [programming]
+categories: [r-tutorial]
 ---
 
 A guest lecture I gave at Miami University of Ohio. Enjoy!
