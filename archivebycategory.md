@@ -11,9 +11,9 @@ sitemap: false
     {% for category in categories %}
      <span class="site-category">
         <a href="#{{ category | first | slugify }}">
-               <font size="4" style="font-variant: small-caps"> {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font>
+               <font size="5" style="font-variant: small-caps"> {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font>
         </a>
-        &nbsp;
+        <br>
     </span>
     {% endfor %}
 </div>
@@ -27,7 +27,7 @@ sitemap: false
     {% for tag in tags %}
      <span class="site-tag">
         <a href="#{{ tag | first | slugify }}">
-               <font size="4" style="font-variant: small-caps"> {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
+               <font size="5" style="font-variant: small-caps"> {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
         </a>
         &nbsp;
     </span>
