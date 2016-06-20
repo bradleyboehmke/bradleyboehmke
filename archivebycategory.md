@@ -27,7 +27,7 @@ sitemap: false
     {% for tag in tags %}
      <span class="site-tag">
         <a href="#{{ tag | first | slugify }}">
-               <font size="3"> {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
+               <font size="3" style="font-variant: small-caps"> {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
         </a>
         &nbsp;
     </span>
@@ -63,7 +63,7 @@ sitemap: false
 <font size="6">Posts by Tags</font>
 <div id="tag-index">
     {% for tag in tags %}
-        <a name="{{ tag[0] }}"></a><strong>{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </strong>
+        <a name="{{ tag[0] }}"></a><strong><font size="5" style="font-variant: small-caps">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font></strong>
         <br>
     {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
     {% for post in sorted_posts %}
