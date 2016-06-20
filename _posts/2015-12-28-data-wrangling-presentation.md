@@ -5,7 +5,7 @@ date: 2015-10-01
 author: Bradley Boehmke
 published: true
 tags: [programming]
-categories: [r-tutorial]
+categories: [r-tutorials]
 ---
 
 A guest lecture I gave at Miami University of Ohio. Enjoy!
