@@ -4,8 +4,8 @@ title:  Scraping via APIs
 date: 2016-01-18 16:04:27
 author: Bradley Boehmke
 published: true
-tags: [r, httr, web-scraping]
-categories: [programming]
+tags: [programming]
+categories: [r-tutorials]
 ---
 
 <STYLE TYPE="text/css"> 
