@@ -4,7 +4,7 @@ title:  The Rise and Fall of American Growth
 date: 2016-04-25 12:25:45
 author: Bradley Boehmke
 published: true
-categories: [literature, economics]
+categories: [literature]
 tags: [book-review]
 ---
 
