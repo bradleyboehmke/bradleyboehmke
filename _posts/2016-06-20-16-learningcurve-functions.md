@@ -413,7 +413,7 @@ natural_slope(r = c(.80, .85, .90))
 ### lc_rate( )
 Provides the learning rate for given natural slopes
 
-$$r = \frac{10^{(b * log10(2) + 2)}}{100}$$
+$$r = \frac{10^{(b * log_{10}(2) + 2)}}{100}$$
 
 where:
 
