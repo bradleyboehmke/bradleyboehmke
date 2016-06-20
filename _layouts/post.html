@@ -9,7 +9,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.categories %} &nbsp; • &nbsp; Project: 
       {% for category in page.categories %}
-            &nbsp;<a href="http://bradleyboehmke.github.io/categoryview/#{{ category }}" style="color: rgb(128,128,128)"><font style="font-variant: small-caps; font-size: 20px;">{{ category | replace:'-', ' ' }}</font></a>
+            &nbsp;<a href="http://bradleyboehmke.github.io/categoryview/#{{ category }}" style="color: rgb(128,128,128)"><font size="6" style="font-variant: small-caps;">{{ category | replace:'-', ' ' }}</font></a>
       {% endfor %}{% endif %}
       {% if page.tags %} &nbsp; • &nbsp; Tags: 
       {% for tag in page.tags %}
