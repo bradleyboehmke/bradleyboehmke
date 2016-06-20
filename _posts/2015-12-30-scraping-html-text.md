@@ -4,7 +4,7 @@ title:  Scraping HTML Text
 date: 2015-12-14
 published: true
 tags: [programming]
-categories: [r-tutorial]
+categories: [r-tutorials]
 ---
 
 <STYLE TYPE="text/css"> 
