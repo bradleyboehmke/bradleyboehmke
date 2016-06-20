@@ -11,13 +11,9 @@ layout: page
 
 Hello! I'm a supply chain data scientist focused on applying advanced evidence-based analytics to provide decision makers robust understanding of economic behavior, performance, and potential policy impacts across an organization.  
 
-
-I am an Assistant Professor of Logistics and Supply Chain Management at the Air Force Institute of Technology Department of Operational Sciences and an Adjunct Assistant Professor of Business Analytics at the University of Cincinnati Lindner College of Business. Previously, I was a Senior Operations Research Analyst with the Air Force and spent many years developing life cycle forecasting, risk and decision analysis models.
-
-
 I work on supply chain analytics [research](http://bradleyboehmke.github.io/papers/), write data analysis [software](http://bradleyboehmke.github.io/software/), [teach](http://bradleyboehmke.github.io/courses/) people about supply chain analytics and R programming, and write [books](http://bradleyboehmke.github.io/books/). I also keep an open science [notebook](http://bradleyboehmke.github.io/notebook/) where I log my scientific and academic inquiries and activities. Note that this is <a href="http://bradleyboehmke.github.io/about/">not a blog</a>; however, potential collaborators and fellow researchers may find interesting tidbits scattered throughout these entries. 
 
-
+I do my work as an Assistant Professor of Logistics and Supply Chain Management at the [Air Force Institute of Technology Department of Operational Sciences](http://www.afit.edu/ENS/) and an Adjunct Assistant Professor of Business Analytics at the [University of Cincinnati Lindner College of Business](http://business.uc.edu/graduate/ms-business-analytics.html). Previously, I was a Senior Operations Research Analyst with the Air Force and spent many years developing life cycle forecasting, risk and decision analysis models.
 
 <br>
 
