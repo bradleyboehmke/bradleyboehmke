@@ -15,6 +15,13 @@ I work on supply chain analytics [research](http://bradleyboehmke.github.io/pape
 
 I do my work as an Assistant Professor of Logistics and Supply Chain Management at the [Air Force Institute of Technology Department of Operational Sciences](http://www.afit.edu/ENS/) and as an Adjunct Assistant Professor of Business Analytics at the [University of Cincinnati Lindner College of Business](http://business.uc.edu/departments/obais.html). Previously, I was a Senior Operations Research Analyst with the Air Force and spent many years developing life cycle forecasting, risk and decision analysis models.
 
+If you are interested in collaborating and doing some great work please reach out to me:
+
+Email
+Twitter
+GitHub
+LinkedIn
+
 <br>
 
 <P CLASS="footnote" style="line-height:0.75; font-size:15px">
