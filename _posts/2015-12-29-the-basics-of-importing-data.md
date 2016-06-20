@@ -4,8 +4,8 @@ title:  The Basics of Importing Data
 date: 2015-11-22
 author: Bradley Boehmke
 published: true
-tags: [r, readr, readxl, xlsx, data-importing]
-categories: [programming]
+tags: [programming]
+categories: [r-tutorial]
 ---
 
 <a href="http://bradleyboehmke.github.io/2015/11/the-basics-of-importing-data.html">
