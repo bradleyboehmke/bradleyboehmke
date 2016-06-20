@@ -21,7 +21,7 @@ I work on supply chain analytics [research](http://bradleyboehmke.github.io/pape
 </p>
 
 <p>
-I also keep an open science [notebook](http://bradleyboehmke.github.io/notebook/) where I log my scientific and academic inquiries and activities. Note that this is <u>not</u> a blog; however, potential collaborators and fellow researchers may find interesting tidbits scattered throughout these entries. 
+I also keep an open science [notebook](http://bradleyboehmke.github.io/notebook/) where I log my scientific and academic inquiries and activities. Note that this is <a href="http://bradleyboehmke.github.io/about/"><u>not</u> a blog</a>; however, potential collaborators and fellow researchers may find interesting tidbits scattered throughout these entries. 
 <p>
 
 
