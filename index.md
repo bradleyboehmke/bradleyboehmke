@@ -17,15 +17,14 @@ I do my work as an Assistant Professor of Logistics and Supply Chain Management 
 
 If you are interested in collaborating and doing some great work please reach out to me:
 
-<a href="mailto:bradleyboehmke@gmail.com" target="_blank">
-                   <i class="fa fa-envelope fa-lg" style="font-size:1em"></i> &nbsp; Email</a> <br>
-<a href="https://twitter.com/bradleyboehmke" target="_blank">
-                   <i class="fa fa-twitter fa-lg" aria-hidden="true"></i> &nbsp; Twitter</a> <br>
-<a href="https://github.com/bradleyboehmke" target="_blank">
-                   <i class="fa fa-github fa-lg" aria-hidden="true"></i> &nbsp; GitHub</a> <br>
-<a href="https://www.linkedin.com/in/brad-boehmke-ph-d-9b0a257" target="_blank">
-                   <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i> &nbsp; LinkedIn</a> 
-
+<div class="contact-buttons" style="line-height:160%;margin-left:30px;margin-top:10px">
+<p>
+<a href="https://twitter.com/bradleyboehmke" target="_blank"><i class="fa fa-twitter"></i> &nbsp; Twitter<br></a> 
+<a href="mailto:bradleyboehmke@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size:1em"></i> &nbsp; Email<br></a> 
+<a href="https://github.com/bradleyboehmke" target="_blank"><i class="fa fa-github" style="font-size:1em"></i> &nbsp; GitHub<br></a> 
+<a href="https://www.linkedin.com/in/brad-boehmke-ph-d-9b0a257" target="_blank"><i class="fa fa-linkedin" style="font-size:1em"></i> &nbsp; LinkedIn<br></a>
+</p>
+</div>
 
 <br>
 
