@@ -55,7 +55,7 @@ unit_curve <- function(t, n, r, m = 1, na.rm = FALSE){
 } 
 ```
 
-**Example:** An estimator believes that the first unit of a product will require 100 labor hours. How many hours will the 125^{th} unit require given the organization has historically experienced an 85% learning curve?
+**Example:** An estimator believes that the first unit of a product will require 100 labor hours. How many hours will the 125th unit require given the organization has historically experienced an 85% learning curve?
 
 ```{r, echo=TRUE, collapse=TRUE}
 unit_curve(t = 100, n = 125, r = .85)
@@ -117,4 +117,190 @@ unit_cum_exact <- function(t, n, r, m = 1, na.rm = FALSE){
 ```{r, collapse=TRUE}
 unit_cum_exact(t = 100, n = 125, r = .85)
 ```
+
+## unit_cum_appx( )
+The `unit_cum_appx()` function provides the approximate cumulative relationship for the unit model.  Provides nearly the exact output as `unit_cum_exact()`, usually only off by 1-2 units but reduces computational time drastically if trying to calculate cumulative hours (costs) for over a million units.
+
+$$y_{m,n} = [t_{1}/(1+b)][(n+0.5)^{1+b} – (m-0.5)^{1+b}]$$
+
+where:
+
+- $$y_{m,n}$$ = is the approximate total hours required for units m through n (inclusive)
+- $$t_{1}$$ = time (or cost) required for the first unit of production
+- m = mth unit of production to be the first unit in the block
+- n = nth unit of production to be the last unit in the block
+- b = natural slope of the learning curve rate  
+
+This model computes the time for the first unit of production ($$t_{1}$$) based on the mth unit of production time. So the $$t$$ argument in the functions is really asking for $$t_m$$.
+
+```{r, echo=FALSE}
+unit_cum_appx <- function(t, n, r, m = 1, na.rm = FALSE){
+        
+        if(!is.numeric(t) | !is.numeric(m) | !is.numeric(n) | !is.numeric(r)){
+                stop('This function only works for numeric inputs!\n', 
+                     'You have provided objects of the following classes:\n', 
+                     't: ', class(t), '\n',
+                     'm: ', class(n), '\n',
+                     'n: ', class(n), '\n',
+                     'r: ', class(r))
+        }
+        
+        if( m > n ){
+                stop('This function approximates the cumulative hours/costs between \n',
+                     'm and n; consequently, n must be larger than m.')
+        }
+        
+        if(na.rm == TRUE) {
+                t <- t[!is.na(t)]
+                m <- m[!is.na(m)]
+                n <- n[!is.na(n)]
+                r <- r[!is.na(r)]
+                
+                warning('Any strings with NA were filtered. This may result in \n',
+                        'unexpected recycling.')
+        }
+        
+        b <- log(r)/log(2)
+        c <- 1 + b
+        t1 <- t/(m^b)
+        
+        y <- (t1 / c) * (((n + 0.5)^(c)) - ((m - 0.5)^(c)))
+        
+        return(y)
+        
+}  
+```
+
+**Example:** An estimator believes that the first unit of a product will require 100 labor hours. How many total hours will the first 125 units require given the organization has historically experienced an 85% learning curve?
+
+```{r, collapse=TRUE}
+unit_cum_appx(t = 100, n = 125, r = .85)
+```
+
+**Example:** Computational difference between `unit_cum_exact()` and `unit_cum_appx()` for 1 million units.
+
+```{r, collapse=TRUE}
+system.time(unit_cum_exact(t = 100, n = 1000000, r = .85))
+
+system.time(unit_cum_appx(t = 100, n = 1000000, r = .85))
+```
+
+## unit_midpoint( )
+The unit_midpoint() function provides the so-called "midpoint" or average unit between units m and n, where ($$n > m$$).
+
+k = \frac{[(n+0.5)^{1+b} – (m-.5)^{1+b}]}{(1+b)(n-m+1)}^{1/b}
+
+where:
+
+- k = midpoint or average unit
+- m = lower bound unit of production
+- n = upper bound unit of production
+- b = natural slope of the learning curve rate
+
+**Example:** If a production block runs from unit 201 to unit 500 inclusive, with a
+slope of 75%, what is the midpoint unit?
+
+```{r, echo=FALSE}
+unit_midpoint <- function(m, n, r, na.rm = FALSE){
+        
+        if(!is.numeric(m) | !is.numeric(n) | !is.numeric(r)){
+                stop('This function only works for numeric inputs!\n', 
+                     'You have provided objects of the following classes:\n', 
+                     'm: ', class(n), '\n',
+                     'n: ', class(n), '\n',
+                     'r: ', class(r))
+        }
+        
+        if( m > n ){
+                stop('This function approximates the "midpoint" or average unit between \n',
+                     'm and n; consequently, n must be larger than m.')
+        }
+        
+        if(na.rm == TRUE) {
+                m <- m[!is.na(m)]
+                n <- n[!is.na(n)]
+                r <- r[!is.na(r)]
+                
+                warning('Any strings with NA were filtered. This may result in \n',
+                        'unexpected recycling.')
+        }
+        
+        b <- log(r)/log(2)
+        c <- 1 + b
+
+        k <- (((n + 0.5)^(c) - (m - 0.5)^(c)) / ((c) * (n - m + 1)))^(1/b)
+        
+        return(k)
+        
+} 
+```
+
+```{r, collapse=TRUE}
+unit_midpoint(m = 201, n = 500, r = .75)
+```
+
+
+## unit_block_summary( )
+Provides the summary for the block containing units m through n ($$n > m$$). This function simply combines the previous functions to provide the total number of units and hours in the block and the midpoint unit and hours associated with the midpoint.
+
+
+The arguments requested include:
+
+- t = time for the mth unit
+- m = lower bound unit of production block
+- n = upper bound unit of production block
+- r = learning curve rate
+
+```{r, echo=FALSE}
+unit_block_summary <- function(t, m, n, r, na.rm = FALSE){
+        
+        if(!is.numeric(t) | !is.numeric(m) | !is.numeric(n) | !is.numeric(r)){
+                stop('This function only works for numeric inputs!\n', 
+                     'You have provided objects of the following classes:\n', 
+                     't: ', class(t), '\n',
+                     'm: ', class(n), '\n',
+                     'n: ', class(n), '\n',
+                     'r: ', class(r))
+        }
+        
+        if( m > n ){
+                stop('This function caculates summary statistics for the production block between \n',
+                     'm and n; consequently, n must be larger than m.')
+        }
+        
+        if(na.rm == TRUE) {
+                t <- t[!is.na(t)]
+                m <- m[!is.na(m)]
+                n <- n[!is.na(n)]
+                r <- r[!is.na(r)]
+                
+                warning('Any strings with NA were filtered. This may result in \n',
+                        'unexpected recycling.')
+        }
+        
+        b <- log(r)/log(2)
+        c <- 1 + b
+        t1 <- t/(m^b)
+        
+        k <- (((n + 0.5)^(c) - (m - 0.5)^(c)) / ((c) * (n - m + 1)))^(1/b)
+        t_k <- unit_curve(t = t1, n = k, r = r)
+        block_units <- n - m + 1
+        block_hours <- t_k * block_units
+        
+        y <- list(`block units` = block_units,
+                  `block hours` = block_hours,
+                  `midpoint unit` = k,
+                  `midpoint hours` = t_k)
+        return(y)
+        
+}  
+```
+
+**Example:** A production block runs from unit 201 to unit 500 inclusive. The 201st unit had a required time of 125 hours. With an expected learning rate of 75%, what is the block summary.
+
+```{r, collapse=TRUE}
+unit_block_summary(t = 125, m = 201, n = 500, r = .75)
+```
+
+
 

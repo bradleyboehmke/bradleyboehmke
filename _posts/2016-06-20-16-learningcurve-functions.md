@@ -27,7 +27,7 @@ where
 
 
 
-**Example:** An estimator believes that the first unit of a product will require 100 labor hours. How many hours will the 125^{th} unit require given the organization has historically experienced an 85% learning curve?
+**Example:** An estimator believes that the first unit of a product will require 100 labor hours. How many hours will the 125th unit require given the organization has historically experienced an 85% learning curve?
 
 
 {% highlight r %}
@@ -67,4 +67,129 @@ unit_cum_exact(t = 100, n = 125, r = .85)
 {% highlight text %}
 ## [1] 5201.085
 {% endhighlight %}
+
+## unit_cum_appx( )
+The `unit_cum_appx()` function provides the approximate cumulative relationship for the unit model.  Provides nearly the exact output as `unit_cum_exact()`, usually only off by 1-2 units but reduces computational time drastically if trying to calculate cumulative hours (costs) for over a million units.
+
+$$y_{m,n} = [t_{1}/(1+b)][(n+0.5)^{1+b} – (m-0.5)^{1+b}]$$
+
+where:
+
+- $$y_{m,n}$$ = is the approximate total hours required for units m through n (inclusive)
+- $$t_{1}$$ = time (or cost) required for the first unit of production
+- m = mth unit of production to be the first unit in the block
+- n = nth unit of production to be the last unit in the block
+- b = natural slope of the learning curve rate  
+
+This model computes the time for the first unit of production ($$t_{1}$$) based on the mth unit of production time. So the $$t$$ argument in the functions is really asking for $$t_m$$.
+
+
+
+**Example:** An estimator believes that the first unit of a product will require 100 labor hours. How many total hours will the first 125 units require given the organization has historically experienced an 85% learning curve?
+
+
+{% highlight r %}
+unit_cum_appx(t = 100, n = 125, r = .85)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## [1] 5202.988
+{% endhighlight %}
+
+**Example:** Computational difference between `unit_cum_exact()` and `unit_cum_appx()` for 1 million units.
+
+
+{% highlight r %}
+system.time(unit_cum_exact(t = 100, n = 1000000, r = .85))
+{% endhighlight %}
+
+
+
+{% highlight text %}
+##    user  system elapsed 
+##   0.084   0.003   0.088
+{% endhighlight %}
+
+
+
+{% highlight r %}
+
+system.time(unit_cum_appx(t = 100, n = 1000000, r = .85))
+{% endhighlight %}
+
+
+
+{% highlight text %}
+##    user  system elapsed 
+##       0       0       0
+{% endhighlight %}
+
+## unit_midpoint( )
+The unit_midpoint() function provides the so-called "midpoint" or average unit between units m and n, where ($$n > m$$).
+
+k = \frac{[(n+0.5)^{1+b} – (m-.5)^{1+b}]}{(1+b)(n-m+1)}^{1/b}
+
+where:
+
+- k = midpoint or average unit
+- m = lower bound unit of production
+- n = upper bound unit of production
+- b = natural slope of the learning curve rate
+
+**Example:** If a production block runs from unit 201 to unit 500 inclusive, with a
+slope of 75%, what is the midpoint unit?
+
+
+
+
+{% highlight r %}
+unit_midpoint(m = 201, n = 500, r = .75)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## [1] 334.6103
+{% endhighlight %}
+
+
+## unit_block_summary( )
+Provides the summary for the block containing units m through n ($$n > m$$). This function simply combines the previous functions to provide the total number of units and hours in the block and the midpoint unit and hours associated with the midpoint.
+
+
+The arguments requested include:
+
+- t = time for the mth unit
+- m = lower bound unit of production block
+- n = upper bound unit of production block
+- r = learning curve rate
+
+
+
+**Example:** A production block runs from unit 201 to unit 500 inclusive. The 201st unit had a required time of 125 hours. With an expected learning rate of 75%, what is the block summary.
+
+
+{% highlight r %}
+unit_block_summary(t = 125, m = 201, n = 500, r = .75)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## $`block units`
+## [1] 300
+## 
+## $`block hours`
+## [1] 30350.48
+## 
+## $`midpoint unit`
+## [1] 334.6103
+## 
+## $`midpoint hours`
+## [1] 101.1683
+{% endhighlight %}
+
+
 
