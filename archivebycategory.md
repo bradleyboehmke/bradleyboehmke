@@ -4,7 +4,11 @@ title: Archive
 permalink: /categoryview/
 sitemap: false
 ---
-    
+
+<div style="width: 125%;">
+
+<div style="float: left; width: 50%; margin-right: 1em;">
+
 <font size="6">Projects</font>
 <div>
     {% assign categories = site.categories | sort %}
@@ -18,8 +22,9 @@ sitemap: false
     {% endfor %}
 </div>
 
-<br>
-<br>
+</div>
+ 
+<div style="float: left; width: 50%; margin-right: 1em;">
 
 <font size="6">Tags</font>
 <div>
@@ -33,8 +38,13 @@ sitemap: false
     </span>
     {% endfor %}
 </div>
+ 
+</div>
 
-<br>
+<br style="clear: left;" />
+</div>
+    
+
 <br>
 
 
