@@ -2,8 +2,10 @@
 layout: post
 title:  Potential for an EVM package
 date: 2016-06-15
+author: Bradley Boehmke
 published: true
-tags: [example1, example2]
+categories: [evmR]
+tags: [programming]
 ---
 
 Earned Value Management (EVM) is one of DoD's and industry's most popular program planning and management tools. The purpose of EVM is to ensure sound planning and resourcing of all tasks required for contract performance. It promotes an environment where contract execution data is shared between project personnel and government oversight staff and in which emerging problems are identified, pinpointed, and acted upon as early as possible. EVM provides a disciplined, structured, objective, and quantitative method to integrate technical work scope, cost, and schedule objectives into a single cohesive contract baseline plan called a Performance Measurement Baseline for tracking contract performance.[^acq]
