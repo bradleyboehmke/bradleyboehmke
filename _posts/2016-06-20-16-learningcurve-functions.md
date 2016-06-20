@@ -365,13 +365,7 @@ where:
 
 Furthermore, B can be computed with: 
 
-$$B = \frac{log(n_{i}) - log(H)}{log(n)}$$
-
-where:
-
-- $$n_{i}$$ = number of units to be produced by each department
-- H = total hours for the first unit across all departments
-- n = total units to be produced across all departments
+$$B = \frac{log(n) - log(H)}{log(n)}$$
 
 Therefore, this function requires the following arguments:
 
