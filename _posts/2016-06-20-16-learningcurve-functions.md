@@ -322,8 +322,8 @@ $$y = n^{(b_{2} - b_{1})} - 1$$
 where:
 
 - y = measure of error when learning curve r1 is erroneously when r2 should have been chosen
-- b1 = natural learning curve rate slope
-- b2 = natural learning curve rate slope to compare to r1
+- b_{1} = natural learning curve rate slope
+- b_{2} = natural learning curve rate slope to compare to r1
 
 As in all the other models, this functions asks for the learning rate (*r*) and converts it into the appropriate natural slope (*b*).
 
@@ -365,7 +365,13 @@ where:
 
 Furthermore, B can be computed with: 
 
-$$B = \frac{log(H, n) - log(H)}{log(n)}$$
+$$B = \frac{log(n_{i}) - log(H)}{log(n)}$$
+
+where:
+
+- $$n_{i}$$ = number of units to be produced by each department
+- H = total hours for the first unit across all departments
+- n = total units to be produced across all departments
 
 Therefore, this function requires the following arguments:
 
@@ -373,8 +379,7 @@ Therefore, this function requires the following arguments:
 - r = vector of historical learning rates for departments 1 through m
 - n = total units to be produced across all departments
 
-**Example:** At a certain company, a project is expected to get underway soon to produce 300 widgets. Three departments will be involved. Historically, with similar projects, the learning curves for these departments have had slopes 85%, 87% and 80%, based on the
-CA model. The first unit hours for these departments for the widget have been estimated at 70, 45, and 25. Predict the composite learning curve hourse for the entire effort.
+**Example:** At a certain company, a project is expected to get underway soon to produce 300 widgets. Three departments will be involved. Historically, with similar projects, the learning curves for these departments have had slopes 85%, 87% and 80%, based on the CA model. The first unit hours for these departments for the widget have been estimated at 70, 45, and 25. Predict the composite learning curve hourse for the entire effort.
 
 
 
