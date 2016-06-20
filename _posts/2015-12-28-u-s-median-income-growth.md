@@ -5,7 +5,7 @@ date: 2015-09-21
 author: Bradley Boehmke
 published: true
 tags: [programming, visualization]
-categories: [r-tutorial]
+categories: [r-tutorials]
 ---
 
 This post walks through the code behind the [visual graphic](https://twitter.com/bradleyboehmke/status/558490399917236226) created to illustrate the historical growth rates of median income in the United States.
