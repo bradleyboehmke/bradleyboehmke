@@ -196,7 +196,7 @@ The following models represent Wright's cumulative average model which considers
 ### ca_unit( )
 The `ca_unit()` function computes the time (or cost) required for a specific unit using the cumulative average model.
 
-$$y_{n} <- t_{m} * \frac{n^{1+b} - (n-1)^{1+b}}{m^{1+b} - (m-1)^{1+b}}$$
+$$y_{n} = t_{m} * \frac{n^{1+b} - (n-1)^{1+b}}{m^{1+b} - (m-1)^{1+b}}$$
 
 where:
 
@@ -230,7 +230,7 @@ plot_unit_curve(t = 100, m = 1, n = 125, r = .85, model = "ca", level = "u")
 ### ca_block( )
 The `ca_block()` function computes total hours for a production block using the cumulative average model assuming the block begins at unit m and ends at unit n. 
 
-$$ y_{m,n} <- t_{1} * (n^{1+b} - (m-1)^{1+b}) $$
+$$ y_{m,n} = t_{1} * (n^{1+b} - (m-1)^{1+b}) $$
 
 where:
 
@@ -317,7 +317,7 @@ plot_delta(t = 50, m = 1, n = 25, r = .885, level = "c")
 ### cum_error( )
 The `cum_error()` function computes the approximate percent error in cumulative hours (or cost) due to an incorrect choice of learning curve 
 
-$$y <- n^(b2 - b1) - 1$$
+$$y = n^{(b2 - b1)} - 1$$
 
 where:
 
@@ -394,7 +394,7 @@ Lastly, we include some models to do conversions between natural slopes (*b*) an
 ### natural_slope( )
 Provides the natural slope for given learning rates.
 
-$$b <- \frac{log(r)}{log(2)}$$
+$$b = \frac{log(r)}{log(2)}$$
 
 where:
 
@@ -433,7 +433,7 @@ lc_rate(b = c(-.19, -.22, -.25))
 ### natural_slope_est( )
 The `natural_slope_est()` function computes the natural slope of a production block when the total units produced, total time of block production, and the time for the first unit are known.
 
-$$b <- \frac{log(T) - log(t)}{log(n) - 1}$$
+$$b = \frac{log(T) - log(t)}{log(n) - 1}$$
 
 where: 
 
