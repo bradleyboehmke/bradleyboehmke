@@ -4,8 +4,8 @@ title:  Word Prediction App
 date: 2015-10-05
 author: Bradley Boehmke
 published: true
-tags: [r, shiny, text-analysis]
-categories: [programming]
+tags: [programming]
+categories: [blog]
 ---
 
 A foray into the world of word prediction.
