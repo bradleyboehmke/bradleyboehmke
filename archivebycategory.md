@@ -5,17 +5,17 @@ permalink: /categoryview/
 sitemap: false
 ---
 
-<div style="width: 125%;">
+<div style="width: 100%;">
 
 <div style="float: left; width: 50%; margin-right: 1em;">
 
-<font size="6">Projects</font>
+<font size="5">Projects</font>
 <div>
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
      <span class="site-category">
         <a href="#{{ category | first | slugify }}">
-               <font size="5" style="font-variant: small-caps"> {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font>
+               <font size="4" style="font-variant: small-caps"> {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font>
         </a>
         <br>
     </span>
@@ -26,13 +26,13 @@ sitemap: false
  
 <div style="float: left; width: 50%; margin-right: 1em;">
 
-<font size="6">Tags</font>
+<font size="5">Tags</font>
 <div>
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
      <span class="site-tag">
         <a href="#{{ tag | first | slugify }}">
-               <font size="5" style="font-variant: small-caps"> {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
+               <font size="4" style="font-variant: small-caps"> {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </font>
         </a>
         <br>
     </span>
