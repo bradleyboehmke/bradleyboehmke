@@ -359,13 +359,17 @@ $$y_{1,2,...,i} = H_{1}*n^{B}$$
 where:
 
 - y = sum of all contributing hours (costs) from departments 1 through *i* to produce *n* total units
-- H = total hours for the first unit across all departments
+- H_{1} = total hours for the first unit across all departments
 - n = total units to be produced across all departments
 - B = composite natural slope aggregated across departments
 
 Furthermore, B can be computed with: 
 
-$$B = \frac{log(n) - log(H)}{log(n)}$$
+$$B = \frac{log(H_{n}) - log(H)}{log(n)}$$
+
+where:
+
+- H_{n} = total predicted hours for *n* units across all departments based on the individual learning curves provided
 
 Therefore, this function requires the following arguments:
 
