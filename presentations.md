@@ -10,6 +10,9 @@ permalink: presentations/
 <h2>Conferences</h2>
 <ul>
 <p>
+Boehmke, B.C. (2016). "Effectiveness vs. Efficiency of Air Force Installation Support Activities Using Data Envelopment Analysis." 84<sup>th</sup> Military Operations Research Symposium, Quantico, VA &nbsp; <a href="https://www.dropbox.com/s/3dlwmgvxmxe1ndg/Workshop_Presentation.pdf?dl=0" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+</p>
+<p>
 Boehmke, B.C. (2015). "The Infuence of Front-line Activities on Indirect Costs: A Multilevel Modeling Approach." 83<sup>rd</sup> Military Operations Research Symposium, Washington D.C. &nbsp; <a href="https://www.dropbox.com/s/mkz8yn3qlni12ht/MORS_Presentation.pdf?dl=0" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
