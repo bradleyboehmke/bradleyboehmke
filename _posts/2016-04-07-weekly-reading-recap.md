@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Monthly Reading Recap
-date: 2016-04-08 18:58:09
-published: false
+date: 2016-05-31 18:58:09
+published: TRUE
 categories: [literature]
 tags: [weekly-reading]
 ---
@@ -19,14 +19,8 @@ tags: [weekly-reading]
 --> 
 </STYLE>
 
-<a href="http://bradleyboehmke.github.io"><img src="http://www.free-icons-download.net/images/open-book-icon-92485.png" alt="Books" style="float:left; margin:-20px 5px -10px -5px; width: 19%; height: 19%;"></a>
-A new endeavor of mine is to track my reading a little better. Actually, tracking it at all will be an improvement from before. One thing I realized from my PhD studies is that you can read far more than you ever imagined; however, if you don't take the time to document what you've read and translate it into your own words, even if it is just a one paragraph synopsis, your retention suffers greatly.  Consequently, I plan to document my readings<sup><a href="#fn1" id="ref1">1</a></sup> in a monthly blog format for my own benefit and personal archiving purposes.  But if you draw any benefits from these posts then you are welcome!
-<!--more-->  
+ 
 
-
-<br>
-
-## tl;dr
 What I read this month: 
 
 <p class="hangingindent"><a href="#crusoe" style="color:black">&#9312;</a>  
