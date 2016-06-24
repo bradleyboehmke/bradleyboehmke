@@ -138,21 +138,18 @@ This 700+ page book from economist Robert Gordon provides an unbelievable histor
 
 <br>
 
-<P CLASS="footnote" style="line-height:0.75">
+
 <sup id="fn1">1. Most readings that I will document will be non work related with the exception of some works that are publicly releasable and have a strong influence on my macro perspective of the defense sector.<a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
-</P>
 
-<P CLASS="footnote" style="line-height:0.75">
+
 <sup id="fn2">2. This essay forms chapter one of Hogben's book titled <i>Mathematics for the Million.</i><a href="#ref2" title="Jump back to footnote 2 in the text.">"&#8617;"</a><sup>
-</P>
 
-<P CLASS="footnote" style="line-height:0.75">
+
 <sup id="fn3">3. This essay came to be chapter 1 of Dantzig's book titled <i>Number: The Language of Science.</i><a href="#ref3" title="Jump back to footnote 3 in the text.">"&#8617;"</a><sup>
-</P>
 
-<P CLASS="footnote" style="line-height:0.75">
+
 <sup id="fn4">4. From Letter III of Cr&egrave;vecoeur's book titled <i>Letters from an American Farmer.</i><a href="#ref4" title="Jump back to footnote 4 in the text.">"&#8617;"</a><sup>
-</P>
+
 
 
 
