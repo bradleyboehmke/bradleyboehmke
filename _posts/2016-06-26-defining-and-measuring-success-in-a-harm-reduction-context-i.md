@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Session 3&#58; Defining and Measuring Success in a Harm-reduction Context I
-date: 2016-06-26 10:07:09
+title:  Session 31&#58; Success in a Harm-reduction Context I
+date: 2016-06-27 10:52:00
 published: true
 categories: [harvard]
 tags: [continuing-eduction]
@@ -45,6 +45,8 @@ them out of business if they actually succeed!).
 
 If an organization can address risks with problem-solving that contains these properties they should have long-term success in risk-control.
 
+
+## Class Notes
 
 
 
