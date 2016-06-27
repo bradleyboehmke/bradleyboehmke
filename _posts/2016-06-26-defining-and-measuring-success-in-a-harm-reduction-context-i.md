@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Session 31&#58; Defining and Measuring Success in a Harm-reduction Context I
+title:  Session 3&#58; Defining and Measuring Success in a Harm-reduction Context I
 date: 2016-06-26 10:07:09
 published: true
 categories: [harvard]
