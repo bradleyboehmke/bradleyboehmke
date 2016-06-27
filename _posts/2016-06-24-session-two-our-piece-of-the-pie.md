@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Session 21&#58; Our Piece of the Pie
+title:  Session 2&#58; Our Piece of the Pie
 date: 2016-06-27 10:49:18
 published: true
 categories: [harvard]
