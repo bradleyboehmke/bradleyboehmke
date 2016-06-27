@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Session 31&#58; Success in a Harm-reduction Context I & II
-date: 2016-06-27 11:50:50
+date: 2016-06-27 15:08:51
 published: true
 categories: [harvard]
 tags: [continuing-eduction]
@@ -51,9 +51,9 @@ If an organization can address risks with problem-solving that contains these pr
 ## Class Notes
 Three key issues to always keep in mind:
 
-1. Prove causality
-2. Measure prevention
-3. Define long-term success
+1. Can we prove causality?
+2. How do we measure prevention?
+3. How do we define long-term success?
 
 Risk control
 
@@ -63,17 +63,18 @@ Risk control
 
 Organizations are typically built
 
-- functionally (typically by function by geographic location)
+- functionally (often by function and by geographic location)
 - process oriented 
 
 And performance measurements typically focus on 
+
 - accuracy
 - timeliness
 - volume
 - cost efficiency
 - client satisfaction
 
-There is no linkage between these performance measurements and risk-control
+There is *no linkage* between these performance measurements and risk-control
 
 
 
