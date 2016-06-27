@@ -14,7 +14,7 @@ tags: [continuing-eduction]
 - TIME: 11:00 – 12:30 pm and 
 - CLASS: Define and Measure Success in a Harm-reduction Context
 - FACULTY: Malcom Sparrow
-- READING: [In The Character of Harms: Operational Challenges in Control]()
+- READING: [In The Character of Harms: Operational Challenges in Control](https://www.dropbox.com/s/mse3ky3meg7d9kf/Reading%20-%20Sparrow_A%20Different%20Type%20of%20Work.pdf?dl=0)
 
 ## Study Questions
 
