@@ -56,3 +56,60 @@ Changing the culture takes resources. Manpower efforts will be required to devel
 Changing culture requires money. This may include cost of software or hiring new personnel to develop and manage data collection and performance measurement processes.
 
 >  *"Culture matters far more than systems. If your organization doesn't care about metrics, don't bother to start building systems to measure performance."* - Brian Trelstad, CIO Acumen Fund
+
+
+## Session Notes
+
+**Question zero**: ten words to concisely state the overarching goal of what you are trying to do
+
+
+**Theory of change** is your roadmap to accomplishing your question zero. Its the cause-n-effect linkages.
+
+Theory of change in this case:
+
+- IF we can get them (the youth) to come
+   - THEN we can assess their needs/status
+   - THEN we can divide them into segments
+   - THEN we can design curriculum/support
+   - THEN we can deliver the curriculum/support
+   - THEN we can keep the youth involved in education
+   - THEN we can turn them into law-abiding, self-sustaining adults
+   
+**Logic model**: inputs &#8594; process &#8594; outputs &#8594; outcomes
+
+- Inputs
+   - youth
+   - trained patient staff
+   - funding
+   - space
+   - technology
+   - etc
+
+- Process
+   - segmenting youth
+   - recruiting youth
+   - developing programming
+   - etc
+   
+- Outputs
+   - Attendance
+   - budget execution
+   
+- Outcomes
+   - Academics (GEDs, diplomas)
+   - Employment
+   - Participation growth
+   - Criminal activities
+   - Staff turnover/qualifications
+
+Performance measurement metrics needs to be linked to your logic model outputs and outcomes
+
+Ultimately we need to measure the **impact** of the program
+
+- impact simply means that the program made a difference
+- RCTs - randomization is preferred so we can compare to the counter factual
+
+
+
+
+
