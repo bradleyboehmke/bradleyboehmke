@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Process Evaluations
-date: 2016-06-27 23:11:05
+date: 2016-06-28 14:58:48
 published: true
 categories: [harvard]
 tags: [continuing-eduction]
@@ -29,9 +29,9 @@ They identify poverty being linked to:
 - Education: Although poor children are typically enrolled in school, they sometimes do not attend regularly
 - Health care: Inadequate prenatal care has been a serious problem
 
-Overarching Goal: prevent a reversal in the significant declines in poverty witnessed in the 1990s and to ensure that the poor were adequately protected
+Overarching Goal: prevent a reversal in the significant declines in poverty witnessed in the 1990s and to ensure that the poor are adequately protected
 
-Question Zero (1): For youth, preventive programmes, which ought to begin during the early childhood development stage, should lay the foundation for better developmental outcomes and lead to high returns later in life. 
+Question Zero (1): For youth, preventive programs, which ought to begin during the early childhood development stage, should lay the foundation for better developmental outcomes and lead to high returns later in life. 
 
 Question Zero (2): For adults, regular checkups should improve individuals’ health and chronic illness monitoring and reduce emergency visits.
 
@@ -57,7 +57,7 @@ the reform effort focused on four major areas:
 
 The essence of the PATH program:
 
-- replace three major income support programmes that provided cash or in-kind assistance: the Food Stamps Programme, the Poor Relief Programme, and the Public Assistance Programme
+- replace three major income support programs that provided cash or in-kind assistance: the Food Stamps Program, the Poor Relief Program, and the Public Assistance Program
 - to fight poverty in the present through monetary transfers and to reduce poverty in the future by encouraging poor households to invest in the health and education of their children
 
 PATH is organized around two components:
@@ -128,6 +128,19 @@ Process evaluation generally provides information about program performance to:
 
 - Such process monitoring can be a useful tool for facilitating effective management of social programs by providing regular feedback about how well the program is performing its critical functions
 - This type of feedback allows managers to take corrective action when problems arise and can also provide stakeholders with regular assessments of program performance
+
+
+## Notes
+
+We can assess the processes via:
+
+- Observation
+- Participant Observation
+- sampling processes, times, locations to observe is important
+
+
+
+
 
 
 
