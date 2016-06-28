@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Impact Evaluation II&#58; Randomized Experiments
-date: 2016-06-27 21:16:49
+date: 2016-06-27 21:18:46
 published: true
 categories: [harvard]
 tags: [continuing-eduction]
@@ -17,7 +17,7 @@ tags: [continuing-eduction]
 
 ## Study Questions
 
-1. What do you see as the main advantages of evaluating a program using a randomized experiment (RCT)?
+**Q1:** What do you see as the main advantages of evaluating a program using a randomized experiment (RCT)?
 
 - it is a fair allocation rule and therefore it shields program managers from potential accusations of favoritism or corruption
 - will produce two groups that have a high probability of being statistically identical, as long as the number of potential participants to which we apply the randomized assignment process is sufficiently large
@@ -29,7 +29,7 @@ tags: [continuing-eduction]
 - estimating the impact is easy when RCTs are performed correctly $$y_1 - y_2$$
 
 
-2. What do you see as the main drawbacks of evaluating a program using a randomized experiment (RCT)
+**Q2:** What do you see as the main drawbacks of evaluating a program using a randomized experiment (RCT)
 
 - At higher levels of aggregation (i.e. province level, country level) the sample size may not be not sufficiently large to yield balanced treatment and comparison groups
 - chances of spillover can be high when the unit level is low (i.e. households, individuals)
