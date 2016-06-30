@@ -3,11 +3,42 @@ layout: post
 title:  Aggregating Evidence
 date: `r Sys.time()`
 published: true
-tags: [example1, example2]
+categories: [harvard]
+tags: [continuing-eduction]
 ---
 
-Your markdown here!
 
-```{r}
-plot(1:10)
-```
+## Session
+
+- DATE: Thursday, June 30
+- TIME: 1:30 – 3:00 pm
+- CLASS: Aggregating Evidence
+- INSTRUCTOR: Dan Levy
+- CASE: Online unit on [Aggregating Evidence](http://bcure.articulate-online.com/1558009589)
+
+
+## Session Notes
+
+Key steps in gathering and using evidence:
+
+1. Define your questions
+2. State your priors
+3. Find or commission the evidence
+4. Aggregate and synthesize the evidence
+5. Update your priors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

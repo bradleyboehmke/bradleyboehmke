@@ -1,16 +1,44 @@
 ---
 layout: post
 title:  Aggregating Evidence
-date: 2016-06-30 13:42:32
+date: 2016-06-30 15:00:39
 published: true
-tags: [example1, example2]
+categories: [harvard]
+tags: [continuing-eduction]
 ---
 
-Your markdown here!
+
+## Session
+
+- DATE: Thursday, June 30
+- TIME: 1:30 – 3:00 pm
+- CLASS: Aggregating Evidence
+- INSTRUCTOR: Dan Levy
+- CASE: Online unit on [Aggregating Evidence](http://bcure.articulate-online.com/1558009589)
 
 
-{% highlight r %}
-plot(1:10)
-{% endhighlight %}
+## Session Notes
 
-![plot of chunk unnamed-chunk-1](http://bradleyboehmke.github.iofigure/source/aggregating-evidence/2016-06-30-aggregating-evidence/unnamed-chunk-1-1.png)
+Key steps in gathering and using evidence:
+
+1. Define your questions
+2. State your priors
+3. Find or commission the evidence
+4. Aggregate and synthesize the evidence
+5. Update your priors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
