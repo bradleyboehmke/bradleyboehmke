@@ -4,6 +4,10 @@ title: Digital Projects
 permalink: digital_projects/
 ---
 
+<head>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+
 <div class="row">
 
   
@@ -11,7 +15,7 @@ permalink: digital_projects/
     <div class="col-xs-6 col-sm-4 col-md-4">
       <div class="thumbnail" data-mh="projects">
         <a href="http://uc-r.github.io/">
-          <img src="/public/images/projects/uc-r_project.png" alt="R Programming at UC thumbnail" height="15">
+          <img src="/public/images/projects/uc-r_project.png" alt="R Programming at UC thumbnail" height="35">
         </a>
         <div class="caption">
           <a href="http://uc-r.github.io/">
@@ -32,7 +36,7 @@ permalink: digital_projects/
     <div class="col-xs-6 col-sm-4 col-md-4">
       <div class="thumbnail" data-mh="projects">
         <a href="https://bradleyboehmke.shinyapps.io/word_prediction_app/">
-          <img src="/public/images/projects/word_prediction.png" alt="Word Prediction App thumbnail" height="15">
+          <img src="/public/images/projects/word_prediction.png" alt="Word Prediction App thumbnail" height="35">
         </a>
         <div class="caption">
           <a href="https://bradleyboehmke.shinyapps.io/word_prediction_app/">
