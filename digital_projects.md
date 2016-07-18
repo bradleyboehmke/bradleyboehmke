@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Digital Projects
-permalink: /digital_projects
+permalink: digital_projects/
 ---
 
 <div class="row">
