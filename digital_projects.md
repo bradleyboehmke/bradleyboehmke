@@ -23,10 +23,10 @@ permalink: digital_projects/
 
 <div style="width: 100%;">
 
-<div style="float: left; width: 40%; margin-right: 2em;">
+<div style="float: left; width: 45%; margin-right: 2em;">
 
 <a href="http://uc-r.github.io/">
-  <img src="/public/images/projects/uc-r_project.png" style="display: block; margin: auto;" />
+  <img src="/public/images/projects/uc-r_project.png" border="1" style="display: block; margin: auto;" />
 </a>
 
 <h4 class="headmargin">
@@ -43,7 +43,7 @@ permalink: digital_projects/
 </div>
 
  
-<div style="float: left; width: 40%; margin-right: 2em;">
+<div style="float: left; width: 45%; margin-right: 2em;">
 
 <a href="https://bradleyboehmke.shinyapps.io/word_prediction_app/">
 <img src="/public/images/projects/word_prediction.png" style="display: block; margin: auto;" />
