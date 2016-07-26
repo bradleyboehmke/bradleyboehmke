@@ -46,7 +46,7 @@ permalink: digital_projects/
 </div>
 
  
-<div style="float: left; width: 40%; margin-right: 2em;">
+<div style="float: left; width: 40%; margin-right: 2em; border: thin solid lightgray; border-radius: 10px; padding: 8px;">
 
 <a href="https://bradleyboehmke.shinyapps.io/word_prediction_app/">
 <img src="/public/images/projects/word_prediction.png" style="display: block; margin: auto;" />
