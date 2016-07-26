@@ -36,7 +36,7 @@ permalink: digital_projects/
 
 <p class="nomargin" style="line-height:1.0">
   <font size="3">
-    Online R programming tutorials for students at University of Cincinnati.
+    A central hub for online R programming tutorials for students at University of Cincinnati.
   </font>
 </p>
 
@@ -55,7 +55,7 @@ permalink: digital_projects/
 
 <p class="nomargin" style="line-height:1.0">
   <font size="3">
-    A simple back-off model for predicting the next word in a partial sentence.
+    An application that applies a simple back-off model for predicting the next word in a partial sentence.
   </font>
 </p>
  
