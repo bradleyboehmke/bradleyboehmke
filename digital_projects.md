@@ -25,7 +25,7 @@ permalink: digital_projects/
 
 <div style="width: 100%;">
 
-<div style="float: left; width: 40%; margin-right: 2em;">
+<div style="float: left; width: 40%; margin-right: 2em; border: thin solid lightgray">
 
 <a href="http://uc-r.github.io/">
   <img src="/public/images/projects/uc-r_project.png" style="display: block; margin: auto;" />
