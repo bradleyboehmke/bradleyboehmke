@@ -16,6 +16,11 @@ permalink: digital_projects/
   margin-bottom: 0px;
   padding: 0px;
 }
+
+div {
+    border: 1px solid #000000;
+}
+
 --> 
 </STYLE>
 
