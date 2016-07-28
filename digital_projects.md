@@ -58,7 +58,7 @@ permalink: digital_projects/
 
 <p class="nomargin" style="line-height:1.0">
   <font size="3">
-    An interactive visualization to assess how countries perform on key supply chain metrics known as the <em>Logistics Performance Index</em>.
+    An interactive visualization of how countries perform on key supply chain metrics known as the <em>Logistics Performance Index</em>.
   </font>
 </p>
  
