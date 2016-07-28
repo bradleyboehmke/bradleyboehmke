@@ -26,7 +26,7 @@ permalink: digital_projects/
 
 <div style="width: 100%;">
 
-<div style="float: left; width: 40%; margin-right: 1em; border: thin solid lightgray; border-radius: 8px; padding: 8px;">
+<div style="float: left; width: 42%; margin-right: 1em; border: thin solid lightgray; border-radius: 8px; padding: 8px;">
 
 <a href="http://uc-r.github.io/">
   <img src="/public/images/projects/uc-r_project.png" style="display: block; margin: auto;" />
@@ -46,7 +46,25 @@ permalink: digital_projects/
 </div>
 
  
-<div style="float: left; width: 40%; margin-right: 1em; border: thin solid lightgray; border-radius: 8px; padding: 8px;">
+<div style="float: left; width: 42%; margin-right: 1em; border: thin solid lightgray; border-radius: 8px; padding: 8px;">
+
+<a href="https://bradleyboehmke.shinyapps.io/LPI_Rankings/">
+<img src="/public/images/projects/lpi-rankings.png" style="display: block; margin: auto;" />
+</a>
+
+<h4 class="headmargin">
+  <a href="https://bradleyboehmke.shinyapps.io/LPI_Rankings/">
+    <font color="#821122;">Global LPI Rankings</font></a></h4>
+
+<p class="nomargin" style="line-height:1.0">
+  <font size="3">
+    An interactive visualization to assess how countries perform on key supply chain metrics known as the <em>Logistics Performance Index</em>.
+  </font>
+</p>
+ 
+</div>
+
+<div style="float: left; width: 42%; margin-right: 1em; border: thin solid lightgray; border-radius: 8px; padding: 8px;">
 
 <a href="https://bradleyboehmke.shinyapps.io/word_prediction_app/">
 <img src="/public/images/projects/word_prediction.png" style="display: block; margin: auto;" />
