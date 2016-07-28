@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: post
 title:  A Correlation Validation Curve
 date: 2016-05-23
 author: Bradley Boehmke
 published: true
-categories: [blog]
 tags: [business-analytics, statistics]
 ---
 
@@ -12,7 +11,7 @@ tags: [business-analytics, statistics]
 Correlation provides a good (initial) indication of association; however, people often throw correlation values around without considering their significance.  Although there is debate[^debate] regarding what levels of correlation align with the strength of correlation (i.e. strong, moderate, and weak), we should also be aware that sample size is an influencing factor for whether a correlation is statistically significant or not.  Just this week at work, I had a conversation that highlighted this.  
 <!--more-->
 
-I was running some initial exploratory data analysis on a smaller data set and was reporting some simple correlations to a colleague. I was identifying weak to moderate correlations and I outlined which correlations were statistically significant (at *p* < .05) and which were not.  This caught my colleague off guard and he asked me to help him "understand how a relatively low correlation produces a very significant p-value."
+I was running some initial exploratory data analysis on a smaller data set and was reporting some simple correlations to a client. I was identifying weak to moderate correlations and I outlined which correlations were statistically significant (at *p* < .05) and which were not.  This caught my client off guard and he asked me to help him *"understand how a relatively low correlation produces a very significant p-value."*
 
 I proceeded to illustrate with a simple example where I generated four different data sets, all with correlation coefficients (*r*) &#8776; .30 but with *n* ranging from 25 to 1000. You can see that the low level of correlation exists in each data set but as more observations are added you are able to better discern whether the correlation is statistically different than zero.
 
@@ -24,7 +23,7 @@ I proceeded to illustrate with a simple example where I generated four different
 
 <br>
 
-I explained that although sample size is influential, the level of correlation determines just how influential *n* is. At high levels of correlation (&#124;*r*&#124; > .50), sample size will have less impact. Consequently, you cannot simultaneously have a strong correlation and a large *p*-value.  As the strength of correlation becomes small, sample size will influence the results more.  Therefore, you can have moderate levels of correlation (&#124;*r*&#124; < .50) and have a *p*-value that is either large or small depending on sample size. Since the test statistic to determine statistical significance<sup><a href="#fn2" id="ref2">2</a></sup> is solely based on the correlation coefficient (*r*) and sample size (*n*) variables:
+I explained that although sample size is influential, the level of correlation determines just how influential *n* is. At high levels of correlation (&#124;*r*&#124; > .50), sample size will have less impact. Consequently, you cannot simultaneously have a strong correlation and a large *p*-value.  As the strength of correlation becomes small, sample size will influence the results more.  Therefore, you can have moderate levels of correlation (&#124;*r*&#124; < .50) and have a *p*-value that is either large or small depending on sample size. Since the test statistic to determine statistical significance[^significance] is solely based on the correlation coefficient (*r*) and sample size (*n*) variables:
 
 <center>
 <img src="http://bradleyboehmke.github.io/figure/source/a-correlation-significance-curve/2016-05-20-a-correlation-significance-curve/t_equation.png" alt="t statistic">
@@ -47,18 +46,7 @@ Keep in mind this only illustrates the relationship between the correlation coef
 
 <a href="#top">Go to top</a>
 
-<br>
 
-<hr>
+[^debate]: This example is addressing the Pearson correlation coefficient, which is the most widely used correlation method. Therefore, this test statistic is specific to the Pearson method and differs from the Spearman and Kendall's tau methods.
 
-<br>
-
-[^debate]: Test
-
-<P CLASS="footnote" style="line-height:0.75">
-<sup id="fn1">1. This example is addressing the Pearson correlation coefficient, which is the most widely used correlation method. Therefore, this test statistic is specific to the Pearson method and differs from the Spearman and Kendall's tau methods. <a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
-</P>
-
-<P CLASS="footnote" style="line-height:0.75">
-<sup id="fn2">2. Researchers have offered rules of thumb for interpreting the meaning of correlation coefficients, but thesee rules of thumb are often domain specific (i.e. what is a "strong" correlation in the medical field may be considered a "weak" correlation in retail marketing). <a href="#ref2" title="Jump back to footnote 2 in the text.">"&#8617;"</a><sup>
-</P>
+[^significance]: Researchers have offered rules of thumb for interpreting the meaning of correlation coefficients, but thesee rules of thumb are often domain specific (i.e. what is a "strong" correlation in the medical field may be considered a "weak" correlation in retail marketing).
