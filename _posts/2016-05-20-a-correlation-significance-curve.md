@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  A Correlation Validation Curve
 date: 2016-05-23
 author: Bradley Boehmke
@@ -9,7 +9,7 @@ tags: [business-analytics, statistics]
 ---
 
 <a href="http://bradleyboehmke.github.io"><img src="http://bradleyboehmke.github.io/figure/source/a-correlation-significance-curve/2016-05-20-a-correlation-significance-curve/correlation.png" alt="Significance of Correlation" style="float:left; margin: 0px 5px -5px 0px; width: 19%; height: 19%;"></a>
-Correlation provides a good (initial) indication of association; however, people often throw correlation values around without considering their significance.  Although there is debate<sup><a href="#fn1" id="ref1">1</a></sup> regarding what levels of correlation align with the strength of correlation (i.e. strong, moderate, and weak), we should also be aware that sample size is an influencing factor for whether a correlation is statistically significant or not.  Just this week at work, I had a conversation that highlighted this.  
+Correlation provides a good (initial) indication of association; however, people often throw correlation values around without considering their significance.  Although there is debate[^debate] regarding what levels of correlation align with the strength of correlation (i.e. strong, moderate, and weak), we should also be aware that sample size is an influencing factor for whether a correlation is statistically significant or not.  Just this week at work, I had a conversation that highlighted this.  
 <!--more-->
 
 I was running some initial exploratory data analysis on a smaller data set and was reporting some simple correlations to a colleague. I was identifying weak to moderate correlations and I outlined which correlations were statistically significant (at *p* < .05) and which were not.  This caught my colleague off guard and he asked me to help him "understand how a relatively low correlation produces a very significant p-value."
@@ -52,6 +52,8 @@ Keep in mind this only illustrates the relationship between the correlation coef
 <hr>
 
 <br>
+
+[^debate]: Test
 
 <P CLASS="footnote" style="line-height:0.75">
 <sup id="fn1">1. This example is addressing the Pearson correlation coefficient, which is the most widely used correlation method. Therefore, this test statistic is specific to the Pearson method and differs from the Spearman and Kendall's tau methods. <a href="#ref1" title="Jump back to footnote 1 in the text.">"&#8617;"</a><sup>
