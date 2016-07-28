@@ -81,3 +81,21 @@ permalink: digital_projects/
 </p>
  
 </div>
+
+<div style="float: left; width: 45%; margin-right: 1em; margin-bottom: 1em; border: thin solid lightgray; border-radius: 8px; padding: 8px; height: 300px;">
+
+<a href="http://bradleyboehmke.github.io/2016/05/a-correlation-significance-curve.html">
+<img src="/public/images/projects/correlation-validation.png" style="display: block; margin: auto;" />
+</a>
+
+<h4 class="headmargin">
+  <a href="http://bradleyboehmke.github.io/2016/05/a-correlation-significance-curve.html">
+    <font color="#821122;">Correlation Validation Curve</font></a></h4>
+
+<p class="nomargin" style="line-height:1.0">
+  <font size="3">
+    A dynamic correlation validation curve to identify critical correlation and sample size values that produce statistically significant results. 
+  </font>
+</p>
+ 
+</div>
