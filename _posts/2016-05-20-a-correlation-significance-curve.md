@@ -25,6 +25,8 @@ I proceeded to illustrate with a simple example where I generated four different
 
 I explained that although sample size is influential, the level of correlation determines just how influential *n* is. At high levels of correlation (&#124;*r*&#124; > .50), sample size will have less impact. Consequently, you cannot simultaneously have a strong correlation and a large *p*-value.  As the strength of correlation becomes small, sample size will influence the results more.  Therefore, you can have moderate levels of correlation (&#124;*r*&#124; < .50) and have a *p*-value that is either large or small depending on sample size. Since the test statistic to determine statistical significance[^significance] is solely based on the correlation coefficient (*r*) and sample size (*n*) variables:
 
+$$ t = r * (n-2)  $$
+
 <center>
 <img src="http://bradleyboehmke.github.io/figure/source/a-correlation-significance-curve/2016-05-20-a-correlation-significance-curve/t_equation.png" alt="t statistic">
 </center>
