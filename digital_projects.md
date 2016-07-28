@@ -39,7 +39,7 @@ permalink: digital_projects/
 
 <p class="nomargin" style="line-height:1.0">
   <font size="3">
-    A central hub for online R programming tutorials for students at University of Cincinnati.
+    A online repository of R programming tutorials for students at the University of Cincinnati (and anyone else interested!).
   </font>
 </p>
 
@@ -58,7 +58,7 @@ permalink: digital_projects/
 
 <p class="nomargin" style="line-height:1.0">
   <font size="3">
-    An interactive visualization of how countries perform on key supply chain metrics known as the <em>Logistics Performance Index</em>.
+    An interactive visualization to assess how countries perform on key supply chain metrics known as the <em>Logistics Performance Index</em>.
   </font>
 </p>
  
