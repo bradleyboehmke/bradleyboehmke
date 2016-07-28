@@ -26,11 +26,8 @@ I proceeded to illustrate with a simple example where I generated four different
 I explained that although sample size is influential, the level of correlation determines just how influential *n* is. At high levels of correlation (&#124;*r*&#124; > .50), sample size will have less impact. Consequently, you cannot simultaneously have a strong correlation and a large *p*-value.  As the strength of correlation becomes small, sample size will influence the results more.  Therefore, you can have moderate levels of correlation (&#124;*r*&#124; < .50) and have a *p*-value that is either large or small depending on sample size. Since the test statistic to determine statistical significance[^significance] is solely based on the correlation coefficient (*r*) and sample size (*n*) variables:
 
 
-$$t = r * \sqrt \frac{(n-2)}{1-r^2}$$
+$$t = r \sqrt \frac{(n-2)}{1-r^2}$$
 
-<center>
-<img src="http://bradleyboehmke.github.io/figure/source/a-correlation-significance-curve/2016-05-20-a-correlation-significance-curve/t_equation.png" alt="t statistic">
-</center>
 
 ...we can determine the mix of *r* and *n* required to obtain statistically significant results.  The following plot provides a reference chart that indicates the level of correlation and sample size required to obtain *p* < 0.05, suggesting the relationship is statistically different from zero. When your correlation results and sample size places you above the validation curve you can be confident the results are statistically significant.  However, if your results are near or below the curve then you should always validate your results to determine if your relationship is statistically significant. 
 
