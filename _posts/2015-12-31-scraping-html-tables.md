@@ -4,8 +4,7 @@ title:  Scraping HTML Tables
 date: 2015-12-21
 author: Bradley Boehmke
 published: true
-tags: [programming]
-categories: [r-tutorials]
+tags: [r]
 ---
 
 <STYLE TYPE="text/css"> 

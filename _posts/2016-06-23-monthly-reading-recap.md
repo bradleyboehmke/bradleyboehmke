@@ -2,7 +2,7 @@
 layout: post
 title:  Monthly Reading Recap
 date: 2016-07-31
-published: TRUE
+published: false
 categories: [literature]
 tags: [weekly-reading]
 ---

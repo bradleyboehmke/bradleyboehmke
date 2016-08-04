@@ -5,7 +5,6 @@ date: 2016-02-17 22:31:04
 author: Bradley Boehmke
 published: true
 tags: [programming]
-categories: [orms-today-editorial]
 ---
 
 <a href="http://bradleyboehmke.github.io/2016/02/just-another-open-source-software-debate.html"><img src="http://bradleyboehmke.github.io/figure/source/just-another-open-source-software-debate/2016-02-17-just-another-open-source-software-debate/ORMSToday_article.png" alt="ORMS Today article" style="float:left; margin: 0px 5px -5px 0px; width: 19%; height: 19%;"></a>

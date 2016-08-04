@@ -2,7 +2,7 @@
 layout: post
 title:  Impact Evaluation II&#58; Randomized Experiments
 date: 2016-06-28 12:26:55
-published: true
+published: false
 categories: [harvard]
 tags: [continuing-eduction]
 ---

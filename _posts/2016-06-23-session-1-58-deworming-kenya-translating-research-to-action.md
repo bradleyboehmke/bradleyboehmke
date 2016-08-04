@@ -2,7 +2,7 @@
 layout: post
 title:  Session 1&#58; Deworming Kenya - Translating Research to Action
 date: 2016-06-23 21:02:32
-published: true
+published: false
 categories: [harvard]
 tags: [continuing-eduction]
 ---

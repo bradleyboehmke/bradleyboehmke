@@ -4,8 +4,7 @@ title:  The Basics of Importing Data
 date: 2015-11-22
 author: Bradley Boehmke
 published: true
-tags: [programming]
-categories: [r-tutorials]
+tags: [r]
 ---
 
 <a href="http://bradleyboehmke.github.io/2015/11/the-basics-of-importing-data.html">

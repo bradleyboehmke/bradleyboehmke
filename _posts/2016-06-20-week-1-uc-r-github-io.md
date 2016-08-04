@@ -3,7 +3,7 @@ layout: post
 title:  Week 1 - UC-R.github.io
 date: 2016-06-17
 author: Bradley Boehmke
-published: true
+published: false
 categories: [UC-R]
 tags: [programming]
 ---

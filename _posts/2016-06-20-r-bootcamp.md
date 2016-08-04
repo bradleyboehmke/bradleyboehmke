@@ -3,7 +3,7 @@ layout: post
 title:  R Bootcamp
 date: 2016-06-08
 author: Bradley Boehmke
-published: true
+published: false
 categories: [r-bootcamp]
 tags: [programming, teaching]
 ---

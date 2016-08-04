@@ -3,7 +3,7 @@ layout: post
 title:  Creating a Central R Programming Resource for UC
 date: 2016-06-10
 author: Bradley Boehmke
-published: true
+published: false
 categories: [UC-R]
 tags: [programming]
 ---

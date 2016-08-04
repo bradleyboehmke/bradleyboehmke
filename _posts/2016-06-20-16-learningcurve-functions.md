@@ -3,7 +3,7 @@ layout: post
 title:  17 learningCurve Functions
 author: Bradley Boehmke
 date: 2016-06-18
-published: true
+published: false
 categories: [learningCurve]
 tags: [programming]
 ---

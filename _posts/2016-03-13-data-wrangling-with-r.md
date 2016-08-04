@@ -4,8 +4,7 @@ title:  Data Wrangling with R!
 date: 2016-03-13 14:34:23
 author: Bradley Boehmke
 published: true
-tags: [programming]
-categories: [data-wrangling-with-r]
+tags: [r]
 ---
 
 <a href="http://bradleyboehmke.github.io/2016/03/data-wrangling-with-r.html"><img src="/public/images/DataWranglingCover.jpg" alt="Data Wrangling with R" style="float:left; margin: 5px 10px 5px 5px; width: 19%; height: 19%;"></a>

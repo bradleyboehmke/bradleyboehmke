@@ -4,8 +4,7 @@ title:  Data Wrangling Presentation
 date: 2015-10-01
 author: Bradley Boehmke
 published: true
-tags: [programming]
-categories: [r-tutorials]
+tags: [r]
 ---
 
 A guest lecture I gave at Miami University of Ohio. Enjoy!

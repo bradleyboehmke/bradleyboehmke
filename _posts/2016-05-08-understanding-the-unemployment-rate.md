@@ -4,7 +4,6 @@ title:  Understanding the Unemployment Rate
 date: 2016-05-09
 author: Bradley Boehmke
 published: true
-categories: [blog]
 tags: [economics]
 ---
 

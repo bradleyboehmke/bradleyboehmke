@@ -3,7 +3,7 @@ layout: post
 title:  A Learning Curve R Package
 date: 2016-06-10
 author: Bradley Boehmke
-published: true
+published: false
 categories: [learningCurve]
 tags: [programming]
 ---

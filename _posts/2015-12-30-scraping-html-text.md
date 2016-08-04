@@ -3,8 +3,7 @@ layout: post
 title:  Scraping HTML Text
 date: 2015-12-14
 published: true
-tags: [programming]
-categories: [r-tutorials]
+tags: [r]
 ---
 
 <STYLE TYPE="text/css"> 

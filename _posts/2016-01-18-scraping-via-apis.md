@@ -4,8 +4,7 @@ title:  Scraping via APIs
 date: 2016-01-18 16:04:27
 author: Bradley Boehmke
 published: true
-tags: [programming]
-categories: [r-tutorials]
+tags: [r]
 ---
 
 <STYLE TYPE="text/css"> 

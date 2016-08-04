@@ -3,7 +3,7 @@ layout: post
 title:  Potential for an EVM package
 date: 2016-06-15
 author: Bradley Boehmke
-published: true
+published: false
 categories: [evmR]
 tags: [programming]
 ---
