@@ -3,7 +3,7 @@ layout: post
 title:  84th MORS Symposium
 date: 2016-06-23
 author: Bradley Boehmke
-published: true
+published: false
 categories: [blog]
 tags: [conferences]
 ---
