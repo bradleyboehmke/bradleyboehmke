@@ -14,10 +14,12 @@ permalink: blog/
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }} &nbsp; • &nbsp; Filed under: 
+    <span class="post-date">
+      {{ post.date | date_to_string }} &nbsp; • &nbsp; Filed under: 
       {% for tag in post.tags %}
             &nbsp;<a href="http://bradleyboehmke.github.io/archives/#{{ tag }}" style="color: rgb(128,128,128)"><font size="5" style="font-variant: small-caps">{{ tag | replace:'-', ' ' }}</font></a>
-      {% endfor %} &nbsp; • &nbsp; Length: &nbsp; <input type="range" id="a" value="{{ post.content | number_of_words }}">/<input type="number" id="b" value="130"><output name="x" for="a b"></output> &nbsp; minutes ({{ post.content | number_of_words }} &nbsp; words)</span>
+      {% endfor %}
+      </span>
 
     {{ post.excerpt }}
     
