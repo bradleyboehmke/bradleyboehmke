@@ -7,7 +7,7 @@ published: true
 tags: [business-analytics, statistics]
 ---
 
-<a href="http://bradleyboehmke.github.io"><img src="http://bradleyboehmke.github.io/figure/source/a-correlation-significance-curve/2016-05-20-a-correlation-significance-curve/correlation.png" alt="Significance of Correlation" style="float:left; margin: 0px 5px -5px 0px; width: 19%; height: 19%;"></a>
+<a href="http://bradleyboehmke.github.io"><img src="http://bradleyboehmke.github.io/figure/source/a-correlation-significance-curve/2016-05-20-a-correlation-significance-curve/correlation.png" alt="Significance of Correlation" style="float:left; margin: 0px 10px -5px 0px; width: 20%; height: 20%;"></a>
 Correlation provides a good (initial) indication of association; however, people often throw correlation values around without considering their significance.  Although there is debate regarding what levels of correlation align with the strength of correlation (i.e. strong, moderate, and weak), we should also be aware that sample size is an influencing factor for whether a correlation is statistically significant or not.  Just this week at work, I had a conversation that highlighted this.  
 <!--more-->
 
