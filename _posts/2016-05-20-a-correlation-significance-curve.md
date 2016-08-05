@@ -8,12 +8,12 @@ tags: [business-analytics, statistics]
 ---
 
 <a href="http://bradleyboehmke.github.io"><img src="http://bradleyboehmke.github.io/figure/source/a-correlation-significance-curve/2016-05-20-a-correlation-significance-curve/correlation.png" alt="Significance of Correlation" style="float:left; margin: 0px 5px -5px 0px; width: 19%; height: 19%;"></a>
-Correlation provides a good (initial) indication of association; however, people often throw correlation values around without considering their significance.  Although there is debate[^debate] regarding what levels of correlation align with the strength of correlation (i.e. strong, moderate, and weak), we should also be aware that sample size is an influencing factor for whether a correlation is statistically significant or not.  Just this week at work, I had a conversation that highlighted this.  
+Correlation provides a good (initial) indication of association; however, people often throw correlation values around without considering their significance.  Although there is debate regarding what levels of correlation align with the strength of correlation (i.e. strong, moderate, and weak), we should also be aware that sample size is an influencing factor for whether a correlation is statistically significant or not.  Just this week at work, I had a conversation that highlighted this.  
 <!--more-->
 
 I was running some initial exploratory data analysis on a smaller data set and was reporting some simple correlations to a client. I was identifying weak to moderate correlations and I outlined which correlations were statistically significant (at *p* < .05) and which were not.  This caught my client off guard and he asked me to help him *"understand how a relatively low correlation produces a very significant p-value."*
 
-I proceeded to illustrate with a simple example where I generated four different data sets, all with correlation coefficients (*r*) &#8776; .30 but with *n* ranging from 25 to 1000. You can see that the low level of correlation exists in each data set but as more observations are added you are able to better discern whether the correlation is statistically different than zero.
+I proceeded to illustrate with a simple example where I generated four different data sets, all with correlation coefficients (*r*) &#8776; .30 but with *n* ranging from 25 to 1000[^debate]. You can see that the low level of correlation exists in each data set but as more observations are added you are able to better discern whether the correlation is statistically different than zero.
 
 <center>
 <img src="http://bradleyboehmke.github.io/figure/source/a-correlation-significance-curve/2016-05-20-a-correlation-significance-curve/correlation_comparison.png" alt="Correlation Comparison">
@@ -49,4 +49,4 @@ Keep in mind this only illustrates the relationship between the correlation coef
 
 [^debate]: This example is addressing the Pearson correlation coefficient, which is the most widely used correlation method. Therefore, this test statistic is specific to the Pearson method and differs from the Spearman and Kendall's tau methods.
 
-[^significance]: Researchers have offered rules of thumb for interpreting the meaning of correlation coefficients, but thesee rules of thumb are often domain specific (i.e. what is a "strong" correlation in the medical field may be considered a "weak" correlation in retail marketing).
+[^significance]: Researchers have offered rules of thumb for interpreting the meaning of correlation coefficients, but these rules of thumb are often domain specific (i.e. what is a "strong" correlation in the medical field may be considered a "weak" correlation in retail marketing).
