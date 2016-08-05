@@ -3,7 +3,7 @@ layout: post
 title:  The Basics of Importing Data
 date: 2015-11-22
 author: Bradley Boehmke
-published: true
+published: false
 tags: [r]
 ---
 
