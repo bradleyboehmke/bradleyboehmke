@@ -17,6 +17,10 @@ permalink: blog/
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.excerpt }}
+    
+    <div style="float:right;margin-right:50px">
+      <a type="button" class="btn btn-default" href="{{ site.baseurl }}{{ post.url }}" style="color:#000;font-family:Overpass;font-weight:700;font-size:16px;background-color:#fff">READ MORE...</a>
+    </div>
   </div>
   {% endfor %}
 </div>
