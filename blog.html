@@ -15,9 +15,9 @@ permalink: blog/
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }} &nbsp; • &nbsp; Filed under: 
-      {% for tag in page.tags %}
+      {% for tag in post.tags %}
             &nbsp;<a href="http://bradleyboehmke.github.io/archives/#{{ tag }}" style="color: rgb(128,128,128)"><font size="5" style="font-variant: small-caps">{{ tag | replace:'-', ' ' }}</font></a>
-      {% endfor %} &nbsp; • &nbsp; Length: {{ page.content | number_of_words }}</span>
+      {% endfor %} &nbsp; • &nbsp; Length: {{ post.content | number_of_words }}</span>
 
     {{ post.excerpt }}
     
