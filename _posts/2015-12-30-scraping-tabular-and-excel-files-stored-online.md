@@ -3,7 +3,7 @@ layout: post
 title:  Scraping Tabular and Excel Files Stored Online
 date: 2015-12-04
 author: Bradley Boehmke
-published: true
+published: false
 tags: [r]
 ---
 
@@ -29,7 +29,7 @@ Hosting tabular-formatted data online is a garden-variety practice for many orga
 
 
 
-{% highlight r %}
+```r
 # the url for the online CSV
 url <- "https://www.data.gov/media/federal-agency-participation.csv"
 
@@ -45,7 +45,7 @@ data_gov[1:6,c(1,3:4)]
 ## 4 Corporation for National and Community Service        3 01/12/2014
 ## 5 Court Services and Offender Supervision Agency        1 01/12/2014
 ## 6                      Department of Agriculture      698 12/01/2015
-{% endhighlight %}
+```
 
 <small><a href="#">Go to top</a></small>
 
@@ -58,7 +58,7 @@ Downloading Excel spreadsheets hosted online can be performed just as easily.  R
 
 
 
-{% highlight r %}
+```r
 library(gdata)
 
 # the url for the online Excel file
@@ -75,7 +75,7 @@ rents[1:6, 1:10]
 ## 4 100799999 100799999  773  545  652 1015 1142      7     1  99999
 ## 5 100999999 100999999  773  545  652 1015 1142      9     1  99999
 ## 6 101199999 101199999  599  481  505  791 1061     11     1  99999
-{% endhighlight %}
+```
 
 Note that many of the arguments covered in the [Importing Data tutorial](http://bradleyboehmke.github.io/tutorials/importing_data#excel) (i.e. specifying sheets to read from, skipping lines) also apply to `read.xls()`. In addition, `gdata` provides some useful functions (`sheetCount()` and `sheetNames()`) for identifying if multiple sheets exist prior to downloading.
 
@@ -90,7 +90,7 @@ Another common form of file storage is using zip files.  For instance, the [Bure
 
 
 
-{% highlight r %}
+```r
 url <- "http://www.bls.gov/cex/pumd/data/comma/diary14.zip"
 
 # download .zip file and unzip contents
@@ -115,13 +115,13 @@ zip_data[1:5, 1:10]
 ## 3 2825381     0 0.98    2        2  20510        3        D        2        D
 ## 4 2825381     0 0.98    2        2  20510        3        D        2        D
 ## 5 2825381     0 2.50    2        2  20510        3        D        2        D
-{% endhighlight %}
+```
 
 The .zip archive file format is meant to compress files and are typically used on files of significant size.  For instance, the Consumer Expenditure Survey data we downloaded in the previous example is over 10MB.  Obviously there may be times in which we want to get specific data in the .zip file to analyze but not always permanently store the entire .zip file contents. In these instances we can use the following [process](http://stackoverflow.com/questions/3053833/using-r-to-download-zipped-data-file-extract-and-import-data) proposed by [Dirk Eddelbuettel](https://twitter.com/eddelbuettel) to temporarily download the .zip file, extract the desired data, and then discard the .zip file.
 
 
 
-{% highlight r %}
+```r
 # Create a temp. file name
 temp <- tempfile()
 
@@ -141,7 +141,7 @@ zip_data2[1:5, 1:10]
 ## 3 2825381     0 0.98    2        2  20510        3        D        2        D
 ## 4 2825381     0 0.98    2        2  20510        3        D        2        D
 ## 5 2825381     0 2.50    2        2  20510        3        D        2        D
-{% endhighlight %}
+```
 
 <small><a href="#">Go to top</a></small>
 
@@ -154,7 +154,7 @@ One last common scenario I'll cover when importing spreadsheet data from online 
 
 
 
-{% highlight r %}
+```r
 library(XML)
 
 # url hosting multiple links to data sets
@@ -176,13 +176,13 @@ links
 ## [10] "/pub/time.series/ap/ap.period"               
 ## [11] "/pub/time.series/ap/ap.series"               
 ## [12] "/pub/time.series/ap/ap.txt"
-{% endhighlight %}
+```
 
 This allows us to assess which files exist that may be of interest.  In this case the links that we are primarily interested in are the ones that contain "data" in their name (links 4-7 listed above).  We can use the [`stringr`](https://cran.r-project.org/web/packages/stringr/index.html) package to extract these desired links which we will use to download the data.
 
 
 
-{% highlight r %}
+```r
 library(stringr)
 
 # extract names for desired links and paste to url
@@ -198,13 +198,13 @@ filenames
 ## [2] "http://download.bls.gov/pub/time.series/ap/ap.data.1.HouseholdFuels"
 ## [3] "http://download.bls.gov/pub/time.series/ap/ap.data.2.Gasoline"      
 ## [4] "http://download.bls.gov/pub/time.series/ap/ap.data.3.Food"
-{% endhighlight %}
+```
 
 We can now proceed to develop a simple `for` loop function to download each data set. We store the results in a list which contains 4 items, one item for each data set.  Each list item contains the url in which the data was extracted from and the dataframe containing the downloaded data.  We're now ready to analyze these data sets as necessary. 
 
 
 
-{% highlight r %}
+```r
 # create empty list to dump data into
 data_ls <- list()
 
@@ -248,7 +248,7 @@ str(data_ls)
 ##   .. ..$ period        : Factor w/ 12 levels "M01","M02","M03",..: 1 2 3 4 5 6 7 8 9 10 ...
 ##   .. ..$ value         : num [1:122302] 0.203 0.205 0.211 0.206 0.207 0.21 0.214 0.215 0.214 0.212 ...
 ##   .. ..$ footnote_codes: logi [1:122302] NA NA NA NA NA NA ...
-{% endhighlight %}
+```
 
 <br>
 
