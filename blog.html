@@ -17,14 +17,14 @@ permalink: blog/
     <span class="post-date">
       {{ post.date | date_to_string }} &nbsp; • &nbsp; Filed under: 
       {% for tag in post.tags %}
-            &nbsp;<a href="http://bradleyboehmke.github.io/archives/#{{ tag }}" style="color: rgb(128,128,128)"><font size="5" style="font-variant: small-caps">{{ tag | replace:'-', ' ' }}</font></a>
+            &nbsp;<a href="http://bradleyboehmke.github.io/archives/#{{ tag }}" style="color:#9a9a9a;"><font size="5" style="font-variant: small-caps">{{ tag | replace:'-', ' ' }}</font></a>
       {% endfor %}
       </span>
 
     {{ post.excerpt }}
     
     <div style="float:right;margin-right:50px">
-      <a type="button" class="btn btn-default" href="{{ site.baseurl }}{{ post.url }}" style="color:#9a9a9a;; font-family:Overpass; font-weight:700; font-size:16px; background-color:#fff; border: thin solid lightgray; border-radius: 8px; padding: 8px; ">READ MORE...</a>
+      <a type="button" class="btn btn-default" href="{{ site.baseurl }}{{ post.url }}" style="color:#9a9a9a; font-family:Overpass; font-weight:700; font-size:16px; background-color:#fff; border: thin solid lightgray; border-radius: 8px; padding: 8px; ">READ MORE...</a>
     </div>
     
     <div style="margin-top:80px">
