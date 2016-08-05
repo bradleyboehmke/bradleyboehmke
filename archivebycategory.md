@@ -6,22 +6,6 @@ sitemap: false
 ---
 
 
-
-<font size="6">Projects</font>
-<div>
-    {% assign categories = site.categories | sort %}
-    {% for category in categories %}
-     <span class="site-category">
-        <a href="#{{ category | first | slugify }}">
-               <font size="5" style="font-variant: small-caps"> {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font>
-        </a>
-        <br>
-    </span>
-    {% endfor %}
-</div>
-
-<br>
-
 <font size="6">Tags</font>
 <div>
     {% assign tags = site.tags | sort %}
@@ -35,27 +19,6 @@ sitemap: false
     {% endfor %}
 </div>
 
-
-<br>
-
-
-<font size="6">Posts by Project</font>
-<div id="category-index">
-    {% for category in categories %}
-        <a name="{{ category[0] }}"></a><strong><font size="5" style="font-variant: small-caps">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </font></strong>
-        <br>
-    {% assign sorted_posts = site.posts | sort: 'date' | reverse %} 
-    {% for post in sorted_posts %}
-    {%if post.categories contains category[0]%}
-     <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    <br>
-    {%endif%}
-    {% endfor %}
-    <br>
-    {% endfor %}
-</div>
-
-<small><a href="#">Go to top</a></small>
 
 <br>
 <br>
