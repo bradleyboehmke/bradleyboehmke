@@ -19,11 +19,10 @@ An R package for performing earned value management for measuring and monitoring
   </a>
 </h2>
 
-<body>
-<a href="https://cran.rstudio.com/web/packages/learningCurve/index.html">
-  <img src="http://www.r-pkg.org/badges/version/learningCurve">
-</a>
-<p style="float:left;">
+
 An R package for computing, simulating, fitting, and plotting Crawford's unit and Wright's cumulative average learning curves. 
-</p>
-</body>
+<span>
+  <a href="https://cran.rstudio.com/web/packages/learningCurve/index.html">
+    <img src="http://www.r-pkg.org/badges/version/learningCurve">
+  </a>
+</span>
