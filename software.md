@@ -17,7 +17,7 @@ An R package for performing earned value management for measuring and monitoring
   <i class="fa fa-github" style="font-size:.75em"></i>
 </a>
 <a href="https://cran.rstudio.com/web/packages/learningCurve/index.html">
-  <img src="http://www.r-pkg.org/badges/version/learningCurve">
+  <img src="http://www.r-pkg.org/badges/version/learningCurve" style="float: right;>
 </a>
 </h2>
 
