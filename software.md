@@ -15,7 +15,8 @@ An R package for performing earned value management for measuring and monitoring
 <h2> learningCurve <a href="https://github.com/bradleyboehmke/learningCurve" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 
 <a href="https://cran.rstudio.com/web/packages/learningCurve/index.html">
-  <img src="http://www.r-pkg.org/badges/version/learningCurve"><img src="http://cranlogs.r-pkg.org/badges/grand-total/learningCurve">
+  <img src="http://www.r-pkg.org/badges/version/learningCurve" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+  <img src="http://cranlogs.r-pkg.org/badges/grand-total/learningCurve" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 </a>
 
 An R package for computing, simulating, fitting, and plotting Crawford's unit and Wright's cumulative average learning curves. 
