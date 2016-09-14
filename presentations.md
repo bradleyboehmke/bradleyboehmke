@@ -38,7 +38,7 @@ Boehmke, B.C. (2012). "Model for identifying cost savings by synchronizing the E
 <h2>Invited</h2>
 <ul>
 <p>
-Boehmke, B.C. (2016). "Data Science: Data-informed Supply Chain Decisions." Air Force Enterprise Logistics Executive Capstone Course, Wright-Patterson AFB, OH &nbsp; <a href="/public/documents/DSSC.html" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Boehmke, B.C. (2016). "Data Science: Data-informed Supply Chain Decisions." Air Force Enterprise Logistics Executive Capstone Course, Wright-Patterson AFB, OH &nbsp; <a href="https://github.com/bradleyboehmke/AFIT-Executive-Capstone-2016-Presentation" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Boehmke, B.C. (2016). "Incorporating a Measure of Efficiency in the Air Force's Installation & Mission Support Performance Assessment." DoD Infrastructure Workshop, Washington D.C. &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
