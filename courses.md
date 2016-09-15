@@ -17,5 +17,10 @@ A two day course for all incoming [Business Analytics M.S.](http://business.uc.e
 
 <br>
 
+## OPER 200: Introduction to Statistical Programming with R
+An introductory short course for all incoming [Operations Research M.S.](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) students at the [Air Force Institute of Technology](http://www.afit.edu/) that provides an intensive, hands-on introduction to the R programming language. This short course prepares students with the fundamental R programming skills required for data wrangling, visualization, and reproducibility. &nbsp;&nbsp; <a href="https://afit-r.github.io/oper200/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
+
+<br>
+
 ## LOGM 627: Supply Chain Management
 Supply Chain Management is a hot topic in today’s business world because of its potential impact on organizational performance in a fast-paced global economy. Effective supply chain management helps a company "get into the mind" of customers, capture the heart of customers, and deliver to the dock, door, or trunk of customers. Doing this well involves the integration of your suppliers who are experts at what they do. This 10 week course is offered as part of the [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program teaches the essentials of the nature and dynamics of integrated supply chain management along with introducing the analytic techniques required in each element of the supply chain to obtain a competitive advantage.
