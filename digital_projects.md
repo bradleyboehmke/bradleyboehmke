@@ -66,17 +66,17 @@ permalink: digital_projects/
 
 <div style="float: left; width: 45%; margin-right: 1em; margin-bottom: 1em; border: thin solid lightgray; border-radius: 8px; padding: 8px; height: 300px;">
 
-<a href="https://bradleyboehmke.shinyapps.io/word_prediction_app/">
-<img src="/public/images/projects/word_prediction.png" style="display: block; margin: auto;" />
+<a href="https://bradleyboehmke.shinyapps.io/learningCurve-shiny-app/">
+<img src="/public/images/projects/learningCurve_shiny_app.png" style="display: block; margin: auto;" />
 </a>
 
 <h4 class="headmargin">
-  <a href="https://bradleyboehmke.shinyapps.io/word_prediction_app/">
-    <font color="#821122;">Word Prediction App</font></a></h4>
+  <a href="https://bradleyboehmke.shinyapps.io/learningCurve-shiny-app/">
+    <font color="#821122;">Learning Curve Exploration</font></a></h4>
 
 <p class="nomargin" style="line-height:1.0">
   <font size="3">
-    An application that applies a simple back-off model for predicting the next word in a partial sentence.
+    An application for aiding student comprehension of learning curves by allowing them to explore learning curves interactively.
   </font>
 </p>
  
@@ -95,6 +95,24 @@ permalink: digital_projects/
 <p class="nomargin" style="line-height:1.0">
   <font size="3">
     A dynamic correlation validation curve to identify critical correlation and sample size values that produce statistically significant results. 
+  </font>
+</p>
+ 
+</div>
+
+<div style="float: left; width: 45%; margin-right: 1em; margin-bottom: 1em; border: thin solid lightgray; border-radius: 8px; padding: 8px; height: 300px;">
+
+<a href="https://bradleyboehmke.shinyapps.io/word_prediction_app/">
+<img src="/public/images/projects/word_prediction.png" style="display: block; margin: auto;" />
+</a>
+
+<h4 class="headmargin">
+  <a href="https://bradleyboehmke.shinyapps.io/word_prediction_app/">
+    <font color="#821122;">Word Prediction App</font></a></h4>
+
+<p class="nomargin" style="line-height:1.0">
+  <font size="3">
+    An application that applies a simple back-off model for predicting the next word in a partial sentence.
   </font>
 </p>
  
