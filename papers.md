@@ -22,7 +22,7 @@ Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for compu
 ## Under Review
 <ul>
 <p>
-Hazen, B.T, Boehmke, B.C. & Eichner, C.L. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Business Logistics</em>
+Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Business Logistics</em>
 </p>
 <p>
 Hazen, B.T, Weigel, F.K., Ezell, J.D. & Boehmke, B.C. "Toward Understanding Outcomes Associated with Data Quality Improvement." <em>International Journal of Production Economics</em>
