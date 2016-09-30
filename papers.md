@@ -6,12 +6,34 @@ permalink: papers/
 
 <h1 class="post-title">{{ page.title }}</h1>
 
-
-## Refereed
+## In Progress
 <ul>
 <p>
-Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Effectiveness vs. efficiency: Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Under Review - Military Operations Research</em>  &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Montgomery, R.T., Ogden, J.A., Boehmke, B.C. & Robbins, M.J. "Reducing subjectivity: Applying multi-objective decision analysis and the Kraljic portfolio matrix for strategic sourcing."
 </p>
+<p>
+Boehmke, B.C. & Hazen, B.T. "Knowledge development: The role of data science in operations and supply chain management."
+</p>
+<p>
+Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves."
+</p>
+</ul>
+
+## Under Review
+<ul>
+<p>
+Hazen, B.T, Boehmke, B.C. & Eichner, C.L. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Business Logistics</em>
+</p>
+<p>
+Hazen, B.T, Weigel, F.K., Ezell, J.D. & Boehmke, B.C. "Toward Understanding Outcomes Associated with Data Quality Improvement." <em>International Journal of Production Economics</em>
+</p>
+<p>
+Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. "Effectiveness vs. efficiency: Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Military Operations Research</em>  &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+</p>
+</ul>
+
+## Peer Reviewed
+<ul>
 <p>
 Boehmke, B.C., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. (2016).  "Tooth-to-Tail impact analysis: Combining econometric modeling and Bayesian networks to assess support cost consequences due to changes in force structure." <em>Journal of Cost Analysis and Parametrics,</em> 9(1), 2-31. DOI:10.1080/1941658X.2016.1155186. &nbsp; <a href="http://www.tandfonline.com/eprint/qRxnNT6Mc5ufiV6AaDq6/full" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
