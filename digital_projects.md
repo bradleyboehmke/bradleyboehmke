@@ -117,3 +117,21 @@ permalink: digital_projects/
 </p>
  
 </div>
+
+<div style="float: left; width: 45%; margin-right: 1em; margin-bottom: 1em; border: thin solid lightgray; border-radius: 8px; padding: 8px; height: 300px;">
+
+<a href="https://bradleyboehmke.shinyapps.io/us_savings_rate_app/">
+<img src="/public/images/projects/savings_rate_app.png" style="display: block; margin: auto;" />
+</a>
+
+<h4 class="headmargin">
+  <a href="https://bradleyboehmke.shinyapps.io/us_savings_rate_app/">
+    <font color="#821122;">U.S. Savings Rates by State</font></a></h4>
+
+<p class="nomargin" style="line-height:1.0">
+  <font size="3">
+    Explore how state-level savings rates have changed over time and by geographic location.
+  </font>
+</p>
+ 
+</div>
