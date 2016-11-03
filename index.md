@@ -9,7 +9,7 @@ layout: page
 
 
 
-Hello! I'm an organizational economist focused on applying data science to provide decision makers robust understanding of economic behavior, performance, and potential policy impacts across an organization.  
+Hello! I'm a supply chain data scientist focused on using data to provide decision makers robust understanding of economic behavior, performance, and potential policy impacts across an organization and its supply chain.  
 
 I work on applied and conceptual [research](http://bradleyboehmke.github.io/papers/), write data analysis [software](http://bradleyboehmke.github.io/software/), [teach](http://bradleyboehmke.github.io/courses/) people about business analytics and R programming, write [books](http://bradleyboehmke.github.io/books/), and create [digital projects](http://bradleyboehmke.github.io/digital_projects/). 
 
