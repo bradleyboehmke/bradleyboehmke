@@ -31,7 +31,7 @@ Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: 
 Hazen, B.T, Weigel, F.K., Ezell, J.D. & Boehmke, B.C. "Toward Understanding Outcomes Associated with Data Quality Improvement." <em>International Journal of Production Economics</em>
 </p>
 <p>
-Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. "Effectiveness vs. efficiency: Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Military Operations Research</em>  &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. "Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Military Operations Research</em>  &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 </ul>
 
