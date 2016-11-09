@@ -9,18 +9,21 @@ permalink: papers/
 ## In Progress
 <ul>
 <p>
+Joo, S.J., Boehmke, B.C., & Min, Hokey. "Combining subjective and objective criteria for evaluating suppliers: A case of an aerospace company."
+</p>
+<p>
 Montgomery, R.T., Ogden, J.A., Boehmke, B.C. & Robbins, M.J. "Reducing subjectivity: Applying multi-objective decision analysis and the Kraljic portfolio matrix for strategic sourcing."
 </p>
 <p>
 Boehmke, B.C. & Hazen, B.T. "Knowledge development: The role of data science in operations and supply chain management."
 </p>
-<p>
-Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves."
-</p>
 </ul>
 
 ## Under Review
 <ul>
+<p>
+Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
+</p>
 <p>
 Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Business Logistics</em>
 </p>
