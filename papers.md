@@ -12,9 +12,6 @@ permalink: papers/
 Joo, S.J., Boehmke, B.C., & Min, Hokey. "Combining subjective and objective criteria for evaluating suppliers: A case of an aerospace company."
 </p>
 <p>
-Montgomery, R.T., Ogden, J.A., Boehmke, B.C. & Robbins, M.J. "Reducing subjectivity: Applying multi-objective decision analysis and the Kraljic portfolio matrix for strategic sourcing."
-</p>
-<p>
 Boehmke, B.C. & Hazen, B.T. "Knowledge development: The role of data science in operations and supply chain management."
 </p>
 </ul>
@@ -28,7 +25,10 @@ Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for compu
 Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Business Logistics</em>
 </p>
 <p>
-Hazen, B.T, Weigel, F.K., Ezell, J.D. & Boehmke, B.C. "Toward Understanding Outcomes Associated with Data Quality Improvement." <em>International Journal of Production Economics</em>
+Hazen, B.T, Weigel, F.K., Ezell, J.D. & Boehmke, B.C. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em>
+</p>
+<p>
+Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio matrix: Using decision analysis for strategic purchasing." <em>Decision Sciences</em>
 </p>
 <p>
 Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. "Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Military Operations Research</em>  &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
