@@ -7,7 +7,7 @@ permalink: software/
 
 <h1 class="post-title">{{ page.title }} </h1>
 
-<h2> kraljicMatrix <a href="https://github.com/bradleyboehmke" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> kraljicMatrix <a href="https://github.com/bradleyboehmke/KraljicMatrix" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
 
 <br>
