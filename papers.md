@@ -28,7 +28,7 @@ Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: 
 Hazen, B.T, Weigel, F.K., Ezell, J.D. & Boehmke, B.C. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em>
 </p>
 <p>
-Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio matrix: Using decision analysis for strategic purchasing." <em>Decision Sciences</em>
+Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio matrix: Using decision analysis for strategic purchasing." <em>Journal of Purchasing and Supply Management</em>
 </p>
 <p>
 Boehmke, B.C., Jackson, R.A., Johnson, A.L, Weir, J.D., White, E.D. & Gallagher, M.A. "Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Military Operations Research</em>  &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
