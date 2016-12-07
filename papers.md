@@ -9,6 +9,9 @@ permalink: papers/
 ## In Progress
 <ul>
 <p>
+Boehmke, B.C. & Hazen, B.T. "Open source's role in providing flexible technology."
+</p>
+<p>
 Joo, S.J., Boehmke, B.C., & Min, Hokey. "Combining subjective and objective criteria for evaluating suppliers: A case of an aerospace company."
 </p>
 <p>
