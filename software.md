@@ -7,11 +7,6 @@ permalink: software/
 
 <h1 class="post-title">{{ page.title }} </h1>
 
-<h2> kraljicMatrix <a href="https://github.com/bradleyboehmke/KraljicMatrix" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
-An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
-
-<br>
-
 <h2> triangleR <a href="https://github.com/bradleyboehmke" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 An R package for computing triangular distribution parameters along with functions to adjust for judgement biases often related to subjective triangular distribution inputs. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
 
@@ -19,6 +14,13 @@ An R package for computing triangular distribution parameters along with functio
 
 <h2> evmR <a href="https://github.com/bradleyboehmke/evmR" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 An R package for performing earned value management for measuring and monitoring project performance. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
+
+<br>
+
+<h2> kraljicMatrix <a href="https://github.com/bradleyboehmke/KraljicMatrix" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio. <a href="https://cran.rstudio.com/web/packages/KraljicMatrix/index.html">
+    <img src="http://www.r-pkg.org/badges/version/KraljicMatrix" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a>
 
 <br>
 
