@@ -9,7 +9,7 @@ permalink: papers/
 ## In Progress
 <ul>
 <p>
-Boehmke, B.C. & Hazen, B.T. "Open source's role in providing flexible technology."
+Hazen, B.T. & Boehmke, B.C. "A visual-analytic approach for more efficient disaster relief operations."
 </p>
 <p>
 Joo, S.J., Boehmke, B.C., & Min, H. "Combining subjective and objective criteria for evaluating suppliers: A case of an aerospace company."
@@ -21,6 +21,9 @@ Boehmke, B.C. & Hazen, B.T. "Knowledge development: The role of data science in 
 
 ## Under Review
 <ul>
+<p>
+Boehmke, B.C. & Hazen, B.T. "The future of supply chain information systems: The open source ecosystem." <em>Global Journal of Flexible Systems Management </em>
+</p>
 <p>
 Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
 </p>
