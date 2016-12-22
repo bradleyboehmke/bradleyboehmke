@@ -23,9 +23,9 @@ An introductory short course for all incoming [Operations Research M.S.](http://
 <br>
 
 ## LOGM 627: Supply Chain Management
-This 10 week course is offered as part of the [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program teaches the essentials of the nature and dynamics of integrated supply chain management along with introducing the analytic techniques required in each element of the supply chain to obtain a competitive advantage.
+This 10 week course offered as part of the [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program teaches the essentials of the nature and dynamics of integrated supply chain management along with introducing the analytic techniques required in each element of the supply chain to obtain a competitive advantage.
 
 <br>
 
 ## LOGM 520: Managerial Economics
-This 10 week course is offered as part of the [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program teaches the application and practical utility of basic economic tools to shape pricing and output decisions, optimize the production process and input mix, choose product quality, guide horizontal and vertical merger decisions, and optimally design internal and external incentives.
+This 10 week course offered as part of the [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program teaches the application and practical utility of basic economic tools to shape pricing and output decisions, optimize the production process and input mix, choose product quality, guide horizontal and vertical merger decisions, and optimally design internal and external incentives.
