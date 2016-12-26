@@ -28,7 +28,7 @@ Boehmke, B.C. & Hazen, B.T. "The future of supply chain information systems: The
 Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
 </p>
 <p>
-Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Business Logistics</em>
+Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Supply Chain Management</em>
 </p>
 <p>
 Hazen, B.T, Weigel, F.K., Ezell, J.D. & Boehmke, B.C. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em>
