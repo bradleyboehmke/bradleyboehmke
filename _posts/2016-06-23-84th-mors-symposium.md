@@ -8,7 +8,7 @@ categories: [blog]
 tags: [conferences]
 ---
 
-This week I attended the 84<sup>th</sup> MORS Symposium at the Marine University, Quantico, VA.  The conference was well organized (as usually) and I had a few good take-aways from some interesting sessions.  I also presented my work on [Effectiveness vs. Efficiency of Air Force Installation Support Activities Using Data Envelopment Analysis](https://www.dropbox.com/s/3dlwmgvxmxe1ndg/Workshop_Presentation.pdf?dl=0), which went well and I got good feedback on.  The following are some mental notes taken in a few particularly interesting presentations that I may want to reference later on.
+This week I attended the 84<sup>th</sup> MORS Symposium at the Marine University, Quantico, VA.  The conference was well organized (as usually) and I had a few good take-aways from some interesting sessions.  I also presented my work on [Effectiveness vs. Efficiency of Air Force Installation Support Activities Using Data Envelopment Analysis](https://www.dropbox.com/s/3dlwmgvxmxe1ndg/Workshop_Presentation.pdf?dl=0), which went well and I got good feedback on.  The following are some mental notes taken in a few particularly interesting presentations that I may want to reference later on. <!--more-->
 
 
 ### Using Innovative Text Analytics on a Military Specific Corpus
