@@ -60,7 +60,7 @@ The Rise and Fall of American Growth
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 <a href="http://www.amazon.com/The-Rise-Fall-American-Growth/dp/0691147728"><i class="fa fa-book"></i></a> </p>
 
-
+<!--more-->
 
 <br>
 
