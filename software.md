@@ -35,5 +35,8 @@ An R package for implementing the Kraljic Matrix to strategically analyze a firm
 An R package for computing, simulating, fitting, and plotting Crawford's unit and Wright's cumulative average learning curves. 
   <a href="https://cran.rstudio.com/web/packages/learningCurve/index.html">
     <img src="http://www.r-pkg.org/badges/version/learningCurve" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a> 
+  <a href="https://cran.rstudio.com/web/packages/learningCurve/index.html">
+    <img src="https://cranlogs.r-pkg.org/badges/learningCurve" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
   </a>
 </p>
