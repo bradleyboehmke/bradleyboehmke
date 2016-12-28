@@ -18,8 +18,12 @@ An R package for performing earned value management for measuring and monitoring
 <br>
 
 <h2> kraljicMatrix <a href="https://github.com/bradleyboehmke/KraljicMatrix" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
-An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio. <a href="https://cran.rstudio.com/web/packages/KraljicMatrix/index.html">
+An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio. 
+  <a href="https://cran.rstudio.com/web/packages/KraljicMatrix/index.html">
     <img src="http://www.r-pkg.org/badges/version/KraljicMatrix" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a>
+  <a href="https://cran.rstudio.com/web/packages/KraljicMatrix/index.html">
+    <img src="https://cranlogs.r-pkg.org/badges/KraljicMatrix" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
   </a>
 
 <br>
