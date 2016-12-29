@@ -22,6 +22,9 @@ Boehmke, B.C. & Hazen, B.T. "Knowledge development: The role of data science in 
 ## Under Review
 <ul>
 <p>
+Boehmke, B.C. & Freels, J.K. "<code>KraljicMatrix</code>: KraljicMatrix: An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio." <em>Journal of Open Source Software</em>
+</p>
+<p>
 Boehmke, B.C. & Hazen, B.T. "The future of supply chain information systems: The open source ecosystem." <em>Global Journal of Flexible Systems Management </em>
 </p>
 <p>
