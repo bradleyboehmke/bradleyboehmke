@@ -4,7 +4,7 @@ title:  learningCurve Package
 author: Bradley Boehmke
 date: 2016-10-18
 published: true
-tags: [programming, r, statistics]
+tags: [r, analytics]
 ---
 
 

@@ -3,9 +3,10 @@ layout: post
 title:  KraljicMatrix Package
 date: "2016-12-16"
 published: true
-tags: [r, programming, analytics]
+tags: [r, analytics]
 ---
 
+<a href="http://bradleyboehmke.github.io/2016/12/kraljicmatrix-package.html"><img src="http://bradleyboehmke.github.io/figure/source/kraljicmatrix-package/2017-01-01-kraljicmatrix-package/plot.png" alt="Kraljic Matrix" style="float:left; margin:2px 8px 0px 0px; width: 17%; height: 17%;"></a>
 Purchasing strategies are a significant contributing factor to the overall performance of a firm. Not only has it been argued that transitioning purchasing from a tactical to a strategic role provides sustainable competitive advantage, compelling evidence supports the relationship between strategic purchasing and supplier integration, performance, power, and total cost of ownership among other benefits. Consequently, it has become widely accepted that establishing a strategic purchasing approach is imperative for today’s firm. <!--more--> 
 
 Towards this goal, the most established portfolio model in literature and practice is Kraljic’s model[^kraljic] known as the Kraljic Portfolio Matrix (KPM). However, one of the primary weaknesses of the KPM is the qualitative nature of the model, which results in a subjective method for weighting and positioning suppliers or commodities in the quadrants of the KPM. Thus, [Jason Freels](https://github.com/Auburngrads) and I developed the [`kraljicMatrix` package](https://cran.rstudio.com/web/packages/KraljicMatrix/index.html) to be used as a quantitative framework to objectively position purchases in the KPM matrix along with identifying which products and services to begin strategic sourcing efforts with. This post provides some explanation behind the functionality of `kraljicMatrix`, which is largely based on research illustrated in this [Kraljic Matrix paper](https://www.dropbox.com/s/vkwrirmp1bdvp66/Article%20Submitted.docx?dl=0) produced by two other authors and myself.
@@ -278,16 +279,16 @@ MAVF_sensitivity(psc,
 ## # A tibble: 200 × 8
 ##      PSC MAVF_Min MAVF_1st_Q MAVF_Median MAVF_Mean MAVF_3rd_Q
 ##    <chr>    <dbl>      <dbl>       <dbl>     <dbl>      <dbl>
-## 1   D233   0.8149     0.8290      0.8396    0.8394     0.8492
-## 2   F352   0.9518     0.9570      0.9593    0.9593     0.9616
-## 3   T713   0.8467     0.8611      0.8681    0.8680     0.8752
-## 4   K833   0.7718     0.7874      0.8016    0.8016     0.8152
-## 5   Q121   0.8592     0.8727      0.8792    0.8791     0.8857
-## 6   C791   0.8773     0.8857      0.8935    0.8937     0.9014
-## 7   Y207   0.8809     0.8905      0.8974    0.8973     0.9038
-## 8   W439   0.6769     0.7022      0.7161    0.7157     0.7294
-## 9   N290   0.4949     0.5256      0.5535    0.5537     0.5811
-## 10  C251   0.2478     0.2956      0.3456    0.3464     0.3953
+## 1   D233   0.8153     0.8299      0.8400    0.8395     0.8493
+## 2   F352   0.9521     0.9572      0.9591    0.9592     0.9614
+## 3   T713   0.8473     0.8614      0.8678    0.8680     0.8747
+## 4   K833   0.7722     0.7885      0.8025    0.8019     0.8151
+## 5   Q121   0.8598     0.8731      0.8788    0.8790     0.8851
+## 6   C791   0.8774     0.8862      0.8941    0.8938     0.9016
+## 7   Y207   0.8812     0.8912      0.8977    0.8973     0.9037
+## 8   W439   0.6778     0.7025      0.7157    0.7157     0.7286
+## 9   N290   0.4956     0.5276      0.5555    0.5543     0.5816
+## 10  C251   0.2478     0.2992      0.3483    0.3478     0.3975
 ## # ... with 190 more rows, and 2 more variables: MAVF_Max <dbl>,
 ## #   MAVF_Range <dbl>
 {% endhighlight %}

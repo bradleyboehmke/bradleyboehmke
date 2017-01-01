@@ -4,7 +4,7 @@ title:  Word Prediction App
 date: 2015-10-05
 author: Bradley Boehmke
 published: true
-tags: [r]
+tags: [r, analytics]
 ---
 
 A foray into the world of word prediction.

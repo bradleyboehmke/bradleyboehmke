@@ -4,7 +4,7 @@ title:  A Correlation Validation Curve
 date: 2016-05-23
 author: Bradley Boehmke
 published: true
-tags: [statistics]
+tags: [analytics]
 ---
 
 <a href="http://bradleyboehmke.github.io"><img src="http://bradleyboehmke.github.io/figure/source/a-correlation-significance-curve/2016-05-20-a-correlation-significance-curve/correlation.png" alt="Significance of Correlation" style="float:left; margin: 0px 10px -5px 0px; width: 20%; height: 20%;"></a>

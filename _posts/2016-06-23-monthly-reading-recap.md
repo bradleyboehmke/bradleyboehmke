@@ -4,7 +4,7 @@ title:  Monthly Reading Recap
 date: 2016-07-31
 published: false
 categories: [literature]
-tags: [weekly-reading]
+tags: [monthly-reading]
 ---
 
 <STYLE TYPE="text/css"> 

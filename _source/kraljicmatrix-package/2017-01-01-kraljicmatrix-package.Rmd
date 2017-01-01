@@ -3,9 +3,10 @@ layout: post
 title:  KraljicMatrix Package
 date: "2016-12-16"
 published: true
-tags: [r, programming, analytics]
+tags: [r, analytics]
 ---
 
+<a href="http://bradleyboehmke.github.io/2016/12/kraljicmatrix-package.html"><img src="http://bradleyboehmke.github.io/figure/source/kraljicmatrix-package/2017-01-01-kraljicmatrix-package/plot.png" alt="Kraljic Matrix" style="float:left; margin:2px 8px 0px 0px; width: 17%; height: 17%;"></a>
 Purchasing strategies are a significant contributing factor to the overall performance of a firm. Not only has it been argued that transitioning purchasing from a tactical to a strategic role provides sustainable competitive advantage, compelling evidence supports the relationship between strategic purchasing and supplier integration, performance, power, and total cost of ownership among other benefits. Consequently, it has become widely accepted that establishing a strategic purchasing approach is imperative for today’s firm. <!--more--> 
 
 Towards this goal, the most established portfolio model in literature and practice is Kraljic’s model[^kraljic] known as the Kraljic Portfolio Matrix (KPM). However, one of the primary weaknesses of the KPM is the qualitative nature of the model, which results in a subjective method for weighting and positioning suppliers or commodities in the quadrants of the KPM. Thus, [Jason Freels](https://github.com/Auburngrads) and I developed the [`kraljicMatrix` package](https://cran.rstudio.com/web/packages/KraljicMatrix/index.html) to be used as a quantitative framework to objectively position purchases in the KPM matrix along with identifying which products and services to begin strategic sourcing efforts with. This post provides some explanation behind the functionality of `kraljicMatrix`, which is largely based on research illustrated in this [Kraljic Matrix paper](https://www.dropbox.com/s/vkwrirmp1bdvp66/Article%20Submitted.docx?dl=0) produced by two other authors and myself.
