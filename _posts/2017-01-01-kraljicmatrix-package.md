@@ -42,7 +42,7 @@ Function              | Purpose
 Furthermore, an example dataset `psc` is provided in the `kraljicMatrix` package. This data contains 200 product and service contracts (PSC).  Each PSC has an x attribute (i.e. supply risk) score from 1 (worst) to 5 (best) and y attribute (i.e. profit impact) score from 1 (worst) to 10 (best).
 
 
-{% highlight r %}
+```r
 psc
 ## # A tibble: 200 × 3
 ##      PSC x_attribute y_attribute
@@ -58,7 +58,7 @@ psc
 ## 9   N290        1.66        4.02
 ## 10  C251        1.00        7.47
 ## # ... with 190 more rows
-{% endhighlight %}
+```
 
 
 
@@ -73,7 +73,7 @@ $$v_x(x_i)=\frac{1-e^{[-(x_i-x^0)/\rho_x]}}{1-e^{[-(x^*-x^0)/\rho_x]}} \forall i
 However, prior to applying the SAVF to our x and y attributes we must first identify the appropriate $\rho$ value.  The benefit of applying an exponential SAVF is that it can take on many forms of increasing rates, along with aligning to a linear value function. Consequently, if certain x attribute values are valued more than other values an exponential SAVF will capture this utility curve. To identify the appropriate exponential rate, subject matter expert (SME) inputs are typically evaluated and an exponential rate that most closely matches the preffered values provided by the SMEs is chosen. Thus, let's assume for our given x attribute the SME inputs suggest that x attribute values of 3, 4, & 5 provide a utility score of .75, .90 & 1.0 respectively (this represents a decreasing rate of return utility curve).  Knowing that our x attribute is bounded between 1 and 5 we can search for a rho value between 0-1 that provides the best fit utility function using the `SAVF_preferred_rho` function. 
 
 
-{% highlight r %}
+```r
 SAVF_preferred_rho(desired_x = c(3, 4, 5),
                    desired_v = c(.8, .9, 1),
                    x_low = 1,
@@ -81,38 +81,38 @@ SAVF_preferred_rho(desired_x = c(3, 4, 5),
                    rho_low = 0,
                    rho_high = 1)
 ## [1] 0.6531
-{% endhighlight %}
+```
 
 Thus, we can see that $\rho = 0.6531$ provides the best fit exponential SAVF. We can illustrate this two ways.  First, we can use `SAVF_plot` to plot the single attribute utility curve compared to the subject matter desired values. 
 
 
 
 
-{% highlight r %}
+```r
 SAVF_plot(desired_x = c(3, 4, 5),
           desired_v = c(.8, .9, 1),
           x_low = 1,
           x_high = 5,
           rho = 0.6531)
-{% endhighlight %}
+```
 
-<img src="http://bradleyboehmke.github.iofigure/source/kraljicmatrix-package/2017-01-01-kraljicmatrix-package/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/kraljicmatrix-package/2017-01-01-kraljicmatrix-package/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
 We can also visualize the errors of the $\rho$ search space with `SAVF_plot_rho_error`, which plots the squared error terms for all $\rho$ values within the $\rho$ search space to illustrate the preferred rho that minimizes the squared error between subject matter desired values and exponentially fitted scores. 
 
 
 
 
-{% highlight r %}
+```r
 SAVF_plot_rho_error(desired_x = c(3, 4, 5),
                     desired_v = c(.75, .9, 1),
                     x_low = 1,
                     x_high = 5,
                     rho_low = 0,
                     rho_high = 1)
-{% endhighlight %}
+```
 
-<img src="http://bradleyboehmke.github.iofigure/source/kraljicmatrix-package/2017-01-01-kraljicmatrix-package/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/kraljicmatrix-package/2017-01-01-kraljicmatrix-package/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 
 
 Once we've identified the preferred $\rho$ value, we can now apply the exponential SAVF with `SAVF_score` to normalize our attributes based on our utility curve. 
@@ -120,7 +120,7 @@ Once we've identified the preferred $\rho$ value, we can now apply the exponenti
 
 
 
-{% highlight r %}
+```r
 # using dplyr to add a new variable while preserving existing data
 library(dplyr)
 
@@ -131,11 +131,6 @@ psc <- psc %>%
          y_SAVF_score = SAVF_score(y_attribute, 1, 10, .70))
 
 psc
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## # A tibble: 200 × 5
 ##      PSC x_attribute y_attribute x_SAVF_score y_SAVF_score
 ##    <chr>       <dbl>       <dbl>        <dbl>        <dbl>
@@ -150,33 +145,24 @@ psc
 ## 9   N290        1.66        4.02    0.3778582    0.8808636
 ## 10  C251        1.00        7.47    0.0000000    0.9910284
 ## # ... with 190 more rows
-{% endhighlight %}
+```
 
 Now that we have the normalized x and y attribute utility scores we can proceed with plotting each PSC within the Kraljic matrix with `kraljic_matrix`.
 
-
-
-
-
-{% highlight r %}
+```r
 kraljic_matrix(psc, x_SAVF_score, y_SAVF_score)
-{% endhighlight %}
+```
 
-<img src="http://bradleyboehmke.github.iofigure/source/kraljicmatrix-package/2017-01-01-kraljicmatrix-package/unnamed-chunk-11-1.png" title="plot of chunk unnamed-chunk-11" alt="plot of chunk unnamed-chunk-11" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/kraljicmatrix-package/2017-01-01-kraljicmatrix-package/unnamed-chunk-11-1.png" title="plot of chunk unnamed-chunk-11" alt="plot of chunk unnamed-chunk-11" style="display: block; margin: auto;" />
 
 This illustrates that most of our PSCs fall in the "Leverage" (upper left) quadrant while a few fall in the "Strategic" (upper right) and "Non-critical" (lower left) quadrants and no PSCs fall in the "Bottleneck" quadrant.  Keep in mind that each category benefits from a different strategic sourcing approach.  So decision-makers benefit from understanding specifically which products and services align to each so that they can coordinate the appropriate sourcing strategy for that particular product or service.  We can easily do this with the `kraljic_quadrant` function.
 
 
 
 
-{% highlight r %}
+```r
 psc %>%
   mutate(quadrant = kraljic_quadrant(x_SAVF_score, y_SAVF_score))
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## # A tibble: 200 × 6
 ##      PSC x_attribute y_attribute x_SAVF_score y_SAVF_score  quadrant
 ##    <chr>       <dbl>       <dbl>        <dbl>        <dbl>     <chr>
@@ -191,7 +177,7 @@ psc %>%
 ## 9   N290        1.66        4.02    0.3778582    0.8808636 Strategic
 ## 10  C251        1.00        7.47    0.0000000    0.9910284 Strategic
 ## # ... with 190 more rows
-{% endhighlight %}
+```
 
 Lastly, it is important to keep in mind that decision-makers may weight the importance of each attribute differently. Consequently, due to certain market environments, decision-makers may weight the x attribute (i.e. supply risk) of greater importance than the y attribute (i.e. profit impact). Thus, we can prioritize PSCs based on this preference by applying a multi-attribute value function (MAVF) with swing weights.  Swing weight values for x and y attributes ($w_x$ and $w_y$ respectively) are typically elicited from SMEs. This allows for calculation of the interaction swing weight $w_{xy} = 1 - w_x - w_y$.  Thus, we can calculate the MAVF as outlined by Keeney and Raiffa (1993)[^keeney]:
 
@@ -200,16 +186,9 @@ $$V(x,y) = w_x v_x (x) + w_y v_y (y) + w_{xy} v_x (x) v_y (y)$$
 Thus, we can apply the `MAVF_score` function to compute the multi-attribute value score based on `x` and `y` attribute utility scores and their respective swing weights. So if through discussions with decision-makers we identify swing weight values of 0.65 and 0.35 for the x and y attributes respectively, we can obtain the computed MAVF score for each PSC:
 
 
-
-
-{% highlight r %}
+```r
 psc %>%
   mutate(MAVF = MAVF_score(x_SAVF_score, y_SAVF_score, 0.65, 0.35))
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## # A tibble: 200 × 6
 ##      PSC x_attribute y_attribute x_SAVF_score y_SAVF_score      MAVF
 ##    <chr>       <dbl>       <dbl>        <dbl>        <dbl>     <dbl>
@@ -224,22 +203,17 @@ psc %>%
 ## 9   N290        1.66        4.02    0.3778582    0.8808636 0.5539101
 ## 10  C251        1.00        7.47    0.0000000    0.9910284 0.3468599
 ## # ... with 190 more rows
-{% endhighlight %}
+```
 
 This allows us to quickly dissect our PSCs. For example, if decision-makers are most concerned with the "Leverage" quadrant but want to assess the top 10 PSCs based on the decision-makers preferences of the attributes we can efficiently make this assessment.  This identifies the top 10 PSCs that are most likely to benefit from a strategic sourcing approach specifically designed for "Leverage" PSCs.
 
 
-{% highlight r %}
+```r
 psc %>%
   mutate(MAVF = MAVF_score(x_SAVF_score, y_SAVF_score, 0.65, 0.35),
          quadrant = kraljic_quadrant(x_SAVF_score, y_SAVF_score)) %>%
   filter(quadrant == "Leverage") %>%
   top_n(10, wt = MAVF)
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## # A tibble: 10 × 7
 ##      PSC x_attribute y_attribute x_SAVF_score y_SAVF_score      MAVF
 ##    <chr>       <dbl>       <dbl>        <dbl>        <dbl>     <dbl>
@@ -254,15 +228,11 @@ psc %>%
 ## 9   O288        5.00        5.00    1.0000000    0.9409177 0.9793212
 ## 10  V870        5.00        5.88    1.0000000    0.9689357 0.9891275
 ## # ... with 1 more variables: quadrant <chr>
-{% endhighlight %}
+```
 
 And finally, since our swing weight inputs are subjective in nature we may wish to perform a senstivity analysis on these swing weights to see their impact on MAVF scores.  The `MAVF_sensitivity` function executes a sensitivity analysis by performing a Monte Carlo simulation with 1000 trials for each product or service (row). Each trial randomly selects a weight from a uniform distribution between lower and upper bound swing weight parameters and calculates the mult-attribute utility score. From these trials, summary statistics for each product or service (row) are calculated and reported for the final output.
 
-
-
-
-
-{% highlight r %}
+```r
 MAVF_sensitivity(psc,
                  x = x_SAVF_score,
                  y = y_SAVF_score,
@@ -271,11 +241,6 @@ MAVF_sensitivity(psc,
                  y_wt_min = .25,
                  y_wt_max = .45) %>%
   select(PSC, starts_with("MAVF"))
-{% endhighlight %}
-
-
-
-{% highlight text %}
 ## # A tibble: 200 × 8
 ##      PSC MAVF_Min MAVF_1st_Q MAVF_Median MAVF_Mean MAVF_3rd_Q
 ##    <chr>    <dbl>      <dbl>       <dbl>     <dbl>      <dbl>
@@ -291,7 +256,7 @@ MAVF_sensitivity(psc,
 ## 10  C251   0.2478     0.2980      0.3461    0.3475     0.3974
 ## # ... with 190 more rows, and 2 more variables: MAVF_Max <dbl>,
 ## #   MAVF_Range <dbl>
-{% endhighlight %}
+```
 
 
 # Additional Resources
