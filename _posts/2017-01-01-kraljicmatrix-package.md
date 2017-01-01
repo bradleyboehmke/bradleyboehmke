@@ -83,7 +83,7 @@ SAVF_preferred_rho(desired_x = c(3, 4, 5),
 ## [1] 0.6531
 ```
 
-Thus, we can see that $\rho = 0.6531$ provides the best fit exponential SAVF. We can illustrate this two ways.  First, we can use `SAVF_plot` to plot the single attribute utility curve compared to the subject matter desired values. 
+Thus, we can see that $$\rho = 0.6531$$ provides the best fit exponential SAVF. We can illustrate this two ways.  First, we can use `SAVF_plot` to plot the single attribute utility curve compared to the subject matter desired values. 
 
 
 
@@ -98,7 +98,7 @@ SAVF_plot(desired_x = c(3, 4, 5),
 
 <img src="http://bradleyboehmke.github.io/figure/source/kraljicmatrix-package/2017-01-01-kraljicmatrix-package/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
-We can also visualize the errors of the $\rho$ search space with `SAVF_plot_rho_error`, which plots the squared error terms for all $\rho$ values within the $\rho$ search space to illustrate the preferred rho that minimizes the squared error between subject matter desired values and exponentially fitted scores. 
+We can also visualize the errors of the $$\rho$$ search space with `SAVF_plot_rho_error`, which plots the squared error terms for all $$\rho$$ values within the $$\rho$$ search space to illustrate the preferred rho that minimizes the squared error between subject matter desired values and exponentially fitted scores. 
 
 
 
@@ -115,7 +115,7 @@ SAVF_plot_rho_error(desired_x = c(3, 4, 5),
 <img src="http://bradleyboehmke.github.io/figure/source/kraljicmatrix-package/2017-01-01-kraljicmatrix-package/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 
 
-Once we've identified the preferred $\rho$ value, we can now apply the exponential SAVF with `SAVF_score` to normalize our attributes based on our utility curve. 
+Once we've identified the preferred $$\rho$$ value, we can now apply the exponential SAVF with `SAVF_score` to normalize our attributes based on our utility curve. 
 
 
 
@@ -179,7 +179,7 @@ psc %>%
 ## # ... with 190 more rows
 ```
 
-Lastly, it is important to keep in mind that decision-makers may weight the importance of each attribute differently. Consequently, due to certain market environments, decision-makers may weight the x attribute (i.e. supply risk) of greater importance than the y attribute (i.e. profit impact). Thus, we can prioritize PSCs based on this preference by applying a multi-attribute value function (MAVF) with swing weights.  Swing weight values for x and y attributes ($w_x$ and $w_y$ respectively) are typically elicited from SMEs. This allows for calculation of the interaction swing weight $w_{xy} = 1 - w_x - w_y$.  Thus, we can calculate the MAVF as outlined by Keeney and Raiffa (1993)[^keeney]:
+Lastly, it is important to keep in mind that decision-makers may weight the importance of each attribute differently. Consequently, due to certain market environments, decision-makers may weight the x attribute (i.e. supply risk) of greater importance than the y attribute (i.e. profit impact). Thus, we can prioritize PSCs based on this preference by applying a multi-attribute value function (MAVF) with swing weights.  Swing weight values for x and y attributes ($$w_x$$ and $$w_y$$ respectively) are typically elicited from SMEs. This allows for calculation of the interaction swing weight $$w_{xy} = 1 - w_x - w_y$$.  Thus, we can calculate the MAVF as outlined by Keeney and Raiffa (1993)[^keeney]:
 
 $$V(x,y) = w_x v_x (x) + w_y v_y (y) + w_{xy} v_x (x) v_y (y)$$
 
