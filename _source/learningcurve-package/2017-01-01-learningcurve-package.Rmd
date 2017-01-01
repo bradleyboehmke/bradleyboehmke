@@ -4,14 +4,14 @@ title:  learningCurve Package
 author: Bradley Boehmke
 date: 2016-10-18
 published: true
-tags: [programming, R, statistics]
+tags: [programming, r, statistics]
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(ggplot2)
 ```
 
-<a href="http://bradleyboehmke.github.io"><img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-4-1.png" alt="Learning Curves" style="float:left; margin: 0px 10px -5px 0px; width: 20%; height: 20%;"></a>
+<a href="http://bradleyboehmke.github.io/2016/10/learningcurve-package.html"><img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-4-1.png" alt="Learning Curves" style="float:left; margin: 0px 10px -5px 0px; width: 20%; height: 20%;"></a>
 Learning curves are steep in history and have several alternate names such as improvement curves, progress curves, startup functions, and efficiency curves. The "learning effect" was first noted in the 1920s in connection with aircraft production. Its use was amplified by experience in connection with aircraft production in WWII. Initially, it was thought to be solely due to the learning of the workers as they repeated their tasks. Later, it was observed that other factors probably entered in, such as improved tools and working conditions, and various management initiatives. Regardless of the exact, or more likely combined, phenomenon we can group these factors together under the general heading of “learning.” <!--more-->
 
 The underlying notion behind learning curves is that when people individually or collectively repeat an activity, there tends to be a gain in efficiency. Generally, this takes the form of a decrease in the time needed to do the activity. Because cost is generally related to time or labor hours consumed, learning curves are very important in industrial cost analysis. A key idea underlying the theory is that every time the production quantity doubles, we can expected a more or less fixed percentage decrease in the effort required to build a single unit (the Crawford theory), or in the average time required to build a group of units (the Wright theory). These decreases occur not in big jumps, but more or less smoothly as production continues

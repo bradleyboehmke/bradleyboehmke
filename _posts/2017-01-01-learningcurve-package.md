@@ -4,12 +4,12 @@ title:  learningCurve Package
 author: Bradley Boehmke
 date: 2016-10-18
 published: true
-tags: [programming, R, statistics]
+tags: [programming, r, statistics]
 ---
 
 
 
-<a href="http://bradleyboehmke.github.io"><img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-4-1.png" alt="Learning Curves" style="float:left; margin: 0px 10px -5px 0px; width: 20%; height: 20%;"></a>
+<a href="http://bradleyboehmke.github.io/2016/10/learningcurve-package.html"><img src="http://bradleyboehmke.github.io/figure/source/16-learningcurve-functions/2016-06-20-16-learningcurve-functions/unnamed-chunk-4-1.png" alt="Learning Curves" style="float:left; margin: 0px 10px -5px 0px; width: 20%; height: 20%;"></a>
 Learning curves are steep in history and have several alternate names such as improvement curves, progress curves, startup functions, and efficiency curves. The "learning effect" was first noted in the 1920s in connection with aircraft production. Its use was amplified by experience in connection with aircraft production in WWII. Initially, it was thought to be solely due to the learning of the workers as they repeated their tasks. Later, it was observed that other factors probably entered in, such as improved tools and working conditions, and various management initiatives. Regardless of the exact, or more likely combined, phenomenon we can group these factors together under the general heading of “learning.” <!--more-->
 
 The underlying notion behind learning curves is that when people individually or collectively repeat an activity, there tends to be a gain in efficiency. Generally, this takes the form of a decrease in the time needed to do the activity. Because cost is generally related to time or labor hours consumed, learning curves are very important in industrial cost analysis. A key idea underlying the theory is that every time the production quantity doubles, we can expected a more or less fixed percentage decrease in the effort required to build a single unit (the Crawford theory), or in the average time required to build a group of units (the Wright theory). These decreases occur not in big jumps, but more or less smoothly as production continues
@@ -39,25 +39,21 @@ where
 **Example:** An estimator believes that the first unit of a product will require 100 labor hours. How many hours will the 125th unit require given the organization has historically experienced an 85% learning curve?
 
 
-{% highlight r %}
+```r
 unit_curve(t = 100, n = 125, r = .85)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 32.23647
-{% endhighlight %}
+```
 
 
 We can also plot this learning curve from unit *m* to unit *n* with `plot_unit_curve()`. This function defaults to plotting the unit model (argument `model = "u"`) at the unit rather than cumulative level (argument `level = "u"`).
 
 
-{% highlight r %}
+```r
 plot_unit_curve(t = 100, m = 1, n = 125, r = .85, model = "u", level = "u")
-{% endhighlight %}
+```
 
-<img src="http://bradleyboehmke.github.iofigure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 
 ### unit_cum_exact( )
@@ -78,15 +74,11 @@ where:
 
 
 
-{% highlight r %}
+```r
 unit_cum_exact(t = 100, n = 125, r = .85)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 5201.085
-{% endhighlight %}
+```
 
 ### unit_cum_appx( )
 The `unit_cum_appx()` function provides the approximate cumulative relationship for the unit model.  Provides nearly the exact output as `unit_cum_exact()`, usually only off by 1-2 units but reduces computational time drastically if trying to calculate cumulative hours (costs) for over a million units.
@@ -108,53 +100,40 @@ This model computes the time for the first unit of production ($$t_{1}$$) based 
 **Example:** An estimator believes that the first unit of a product will require 100 labor hours. How many total hours will the first 125 units require given the organization has historically experienced an 85% learning curve?
 
 
-{% highlight r %}
+```r
 unit_cum_appx(t = 100, n = 125, r = .85)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 5202.988
-{% endhighlight %}
+```
 
 **Example:** Computational difference between `unit_cum_exact()` and `unit_cum_appx()` for 1 million units.
 
 
-{% highlight r %}
+```r
 system.time(unit_cum_exact(t = 100, n = 1000000, r = .85))
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ##    user  system elapsed 
-##   0.091   0.005   0.096
-{% endhighlight %}
+##   0.088   0.004   0.092
+```
 
 
 
-{% highlight r %}
-
+```r
 system.time(unit_cum_appx(t = 100, n = 1000000, r = .85))
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ##    user  system elapsed 
 ##       0       0       0
-{% endhighlight %}
+```
 
 
 We can also plot the cumulative learning curve for the unit model by changing the `level` argument to "c" for cumulative.
 
 
-{% highlight r %}
+```r
 plot_unit_curve(t = 100, m = 1, n = 125, r = .85, model = "u", level = "c")
-{% endhighlight %}
+```
 
-<img src="http://bradleyboehmke.github.iofigure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-10-1.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-10-1.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" style="display: block; margin: auto;" />
 
 
 ### unit_midpoint( )
@@ -175,15 +154,11 @@ slope of 75%, what is the midpoint unit?
 
 
 
-{% highlight r %}
+```r
 unit_midpoint(m = 201, n = 500, r = .75)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 334.6103
-{% endhighlight %}
+```
 
 
 ### unit_block_summary( )
@@ -202,13 +177,9 @@ The arguments requested include:
 **Example:** A production block runs from unit 201 to unit 500 inclusive. The 201st unit had a required time of 125 hours. With an expected learning rate of 75%, what is the block summary.
 
 
-{% highlight r %}
+```r
 unit_block_summary(t = 125, m = 201, n = 500, r = .75)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## $`block units`
 ## [1] 300
 ## 
@@ -220,19 +191,16 @@ unit_block_summary(t = 125, m = 201, n = 500, r = .75)
 ## 
 ## $`midpoint hours`
 ## [1] 101.1683
-{% endhighlight %}
+```
 
 
 You can also plot this block summary with the `plot_block_summary()` function:
 
-
-
-
-{% highlight r %}
+```r
 plot_block_summary(t = 125, m = 201, n = 500, r = .75)
-{% endhighlight %}
+```
 
-<img src="http://bradleyboehmke.github.iofigure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-16-1.png" title="plot of chunk unnamed-chunk-16" alt="plot of chunk unnamed-chunk-16" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-16-1.png" title="plot of chunk unnamed-chunk-16" alt="plot of chunk unnamed-chunk-16" style="display: block; margin: auto;" />
 
 <br>
 
@@ -259,24 +227,20 @@ Similar to the unit models I built the cumulative average functions to take in l
 **Example:** In a production situation where the CA model is being used, introduction of new hires to replace retirees seems to be affecting the learning slope. The effects seem to coincide approximately with production of unit 2,200. To structure a new learning curve from unit 2,200 on, the estimator wants to know the unit hours for unit 2,200. The hours for unit 1 were 110, and the learning rate for the units from 1 to 2,200 was 88.5%.
 
 
-{% highlight r %}
+```r
 ca_unit(t = 110, m = 1, n = 2200, r = .885)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 23.34001
-{% endhighlight %}
+```
 
 We can also plot the learning curve for the cumulative average model by changing the `model` argument to "ca" for cumulative average.
 
 
-{% highlight r %}
+```r
 plot_unit_curve(t = 100, m = 1, n = 125, r = .85, model = "ca", level = "u")
-{% endhighlight %}
+```
 
-<img src="http://bradleyboehmke.github.iofigure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-19-1.png" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-19-1.png" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" style="display: block; margin: auto;" />
 
 ### ca_block( )
 The `ca_block()` function computes total hours for a production block using the cumulative average model assuming the block begins at unit m and ends at unit n. 
@@ -296,25 +260,21 @@ where:
 **Example:** Production of the first 200 units of a product is nearing its end. Your customer has said he is willing to buy an additional 50 units. There will be no break in production or in learning. The first unit required 75 hours and the first 200 units had an 85% learning curve.  How many hours will the second block of 50 units require?
 
 
-{% highlight r %}
+```r
 ca_block(t = 75, m = 201, n = 250, r = .85)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 806.772
-{% endhighlight %}
+```
 
 
 And we can plot the cumulative learning curve for the cumulative average model by changing the `model` argument to "ca" for cumulative average and `level` argument to "c" for plotting cumulative hours (or costs) by unit.
 
 
-{% highlight r %}
+```r
 plot_unit_curve(t = 100, m = 1, n = 125, r = .85, model = "ca", level = "c")
-{% endhighlight %}
+```
 
-<img src="http://bradleyboehmke.github.iofigure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-22-1.png" title="plot of chunk unnamed-chunk-22" alt="plot of chunk unnamed-chunk-22" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-22-1.png" title="plot of chunk unnamed-chunk-22" alt="plot of chunk unnamed-chunk-22" style="display: block; margin: auto;" />
 
 <br>
 
@@ -333,52 +293,42 @@ particular product. Further, you are told to assume that the historical learning
 
 You can show the projected deltas for each unit and plot the unit level deltas
 
-{% highlight r %}
+```r
 delta(t = 50, m = 1, n = 25, r = .885, level = "u")
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ##  [1] 0.000000 5.750000 6.103821 6.110519 6.041146 5.953271 5.863560
 ##  [8] 5.777401 5.696436 5.620942 5.550687 5.485263 5.424223 5.367136
 ## [15] 5.313606 5.263280 5.215844 5.171025 5.128579 5.088293 5.049980
 ## [22] 5.013473 4.978624 4.945304 4.913395
-{% endhighlight %}
+```
 
 
 
-{% highlight r %}
-
+```r
 plot_delta(t = 50, m = 1, n = 25, r = .885, level = "u")
-{% endhighlight %}
+```
 
-<img src="http://bradleyboehmke.github.iofigure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-24-1.png" title="plot of chunk unnamed-chunk-24" alt="plot of chunk unnamed-chunk-24" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-24-1.png" title="plot of chunk unnamed-chunk-24" alt="plot of chunk unnamed-chunk-24" style="display: block; margin: auto;" />
 
 or show the projected cumulative deltas at each unit along with plot the cumulative deltas:
 
-{% highlight r %}
+```r
 delta(t = 50, m = 1, n = 25, r = .885, level = "c")
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ##  [1]   0.00000   5.75000  11.85382  17.96434  24.00549  29.95876
 ##  [7]  35.82232  41.59972  47.29615  52.91710  58.46778  63.95305
 ## [13]  69.37727  74.74440  80.05801  85.32129  90.53713  95.70816
 ## [19] 100.83674 105.92503 110.97501 115.98848 120.96711 125.91241
 ## [25] 130.82581
-{% endhighlight %}
+```
 
 
 
-{% highlight r %}
-
+```r
 plot_delta(t = 50, m = 1, n = 25, r = .885, level = "c")
-{% endhighlight %}
+```
 
-<img src="http://bradleyboehmke.github.iofigure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-25-1.png" title="plot of chunk unnamed-chunk-25" alt="plot of chunk unnamed-chunk-25" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/learningcurve-package/2017-01-01-learningcurve-package/unnamed-chunk-25-1.png" title="plot of chunk unnamed-chunk-25" alt="plot of chunk unnamed-chunk-25" style="display: block; margin: auto;" />
 
 ### cum_error( )
 The `cum_error()` function computes the approximate percent error in cumulative hours (or cost) due to an incorrect choice of learning curve 
@@ -398,15 +348,11 @@ As in all the other models, this functions asks for the learning rate (*r*) and 
 **Example:** Assume you are predicting hours for a block of 250 units on a particular product.  Historically, your organization has had learning rates as low as 85% and as high as 87% on similar products. What is the potential error in your prediction by one of these two rates?  If you go with a learning rate of 85% and your organization performs at a learning rate of 87% then your error would be 20%.
 
 
-{% highlight r %}
+```r
 cum_error(n = 250, r1 = .85, r2 = .87)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 0.2035303
-{% endhighlight %}
+```
 
 ## Aggregate Learning Curve Models
 It is common for a large factory to track learning rates by department. Learning rates typically differ in diverse operations. When these rates are individually tracked,
@@ -450,18 +396,14 @@ CA model. The first unit hours for these departments for the widget have been es
 
 
 
-{% highlight r %}
+```r
 t <- c(70, 45, 25)
 r <- c(.85, .87, .80)
 
 agg_curve(t = t, r = r, n = 300)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 11000.96
-{% endhighlight %}
+```
 
 ## Slope & Rate Models
 Lastly, we include some models to do conversions between natural slopes (*b*) and rates (*r*) and also predict the natural slopes and rates based on historical performance.
@@ -480,15 +422,11 @@ r - learning curve rate
 
 
 
-{% highlight r %}
+```r
 natural_slope(r = c(.80, .85, .90))
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] -0.3219281 -0.2344653 -0.1520031
-{% endhighlight %}
+```
 
 ### lc_rate( )
 Provides the learning rate for given natural slopes
@@ -504,15 +442,11 @@ where:
 
 
 
-{% highlight r %}
+```r
 lc_rate(b = c(-.19, -.22, -.25))
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 0.8766057 0.8585654 0.8408964
-{% endhighlight %}
+```
 
 ### natural_slope_est( )
 The `natural_slope_est()` function computes the natural slope of a production block when the total units produced, total time of block production, and the time for the first unit are known.
@@ -530,15 +464,11 @@ where:
 
 
 
-{% highlight r %}
+```r
 natural_slope_est(T = 8250, t = 80, n = 250)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] -0.1603777
-{% endhighlight %}
+```
 
 
 ### lc_rate_est( )
@@ -550,15 +480,11 @@ The `lc_rate_est()` function computes the learning rate of a production block wh
 
 
 
-{% highlight r %}
+```r
 lc_rate_est(T = 8250, t = 80, n = 250)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 0.8947908
-{% endhighlight %}
+```
 
 
 ## Summary
