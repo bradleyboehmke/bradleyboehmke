@@ -6,7 +6,7 @@ published: true
 tags: [r, analytics, economics]
 ---
 
-<a href="http://bradleyboehmke.github.io"><img src="http://bradleyboehmke.github.io/figure/source/an-assessment-of-u-s-savings-rates/2017-01-01-an-assessment-of-u-s-savings-rates/header.png" alt="U.S." style="float:left; margin: 0px 10px -5px 0px; width: 20%; height: 20%;"></a>
+<a href="http://bradleyboehmke.github.io/2016/09/an-assessment-of-u-s-savings-rates.html"><img src="http://bradleyboehmke.github.io/figure/source/an-assessment-of-u-s-savings-rates/2017-01-01-an-assessment-of-u-s-savings-rates/header.png" alt="U.S." style="float:left; margin: 0px 10px -5px 0px; width: 20%; height: 20%;"></a>
 Per capita income and expenditures provide crucial insight into the average standard of living in specified areas. Disposable per capita income measures the average income earned after taxes per person in a given area (city, state, country, etc.) in a specified year. It is calculated by dividing the area's total income after tax by its total population. Per capita expenditures, on the other hand, measures the average outlay for goods and services by person and provides insight into spending patterns across a given area.  Together, the assessment of per capita income versus expenditures can provide better understanding of regional economies, differences in standard of living, and approximate savings rates. <!--more-->
 
 This post involves exploring [Bureau of Economic Analysis](http://www.bea.gov/index.htm) data regarding [per capita disposable income](http://www.bea.gov/iTable/iTableHtml.cfm?reqid=70&step=30&isuri=1&7022=21&7023=0&7024=non-industry&7033=-1&7025=0&7026=00000,01000,02000,04000,05000,06000,08000,09000,10000,11000,12000,13000,15000,16000,17000,18000,19000,20000,21000,22000,23000,24000,25000,26000,27000,28000,29000,30000,31000,32000,33000,34000,35000,36000,37000,38000,39000,40000,41000,42000,44000,45000,46000,47000,48000,49000,50000,51000,53000,54000,55000,56000&7027=-1&7001=421&7028=53&7031=0&7040=-1&7083=levels&7029=23&7090=70) (hereafter referred to as PCI) and [per capita personal expenditures](http://www.bea.gov/iTable/iTableHtml.cfm?reqid=70&step=10&isuri=1&7003=2&7035=-1&7004=x&7005=1&7006=00000,01000,02000,04000,05000,06000,08000,09000,10000,11000,12000,13000,15000,16000,17000,18000,19000,20000,21000,22000,23000,24000,25000,26000,27000,28000,29000,30000,31000,32000,33000,34000,35000,36000,37000,38000,39000,40000,41000,42000,44000,45000,46000,47000,48000,49000,50000,51000,53000,54000,55000,56000&7036=-1&7001=62&7002=6&7090=70&7007=-1&7093=levels) (hereafter referred to as PCE). The PCI data provides annual (non-inflation adjusted) per capita disposable income at the national and state-level from 1948-2015 and the PCE data provides annual (non-inflation adjusted) per capita personal consumption expenditures at the national and state-level from 1997-2014. Consequently, this research seeks to identify how the national and state-level savings rates defined as $$Savings = PCI - PCE$$ has changed over time and by geographic location.
@@ -290,18 +290,18 @@ knitr::kable(largest_change, caption = 'Table 2: Top 10 states with the largest 
 
 Table 2: Top 10 states with the largest change in their savings rate since 1997
 
-Location          1997    2014   Change
---------------  ------  ------  -------
-Wyoming           7.9%   21.1%    13.2%
-Oklahoma          9.7%   21.9%    12.1%
-Nevada           16.3%    5.9%   -10.4%
-North Dakota     -2.2%    6.3%     8.5%
-Maine            -2.6%   -9.8%    -7.2%
-Michigan          6.7%   -0.3%    -7.1%
-New York         14.4%    7.5%    -6.9%
-West Virginia       6%   -0.5%    -6.5%
-Montana            -1%     -7%      -6%
-New Jersey       13.9%      8%    -5.9%
+| Location     |     1997  |  2014  | Change |
+|:-------------| ---------:|  -----:| ------:|
+| Wyoming      |  7.9% |  21.1% |   13.2% |
+| Oklahoma     |  9.7% |   21.9% |   12.1% |
+| Nevada       | 16.3% |    5.9%  | -10.4% |
+| North Dakota |  -2.2% |    6.3% |    8.5% |
+| Maine        |  -2.6% |  -9.8%  |  -7.2% |
+| Michigan     |  6.7%  | -0.3% |   -7.1% |
+| New York     | 14.4%  |  7.5% |   -6.9% |
+| West Virginia |  6%   | -0.5% |   -6.5% |
+| Montana      |   -1%  |   -7% |     -6% |
+| New Jersey   |  13.9% |     8% |   -5.9% |
 
 This may lead us to wonder if one component (PCI vs PCE) is driving the changes in savings rate. In other words, for those states that are growing above the average level, is their PCI level growing at a greater level than those states below the average?  Or could it be that the those states with above average savings rates are experiencing a slower increase in their expenditures than those states below average. Figure 5 helps to illustrate this issue. 
 
