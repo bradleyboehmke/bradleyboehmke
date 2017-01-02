@@ -83,7 +83,7 @@ pce_raw <- url_pce %>%
 
 ### Creating Tidy Data
 
-Once the basic data has been acquired we need to pre-process it to get the data into a [tidy format](http://vita.had.co.nz/papers/tidy-data.html). This includes removing punctuations, changing the income and expenditure data from character to a numeric data type, reducing the data sets to the same time period (1997-2014), making sure the common variables share the same names, and changing the data from a wide format to a long format.  Once this has been done for both the PCI and PCE data we can merge the clean data frames into one common data frame (titled *data_clean*) and create a new *Savings* variable ($Savings = Income - Expenditures$).  I also remove the District of Columbia location since this is more comparable to metropolitan-level geographic areas than state-level geographic areas. We now have the data cleaned, in a tidy format, and ready to analyze as Table 1 illustrates.
+Once the basic data has been acquired we need to pre-process it to get the data into a [tidy format](http://vita.had.co.nz/papers/tidy-data.html). This includes removing punctuations, changing the income and expenditure data from character to a numeric data type, reducing the data sets to the same time period (1997-2014), making sure the common variables share the same names, and changing the data from a wide format to a long format.  Once this has been done for both the PCI and PCE data we can merge the clean data frames into one common data frame (titled *data_clean*) and create a new *Savings* variable ($$Savings = Income - Expenditures$$).  I also remove the District of Columbia location since this is more comparable to metropolitan-level geographic areas than state-level geographic areas. We now have the data cleaned, in a tidy format, and ready to analyze as Table 1 illustrates.
 
 
 ```r
@@ -155,7 +155,7 @@ data_clean %>%
         plot.subtitle = element_text(size = 12, color = "darkslategrey", margin = margin(b = 25)))
 ```
 
-<img src="2017-01-01-an-assessment-of-u-s-savings-rates_files/figure-html/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/an-assessment-of-u-s-savings-rates/2017-01-01-an-assessment-of-u-s-savings-rates/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 
 However, a closer look at just the savings rate ($Savings Rate = \frac{Savings}{Income}$) depicted in Figure 2 illustrates that no consistent trend has been established. In other words, the aggregate per capita savings rate has not consistently increased or decreased year-over-year. In 1998 the savings rate was 10% but reduced over the next few years to 6.5% in 2005 before peaking at 10.9% in 2012 and then dipping back down to about 8-9% in recent years.  Bottom-line is that since 1997 the national-level per capita savings rate has ranged between 6.5% and 10.9% with an average of 8.6%.
 
@@ -179,7 +179,7 @@ data_clean %>%
         plot.subtitle = element_text(size = 12, color = "darkslategrey", margin = margin(b = 25)))
 ```
 
-<img src="2017-01-01-an-assessment-of-u-s-savings-rates_files/figure-html/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/an-assessment-of-u-s-savings-rates/2017-01-01-an-assessment-of-u-s-savings-rates/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
 
 However, understanding aggregate ratios and trends provides limited insight regarding lower-level activity [^cost_curve]. Consequently, next we turn to investigating state-level trends. 
 
@@ -216,7 +216,7 @@ data_clean %>%
         plot.subtitle = element_text(size = 12, color = "darkslategrey", margin = margin(b = 25)))
 ```
 
-<img src="2017-01-01-an-assessment-of-u-s-savings-rates_files/figure-html/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/an-assessment-of-u-s-savings-rates/2017-01-01-an-assessment-of-u-s-savings-rates/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
 
 A closer look at the state-level trends provides more insight. We can see that the average savings rate over time has remained around 7%; however, confirming our assessment of the map it appears that the variance (or disparity in savings rates) has increased in recent years.  Moreover, the trend lines illustrate that with a few exceptions, states that are leading the way as top or bottom savings rate states have, historically, always been near the top or bottom. However, this should not be too surprising as it takes decades for states to change their industrial and economic infrastructure. 
 
@@ -265,7 +265,7 @@ ggplot(savings_rate, aes(Year, Savings_Rate, group = Location)) +
         plot.subtitle = element_text(size = 12, color = "darkslategrey", margin = margin(b = 25)))
 ```
 
-<img src="2017-01-01-an-assessment-of-u-s-savings-rates_files/figure-html/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/an-assessment-of-u-s-savings-rates/2017-01-01-an-assessment-of-u-s-savings-rates/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
 
 However, we can also look at those states that have had the largest change in their savings rate since 1997. As Table 2 displays, three of the four states with the largest change in their savings rate were Wyoming, Oklahoma and North Dakota; all having a savings rate increase close to, or more than, 10%. The remaining states with the largest changes have all experienced declining savings rates, led by Nevada. 
 
@@ -288,7 +288,7 @@ knitr::kable(largest_change, caption = 'Table 2: Top 10 states with the largest 
 
 
 
-Table: Table 2: Top 10 states with the largest change in their savings rate since 1997
+Table 2: Top 10 states with the largest change in their savings rate since 1997
 
 Location          1997    2014   Change
 --------------  ------  ------  -------
@@ -341,7 +341,7 @@ ggplot(changes, aes(Group, Value)) +
         plot.subtitle = element_text(size = 12, color = "darkslategrey", margin = margin(b = 25)))
 ```
 
-<img src="2017-01-01-an-assessment-of-u-s-savings-rates_files/figure-html/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
+<img src="http://bradleyboehmke.github.io/figure/source/an-assessment-of-u-s-savings-rates/2017-01-01-an-assessment-of-u-s-savings-rates/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
 
 ## Summary
 
