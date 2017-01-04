@@ -9,9 +9,9 @@ layout: page
 
 
 
-Hello! I'm an organizational economist focused on using data to provide decision makers robust understanding of economic behavior, performance, and potential policy impacts across an organization and its supply chain.  
+Hello! I'm an organizational economist focused on advancing the analytic process to provide decision makers robust understanding of economic behavior, performance, and potential policy impacts across an organization and its supply chain.  
 
-I work on applied and conceptual [research](http://bradleyboehmke.github.io/papers/), write data analysis [software](http://bradleyboehmke.github.io/software/), [teach](http://bradleyboehmke.github.io/courses/) people about business analytics and R programming, write [books](http://bradleyboehmke.github.io/books/), and create [digital projects](http://bradleyboehmke.github.io/digital_projects/). 
+I work on applied analytic [research](http://bradleyboehmke.github.io/papers/), develop data analysis [software](http://bradleyboehmke.github.io/software/), teach [university courses](http://bradleyboehmke.github.io/courses/) and [workshops](http://bradleyboehmke.github.io/workshops/) regarding business analytics and R programming, write [books](http://bradleyboehmke.github.io/books/), and create [digital projects](http://bradleyboehmke.github.io/digital_projects/). 
 
 I do my work as an Assistant Professor of Logistics and Supply Chain Management at the [Air Force Institute of Technology Department of Operational Sciences](http://www.afit.edu/ENS/) and as an Adjunct Assistant Professor of Business Analytics at the [University of Cincinnati Lindner College of Business](http://business.uc.edu/departments/obais.html). Previously, I was a Senior Operations Research Analyst with the Air Force and spent many years developing life cycle forecasting, risk and decision analysis models.
 
