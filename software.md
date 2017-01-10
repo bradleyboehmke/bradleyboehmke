@@ -12,8 +12,8 @@ An R package for computing triangular distribution parameters along with functio
 
 <br>
 
-<h2> evmR <a href="https://github.com/bradleyboehmke/evmR" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
-An R package for performing earned value management for measuring and monitoring project performance. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
+<h2> gonogo <a href="https://github.com/bradleyboehmke/gonogo" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
 
 <br>
 
