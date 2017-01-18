@@ -25,9 +25,6 @@ Boehmke, B.C. & Hazen, B.T. "Knowledge development: The role of data science in 
 Boehmke, B.C. & Freels, J.K. "<code>KraljicMatrix</code>: An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio." <em>Journal of Open Source Software</em>
 </p>
 <p>
-Boehmke, B.C. & Hazen, B.T. "The future of supply chain information systems: The open source ecosystem." <em>Global Journal of Flexible Systems Management </em>
-</p>
-<p>
 Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
 </p>
 <p>
@@ -43,6 +40,9 @@ Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio m
 
 ## Peer Reviewed
 <ul>
+<p>
+Boehmke, B.C. & Hazen, B.T. (2017) "The future of supply chain information systems: The open source ecosystem." <em>Global Journal of Flexible Systems Management, forthcoming.</em>
+</p>
 <p>
 Boehmke, B.C., Jackson, R.A., Johnson, A.L, White, E.D., Weir, J.D. & Gallagher, M.A. (2017) "Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Military Operations Research, forthcoming.</em>  &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
