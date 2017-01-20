@@ -7,17 +7,20 @@ permalink: software/
 
 <h1 class="post-title">{{ page.title }} </h1>
 
-<h2> triangleR <a href="https://github.com/bradleyboehmke" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
-An R package for computing triangular distribution parameters along with functions to adjust for judgement biases often related to subjective triangular distribution inputs. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
+<h2> anomalyDetection <a href="https://github.com/bradleyboehmke/anomalyDetection" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<u>Client</u>: U.S. Army Cyber Command  <br>
+An R package for implementing augmented network log anomoly detection procedures. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
 
 <br>
 
 <h2> gonogo <a href="https://github.com/bradleyboehmke/gonogo" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<u>Client</u>: U.S. Army Armament Research, Development and Engineering Center <br>
 An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
 
 <br>
 
 <h2> kraljicMatrix <a href="https://github.com/bradleyboehmke/KraljicMatrix" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<u>Client</u>: U.S. Air Force Installation Contracting Agency <br>
 An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio. 
   <a href="https://cran.rstudio.com/web/packages/KraljicMatrix/index.html">
     <img src="http://www.r-pkg.org/badges/version/KraljicMatrix" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
