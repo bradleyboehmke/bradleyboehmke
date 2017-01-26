@@ -20,7 +20,7 @@ This is the second course in the "R" series offered through [University of Cinci
 <br>
 
 ## Applied Analytics with "R"
-<u>Next offering</u>: Apr 27-28 <br>
+<u>Next offering</u>: May 18-19 <br>
 This is the third course in the "R" series offered through [University of Cincinnati's](http://www.uc.edu/) [Center for Business Analytics ](http://business.uc.edu/centers/analytics-center.html). This 2 day course will cover the application of several descriptive, predictive and prescriptive analytic techniques using R. &nbsp;&nbsp; <a href="http://business.uc.edu/academics/centers/analytics-center/analytics-training/applied-analytics-with-R.html" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
 
 
