@@ -22,7 +22,7 @@ Boehmke, B.C. & Hazen, B.T. "Knowledge development: The role of data science in 
 ## Under Review
 <ul>
 <p>
-Boehmke, B.C. & Freels, J.K. "<code>KraljicMatrix</code>: An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio." <em>Journal of Open Source Software</em>
+Boehmke, B.C., Montgomery, R.T., Ogden, J.A & Freels, J.K. "<code>KraljicMatrix</code>: An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio." <em>Journal of Open Source Software</em>
 </p>
 <p>
 Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
