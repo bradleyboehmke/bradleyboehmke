@@ -38,7 +38,7 @@ Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio m
 ## Peer Reviewed
 <ul>
 <p>
-Boehmke, B.C. & Hazen, B.T. (2017) "The future of supply chain information systems: The open source ecosystem." <em>Global Journal of Flexible Systems Management, forthcoming.</em>
+Boehmke, B.C. & Hazen, B.T. (2017) "The future of supply chain information systems: The open source ecosystem." <em>Global Journal of Flexible Systems Management, pre-print.</em> &nbsp; <a href="http://www.readcube.com/articles/10.1007/s40171-017-0152-x?author_access_token=HAGKmnGCQydwK3Rrig00yfe4RwlQNchNByi7wbcMAY4cPc-tlijc7fX8eku0L1pRexITINAfrLDuofJMVaQcaFr32oljyaAOZXgX4J6CDjGUNxlUKT8kkYYhdv-bu9oCmDM1wz-8YFsycUyNb6z88w%3D%3D" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Boehmke, B.C., Jackson, R.A., Johnson, A.L, White, E.D., Weir, J.D. & Gallagher, M.A. (2017) "Measuring U.S. Air Force installation support activities via data envelopment analysis." <em>Military Operations Research, forthcoming.</em>  &nbsp; <a href="https://www.researchgate.net/publication/293683620_Effectiveness_vs_Efficiency_Measuring_US_Air_Force_Installation_Support_Activities_via_Data_Envelopment_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
