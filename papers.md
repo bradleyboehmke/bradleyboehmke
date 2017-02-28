@@ -12,7 +12,7 @@ permalink: papers/
 Hazen, B.T. & Boehmke, B.C. "A visual-analytic approach for more efficient disaster relief operations."
 </p>
 <p>
-Joo, S.J., Boehmke, B.C., & Min, H. "Combining subjective and objective criteria for evaluating suppliers: A case of an aerospace company."
+Joo, S.J., Boehmke, B.C., & Min, H. "DEAHP-based sourcing analytics for evaluating and selecting suppliers: A case of an aerospace company."
 </p>
 <p>
 Boehmke, B.C. & Hazen, B.T. "Knowledge development: The role of data science in operations and supply chain management."
