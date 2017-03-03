@@ -135,3 +135,21 @@ permalink: digital_projects/
 </p>
  
 </div>
+
+<div style="float: left; width: 45%; margin-right: 1em; margin-bottom: 1em; border: thin solid lightgray; border-radius: 8px; padding: 8px; height: 300px;">
+
+<a href="https://ajishcherianaj.shinyapps.io/DataWrangling_StocksDashboard/">
+<img src="/public/images/projects/stock_feed.png" style="display: block; margin: auto;" />
+</a>
+
+<h4 class="headmargin">
+  <a href="https://ajishcherianaj.shinyapps.io/DataWrangling_StocksDashboard/">
+    <font color="#821122;">Investor's Equity Stock Dashboard</font></a></h4>
+
+<p class="nomargin" style="line-height:1.0">
+  <font size="3">
+    Student project: provides a snapshot of security pricing, historical trends, latest news articles and basic sentiment Analysis for selected stocks.
+  </font>
+</p>
+ 
+</div>
