@@ -9,6 +9,9 @@ permalink: papers/
 ## In Progress
 <ul>
 <p>
+Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining."
+</p>
+<p>
 Hazen, B.T. & Boehmke, B.C. "A visual-analytic approach for more efficient disaster relief operations."
 </p>
 <p>
