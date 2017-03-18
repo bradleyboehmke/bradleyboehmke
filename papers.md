@@ -9,9 +9,6 @@ permalink: papers/
 ## In Progress
 <ul>
 <p>
-Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining."
-</p>
-<p>
 Hazen, B.T. & Boehmke, B.C. "A visual-analytic approach for more efficient disaster relief operations."
 </p>
 <p>
@@ -24,6 +21,9 @@ Boehmke, B.C. & Hazen, B.T. "Knowledge development: The role of data science in 
 
 ## Under Review
 <ul>
+<p>
+Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em>
+</p>
 <p>
 Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
 </p>
