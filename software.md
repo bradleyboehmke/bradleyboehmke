@@ -7,15 +7,22 @@ permalink: software/
 
 <h1 class="post-title">{{ page.title }} </h1>
 
-<h2> anomalyDetection <a href="https://github.com/bradleyboehmke/anomalyDetection" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
-<u>Client</u>: U.S. Army Cyber Command  <br>
-An R package for implementing augmented network log anomoly detection procedures. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
-
-<br>
 
 <h2> gonogo <a href="https://github.com/bradleyboehmke/gonogo" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: U.S. Army Armament Research, Development and Engineering Center <br>
 An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
+
+<br>
+
+<h2> anomalyDetection <a href="https://github.com/bradleyboehmke/anomalyDetection" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<u>Client</u>: U.S. Army Cyber Command  <br>
+An R package for implementing augmented network log anomoly detection procedures.   
+  <a href="https://cran.rstudio.com/web/packages/anomalyDetection/index.html">
+    <img src="http://www.r-pkg.org/badges/version/anomalyDetection" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a>
+  <a href="https://cran.rstudio.com/web/packages/anomalyDetection/index.html">
+    <img src="https://cranlogs.r-pkg.org/badges/anomalyDetection" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a>
 
 <br>
 
