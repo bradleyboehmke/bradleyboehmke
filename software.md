@@ -19,7 +19,7 @@ An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures.
 
 <br>
 
-<h2> kraljicMatrix <a href="https://github.com/bradleyboehmke/KraljicMatrix" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> kraljicMatrix <a href="https://bradleyboehmke.github.io/KraljicMatrix/" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: U.S. Air Force Installation Contracting Agency <br>
 An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio. 
   <a href="https://cran.rstudio.com/web/packages/KraljicMatrix/index.html">
