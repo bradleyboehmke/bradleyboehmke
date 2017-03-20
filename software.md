@@ -33,7 +33,7 @@ An R package for implementing the Kraljic Matrix to strategically analyze a firm
 
 
 <h2> learningCurve 
-  <a href="https://github.com/bradleyboehmke/learningCurve" style="color:#303030;">
+  <a href="https://auburngrads.github.io/learningCurve/" style="color:#303030;">
     <i class="fa fa-github" style="font-size:.75em"></i>
   </a>
 </h2>
