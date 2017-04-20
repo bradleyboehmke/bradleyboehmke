@@ -9,7 +9,7 @@ permalink: papers/
 ## In Progress
 <ul>
 <p>
-Hazen, B.T. & Boehmke, B.C. "A visual-analytic approach for more efficient disaster relief operations."
+Hazen, B.T. & Boehmke, B.C. "Embedded analytics: Improving decision support for humanitarian logistics operations."
 </p>
 
 <p>
