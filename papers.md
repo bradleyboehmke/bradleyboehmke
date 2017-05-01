@@ -28,7 +28,7 @@ Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio m
 ## Peer Reviewed
 <ul>
 <p>
-Boehmke, B.C. & Freels, J.K. (2017) "<code>learningCurve</code>: An implementation of Crawford's and Wright's learning curve production functions" <em>Journal of Open Source Software, (forthcoming).</em>
+Boehmke, B.C. & Freels, J.K. (2017) "<code>learningCurve</code>: An implementation of Crawford's and Wright's learning curve production functions" <em>Journal of Open Source Software, 2</em>(13). DOI: 10.21105/joss.00202. &nbsp; <a href="http://joss.theoj.org/papers/10.21105/joss.00202" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Boehmke, B.C. & Hazen, B.T. (2017) "The future of supply chain information systems: The open source ecosystem." <em>Global Journal of Flexible Systems Management, 18</em>(2), 163-168. DOI 10.1007/s40171-017-0152-x. &nbsp; <a href="http://www.readcube.com/articles/10.1007/s40171-017-0152-x?author_access_token=HAGKmnGCQydwK3Rrig00yfe4RwlQNchNByi7wbcMAY4cPc-tlijc7fX8eku0L1pRexITINAfrLDuofJMVaQcaFr32oljyaAOZXgX4J6CDjGUNxlUKT8kkYYhdv-bu9oCmDM1wz-8YFsycUyNb6z88w%3D%3D" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
