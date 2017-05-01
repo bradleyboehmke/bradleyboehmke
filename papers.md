@@ -26,9 +26,6 @@ Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anom
 Joo, S.J., Boehmke, B.C., & Min, H. "DEAHP-based sourcing analytics for evaluating and selecting suppliers: A case of an aerospace company." <em>Decision Analysis</em>
 </p>
 <p>
-Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
-</p>
-<p>
 Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>International Journal of Production Economics</em>
 </p>
 <p>
@@ -41,6 +38,9 @@ Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio m
 
 ## Peer Reviewed
 <ul>
+<p>
+Boehmke, B.C. & Freels, J.K. (2017) "<code>learningCurve</code>: An implementation of Crawford's and Wright's learning curve production functions" <em>Journal of Open Source Software, (forthcoming).</em>
+</p>
 <p>
 Boehmke, B.C. & Hazen, B.T. (2017) "The future of supply chain information systems: The open source ecosystem." <em>Global Journal of Flexible Systems Management, 18</em>(2), 163-168. DOI 10.1007/s40171-017-0152-x. &nbsp; <a href="http://www.readcube.com/articles/10.1007/s40171-017-0152-x?author_access_token=HAGKmnGCQydwK3Rrig00yfe4RwlQNchNByi7wbcMAY4cPc-tlijc7fX8eku0L1pRexITINAfrLDuofJMVaQcaFr32oljyaAOZXgX4J6CDjGUNxlUKT8kkYYhdv-bu9oCmDM1wz-8YFsycUyNb6z88w%3D%3D" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
