@@ -6,17 +6,6 @@ permalink: papers/
 
 <h1 class="post-title">{{ page.title }}</h1>
 
-## In Progress
-<ul>
-<p>
-Hazen, B.T. & Boehmke, B.C. "Embedded analytics: Improving decision support for humanitarian logistics operations."
-</p>
-
-<p>
-Boehmke, B.C. & Hazen, B.T. "Knowledge development: The role of data science in operations and supply chain management."
-</p>
-</ul>
-
 ## Under Review
 <ul>
 <p>
