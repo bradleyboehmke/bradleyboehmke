@@ -9,13 +9,16 @@ permalink: papers/
 ## Under Review
 <ul>
 <p>
-Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em>
+Gutierrez, R.J., Boehmke, B.C., Bauer, K.W., Saie, C.M. & Bihl, T.J. "<code>anomalyDetection</code>: Implementation of augmented network log anomaly detection procedures." <em>The R Journal</em>
 </p>
 <p>
 Joo, S.J., Boehmke, B.C., & Min, H. "DEAHP-based sourcing analytics for evaluating and selecting suppliers: A case of an aerospace company." <em>Decision Analysis</em>
 </p>
 <p>
 Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>International Journal of Production Economics</em>
+</p>
+<p>
+Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em>
 </p>
 <p>
 Hazen, B.T, Weigel, F.K., Ezell, J.D. & Boehmke, B.C. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em>
