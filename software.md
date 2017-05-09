@@ -55,13 +55,14 @@ An R package for computing, simulating, fitting, and plotting Crawford's unit an
   </a>
 </p>
 
+<br>
+
+
 <h2> harrypotter 
   <a href="https://github.com/bradleyboehmke/harrypotter" style="color:#303030;">
     <i class="fa fa-github" style="font-size:.75em"></i>
   </a>
 </h2>
-
-<br>
 
 <p>
 An R package that provides access to the full texts of the first seven Harry Potter books. Primarily used for teaching text mining and analytic techniques.
