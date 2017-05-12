@@ -7,6 +7,7 @@ permalink: software/
 
 <h1 class="post-title">{{ page.title }} </h1>
 
+<h2>Analytics</>
 
 <h2> gonogo <a href="https://github.com/bradleyboehmke/gonogo" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: U.S. Army Armament Research, Development and Engineering Center <br>
@@ -57,6 +58,7 @@ An R package for computing, simulating, fitting, and plotting Crawford's unit an
 
 <br>
 
+<h2>Data</>
 
 <h2> harrypotter 
   <a href="https://github.com/bradleyboehmke/harrypotter" style="color:#303030;">
