@@ -56,7 +56,6 @@ An R package for computing, simulating, fitting, and plotting Crawford's unit an
 </p>
 </ul>
 
-<br>
 
 <h1>Data</h1>
 <ul>
@@ -72,7 +71,6 @@ An R package that provides access to the full texts of the first seven Harry Pot
 
 </ul>
 
-<br>
 
 <h1>Educational</h1>
 <ul>
