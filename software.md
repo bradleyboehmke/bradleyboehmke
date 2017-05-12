@@ -8,7 +8,7 @@ permalink: software/
 <h1>Analytics</h1>
 
 <ul>
-<h2> <code>gonogo</code> <a href="https://github.com/bradleyboehmke/gonogo" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> gonogo <a href="https://github.com/bradleyboehmke/gonogo" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: U.S. Army Armament Research, Development and Engineering Center <br>
 An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> <em>in development</em>)
 
