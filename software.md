@@ -7,6 +7,7 @@ permalink: software/
 
 <h1>Analytics</h1>
 
+<ul>
 <h2> gonogo <a href="https://github.com/bradleyboehmke/gonogo" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: U.S. Army Armament Research, Development and Engineering Center <br>
 An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
@@ -55,6 +56,7 @@ An R package for computing, simulating, fitting, and plotting Crawford's unit an
 </p>
 
 <br>
+</ul>
 
 <h1>Data</h1>
 
