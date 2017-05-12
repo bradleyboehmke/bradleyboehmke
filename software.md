@@ -10,7 +10,7 @@ permalink: software/
 <ul>
 <h2> gonogo <a href="https://github.com/bradleyboehmke/gonogo" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: U.S. Army Armament Research, Development and Engineering Center <br>
-An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
+An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> <em>in development</em>)
 
 <br>
 
@@ -83,7 +83,7 @@ An R package that provides access to the full texts of the first seven Harry Pot
 </h2>
 
 <p>
-An R package that provides a structured learning environment to deliver tutorials covering various statistical learning techniques. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
+An R package that provides a structured learning environment to deliver tutorials covering various statistical learning techniques. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> <em>in development</em>)
 </p>
 
 </ul>
