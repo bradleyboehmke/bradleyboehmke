@@ -4,8 +4,6 @@ title: Presentations
 permalink: presentations/
 ---
 
-<h1 class="post-title">{{ page.title }}</h1>
-
 
 <h2>Conferences</h2>
 <ul>
