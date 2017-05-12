@@ -54,12 +54,12 @@ An R package for computing, simulating, fitting, and plotting Crawford's unit an
     <img src="https://cranlogs.r-pkg.org/badges/learningCurve" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
   </a>
 </p>
-
-<br>
 </ul>
 
-<h1>Data</h1>
+<br>
 
+<h1>Data</h1>
+<ul>
 <h2> harrypotter 
   <a href="https://github.com/bradleyboehmke/harrypotter" style="color:#303030;">
     <i class="fa fa-github" style="font-size:.75em"></i>
@@ -69,3 +69,21 @@ An R package for computing, simulating, fitting, and plotting Crawford's unit an
 <p>
 An R package that provides access to the full texts of the first seven Harry Potter books. Primarily used for teaching text mining and analytic techniques.
 </p>
+
+</ul>
+
+<br>
+
+<h1>Educational</h1>
+<ul>
+<h2> learningAnalytics 
+  <a href="https://github.com/bradleyboehmke/learningAnalytics" style="color:#303030;">
+    <i class="fa fa-github" style="font-size:.75em"></i>
+  </a>
+</h2>
+
+<p>
+An R package that provides a structured learning environment to deliver tutorials covering various statistical learning techniques. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> *in development*)
+</p>
+
+</ul>
