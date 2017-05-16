@@ -75,7 +75,7 @@ An R package that provides access to the full texts of the first seven Harry Pot
 <h1>Educational</h1>
 <ul>
 <h2> learningAnalytics 
-  <a href="https://github.com/bradleyboehmke/learningAnalytics" style="color:#303030;">
+  <a href="https://bradleyboehmke.github.io/learningAnalytics/" style="color:#303030;">
     <i class="fa fa-github" style="font-size:.75em"></i>
   </a>
 </h2>
