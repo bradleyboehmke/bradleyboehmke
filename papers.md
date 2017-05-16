@@ -27,7 +27,7 @@ Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio m
 </p>
 </ul>
 
-## Peer Reviewed
+## Peer Reviewed Journal Articles
 <ul>
 <p>
 Boehmke, B.C. & Freels, J.K. (2017) "<code>learningCurve</code>: An implementation of Crawford's and Wright's learning curve production functions" <em>Journal of Open Source Software, 2</em>(13). DOI: 10.21105/joss.00202. &nbsp; <a href="http://joss.theoj.org/papers/10.21105/joss.00202" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
@@ -48,16 +48,22 @@ Boehmke, B.C., Johnson, A.L, White, E.D., Weir, J.D. & Gallagher, M.A. (2016).  
 Boehmke, B.C., Johnson, A.L, White, E.D., Weir, J.D. & Gallagher, M.A. (2016).  "The influence of operational resources and activities on indirect personnel costs: A multilevel modeling approach." <em>The Engineering Economist, 61</em>(4), 289-312. DOI:10.1080/0013791X.2016.1155247. &nbsp; <a href="https://www.researchgate.net/publication/295678024_The_influence_of_operational_resources_and_activities_on_indirect_personnel_costs_A_multilevel_modeling_approach" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
-Jackson, R.A., Boehmke, B.C. (2016). "Unpacking the United States Air Force's little blue books." <em>Proceedings of the IIE Industrial and Systems Engineering Research Conference (ISERC), Anaheim, CA, May 21-24, 2016.</em> &nbsp; <a href="https://www.researchgate.net/publication/298069557_Unpacking_the_United_States_Air_Force%27s_Little_Blue_Books" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Boehmke, B.C., Johnson, A.L, White, E.D., Weir, J.D. & Gallagher, M.A. (2015).  "Bending the cost curve: Moving the focus from macro-level to micro-level cost trends with cluster analysis." <em>Journal of Cost Analysis and Parametrics, 8</em>(2), 126-148. DOI: 10.1080/1941658X.2015.1064046. &nbsp; <a href="https://www.researchgate.net/publication/282288766_Bending_the_Cost_Curve_Moving_the_Focus_from_Macro-level_to_Micro-level_Cost_Trends_with_Cluster_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+</p>
+</ul>
+
+## Peer Reviewed Journal Articles
+<ul>
+<p>
+Jackson, R.A., Boehmke, B.C. (2017). "Coherence and oddities: A retrospective of cost estimating publications 1978-2016." <em>Proceedings of the 2017 International Cost Estimating & Analysis Association Professional Development & Training Workshop, Portland, OR, June 6-9, 2017.</em> &nbsp; <a href="https://www.researchgate.net/publication/316952278_Coherence_and_Oddities_A_Retrospective_of_Cost_Estimating_Publications_1978-2016" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
-Boehmke, B.C., Johnson, A.L, White, E.D., Weir, J.D. & Gallagher, M.A. (2015).  "Bending the cost curve: Moving the focus from macro-level to micro-level cost trends with cluster analysis." <em>Journal of Cost Analysis and Parametrics, 8</em>(2), 126-148. DOI: 10.1080/1941658X.2015.1064046. &nbsp; <a href="https://www.researchgate.net/publication/282288766_Bending_the_Cost_Curve_Moving_the_Focus_from_Macro-level_to_Micro-level_Cost_Trends_with_Cluster_Analysis" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Jackson, R.A., Boehmke, B.C. (2016). "Unpacking the United States Air Force's little blue books." <em>Proceedings of the IIE Industrial and Systems Engineering Research Conference (ISERC), Anaheim, CA, May 21-24, 2016.</em> &nbsp; <a href="https://www.researchgate.net/publication/298069557_Unpacking_the_United_States_Air_Force%27s_Little_Blue_Books" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Boehmke, B.C., Johnson, A.L, White, E.D., Weir, J.D. & Gallagher, M.A. (2015).  "A multilevel understanding of Tooth-to-Tail."  <em>Proceedings of the IIE Industrial and Systems Engineering Research Conference (ISERC), Nashville, TN, May 30 - June 2, 2016.</em> DOI: 10.13140/RG.2.1.1708.2964. &nbsp; <a href="https://www.researchgate.net/publication/282289694_A_Multilevel_Understanding_of_Tooth-to-Tail" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 </ul>
-
 
 <h2>Technical Research Reports</h2>
 <ul>
