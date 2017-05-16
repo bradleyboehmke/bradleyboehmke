@@ -52,7 +52,7 @@ Boehmke, B.C., Johnson, A.L, White, E.D., Weir, J.D. & Gallagher, M.A. (2015).  
 </p>
 </ul>
 
-## Peer Reviewed Journal Articles
+## Peer Reviewed Conference Proceedings
 <ul>
 <p>
 Jackson, R.A., Boehmke, B.C. (2017). "Coherence and oddities: A retrospective of cost estimating publications 1978-2016." <em>Proceedings of the 2017 International Cost Estimating & Analysis Association Professional Development & Training Workshop, Portland, OR, June 6-9, 2017.</em> &nbsp; <a href="https://www.researchgate.net/publication/316952278_Coherence_and_Oddities_A_Retrospective_of_Cost_Estimating_Publications_1978-2016" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
