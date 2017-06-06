@@ -14,6 +14,12 @@ An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures.
 
 <br>
 
+<h2> surrogateResiduals <a href="https://github.com/AFIT-R/surrogateResiduals" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<u>Client</u>: General use <br>
+An R package that computes and plots surrogate residual values for ordinal regression models. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> <em>in development</em>)
+
+<br>
+
 <h2> anomalyDetection <a href="https://github.com/bradleyboehmke/anomalyDetection" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: Undisclosed DoD Cyber Command  <br>
 An R package for implementing augmented network log anomoly detection procedures.   
@@ -44,8 +50,7 @@ An R package for implementing the Kraljic Matrix to strategically analyze a firm
     <i class="fa fa-github" style="font-size:.75em"></i>
   </a>
 </h2>
-
-<p>
+<u>Client</u>: General use <br>
 An R package for computing, simulating, fitting, and plotting Crawford's unit and Wright's cumulative average learning curves. 
   <a href="https://cran.rstudio.com/web/packages/learningCurve/index.html">
     <img src="http://www.r-pkg.org/badges/version/learningCurve" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
@@ -53,7 +58,7 @@ An R package for computing, simulating, fitting, and plotting Crawford's unit an
   <a href="https://cran.rstudio.com/web/packages/learningCurve/index.html">
     <img src="https://cranlogs.r-pkg.org/badges/learningCurve" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
   </a>
-</p>
+  
 </ul>
 
 
