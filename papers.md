@@ -8,10 +8,13 @@ permalink: papers/
 ## Under Review
 <ul>
 <p>
+Griffith, D.A., Boehmke, B.C., Hazen, B.T. & Johnson, A.W. "Embedded analytics: Improving decision support for humanitarian logistics operations." <em>Annals of Operations Research</em>
+</p>
+<p>
 Gutierrez, R.J., Boehmke, B.C., Bauer, K.W., Saie, C.M. & Bihl, T.J. "<code>anomalyDetection</code>: Implementation of augmented network log anomaly detection procedures." <em>The R Journal</em>
 </p>
 <p>
-Joo, S.J., Boehmke, B.C., & Min, H. "DEAHP-based sourcing analytics for evaluating and selecting suppliers: A case of an aerospace company." <em>Decision Analysis</em>
+Joo, S.J., Boehmke, B.C., & Min, H. "Sourcing analytics for evaluating and selecting suppliers using DEA and AHP: A case of the aerospace company." <em>International Journal of Services and Operations Management</em>
 </p>
 <p>
 Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>International Journal of Production Economics</em>
