@@ -86,7 +86,7 @@ An R package that provides access to the full texts of the first seven Harry Pot
 </h2>
 
 <p>
-An R package that provides a structured learning environment to deliver tutorials covering various statistical learning techniques. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> <em>in development</em>)
+An R package that provides a structured learning environment to deliver tutorials covering various statistical learning techniques.
 </p>
 
 </ul>
