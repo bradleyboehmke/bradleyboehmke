@@ -4,6 +4,19 @@ title: Courses
 permalink: /courses/
 ---
 
+# 2017
+
+## OPER 682: Operational Data Science with R
+This 10 week course offered as part of [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Operations Research](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program teaches the fundamental skills required to acquire, munge, transform, manipulate, visualize, and model data in a computing environment that fosters reproducibility. &nbsp;&nbsp; <a href="https://afit-r.github.io/oper682" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
+
+<br>
+
+## LOGM 520: Managerial Economics
+This 10 week course offered as part of the [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program teaches the application and practical utility of basic economic tools to shape pricing and output decisions, optimize the production process and input mix, choose product quality, guide horizontal and vertical merger decisions, and optimally design internal and external incentives.
+
+<hr>
+
+# 2016
 
 ## BANA 8090: Data Wrangling with R
 This 7 week course offered as part of [University of Cincinnati's](http://www.uc.edu/) [Master of Science in Business Analytics ](http://business.uc.edu/graduate/ms-business-analytics.html) program teaches the essentials of preprocessing data leveraging the R programming language to easily and quickly turn noisy data into usable pieces of information. &nbsp;&nbsp; <a href="http://uc-r.github.io/data_wrangling/syllabus" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
@@ -22,8 +35,3 @@ An introductory short course for all incoming [Operations Research M.S.](http://
 
 ## LOGM 627: Supply Chain Management
 This 10 week course offered as part of the [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program teaches the essentials of the nature and dynamics of integrated supply chain management along with introducing the analytic techniques required in each element of the supply chain to obtain a competitive advantage.
-
-<br>
-
-## LOGM 520: Managerial Economics
-This 10 week course offered as part of the [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program teaches the application and practical utility of basic economic tools to shape pricing and output decisions, optimize the production process and input mix, choose product quality, guide horizontal and vertical merger decisions, and optimally design internal and external incentives.
