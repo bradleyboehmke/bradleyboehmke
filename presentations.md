@@ -8,6 +8,9 @@ permalink: presentations/
 <h2>Conferences</h2>
 <ul>
 <p>
+Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Bihl, T.J. (2017). "Anomaly Detection: Using a Tabulated Vector Approach and Embedded Analytics for Efficient Data Mining." 85th Military Operations Research Symposium, West Point, NY. &nbsp; <a href="https://www.dropbox.com/s/9hfsztt89rnfe04/Gutierrez%20MORS%20Slides%20-%20VBA%20%281%29.PPTM?dl=1" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+</p>
+<p>
 Boehmke, B.C. (2016). "Effectiveness vs. Efficiency of Air Force Installation Support Activities Using Data Envelopment Analysis." 84<sup>th</sup> Military Operations Research Symposium, Quantico, VA &nbsp; <a href="https://www.dropbox.com/s/3dlwmgvxmxe1ndg/Workshop_Presentation.pdf?dl=0" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
