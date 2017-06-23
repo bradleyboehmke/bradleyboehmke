@@ -11,7 +11,7 @@ permalink: papers/
 Griffith, D.A., Boehmke, B.C., Hazen, B.T. & Johnson, A.W. "Embedded analytics: Improving decision support for humanitarian logistics operations." <em>Annals of Operations Research</em>
 </p>
 <p>
-Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Algorithms and Computational Technology</em>
+Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
 </p>
 <p>
 Gutierrez, R.J., Boehmke, B.C., Bauer, K.W., Saie, C.M. & Bihl, T.J. "<code>anomalyDetection</code>: Implementation of augmented network log anomaly detection procedures." <em>The R Journal</em>
