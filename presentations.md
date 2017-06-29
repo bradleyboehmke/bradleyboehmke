@@ -39,7 +39,7 @@ Boehmke, B.C. (2012). "Model for identifying cost savings by synchronizing the E
 <h2>Invited</h2>
 <ul>
 <p>
-Boehmke, B.C., Gutierrez, R.J., Bauer, K.W., Bihl, T.J. (2017). "Big Cyber Data Analysis: Embedded Analytic Methods for Efficient Cyber." National Aerospace & Electronics Conference (NAECON), Dayton, OH 
+Boehmke, B.C., Gutierrez, R.J., Bauer, K.W., Bihl, T.J. (2017). "Big Cyber Data Analysis: Embedded Analytic Methods for Efficient Cyber Data Mining." National Aerospace & Electronics Conference (NAECON), Dayton, OH 
 </p>
 <p>
 Boehmke, B.C. (2016). "Data Science: Data-informed Supply Chain Decisions." Air Force Enterprise Logistics Executive Capstone Course, Wright-Patterson AFB, OH &nbsp; <a href="https://github.com/bradleyboehmke/AFIT-Executive-Capstone-2016-Presentation" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
