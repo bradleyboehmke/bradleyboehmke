@@ -9,7 +9,7 @@ layout: page
 
 
 
-Hello! I'm Brad, a data scientist and co-founder of the Data Science Lab at the Air Force Institute of Technology. I develop tools and processes that allow supply chain and operations research analysts in the defense industry to extract more insights from their data.  
+Hello! I'm Brad, co-founder and Director of the Data Science Lab at the Air Force Institute of Technology. I develop tools and processes that allow supply chain and operations research analysts in the defense industry to extract more insights from their data.  
 
 I work on applied analytic [research](http://bradleyboehmke.github.io/papers/), develop data analysis [software](http://bradleyboehmke.github.io/software/), teach [university courses](http://bradleyboehmke.github.io/courses/) and [workshops](http://bradleyboehmke.github.io/workshops/) regarding business analytics and R programming, write [books](http://bradleyboehmke.github.io/books/), and create [digital projects](http://bradleyboehmke.github.io/digital_projects/). 
 
