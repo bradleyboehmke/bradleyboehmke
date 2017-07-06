@@ -9,11 +9,11 @@ layout: page
 
 
 
-Hello! I'm Brad, co-founder and Director of the Data Science Lab at the Air Force Institute of Technology. I develop tools and processes that allow supply chain and operations research analysts in the defense industry to extract more insights from their data.  
+Hello! I'm Brad, co-founder and Director of the Data Science Lab at the Air Force Institute of Technology where we develop tools and processes that allow supply chain and operations research analysts in the defense industry to extract more insights from their data.  
 
 I work on applied analytic [research](http://bradleyboehmke.github.io/papers/), develop data analysis [software](http://bradleyboehmke.github.io/software/), teach [university courses](http://bradleyboehmke.github.io/courses/) and [workshops](http://bradleyboehmke.github.io/workshops/) regarding business analytics and R programming, write [books](http://bradleyboehmke.github.io/books/), and create [digital projects](http://bradleyboehmke.github.io/digital_projects/). 
 
-I do my work as an Assistant Professor of Logistics and Supply Chain Management at the [Air Force Institute of Technology Department of Operational Sciences](http://www.afit.edu/ENS/) and as an Adjunct Assistant Professor of Business Analytics at the [University of Cincinnati Lindner College of Business](http://business.uc.edu/departments/obais.html). Previously, I was a Senior Operations Research Analyst with the Air Force and spent many years developing life cycle forecasting, risk and decision analysis models.
+I do my work as an Assistant Professor at the [Air Force Institute of Technology](http://www.afit.edu/ENS/) and as an Adjunct Assistant Professor of Business Analytics at the [University of Cincinnati](http://business.uc.edu/departments/obais.html) and [Wake Forest University](http://business.wfu.edu/ms-analytics/). Previously, I was a Senior Operations Research Analyst with the Air Force and spent many years developing life cycle forecasting, risk and decision analysis models.
 
 If you are interested in collaborating and doing some great work please reach out to me via:
 
