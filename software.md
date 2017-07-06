@@ -14,13 +14,13 @@ An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures.
 
 <br>
 
-<h2> surrogateResiduals <a href="https://github.com/AFIT-R/surrogateResiduals" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> ordr <a href="https://github.com/AFIT-R/ordr" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: General use <br>
-An R package that computes and plots surrogate residual values for ordinal regression models. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> <em>in development</em>)
+An R package for ordinal regression diagnostics. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> <em>in development</em>)
 
 <br>
 
-<h2> anomalyDetection <a href="https://github.com/bradleyboehmke/anomalyDetection" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> anomalyDetection <a href="https://github.com/AFIT-R/anomalyDetection" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: Undisclosed DoD Cyber Command  <br>
 An R package for implementing augmented network log anomoly detection procedures.   
   <a href="https://cran.rstudio.com/web/packages/anomalyDetection/index.html">
@@ -32,7 +32,7 @@ An R package for implementing augmented network log anomoly detection procedures
 
 <br>
 
-<h2> KraljicMatrix <a href="https://bradleyboehmke.github.io/KraljicMatrix/" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> KraljicMatrix <a href="https://afit-r.github.io/KraljicMatrix/" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: U.S. Air Force Installation Contracting Agency <br>
 An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio. 
   <a href="https://cran.rstudio.com/web/packages/KraljicMatrix/index.html">
