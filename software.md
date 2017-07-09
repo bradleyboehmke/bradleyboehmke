@@ -89,7 +89,6 @@ An R package that provides access to the full texts of the first seven Harry Pot
 An R package that provides a structured learning environment to deliver tutorials covering various statistical learning techniques.
 </p>
 
-<br>
 
 <h2> teachingApps 
   <a href="https://github.com/Auburngrads/teachingApps" style="color:#303030;">
@@ -97,7 +96,7 @@ An R package that provides a structured learning environment to deliver tutorial
   </a>
 </h2>
 
-Contains apps and gadgets for teaching data analysis and statistics concepts along with how to implement them in R. Includes tools to make app development easier and faster by nesting apps together. 
+Apps and gadgets for teaching data analysis and statistics concepts along with how to implement them in R. Includes tools to make app development easier and faster by nesting apps together. 
   <a href="https://cran.rstudio.com/web/packages/teachingApps/index.html">
     <img src="http://www.r-pkg.org/badges/version/teachingApps" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
   </a> 
