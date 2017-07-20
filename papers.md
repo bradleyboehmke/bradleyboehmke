@@ -8,6 +8,9 @@ permalink: papers/
 ## Under Review
 <ul>
 <p>
+Boehmke, B.C. & Hazen, B.T. "A data science approach to implementing decision analytics for strategic sourcing." <em>Interfaces</em>
+</p>
+<p>
 Griffith, D.A., Boehmke, B.C., Hazen, B.T. & Johnson, A.W. "Embedded analytics: Improving decision support for humanitarian logistics operations." <em>Annals of Operations Research</em>
 </p>
 <p>
