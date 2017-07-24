@@ -11,9 +11,6 @@ permalink: papers/
 Boehmke, B.C. & Hazen, B.T. "A data science approach to implementing decision analytics for strategic sourcing." <em>Interfaces</em>
 </p>
 <p>
-Griffith, D.A., Boehmke, B.C., Hazen, B.T. & Johnson, A.W. "Embedded analytics: Improving decision support for humanitarian logistics operations." <em>Annals of Operations Research</em>
-</p>
-<p>
 Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
 </p>
 <p>
@@ -38,6 +35,9 @@ Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio m
 
 ## Peer Reviewed Journal Articles
 <ul>
+<p>
+Griffith, D.A., Boehmke, B.C., Hazen, B.T. & Johnson, A.W. "Embedded analytics: Improving decision support for humanitarian logistics operations." <em>Annals of Operations Research</em> (pre-print).
+</p>
 <p>
 Boehmke, B.C. & Freels, J.K. (2017) "<code>learningCurve</code>: An implementation of Crawford's and Wright's learning curve production functions" <em>Journal of Open Source Software, 2</em>(13). DOI: 10.21105/joss.00202. &nbsp; <a href="http://joss.theoj.org/papers/10.21105/joss.00202" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
