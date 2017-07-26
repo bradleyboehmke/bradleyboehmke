@@ -8,7 +8,7 @@ permalink: papers/
 ## Under Review
 <ul>
 <p>
-Boehmke, B.C. & Hazen, B.T. "A data science approach to implementing decision analytics for strategic sourcing." <em>Interfaces</em>
+Boehmke, B.C. & Hazen, B.T. "A data science approach to implementing decision analytics for strategic sourcing." <em>Journal of Defense Analytics and Logistics</em>
 </p>
 <p>
 Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
