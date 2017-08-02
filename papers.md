@@ -14,9 +14,6 @@ Boehmke, B.C. & Hazen, B.T. "A data science approach to implementing decision an
 Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
 </p>
 <p>
-Gutierrez, R.J., Boehmke, B.C., Bauer, K.W., Saie, C.M. & Bihl, T.J. "<code>anomalyDetection</code>: Implementation of augmented network log anomaly detection procedures." <em>The R Journal</em>
-</p>
-<p>
 Joo, S.J., Boehmke, B.C., & Min, H. "Sourcing analytics for evaluating and selecting suppliers using DEA and AHP: A case of the aerospace company." <em>International Journal of Services and Operations Management</em>
 </p>
 <p>
@@ -35,6 +32,9 @@ Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio m
 
 ## Peer Reviewed Journal Articles
 <ul>
+<p>
+Gutierrez, R.J., Boehmke, B.C., Bauer, K.W., Saie, C.M. & Bihl, T.J. "<code>anomalyDetection</code>: Implementation of augmented network log anomaly detection procedures." <em>The R Journal</em> (pre-print).
+</p>
 <p>
 Griffith, D.A., Boehmke, B.C., Hazen, B.T. & Johnson, A.W. "Embedded analytics: Improving decision support for humanitarian logistics operations." <em>Annals of Operations Research</em> (pre-print).
 </p>
