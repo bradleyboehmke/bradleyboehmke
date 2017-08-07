@@ -33,7 +33,7 @@ Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio m
 ## Peer Reviewed Journal Articles
 <ul>
 <p>
-Gutierrez, R.J., Boehmke, B.C., Bauer, K.W., Saie, C.M. & Bihl, T.J. "<code>anomalyDetection</code>: Implementation of augmented network log anomaly detection procedures." <em>The R Journal</em> (pre-print).
+Gutierrez, R.J., Boehmke, B.C., Bauer, K.W., Saie, C.M. & Bihl, T.J. "<code>anomalyDetection</code>: Implementation of augmented network log anomaly detection procedures." <em>The R Journal</em> (pre-print).  &nbsp; <a href="https://journal.r-project.org/archive/2017/RJ-2017-039/index.html" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Griffith, D.A., Boehmke, B.C., Hazen, B.T. & Johnson, A.W. "Embedded analytics: Improving decision support for humanitarian logistics operations." <em>Annals of Operations Research</em> (pre-print).
