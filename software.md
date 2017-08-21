@@ -14,9 +14,15 @@ An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures.
 
 <br>
 
-<h2> ordr <a href="https://github.com/AFIT-R/ordr" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> sure <a href="https://github.com/AFIT-R/sure" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: General use <br>
-An R package for ordinal regression diagnostics. (<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:.75em"></i> <em>in development</em>)
+An R package for ordinal regression diagnostics. 
+  <a href="https://cran.rstudio.com/web/packages/sure/index.html">
+    <img src="http://www.r-pkg.org/badges/version/sure" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a>
+  <a href="https://cran.rstudio.com/web/packages/sure/index.html">
+    <img src="https://cranlogs.r-pkg.org/badges/sure" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a>
 
 <br>
 
