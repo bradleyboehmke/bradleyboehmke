@@ -16,7 +16,7 @@ An R package that implements 3pod, 3podm, and Neyer Sensitivity Test Procedures.
 
 <h2> sure <a href="https://github.com/AFIT-R/sure" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 <u>Client</u>: General use <br>
-An R package for ordinal regression diagnostics. 
+An R package that implements a surrogate approach to residuals and diagnostics for ordinal and general regression models. 
   <a href="https://cran.rstudio.com/web/packages/sure/index.html">
     <img src="http://www.r-pkg.org/badges/version/sure" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
   </a>
