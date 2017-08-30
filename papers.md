@@ -23,15 +23,15 @@ Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: 
 Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em>
 </p>
 <p>
-Hazen, B.T, Weigel, F.K., Ezell, J.D. & Boehmke, B.C. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em>
-</p>
-<p>
 Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio matrix: Using decision analysis for strategic purchasing." <em>Journal of Purchasing and Supply Management</em>
 </p>
 </ul>
 
 ## Peer Reviewed Journal Articles
 <ul>
+<p>
+Hazen, B.T, Weigel, F.K., Ezell, J.D., Boehmke, B.C. & Bradley, R.V. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em> (pre-print).
+</p>
 <p>
 Gutierrez, R.J., Boehmke, B.C., Bauer, K.W., Saie, C.M. & Bihl, T.J. "<code>anomalyDetection</code>: Implementation of augmented network log anomaly detection procedures." <em>The R Journal</em> (pre-print).  &nbsp; <a href="https://journal.r-project.org/archive/2017/RJ-2017-039/index.html" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
