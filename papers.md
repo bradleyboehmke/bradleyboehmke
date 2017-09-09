@@ -8,16 +8,16 @@ permalink: papers/
 ## Under Review
 <ul>
 <p>
-Boehmke, B.C. & Hazen, B.T. "A data science approach to implementing decision analytics for strategic sourcing." <em>Journal of Defense Analytics and Logistics</em>
+Boehmke, B.C. & Hazen, B.T. "A data science approach to implementing decision analytics for strategic sourcing." <em>International Journal of Data Science and Analytics</em>
+</p>
+<p>
+Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Algorithms and Computational Technology</em>
 </p>
 <p>
 Boehmke, B.C. & Freels, J.K. "<code>learningCurve</code>: An R package for computing, simulating, fitting, and plotting learning curves." <em>Journal of Cost Analysis and Parametrics</em>
 </p>
 <p>
 Joo, S.J., Boehmke, B.C., & Min, H. "Sourcing analytics for evaluating and selecting suppliers using DEA and AHP: A case of the aerospace company." <em>International Journal of Services and Operations Management</em>
-</p>
-<p>
-Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>International Journal of Production Economics</em>
 </p>
 <p>
 Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em>
