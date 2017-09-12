@@ -30,13 +30,13 @@ Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio m
 ## Peer Reviewed Journal Articles
 <ul>
 <p>
-Hazen, B.T, Weigel, F.K., Ezell, J.D., Boehmke, B.C. & Bradley, R.V. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em> (pre-print). DOI: 10.1007/s10479-017-2607-z. &nbsp; <a href="https://doi.org/10.1016/j.ijpe.2017.08.027" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Hazen, B.T, Weigel, F.K., Ezell, J.D., Boehmke, B.C. & Bradley, R.V. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em> (pre-print). &nbsp; <a href="https://doi.org/10.1016/j.ijpe.2017.08.027" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Gutierrez, R.J., Boehmke, B.C., Bauer, K.W., Saie, C.M. & Bihl, T.J. "<code>anomalyDetection</code>: Implementation of augmented network log anomaly detection procedures." <em>The R Journal</em> (pre-print).  &nbsp; <a href="https://journal.r-project.org/archive/2017/RJ-2017-039/index.html" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
-Griffith, D.A., Boehmke, B.C., Hazen, B.T. & Johnson, A.W. "Embedded analytics: Improving decision support for humanitarian logistics operations." <em>Annals of Operations Research</em> (pre-print).  &nbsp; <a href="https://link.springer.com/epdf/10.1007/s10479-017-2607-z?author_access_token=qf427O15sfYWuxHwYTewcPe4RwlQNchNByi7wbcMAY6Wf9i-uUMARVUbbMeXh4l1XgPyOhOmf1W7YmqBCtRkxZ1LFkIvOBWpo7khgJn1I3E5YV9WPeW35bqW7gMLYj6l79VJY5WEYNKUymAKOjihyg%3D%3D" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Griffith, D.A., Boehmke, B.C., Hazen, B.T. & Johnson, A.W. "Embedded analytics: Improving decision support for humanitarian logistics operations." <em>Annals of Operations Research</em> (pre-print). DOI: 10.1007/s10479-017-2607-z. &nbsp; <a href="https://link.springer.com/epdf/10.1007/s10479-017-2607-z?author_access_token=qf427O15sfYWuxHwYTewcPe4RwlQNchNByi7wbcMAY6Wf9i-uUMARVUbbMeXh4l1XgPyOhOmf1W7YmqBCtRkxZ1LFkIvOBWpo7khgJn1I3E5YV9WPeW35bqW7gMLYj6l79VJY5WEYNKUymAKOjihyg%3D%3D" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Boehmke, B.C. & Freels, J.K. (2017) "<code>learningCurve</code>: An implementation of Crawford's and Wright's learning curve production functions" <em>Journal of Open Source Software, 2</em>(13). DOI: 10.21105/joss.00202. &nbsp; <a href="http://joss.theoj.org/papers/10.21105/joss.00202" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
