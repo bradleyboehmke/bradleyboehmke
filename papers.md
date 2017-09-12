@@ -30,7 +30,7 @@ Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio m
 ## Peer Reviewed Journal Articles
 <ul>
 <p>
-Hazen, B.T, Weigel, F.K., Ezell, J.D., Boehmke, B.C. & Bradley, R.V. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em> (pre-print).   &nbsp; <a href="https://doi.org/10.1016/j.ijpe.2017.08.027" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Hazen, B.T, Weigel, F.K., Ezell, J.D., Boehmke, B.C. & Bradley, R.V. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em> (pre-print). DOI: 10.1007/s10479-017-2607-z. &nbsp; <a href="https://doi.org/10.1016/j.ijpe.2017.08.027" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Gutierrez, R.J., Boehmke, B.C., Bauer, K.W., Saie, C.M. & Bihl, T.J. "<code>anomalyDetection</code>: Implementation of augmented network log anomaly detection procedures." <em>The R Journal</em> (pre-print).  &nbsp; <a href="https://journal.r-project.org/archive/2017/RJ-2017-039/index.html" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
