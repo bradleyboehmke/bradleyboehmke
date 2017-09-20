@@ -8,6 +8,9 @@ permalink: papers/
 ## Under Review
 <ul>
 <p>
+Greenwell, B.M., McCarthy, A.J., Boehmke, B.C. & Dungang, L. "Residuals and diagnostics for binary and ordinal regression models: An introduction to the <code>sure</code> package." <em>The R Journal</em>
+</p>
+<p>
 Boehmke, B.C. & Hazen, B.T. "A data science approach to implementing decision analytics for strategic sourcing." <em>International Journal of Data Science and Analytics</em>
 </p>
 <p>
