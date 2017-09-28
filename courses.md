@@ -6,6 +6,11 @@ permalink: /courses/
 
 # 2017
 
+## LOGM 655: Text Mining
+This 10 week course offered as part of [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program introduces students to the rapidly growing field of text mining and equips them with some of its basic principles and tools as well as its general mindset. &nbsp;&nbsp; <a href="https://afit-r.github.io/logm655" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
+
+<br>
+
 ## LOGM 630: Forecasting Management
 This 10 week course offered as part of [Air Force Institute of Technology's](http://www.afit.edu/) [Master of Science in Logistics and Supply Chain Management](http://www.afit.edu/ENS/programs.cfm?p=12&a=pd) program covers the different steps of the forecasting process, from goal definition, data visualization, and modeling to performance evaluation, interpretation, and model deployment. &nbsp;&nbsp; <a href="https://afit-r.github.io/logm630" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
 
