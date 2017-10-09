@@ -25,13 +25,13 @@ Joo, S.J., Boehmke, B.C., & Min, H. "Sourcing analytics for evaluating and selec
 <p>
 Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em>
 </p>
-<p>
-Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio matrix: Using decision analysis for strategic purchasing." <em>Journal of Purchasing and Supply Management</em>
-</p>
 </ul>
 
 ## Peer Reviewed Journal Articles
 <ul>
+<p>
+Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio matrix: Using decision analysis for strategic purchasing." <em>Journal of Purchasing and Supply Management</em> (pre-print). 
+</p>
 <p>
 Hazen, B.T, Weigel, F.K., Ezell, J.D., Boehmke, B.C. & Bradley, R.V. "Toward understanding outcomes associated with data quality improvement." <em>International Journal of Production Economics</em> (pre-print). &nbsp; <a href="https://doi.org/10.1016/j.ijpe.2017.08.027" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
