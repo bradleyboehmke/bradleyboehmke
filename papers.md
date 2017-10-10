@@ -8,6 +8,9 @@ permalink: papers/
 ## Under Review
 <ul>
 <p>
+Greenwell, B.M., McCarthy, A.J., & Boehmke, B.C. "A Simple and Effective Model-Based Variable Importance Measure." <em>Journal of Computational and Graphical Statistics</em>
+</p>
+<p>
 Greenwell, B.M., McCarthy, A.J., Boehmke, B.C. & Dungang, L. "Residuals and diagnostics for binary and ordinal regression models: An introduction to the <code>sure</code> package." <em>The R Journal</em>
 </p>
 <p>
