@@ -8,6 +8,9 @@ permalink: papers/
 ## Under Review
 <ul>
 <p>
+Greenwell, B.M., Schubert-Kabban, C.M., McCarthy, A.J., & Boehmke, B.C. "Inverse Estimation with Linear Mixed-Effects Models with Application in R." <em>Journal of Modern Applied Statistical Methods</em>
+</p>
+<p>
 Greenwell, B.M., McCarthy, A.J., & Boehmke, B.C. "A Simple and Effective Model-Based Variable Importance Measure." <em>Journal of Computational and Graphical Statistics</em>
 </p>
 <p>
