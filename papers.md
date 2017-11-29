@@ -83,7 +83,7 @@ Boehmke, B.C., Johnson, A.L, White, E.D., Weir, J.D. & Gallagher, M.A. (2015).  
 <h2>Other Publications</h2>
 <ul>
 <p>
-Breitbach, T.w., McCarthy, A.J., Greenwell, B.M., Boehmke, B.C., & Hazen, B. T., (2017), "Big data analysis for data science," In  <em>Encyclopedia of Big Data Technologies</em>. S. Sakr & A. Zomaya (editors). Cham Switzerland: Springer International Publishing, 2017. &nbsp; <a href="http://www.springer.com/us/book/9783319493398" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Breitbach, T.W., McCarthy, A.J., Greenwell, B.M., Boehmke, B.C., & Hazen, B. T., (2017), "Big data analysis for data science," In  <em>Encyclopedia of Big Data Technologies</em>. S. Sakr & A. Zomaya (editors). Cham Switzerland: Springer International Publishing, 2017. &nbsp; <a href="http://www.springer.com/us/book/9783319493398" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Boehmke, B.C., Jackson, R.A. (2016). "What is truth?" Unpacking `the true cost of free statistical software'." <em>ORMS Today, 43</em>(1). &nbsp; <a href="https://www.informs.org/ORMS-Today/Private-Articles/February-Volume-43-Number-1" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
