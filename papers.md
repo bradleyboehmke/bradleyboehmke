@@ -80,8 +80,14 @@ Boehmke, B.C., Johnson, A.L, White, E.D., Weir, J.D. & Gallagher, M.A. (2015).  
 </p>
 </ul>
 
-<h2>Technical Research Reports</h2>
+<h2>Other Publications</h2>
 <ul>
+<p>
+Breitbach, T.w., McCarthy, A.J., Greenwell, B.M., Boehmke, B.C., & Hazen, B. T., (2017), "Big data analysis for data science," In  <em>Encyclopedia of Big Data Technologies</em>. S. Sakr & A. Zomaya (editors). Cham Switzerland: Springer International Publishing, 2017. &nbsp; <a href="http://www.springer.com/us/book/9783319493398" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+</p>
+<p>
+Boehmke, B.C., Jackson, R.A. (2016). "What is truth?" Unpacking `the true cost of free statistical software'." <em>ORMS Today, 43</em>(1). &nbsp; <a href="https://www.informs.org/ORMS-Today/Private-Articles/February-Volume-43-Number-1" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+</p>
 <p>
 Boehmke, B.C. (2015). <em>Grabbing the Air Force by the Tail: Applying Strategic Cost Analytics to Understand and Manage Indirect Cost Behavior</em> (Dissertation: No. AFIT-ENS-DS-15-S-076). Air Force Institute of Technology Graduate School of Engineering and Management. DOI: 10.13140/RG.2.1.1310.1524. &nbsp; <a href="https://www.researchgate.net/publication/284179123_Grabbing_the_Air_Force_by_the_Tail_Applying_Strategic_Cost_Analytics_to_Understand_and_Manage_Indirect_Cost_Behavior" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
@@ -92,17 +98,9 @@ Boehmke, B.C. (2015). <em>A comparison of alternative univariate cost metrics fo
 Boehmke, B.C. (2014). <em>Understanding business analytics.</em> Technical Report: Headquarters Air Force Materiel Command, Studies and Analyses Division.
 </p>
 <p>
-Boehmke, B.C. (2011). <em>Model for identifying cost savings by synchronizing the E-4B NAOC replacement and Presidential Aircraft Recapitalization programs.</em> (Thesis: No. AFIT/GCA/ENV/11-J01). Air Force Institute of Technology Graduate School of Engineering and Management.
-</p>
-</ul>
-
-
-<h2>Op-Ed / Trade Journals</h2>
-<ul>
-<p>
-Boehmke, B.C., Jackson, R.A. (2016). "What is truth?" Unpacking `the true cost of free statistical software'." <em>ORMS Today, 43</em>(1). &nbsp; <a href="https://www.informs.org/ORMS-Today/Private-Articles/February-Volume-43-Number-1" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
-</p>
-<p>
 Boehmke, B.C. (2012). "Use of ANOVA for everyday cost analysts." The Dayton Coster, 13(1), 10-14.
+</p>
+<p>
+Boehmke, B.C. (2011). <em>Model for identifying cost savings by synchronizing the E-4B NAOC replacement and Presidential Aircraft Recapitalization programs.</em> (Thesis: No. AFIT/GCA/ENV/11-J01). Air Force Institute of Technology Graduate School of Engineering and Management.
 </p>
 </ul>
