@@ -18,13 +18,13 @@ Is your organization looking to advance its analytic capabilities?  I provide co
 
 
 <figure>
-    <img src="/public/images/consulting/maxresdefault.jpg" alt=""/>
+    <img src="/public/images/consulting/maxresdefault.jpg" alt="" style="width: 28%; margin-right: 2%;"/>
 </figure>
 <figure>
-    <img src="/public/images/consulting/CEU-F6iWAAAkY5c.png" alt=""/>
+    <img src="/public/images/consulting/CEU-F6iWAAAkY5c.png" alt="" style="width: 28%; margin-right: 2%;/>
 </figure>
 <figure>
-    <img src="/public/images/consulting/emerson-electric.jpg" alt=""/>
+    <img src="/public/images/consulting/emerson-electric.jpg" alt="" style="width: 28%; margin-right: 2%;/>
 </figure>
 
 <div id="image-container1"> 
