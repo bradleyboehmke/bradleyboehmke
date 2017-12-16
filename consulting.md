@@ -7,13 +7,13 @@ permalink: consulting/
 Is your organization looking to advance its analytic capabilities?  I provide consulting services ranging from offering training opportunities for your analysts to providing deployed machine learning applications.  Recent clients include:
 
 <div id="image-container1"> 
-  <img src="/public/images/consulting/maxresdefault.jpg" style="float: left; width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle">
+  <img src="/public/images/consulting/maxresdefault.jpg" style="width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle">
   <img src="/public/images/consulting/CEU-F6iWAAAkY5c.png" style="float: left; width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle">
-  <img src="/public/images/consulting/emerson-electric.jpg" style="float: left; width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle" >
+  <img src="/public/images/consulting/emerson-electric.jpg" style="float: right; width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle" >
 </div>
   
 <div id="image-container2"> 
-  <img src="/public/images/consulting/maxresdefault.jpg" style="float: left; width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle">
-  <img src="/public/images/consulting/CEU-F6iWAAAkY5c.png" style="float: left; width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle">
-  <img src="/public/images/consulting/emerson-electric.jpg" style="float: left; width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle" >
+  <img src="/public/images/consulting/fcc35a95fbd868fc70bab9aefb7fb66b.jpg" style="width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle">
+  <img src="/public/images/consulting/d185fc_98f6a41377db48dfa278c71262a10b76_mv2.jpg" style="float: left; width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle">
+  <img src="/public/images/consulting/US_Army_Cyber_Command_logo.png" style="float: right; width: 28%; margin-right: 2%; margin-bottom: 0.5em; align=middle" >
 </div>
