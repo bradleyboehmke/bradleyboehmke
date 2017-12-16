@@ -23,17 +23,17 @@ permalink: consulting/
 
 Is your organization looking to advance its analytic capabilities?  I provide consulting services ranging from offering training opportunities for your analysts to providing deployed machine learning applications.  Recent clients include:
 
-<div style="width: 100%;">
+<div style="width: 100%; height: 150px">
 
-<div style="float: left; width: 30%; margin-right: .5em; margin-bottom: .5em;">
+<div style="float: left; width: 30%; height: 100%; margin-right: .5em; margin-bottom: .5em;">
   <img src="/public/images/consulting/maxresdefault.jpg" style="display: block; margin: auto;" />
 </div>
 
-<div style="float: left; width: 30%; margin-right: .5em; margin-bottom: .5em;">
+<div style="float: left; width: 30%; height: 100%; margin-right: .5em; margin-bottom: .5em;">
   <img src="/public/images/consulting/CEU-F6iWAAAkY5c.png" style="display: block; margin: auto;" />
 </div>
 
-<div style="float: left; width: 30%; margin-right: .5em; margin-bottom: .5em;">
+<div style="float: left; width: 30%; height: 100%; margin-right: .5em; margin-bottom: .5em;">
   <img src="/public/images/consulting/emerson-electric.jpg" style="display: block; margin: auto;" />
 </div>
 
