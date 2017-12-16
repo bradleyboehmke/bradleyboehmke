@@ -6,15 +6,38 @@ permalink: consulting/
 
 <STYLE TYPE="text/css"> 
 <!-- 
+.nomargin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
 
-figure {
-    display: inline-block;
+.headmargin {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
 --> 
 </STYLE>
 
 Is your organization looking to advance its analytic capabilities?  I provide consulting services ranging from offering training opportunities for your analysts to providing deployed machine learning applications.  Recent clients include:
+
+<div style="width: 100%;">
+
+<div style="float: left; width: 25%; margin-right: 1em; margin-bottom: 1em; padding: 8px; height: 300px;">
+  <img src="/public/images/consulting/maxresdefault.jpg" style="display: block; margin: auto;" />
+</div>
+
+<div style="float: left; width: 25%; margin-right: 1em; margin-bottom: 1em; padding: 8px; height: 300px;">
+  <img src="/public/images/consulting/CEU-F6iWAAAkY5c.png" style="display: block; margin: auto;" />
+</div>
+
+<div style="float: left; width: 25%; margin-right: 1em; margin-bottom: 1em; padding: 8px; height: 300px;">
+  <img src="/public/images/consulting/emerson-electric.jpg" style="display: block; margin: auto;" />
+</div>
+
+</div>
 
 <div id="image-container1">
   <figure>
