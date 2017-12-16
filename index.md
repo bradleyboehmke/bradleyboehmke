@@ -7,13 +7,11 @@ layout: page
 <img src="/public/Brad Boehmke.jpg" alt="Brad" align="right" style="width: 42%; height: 42%; margin:8px">
 </center> 
 
+Hello! I'm Brad, Senior Data Scientist at [Ascend Innovations](http://ascend-innovations.com/) where we develop analytic products and processes that allow healthcare organizations to extract more insights from their data.  
 
+I work on applied analytic [research](http://bradleyboehmke.github.io/papers/), develop data analysis [software](http://bradleyboehmke.github.io/software/), deliver [workshops](http://bradleyboehmke.github.io/workshops/) on business analytics and R programming, write [books](http://bradleyboehmke.github.io/books/), and provide analytic [consulting services](http://bradleyboehmke.github.io/consulting/). 
 
-Hello! I'm Brad, co-founder and Director of the Data Science Lab at the Air Force Institute of Technology where we develop tools and processes that allow supply chain and operations research analysts in the defense industry to extract more insights from their data.  
-
-I work on applied analytic [research](http://bradleyboehmke.github.io/papers/), develop data analysis [software](http://bradleyboehmke.github.io/software/), teach [university courses](http://bradleyboehmke.github.io/courses/) and [workshops](http://bradleyboehmke.github.io/workshops/) regarding business analytics and R programming, write [books](http://bradleyboehmke.github.io/books/), and create [digital projects](http://bradleyboehmke.github.io/digital_projects/). 
-
-I do my work as an Assistant Professor at the [Air Force Institute of Technology](http://www.afit.edu/ENS/) and as an Adjunct Assistant Professor of Business Analytics at the [University of Cincinnati](http://business.uc.edu/departments/obais.html) and [Wake Forest University](http://business.wfu.edu/ms-analytics/). Previously, I was a Senior Operations Research Analyst with the Air Force and spent many years developing life cycle forecasting, risk and decision analysis models.
+I am also an Adjunct Professor at the [University of Cincinnati](http://business.uc.edu/departments/obais.html), [Wake Forest University](http://business.wfu.edu/ms-analytics/), and [Air Force Institute of Technology](http://www.afit.edu/ENS/) where I teach [business analytics and R programming courses](http://bradleyboehmke.github.io/courses). Previously, I was a Senior Operations Research Analyst with the Air Force and spent many years developing life cycle forecasting, risk and decision analysis models.
 
 If you are interested in collaborating and doing some great work please reach out to me via:
 
