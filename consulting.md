@@ -11,7 +11,7 @@ Is your organization looking to advance its analytic capabilities?  I provide co
   <table cellpadding="0" width="400" cellspacing="0">
   <tr>
     <td>
-      <img src="/public/images/consulting/maxresdefault.jpg" width="128" height="128" border="0">
+      <img src="/public/images/consulting/maxresdefault.jpg" style="width: 128; align=middle">
     </td>
     <td>
       <a href="http://www.myspace.com/yourpage" target="_blank"><img src="http://api.ning.com/files/DsEd0qFuUcwu-OqK9dBmlNVWoJnSrPzFfHychkrtcyfIjc3ClCHytCj7mN4-pm0ueyEsbXFWSsCmgbKKk87IKMBhWf9093Ba/myspaces3_128.png" alt="Check Us Out On MySpace" width="128" height="128" border="0"></a>
