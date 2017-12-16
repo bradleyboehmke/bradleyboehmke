@@ -4,11 +4,18 @@ title: Consulting
 permalink: consulting/
 ---
 
-Is your organization looking to advance its analytic capabilities?  I provide consulting services ranging from offering training opportunities for your analysts to providing deployed machine learning applications.  Recent clients include:
+<STYLE TYPE="text/css"> 
+<!-- 
 
 figure {
     display: inline-block;
 }
+
+--> 
+</STYLE>
+
+Is your organization looking to advance its analytic capabilities?  I provide consulting services ranging from offering training opportunities for your analysts to providing deployed machine learning applications.  Recent clients include:
+
 
 <figure>
     <img src="http://lorempixel.com/output/city-q-c-200-200-7.jpg" alt=""/>
