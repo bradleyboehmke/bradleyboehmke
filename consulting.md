@@ -53,3 +53,11 @@ Is your organization looking to advance its analytic capabilities?  I provide co
 </div>
 
   
+If you are interested in learning more please reach out to me via:
+
+<div class="contact-buttons" style="line-height:160%;margin-left:30px;margin-top:10px">
+<p>
+<a href="mailto:bradleyboehmke@gmail.com" target="_blank" style="color:#515151;"><i class="fa fa-envelope" style="font-size:1em"></i> &nbsp; Email<br></a> 
+<a href="https://www.linkedin.com/in/brad-boehmke-ph-d-9b0a257" target="_blank" style="color:#515151;"><i class="fa fa-linkedin" style="font-size:1em"></i> &nbsp; LinkedIn<br></a>
+</p>
+</div>
