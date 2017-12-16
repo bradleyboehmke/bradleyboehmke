@@ -19,6 +19,6 @@ This course is part of my "R" series offered through [University of Cincinnati's
 
 ## Machine Learning with R
 <u>Next offering</u>: May 14-15 <br>
-This 2 day course will be offered at the 2018 Analytic Summit organized by [University of Cincinnati's](http://www.uc.edu/) [Center for Business Analytics ](http://business.uc.edu/centers/analytics-center.html). This covers the fundamentals and application of modern machine learning tasks within the R programming language. You will learn how to process data for modeling, train your supervised and unsupervised models, visualize your models and assess their performance, and tune your model's parameters for better performance. Check back soon for more info. 
+This 2 day course will be offered at the 2018 Analytic Summit organized by [University of Cincinnati's](http://www.uc.edu/) [Center for Business Analytics ](http://business.uc.edu/centers/analytics-center.html). This course covers the fundamentals and application of modern machine learning tasks within the R programming language. You will learn how to process data for modeling, train your supervised and unsupervised models, visualize your models and assess their performance, and tune your model's parameters for better performance. Check back soon for more info. 
 
 
