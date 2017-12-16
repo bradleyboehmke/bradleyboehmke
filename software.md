@@ -7,9 +7,8 @@ permalink: software/
 
 <h1>Analytics</h1>
 
-
+<ul>
 <h2> sure <a href="https://github.com/AFIT-R/sure" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
-<u>Client</u>: General use <br>
 An R package that implements a surrogate approach to residuals and diagnostics for ordinal and general regression models. 
   <a href="https://cran.rstudio.com/web/packages/sure/index.html">
     <img src="http://www.r-pkg.org/badges/version/sure" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
@@ -21,7 +20,6 @@ An R package that implements a surrogate approach to residuals and diagnostics f
 <br>
 
 <h2> anomalyDetection <a href="https://github.com/AFIT-R/anomalyDetection" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
-<u>Client</u>: Undisclosed DoD Cyber Command  <br>
 An R package for implementing augmented network log anomoly detection procedures.   
   <a href="https://cran.rstudio.com/web/packages/anomalyDetection/index.html">
     <img src="http://www.r-pkg.org/badges/version/anomalyDetection" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
@@ -33,7 +31,6 @@ An R package for implementing augmented network log anomoly detection procedures
 <br>
 
 <h2> KraljicMatrix <a href="https://afit-r.github.io/KraljicMatrix/" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
-<u>Client</u>: U.S. Air Force Installation Contracting Agency <br>
 An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio. 
   <a href="https://cran.rstudio.com/web/packages/KraljicMatrix/index.html">
     <img src="http://www.r-pkg.org/badges/version/KraljicMatrix" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
@@ -50,7 +47,6 @@ An R package for implementing the Kraljic Matrix to strategically analyze a firm
     <i class="fa fa-github" style="font-size:.75em"></i>
   </a>
 </h2>
-<u>Client</u>: General use <br>
 An R package for computing, simulating, fitting, and plotting Crawford's unit and Wright's cumulative average learning curves. 
   <a href="https://cran.rstudio.com/web/packages/learningCurve/index.html">
     <img src="http://www.r-pkg.org/badges/version/learningCurve" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
