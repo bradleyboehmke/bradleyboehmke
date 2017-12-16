@@ -23,7 +23,7 @@ permalink: consulting/
 
 Is your organization looking to advance its analytic capabilities?  I provide consulting services ranging from offering training opportunities for your analysts to providing deployed machine learning applications.  Recent clients include:
 
-<div style="width: 100%; height: 150px">
+<div style="width: 100%;">
 
 <div style="float: left; width: 30%; height: 100%; margin-right: .5em; margin-bottom: .5em;">
   <img src="/public/images/consulting/maxresdefault.jpg" style="display: block; margin: auto;" />
@@ -48,10 +48,6 @@ Is your organization looking to advance its analytic capabilities?  I provide co
 
 <div style="float: left; width: 30%; margin-right: .5em; margin-bottom: .5em;">
   <img src="/public/images/consulting/d185fc_98f6a41377db48dfa278c71262a10b76_mv2.jpg" style="display: block; margin: auto;" />
-</div>
-
-<div style="float: left; width: 30%; margin-right: .5em; margin-bottom: .5em;">
-  <img src="/public/images/consulting/US_Army_Cyber_Command_logo.png" style="display: block; margin: auto;" />
 </div>
 
 </div>
