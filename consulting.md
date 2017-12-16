@@ -21,7 +21,7 @@ permalink: consulting/
 --> 
 </STYLE>
 
-Is your organization looking to advance its analytic capabilities?  I provide consulting services ranging from offering training opportunities for your analysts to providing deployed machine learning applications.  Recent clients include:
+Is your organization looking to advance its analytic capabilities?  I provide consulting services ranging from 1-2 day training sessions for your analysts to developing and deploying machine learning applications.  If you are interested in collaborating please contact me (<a href="mailto:bradleyboehmke@gmail.com" target="_blank" style="color:#515151;"><i class="fa fa-envelope" style="font-size:1em"></i>).  Recent clients include:
 
 <div style="width: 100%;">
 
@@ -52,12 +52,4 @@ Is your organization looking to advance its analytic capabilities?  I provide co
 
 </div>
 
-  
-If you are interested in learning more please reach out to me via:
 
-<div class="contact-buttons" style="line-height:160%;margin-left:30px;margin-top:10px">
-<p>
-<a href="mailto:bradleyboehmke@gmail.com" target="_blank" style="color:#515151;"><i class="fa fa-envelope" style="font-size:1em"></i> &nbsp; Email<br></a> 
-<a href="https://www.linkedin.com/in/brad-boehmke-ph-d-9b0a257" target="_blank" style="color:#515151;"><i class="fa fa-linkedin" style="font-size:1em"></i> &nbsp; LinkedIn<br></a>
-</p>
-</div>
