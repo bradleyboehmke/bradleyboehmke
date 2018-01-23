@@ -23,15 +23,15 @@ Boehmke, B.C., Hazen, B.T., Greenwell, B.M. & McCarthy, A.J. "A data science app
 Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Algorithms and Computational Technology</em>
 </p>
 <p>
-Joo, S.J., Boehmke, B.C., & Min, H. "Sourcing analytics for evaluating and selecting suppliers using DEA and AHP: A case of the aerospace company." <em>International Journal of Services and Operations Management</em>
-</p>
-<p>
 Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em>
 </p>
 </ul>
 
 ## Peer Reviewed Journal Articles
 <ul>
+<p>
+Joo, S.J., Boehmke, B.C., & Min, H. "Sourcing analytics for evaluating and selecting suppliers using DEA and AHP: A case of the aerospace company." <em>International Journal of Services and Operations Management</em> (pre-print).
+</p>
 <p>
 Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio matrix: Using decision analysis for strategic purchasing." <em>Journal of Purchasing and Supply Management</em> (pre-print). DOI: 10.1016/j.pursup.2017.10.002 &nbsp; <a href="https://doi.org/10.1016/j.pursup.2017.10.002" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
