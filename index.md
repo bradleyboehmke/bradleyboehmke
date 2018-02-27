@@ -7,7 +7,7 @@ layout: page
 <img src="/public/Brad Boehmke.jpg" alt="Brad" align="right" style="width: 42%; height: 42%; margin:8px">
 </center> 
 
-Hello! I'm Brad, Senior Data Scientist at [Ascend Innovations](http://ascend-innovations.com/) where we develop analytic products and processes that allow healthcare organizations to extract more insights from their data.  
+Hello! I'm Brad, Director of Data Science at [84.51°](https://www.8451.com/) where I develop algorithmic processes, solutions, and tools that enable 84.51° and its analysts to efficiently extract insights from data and provide solution alternatives to decision-makers.  
 
 I work on applied analytic [research](http://bradleyboehmke.github.io/papers/), develop data analysis [software](http://bradleyboehmke.github.io/software/), deliver [workshops](http://bradleyboehmke.github.io/workshops/) on business analytics and R programming, write [books](http://bradleyboehmke.github.io/books/), and provide analytic [consulting services](http://bradleyboehmke.github.io/consulting/). 
 
