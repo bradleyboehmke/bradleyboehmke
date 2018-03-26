@@ -22,18 +22,18 @@ Boehmke, B.C., Hazen, B.T., Greenwell, B.M. & McCarthy, A.J. "A data science app
 <p>
 Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Algorithms and Computational Technology</em>
 </p>
-<p>
-Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em>
-</p>
 </ul>
 
 ## Peer Reviewed Journal Articles
 <ul>
-<p>
-Joo, S.J., Boehmke, B.C., Min, H., & Bayazit, O. "Sourcing analytics for evaluating and selecting suppliers using DEA and AHP: A case of the aerospace company." <em>International Journal of Services and Operations Management</em> (pre-print).
+ <p>
+Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. (2018) "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em> (pre-print).
 </p>
 <p>
-Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. "A quantified Kraljic portfolio matrix: Using decision analysis for strategic purchasing." <em>Journal of Purchasing and Supply Management</em> (pre-print). DOI: 10.1016/j.pursup.2017.10.002 &nbsp; <a href="https://doi.org/10.1016/j.pursup.2017.10.002" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+Joo, S.J., Boehmke, B.C., Min, H., & Bayazit, O. (2018) "Sourcing analytics for evaluating and selecting suppliers using DEA and AHP: A case of the aerospace company." <em>International Journal of Services and Operations Management</em> (pre-print).
+</p>
+<p>
+Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. (2017) "A quantified Kraljic portfolio matrix: Using decision analysis for strategic purchasing." <em>Journal of Purchasing and Supply Management</em> (pre-print). DOI: 10.1016/j.pursup.2017.10.002 &nbsp; <a href="https://doi.org/10.1016/j.pursup.2017.10.002" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Griffith, D.A., Boehmke, B.C., Hazen, B.T. & Johnson, A.W. (2017) "Embedded analytics: Improving decision support for humanitarian logistics operations." <em>Annals of Operations Research</em> (pre-print). DOI: 10.1007/s10479-017-2607-z. &nbsp; <a href="https://link.springer.com/epdf/10.1007/s10479-017-2607-z?author_access_token=qf427O15sfYWuxHwYTewcPe4RwlQNchNByi7wbcMAY6Wf9i-uUMARVUbbMeXh4l1XgPyOhOmf1W7YmqBCtRkxZ1LFkIvOBWpo7khgJn1I3E5YV9WPeW35bqW7gMLYj6l79VJY5WEYNKUymAKOjihyg%3D%3D" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
