@@ -8,6 +8,9 @@ permalink: presentations/
 <h2>Conferences</h2>
 <ul>
 <p>
+Boehmke, B.C. (2018). "Scaling Data Science at 84.51°." Marketing Analytics Conference, Atlanta, GA.
+</p>
+<p>
 Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Bihl, T.J. (2017). "Anomaly Detection: Using a Tabulated Vector Approach and Embedded Analytics for Efficient Data Mining." 85th Military Operations Research Symposium, West Point, NY. &nbsp; <a href="https://www.dropbox.com/s/9hfsztt89rnfe04/Gutierrez%20MORS%20Slides%20-%20VBA%20%281%29.PPTM?dl=1" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
