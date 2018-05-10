@@ -14,9 +14,6 @@ Greenwell, B.M., Schubert-Kabban, C.M., McCarthy, A.J., & Boehmke, B.C. "Inverse
 Greenwell, B.M., McCarthy, A.J., & Boehmke, B.C. "A Simple and Effective Model-Based Variable Importance Measure." <em>Journal of Computational and Graphical Statistics</em>
 </p>
 <p>
-Greenwell, B.M., McCarthy, A.J., Boehmke, B.C. & Dungang, L. "Residuals and diagnostics for binary and ordinal regression models: An introduction to the <code>sure</code> package." <em>The R Journal</em>
-</p>
-<p>
 Boehmke, B.C., Hazen, B.T., Greenwell, B.M. & McCarthy, A.J. "A data science approach to implementing decision analytics for strategic sourcing." <em>International Journal of Data Science and Analytics</em>
 </p>
 <p>
@@ -26,6 +23,9 @@ Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: 
 
 ## Peer Reviewed Journal Articles
 <ul>
+ <p>
+Greenwell, B.M., McCarthy, A.J., Boehmke, B.C. & Dungang, L. (2018) "Residuals and diagnostics for binary and ordinal regression models: An introduction to the <code>sure</code> package." <em>The R Journal</em> (pre-print).
+</p>
  <p>
 Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. (2018) "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em> (pre-print).
 </p>
