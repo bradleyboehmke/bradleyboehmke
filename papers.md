@@ -24,7 +24,7 @@ Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: 
 ## Peer Reviewed Journal Articles
 <ul>
  <p>
-Greenwell, B.M., McCarthy, A.J., Boehmke, B.C. & Dungang, L. (2018) "Residuals and diagnostics for binary and ordinal regression models: An introduction to the <code>sure</code> package." <em>The R Journal</em> (pre-print).
+Greenwell, B.M., McCarthy, A.J., Boehmke, B.C. & Dungang, L. (2018) "Residuals and diagnostics for binary and ordinal regression models: An introduction to the <code>sure</code> package." <em>The R Journal</em> (pre-print). &nbsp; <a href="https://journal.r-project.org/archive/2018/RJ-2018-004/index.html" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
  <p>
 Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. (2018) "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em> (pre-print).
