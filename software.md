@@ -8,6 +8,17 @@ permalink: software/
 <h1>Analytics</h1>
 
 <ul>
+<h2> vip <a href="https://github.com/koalaverse/vip" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+A general framework for constructing variable importance plots from various types machine learning models in R. 
+  <a href="https://cran.rstudio.com/web/packages/vip/index.html">
+    <img src="http://www.r-pkg.org/badges/version/vip" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a>
+  <a href="https://cran.rstudio.com/web/packages/vip/index.html">
+    <img src="https://cranlogs.r-pkg.org/badges/vip" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a>
+
+<br>
+
 <h2> sure <a href="https://github.com/koalaverse/sure" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 An R package that implements a surrogate approach to residuals and diagnostics for ordinal and general regression models. 
   <a href="https://cran.rstudio.com/web/packages/sure/index.html">
