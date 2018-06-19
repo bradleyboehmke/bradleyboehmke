@@ -8,7 +8,7 @@ permalink: software/
 <h1>Analytics</h1>
 
 <ul>
-<h2> sure <a href="https://github.com/AFIT-R/sure" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> sure <a href="https://github.com/koalaverse/sure" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 An R package that implements a surrogate approach to residuals and diagnostics for ordinal and general regression models. 
   <a href="https://cran.rstudio.com/web/packages/sure/index.html">
     <img src="http://www.r-pkg.org/badges/version/sure" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
@@ -19,7 +19,7 @@ An R package that implements a surrogate approach to residuals and diagnostics f
 
 <br>
 
-<h2> anomalyDetection <a href="https://github.com/AFIT-R/anomalyDetection" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> anomalyDetection <a href="https://github.com/koalaverse/anomalyDetection" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 An R package for implementing augmented network log anomoly detection procedures.   
   <a href="https://cran.rstudio.com/web/packages/anomalyDetection/index.html">
     <img src="http://www.r-pkg.org/badges/version/anomalyDetection" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
@@ -30,7 +30,7 @@ An R package for implementing augmented network log anomoly detection procedures
 
 <br>
 
-<h2> KraljicMatrix <a href="https://afit-r.github.io/KraljicMatrix/" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> KraljicMatrix <a href="https://koalaverse.github.io/KraljicMatrix/" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 An R package for implementing the Kraljic Matrix to strategically analyze a firm's purchasing portfolio. 
   <a href="https://cran.rstudio.com/web/packages/KraljicMatrix/index.html">
     <img src="http://www.r-pkg.org/badges/version/KraljicMatrix" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
