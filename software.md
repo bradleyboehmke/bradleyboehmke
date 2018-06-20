@@ -30,7 +30,7 @@ An R package that implements a surrogate approach to residuals and diagnostics f
 
 <br>
 
-<h2> anomalyDetection <a href="https://github.com/koalaverse/anomalyDetection" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
+<h2> anomalyDetection <a href="https://koalaverse.github.io/anomalyDetection/index.html" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 An R package for implementing augmented network log anomoly detection procedures.   
   <a href="https://cran.rstudio.com/web/packages/anomalyDetection/index.html">
     <img src="http://www.r-pkg.org/badges/version/anomalyDetection" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
