@@ -15,6 +15,13 @@ permalink: /workshops/
 <br>
 
 ## Workshops
+<ul>
+  <p>
+  <h3> Intro to R </h3> <br>
+  <u>Next offering</u>: TBD <br>
+This is the first course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will help both new and existing R users master the basics of R. &nbsp;&nbsp; <a href="http://business.uc.edu/academics/centers/analytics-center/analytics-training/introduction-to-R.html" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
+  </p>
+</ul>
 
 ### Intermediate R
 <u>Next offering</u>: Feb 8-9, 2018 <br>
