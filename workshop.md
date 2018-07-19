@@ -8,7 +8,7 @@ permalink: /workshops/
 
 <ul>
 <p>
-[uc-r.github.io](http://uc-r.github.io/):  R programming tutorials covering the entire data science pipeline; from importing, cleaning, wrangling, and visualizing data to applying advanced descriptive and predictive analytics.
+  <a href="http://uc-r.github.io/">uc-r.github.io</a>:  R programming tutorials covering the entire data science pipeline; from importing, cleaning, wrangling, and visualizing data to applying advanced descriptive and predictive analytics.
 </p>
 </ul>
 
