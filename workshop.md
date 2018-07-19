@@ -23,6 +23,14 @@ This is the first course in the "R" series offered through <a href="http://www.u
   </p>
 </ul>
 
+<ul>
+  <p>
+  <h3> Intermediate R </h3> 
+  <u>Next offering</u>: Feb 8-9, 2018 <br>
+This is the second course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will cover the application of R for the entire data science workflow – data acquisition, wrangling, visualization, analytic modeling, and communication. &nbsp;&nbsp; <a href="http://business.uc.edu/academics/centers/analytics-center/analytics-training/intermediate-R.html" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
+  </p>
+</ul>
+
 ### Intermediate R
 <u>Next offering</u>: Feb 8-9, 2018 <br>
 This is the second course in the "R" series offered through [University of Cincinnati's](http://www.uc.edu/) [Center for Business Analytics ](http://business.uc.edu/centers/analytics-center.html). This 2 day course will cover the application of R for the entire data science workflow – data acquisition, wrangling, visualization, analytic modeling, and communication. &nbsp;&nbsp; <a href="http://business.uc.edu/academics/centers/analytics-center/analytics-training/intermediate-R.html" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
