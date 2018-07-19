@@ -6,7 +6,11 @@ permalink: /workshops/
 
 ## Online Tutorials
 
-http://uc-r.github.io/:  R programming tutorials covering the entire data science pipeline; from importing, cleaning, wrangling, and visualizing data to applying advanced descriptive and predictive analytics.
+<ul>
+<p>
+[uc-r.github.io](http://uc-r.github.io/):  R programming tutorials covering the entire data science pipeline; from importing, cleaning, wrangling, and visualizing data to applying advanced descriptive and predictive analytics.
+</p>
+</ul>
 
 <br>
 
