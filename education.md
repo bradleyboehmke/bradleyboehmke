@@ -89,8 +89,13 @@ This 10 week course offered as part of <a href="http://www.afit.edu/">Air Force 
 <ul>
   <p>
   <h3> Intro to R Bootcamp </h3> 
-A two day course for all incoming <a href="http://business.uc.edu/graduate/ms-business-analytics.html">Business Analytics M.S.</a> students at the <a href="http://www.uc.edu/">University of Cincinnati<a/> that provides an intensive, hands-on introduction to the R programming language. This short course prepares students with the fundamental programming skills required to start their journey to becoming a modern day data analyst. &nbsp;&nbsp; <a href="http://uc-r.github.io/r_bootcamp" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
+A two day course for all incoming <a href="http://business.uc.edu/graduate/ms-business-analytics.html">Business Analytics M.S.</a> students at the <a href="http://www.uc.edu/">University of Cincinnati</a> that provides an intensive, hands-on introduction to the R programming language. This short course prepares students with the fundamental programming skills required to start their journey to becoming a modern day data analyst. &nbsp;&nbsp; <a href="http://uc-r.github.io/r_bootcamp" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
   </p>
 </ul>
 
-
+<ul>
+  <p>
+  <h3> OPER 200: Introduction to Statistical Programming with R </h3> 
+An introductory short course for all incoming <a href="http://www.afit.edu/ENS/programs.cfm?p=12&a=pd">Operations Research M.S.</a> students at the <a href="http://www.afit.edu/">Air Force Institute of Technology</a> that provides an intensive, hands-on introduction to the R programming language. This short course prepares students with the fundamental R programming skills required for data wrangling, visualization, and reproducibility. &nbsp;&nbsp; <a href="https://afit-r.github.io/oper200/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
+  </p>
+</ul>
