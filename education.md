@@ -93,9 +93,4 @@ A two day course for all incoming <a href="http://business.uc.edu/graduate/ms-bu
   </p>
 </ul>
 
-<ul>
-  <p>
-  <h3> OPER 200: Introduction to Statistical Programming with R </h3> 
-An introductory short course for all incoming <a href="http://www.afit.edu/ENS/programs.cfm?p=12&a=pd">Operations Research M.S.</a> students at the <a href="http://www.afit.edu/">Air Force Institute of Technology</a> that provides an intensive, hands-on introduction to the R programming language. This short course prepares students with the fundamental R programming skills required for data wrangling, visualization, and reproducibility. &nbsp;&nbsp; <a href="https://afit-r.github.io/oper200/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
-  </p>
-</ul>
+
