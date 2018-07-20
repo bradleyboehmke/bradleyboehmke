@@ -9,7 +9,7 @@ layout: page
 
 Hello! I'm Brad, Director of Data Science at [84.51°](https://www.8451.com/) where we develop algorithmic processes, solutions, and tools that enable 84.51° and its analysts to efficiently extract insights from data and provide solution alternatives to decision-makers.  
 
-I work on applied analytic [research](http://bradleyboehmke.github.io/papers/), develop data analysis [software](http://bradleyboehmke.github.io/software/), deliver [workshops](http://bradleyboehmke.github.io/workshops/) on business analytics and R programming, write [books](http://bradleyboehmke.github.io/books/), and provide analytic [consulting services](http://bradleyboehmke.github.io/consulting/). 
+I work on applied analytic [research](http://bradleyboehmke.github.io/papers/), develop data analysis [software](http://bradleyboehmke.github.io/software/), create data science educational [content](http://bradleyboehmke.github.io/education/), write [books](http://bradleyboehmke.github.io/books/), and provide analytic [consulting services](http://bradleyboehmke.github.io/consulting/). 
 
 I am also an Adjunct Professor at the [University of Cincinnati](http://business.uc.edu/departments/obais.html), [Wake Forest University](http://business.wfu.edu/ms-analytics/), and [Air Force Institute of Technology](http://www.afit.edu/ENS/) where I teach [business analytics and R programming courses](http://bradleyboehmke.github.io/courses). Previously, I was a Senior Operations Research Analyst with the Air Force and spent many years developing life cycle forecasting, risk and decision analysis models.
 
