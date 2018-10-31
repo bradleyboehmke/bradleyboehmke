@@ -18,23 +18,23 @@ permalink: /education/
 <ul>
   <p>
   <h3> Intro to R </h3> 
-  <u>Next offering</u>: TBD <br>
-This is the first course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will help both new and existing R users master the basics of R. &nbsp;&nbsp; <a href="http://business.uc.edu/academics/centers/analytics-center/analytics-training/introduction-to-R.html" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
+  <u>Next offering</u>: Dec 13-14, 2018 <br>
+This is the first course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will help both new and existing R users master the basics of R. &nbsp;&nbsp; <a href="http://www.cvent.com/events/introduction-to-r-dec-13-14-2018/event-summary-38804de48d28473bb215fbd95c2fbc34.aspx" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
   </p>
 </ul>
 
 <ul>
   <p>
   <h3> Intermediate R </h3> 
-  <u>Next offering</u>: Feb 8-9, 2018 <br>
-This is the second course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will cover the application of R for the entire data science workflow – data acquisition, wrangling, visualization, analytic modeling, and communication. &nbsp;&nbsp; <a href="http://business.uc.edu/academics/centers/analytics-center/analytics-training/intermediate-R.html" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
+  <u>Next offering</u>: Jan 31-Feb 1, 2019 <br>
+This is the second course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will cover the application of R for the entire data science workflow – data acquisition, wrangling, visualization, analytic modeling, and communication. &nbsp;&nbsp; <a href="http://www.cvent.com/events/intermediate-r-jan-31-feb-1-2019/event-summary-c1a403d401cb488aa00d400bff7199e8.aspx" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
   </p>
 </ul>
 
 <ul>
   <p>
   <h3> Text Mining with R </h3> 
-  <u>Next offering</u>: Mar 8-9, 2018 <br>
+  <u>Next offering</u>: TBD <br>
 This course is part of my "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will cover the application of R for text mining activities such as regular expressions, tidying unstructured text, frequency analysis, sentiment analysis, topic modeling and more. &nbsp;&nbsp; <a href="http://business.uc.edu/academics/centers/analytics-center/analytics-training/text-mining-with-r.html" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
   </p>
 </ul>
