@@ -24,10 +24,10 @@ Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: 
 ## Peer Reviewed Journal Articles
 <ul>
 <p>
-Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. (2018) "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology</em> (pre-print).  DOI: 10.1177/1748301818791503 &nbsp; <a href="https://doi.org/10.1177/1748301818791503" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
-</p>
-<p>
 Joo, S.J., Boehmke, B.C., Min, H., & Bayazit, O. (2018) "Sourcing analytics for evaluating and selecting suppliers using DEA and AHP: A case of the aerospace company." <em>International Journal of Services and Operations Management</em> (pre-print).
+</p>
+  <p>
+Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. (2018) "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology, 12</em>(4), 293-310.  DOI: 10.1177/1748301818791503 &nbsp; <a href="https://doi.org/10.1177/1748301818791503" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
 Montgomery, R.T., Ogden, J.A., & Boehmke, B.C. (2017) "A quantified Kraljic portfolio matrix: Using decision analysis for strategic purchasing." <em>Journal of Purchasing and Supply Management, 24</em>(3), 192-203. DOI: 10.1016/j.pursup.2017.10.002 &nbsp; <a href="https://doi.org/10.1016/j.pursup.2017.10.002" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
