@@ -19,7 +19,7 @@ permalink: /education/
   <p>
   <h3> Intro to R </h3> 
   <u>Next offering</u>: Dec 13-14, 2018 <br>
-This is the first course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will help both new and existing R users master the basics of R. &nbsp;&nbsp; <a href="http://www.cvent.com/events/introduction-to-r-dec-13-14-2018/event-summary-38804de48d28473bb215fbd95c2fbc34.aspx" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
+This is the first course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will help both new and existing R users master the basics of R. &nbsp;&nbsp; <a href="https://github.com/uc-r/Intro-R" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
   </p>
 </ul>
 
