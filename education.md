@@ -18,7 +18,7 @@ permalink: /education/
 <ul>
   <p>
   <h3> Intro to R </h3> 
-  <u>Next offering</u>: Dec 13-14, 2018 <br>
+  <u>Next offering</u>: TBD <br>
 This is the first course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will help both new and existing R users master the basics of R. &nbsp;&nbsp; <a href="https://github.com/uc-r/Intro-R" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
   </p>
 </ul>
@@ -26,7 +26,7 @@ This is the first course in the "R" series offered through <a href="http://www.u
 <ul>
   <p>
   <h3> Intermediate R </h3> 
-  <u>Next offering</u>: Jan 31-Feb 1, 2019 <br>
+  <u>Next offering</u>: TBD <br>
 This is the second course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will cover the application of R for the entire data science workflow – data acquisition, wrangling, visualization, analytic modeling, and communication. &nbsp;&nbsp; <a href="http://www.cvent.com/events/intermediate-r-jan-31-feb-1-2019/event-summary-c1a403d401cb488aa00d400bff7199e8.aspx" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
   </p>
 </ul>
@@ -42,7 +42,7 @@ This course is part of my "R" series offered through <a href="http://www.uc.edu/
 <ul>
   <p>
   <h3> Machine Learning with R </h3> 
-  <u>Next offering</u>: TBD <br>
+  <u>Next offering</u>: April 1-2, 2019 <br>
 This 2 day course will be offered at the 2018 Analytic Summit organized by <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This course covers the fundamentals and application of modern machine learning tasks within the R programming language. You will learn how to process data for modeling, train your supervised and unsupervised models, visualize your models and assess their performance, and tune your model's parameters for better performance. Check back soon for more info. &nbsp;&nbsp; <a href="http://www.cvent.com/events/analytics-summit-2018/custom-17-e7495678a9b343979c44bb3ee0a5169f.aspx" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
   </p>
 </ul>
