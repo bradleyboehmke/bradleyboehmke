@@ -33,10 +33,10 @@ An R package that implements a surrogate approach to residuals and diagnostics f
 <h2> anomalyDetection <a href="https://koalaverse.github.io/anomalyDetection/index.html" style="color:#303030;"><i class="fa fa-github" style="font-size:.75em"></i></a></h2>
 An R package for implementing augmented network log anomoly detection procedures.   
   <a href="https://cran.rstudio.com/web/packages/anomalyDetection/index.html">
-    <img src="http://www.r-pkg.org/badges/version/anomalyDetection" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+    <img src="https://img.shields.io/badge/lifecycle-archived-brightgreen.svg" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
   </a>
   <a href="https://cran.rstudio.com/web/packages/anomalyDetection/index.html">
-    <img src="https://cranlogs.r-pkg.org/badges/anomalyDetection" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+    <img src="https://cranlogs.r-pkg.org/badges/grand-total/anomalyDetection" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
   </a>
 
 <br>
@@ -47,7 +47,7 @@ An R package for implementing the Kraljic Matrix to strategically analyze a firm
     <img src="http://www.r-pkg.org/badges/version/KraljicMatrix" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
   </a>
   <a href="https://cran.rstudio.com/web/packages/KraljicMatrix/index.html">
-    <img src="https://cranlogs.r-pkg.org/badges/KraljicMatrix" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+    <img src="https://cranlogs.r-pkg.org/badges/grand-total/KraljicMatrix" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
   </a>
 
 <br>
