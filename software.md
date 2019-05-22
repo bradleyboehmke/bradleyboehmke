@@ -71,6 +71,17 @@ An R package for computing, simulating, fitting, and plotting Crawford's unit an
 
 <h1>Data</h1>
 <ul>
+  
+<h2> completejourney 
+  <a href="https://bradleyboehmke.github.io/completejourney/" style="color:#303030;">
+    <i class="fa fa-github" style="font-size:.75em"></i>
+  </a>
+</h2>
+
+<p>
+An R data package that provides access to data in the Complete Journey Study provided by 84.51. The data represents grocery store shopping transactions over one year from a group of 2,469 households who are frequent shoppers at a retailer.
+</p>
+
 <h2> harrypotter 
   <a href="https://github.com/bradleyboehmke/harrypotter" style="color:#303030;">
     <i class="fa fa-github" style="font-size:.75em"></i>
