@@ -8,16 +8,10 @@ permalink: papers/
 ## Under Review
 <ul>
 <p>
-Greenwell, B.M., Schubert-Kabban, C.M., McCarthy, A.J., & Boehmke, B.C. "Inverse Estimation with Linear Mixed-Effects Models with Application in R." <em>Journal of Modern Applied Statistical Methods</em>
+Greenwell, B.M., Boehmke, B.C., & McCarthy, A.J. "A Simple and Effective Model-Based Variable Importance Measure."  &nbsp; <a href="https://arxiv.org/abs/1805.04755" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
 <p>
-Greenwell, B.M., McCarthy, A.J., & Boehmke, B.C. "A Simple and Effective Model-Based Variable Importance Measure." <em>Journal of Computational and Graphical Statistics</em>
-</p>
-<p>
-Boehmke, B.C., Hazen, B.T., Greenwell, B.M. & McCarthy, A.J. "A data science approach to implementing decision analytics for strategic sourcing." <em>International Journal of Data Science and Analytics</em>
-</p>
-<p>
-Hazen, B.T & Boehmke, B.C. "Big data, supply chain insights and business value: A double helix resource orchestration process." <em>Journal of Algorithms and Computational Technology</em>
+Boehmke, B.C., Hazen, B.T., Boone, C.A., & Robinson, J.L.  "A Data Science Approach to Implementing Decision Analytics for Strategic Sourcing and Industry 4.0."
 </p>
 </ul>
 
