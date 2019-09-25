@@ -8,6 +8,14 @@ permalink: /education/
 
 <ul>
 <p>
+  <h3> Hands-on Machine Learning with R </h3>
+  Supplementary material for Hands-On Machine Learning with R, an applied book covering the fundamentals of machine learning with R. &nbsp;&nbsp; <a href="https://koalaverse.github.io/homlr/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
+</p>
+</ul>
+
+<ul>
+<p>
+  <h3> UC Business Analytics R Programming Guide </h3>
   R programming tutorials covering the entire data science pipeline; from importing, cleaning, wrangling, and visualizing data to applying advanced descriptive and predictive analytics. &nbsp;&nbsp; <a href="http://uc-r.github.io/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
 </p>
 </ul>
@@ -18,7 +26,7 @@ permalink: /education/
 <ul>
   <p>
   <h3> Intro to R </h3> 
-  <u>Next offering</u>: TBD <br>
+  <u>Next offering</u>: Oct 17-18, 2019 <br>
 This is the first course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will help both new and existing R users master the basics of R. &nbsp;&nbsp; <a href="https://github.com/uc-r/Intro-R" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
   </p>
 </ul>
@@ -26,7 +34,7 @@ This is the first course in the "R" series offered through <a href="http://www.u
 <ul>
   <p>
   <h3> Intermediate R </h3> 
-  <u>Next offering</u>: TBD <br>
+  <u>Next offering</u>: Nov 21-22, 2019 <br>
 This is the second course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will cover the application of R for the entire data science workflow – data acquisition, wrangling, visualization, analytic modeling, and communication. &nbsp;&nbsp; <a href="http://www.cvent.com/events/intermediate-r-jan-31-feb-1-2019/event-summary-c1a403d401cb488aa00d400bff7199e8.aspx" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
   </p>
 </ul>
