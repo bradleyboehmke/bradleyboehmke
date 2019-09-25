@@ -17,6 +17,7 @@ Features:
 - Topics covered include feature engineering, resampling, deep learning and more.
 - Uses a hands-on approach and real world data.
 
+<br><br>
 
 ## Data Wrangling with R &nbsp;&nbsp; <a href="https://www.amazon.com/Data-Wrangling-R-Use/dp/3319455982/ref=sr_1_1?ie=UTF8&qid=1476410448&sr=8-1&keywords=data+wrangling+with+r" style="color:black;"><i class="fa fa-amazon" style="font-size:.7em"></i></a>
 
