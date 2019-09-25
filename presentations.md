@@ -41,6 +41,9 @@ Boehmke, B.C. (2012). "Model for identifying cost savings by synchronizing the E
 
 <h2>Invited</h2>
 <ul>
+ <p>
+Boehmke, B.C., Greenwell, B.M., Shaw, R. (2019). "Bridging IML Expertise: A Collaboration between 84.51 and DataRobot." DataRobot AI Council, Miami, FL 
+</p>
 <p>
 Boehmke, B.C. (2018). "Interpretable Machine Learning with R." Cincinnati-Dayton useR Meetup, Cincinnati, OH. &nbsp; <a href="https://github.com/bradleyboehmke/CinDay-RUG-IML-2018" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a> 
 </p>
