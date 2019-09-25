@@ -80,6 +80,12 @@ An R package for computing, simulating, fitting, and plotting Crawford's unit an
 
 <p>
 An R data package that provides access to data in the Complete Journey Study provided by 84.51. The data represents grocery store shopping transactions over one year from a group of 2,469 households who are frequent shoppers at a retailer.
+    <a href="https://cran.rstudio.com/web/packages/completejourney/index.html">
+    <img src="http://www.r-pkg.org/badges/version/completejourney" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a>
+  <a href="https://cran.rstudio.com/web/packages/completejourney/index.html">
+    <img src="https://cranlogs.r-pkg.org/badges/completejourney" style="border: 0; display:inline; margin: 0 2px; box-shadow: none">
+  </a>
 </p>
 
 <h2> harrypotter 
