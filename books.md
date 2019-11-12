@@ -4,7 +4,7 @@ title: Books
 permalink: books/
 ---
 
-## Hands-On Machine Learning with R &nbsp;&nbsp; <a href="https://www.crcpress.com/Hands-On-Machine-Learning-with-R/Boehmke-Greenwell/p/book/9781138495685" style="color:black;"><i class="fa fa-amazon" style="font-size:.7em"></i></a>
+## Hands-On Machine Learning with R &nbsp;&nbsp; <a href="https://www.amazon.com/Hands-Machine-Learning-Chapman-Hall/dp/1138495689/ref=sr_1_3?keywords=hands+on+machine+learning+with+r&qid=1573598828&sr=8-3" style="color:black;"><i class="fa fa-amazon" style="font-size:.7em"></i></a>
 
 <a href="https://www.crcpress.com/Hands-On-Machine-Learning-with-R/Boehmke-Greenwell/p/book/9781138495685"><img src="/public/images/homlr_cover.jpg" alt="Hands-On Machine Learning with R" style="float:right; margin: 5px 0px 10px 10px; width: 30%; height: 30%;"></a>
 <em><a href="https://www.crcpress.com/Hands-On-Machine-Learning-with-R/Boehmke-Greenwell/p/book/9781138495685">Hands-On Machine Learning with R</a></em> provides a practical and applied approach to learning and developing intuition into today’s most popular machine learning methods. This book serves as a practitioner’s guide to the machine learning process and is meant to help the reader learn to apply the machine learning stack within R, which includes using various R packages such as glmnet, h2o, ranger, xgboost, keras, and others to effectively model and gain insight from their data. The book favors a hands-on approach, providing an intuitive understanding of machine learning concepts through concrete examples and just a little bit of theory. 
