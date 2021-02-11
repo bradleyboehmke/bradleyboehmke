@@ -42,6 +42,9 @@ Boehmke, B.C. (2012). "Model for identifying cost savings by synchronizing the E
 <h2>Invited</h2>
 <ul>
  <p>
+Boehmke, B.C. (2021). "Feature Importance: A road to clarity." Tech Talk, Galois, Inc. &nbsp; <a href="https://bradleyboehmke.github.io/galois-talk/#1" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
+</p>
+ <p>
 Boehmke, B.C., Greenwell, B.M., Shaw, R. (2019). "Bridging IML Expertise: A Collaboration between 84.51 and DataRobot." DataRobot AI Council, Miami, FL 
 </p>
 <p>
