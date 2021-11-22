@@ -1,109 +1,29 @@
----
-layout: page
-title: Workshops
-permalink: /education/
----
+# Education
 
 ## Online Tutorials
 
-<ul>
-<p>
-  <h3> Hands-on Machine Learning with R </h3>
-  Supplementary material for Hands-On Machine Learning with R, an applied book covering the fundamentals of machine learning with R. &nbsp;&nbsp; <a href="https://koalaverse.github.io/homlr/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
-</p>
-</ul>
-
-<ul>
-<p>
-  <h3> UC Business Analytics R Programming Guide </h3>
-  R programming tutorials covering the entire data science pipeline; from importing, cleaning, wrangling, and visualizing data to applying advanced descriptive and predictive analytics. &nbsp;&nbsp; <a href="http://uc-r.github.io/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
-</p>
-</ul>
-
-<br>
+* __Hands-on Machine Learning with R__: Supplementary material for Hands-On Machine Learning with R, an applied book covering the fundamentals of machine learning with R. [🔗](https://koalaverse.github.io/homlr/)
+* __UC Business Analytics R Programming Guide__: R programming tutorials covering the entire data science pipeline; from importing, cleaning, wrangling, and visualizing data to applying advanced descriptive and predictive analytics. [🔗](http://uc-r.github.io/)
 
 ## Workshops
-<ul>
-  <p>
-  <h3> Intro to R </h3> 
-  <u>Next offering</u>: Oct 17-18, 2019 <br>
-This is the first course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will help both new and existing R users master the basics of R. &nbsp;&nbsp; <a href="https://github.com/uc-r/Intro-R" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
-  </p>
-</ul>
 
-<ul>
-  <p>
-  <h3> Intermediate R </h3> 
-  <u>Next offering</u>: Nov 21-22, 2019 <br>
-This is the second course in the "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will cover the application of R for the entire data science workflow – data acquisition, wrangling, visualization, analytic modeling, and communication. &nbsp;&nbsp; <a href="http://www.cvent.com/events/intermediate-r-jan-31-feb-1-2019/event-summary-c1a403d401cb488aa00d400bff7199e8.aspx" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
-  </p>
-</ul>
+* __Intro to Python__: This is the first course in the "Python" series offered through University of Cincinnati's [Center for Business Analytics](https://business.uc.edu/centers-partnerships/business-analytics.html). This 2 day course will provide a gentle, hands-on introduction to the Python programming language for data science applications. [🔗](https://github.com/uc-python/intro-python-datasci)
+* __Intermediate Python__: This is the second course in the "Python" series offered through University of Cincinnati's [Center for Business Analytics](https://business.uc.edu/centers-partnerships/business-analytics.html). This 2 day course teaches beginner Python users to program more efficiently using control flow and custom functions, gain comfortability with Python from the shell, and be exposed to a few of the leading data science packages of Python like scikit-learn for predictive modeling. [🔗](https://github.com/uc-python/intermediate-python-datasci)
+* __Advanced Python__: This is the third course in the "Python" series offered through University of Cincinnati's [Center for Business Analytics](https://business.uc.edu/centers-partnerships/business-analytics.html). This 2 day course teaches the fundamentals of the scikit-learn library along with exploring several other tools and methodologies that allow you to implement a robust end-to-end machine learning workflow. [🔗](https://github.com/uc-python/advanced-python-datasci)
+* __Intro to R__: This is the first course in the "R" series offered through University of Cincinnati's [Center for Business Analytics](https://business.uc.edu/centers-partnerships/business-analytics.html). This 2 day course will help both new and existing R users master the basics of R. [🔗](https://github.com/uc-r/Intro-R)
+* __Intermediate R__: This is the second course in the "R" series offered through University of Cincinnati's [Center for Business Analytics](https://business.uc.edu/centers-partnerships/business-analytics.html). This 2 day course will cover the application of R for the entire data science workflow – data acquisition, wrangling, visualization, analytic modeling, and communication. [🔗](https://github.com/uc-r/Intermediate-R)
+* __Advanced R__: This is the third course in the "R" series offered through University of Cincinnati's [Center for Business Analytics](https://business.uc.edu/centers-partnerships/business-analytics.html). This 2 day course will provide a hands-on approach to applying various supervised and unsupervised machine learning algorithms. [🔗](https://github.com/uc-r/Advanced-R)
+* __Deep Learning with Keras & TensorFlow in R__: This 2 day workshop was presented at the 2020 rstudio::conf conference and introduces the essential concepts of building deep learning models in R. [🔗](https://github.com/rstudio-conf-2020/dl-keras-tf)
+* __Text Mining with R__: This course is part of my "R" series offered through University of Cincinnati's [Center for Business Analytics](https://business.uc.edu/centers-partnerships/business-analytics.html). This 2 day course will cover the application of R for text mining activities such as regular expressions, tidying unstructured text, frequency analysis, sentiment analysis, topic modeling and more. [🔗](https://github.com/bradleyboehmke/R-Training-Text-Mining)
 
-<ul>
-  <p>
-  <h3> Text Mining with R </h3> 
-  <u>Next offering</u>: TBD <br>
-This course is part of my "R" series offered through <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This 2 day course will cover the application of R for text mining activities such as regular expressions, tidying unstructured text, frequency analysis, sentiment analysis, topic modeling and more. &nbsp;&nbsp; <a href="http://business.uc.edu/academics/centers/analytics-center/analytics-training/text-mining-with-r.html" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
-  </p>
-</ul>
-
-<ul>
-  <p>
-  <h3> Machine Learning with R </h3> 
-  <u>Next offering</u>: TBD <br>
-This 2 day course will be offered at the 2018 Analytic Summit organized by <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/centers/analytics-center.html">Center for Business Analytics</a>. This course covers the fundamentals and application of modern machine learning tasks within the R programming language. You will learn how to process data for modeling, train your supervised and unsupervised models, visualize your models and assess their performance, and tune your model's parameters for better performance. Check back soon for more info. &nbsp;&nbsp; <a href="http://www.cvent.com/events/analytics-summit-2018/custom-17-e7495678a9b343979c44bb3ee0a5169f.aspx" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
-  </p>
-</ul>
-
-<br>
 
 ## University Courses
 
-<ul>
-  <p>
-  <h3> BANA 8090: Data Wrangling with R </h3> 
-This 7 week course offered as part of <a href="http://www.uc.edu/">University of Cincinnati's</a> <a href="http://business.uc.edu/graduate/ms-business-analytics.html">Master of Science in Business Analytics</a> program teaches the essentials of preprocessing data leveraging the R programming language to easily and quickly turn noisy data into usable pieces of information. &nbsp;&nbsp; <a href="http://uc-r.github.io/data_wrangling/syllabus" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
-  </p>
-</ul>
-
-<ul>
-  <p>
-  <h3> LOGM 655: Text Mining with R </h3> 
-This 10 week course offered as part of <a href="http://www.afit.edu/">Air Force Institute of Technology's</a> <a href="http://www.afit.edu/ENS/programs.cfm?p=12&a=pd">Master of Science in Logistics and Supply Chain Management</a> program introduces students to the rapidly growing field of text mining and equips them with some of its basic principles and tools as well as its general mindset. &nbsp;&nbsp; <a href="https://afit-r.github.io/logm655" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
-  </p>
-</ul>
-
-<ul>
-  <p>
-  <h3> LOGM 630: Forecasting Management with R </h3> 
-This 10 week course offered as part of <a href="http://www.afit.edu/">Air Force Institute of Technology's</a> <a href="http://www.afit.edu/ENS/programs.cfm?p=12&a=pd">Master of Science in Logistics and Supply Chain Management</a> program covers the different steps of the forecasting process, from goal definition, data visualization, and modeling to performance evaluation, interpretation, and model deployment. &nbsp;&nbsp; <a href="https://afit-r.github.io/logm630" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
-  </p>
-</ul>
-
-<ul>
-  <p>
-  <h3> BAN 6003: Introduction to Programming with R </h3> 
-This 7 week course offered as part of <a href="http://www.wfu.edu/">Wake Forest University's</a> <a href="http://business.wfu.edu/ms-analytics/">Master of Science in Business Analytics</a> program provides an intensive, hands-on introduction to the R programming language. &nbsp;&nbsp; <a href="https://wfu-r.github.io/ban6003" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
-  </p>
-</ul>
-
-<ul>
-  <p>
-  <h3> OPER 682: Operational Data Science with R </h3> 
-This 10 week course offered as part of <a href="http://www.afit.edu/">Air Force Institute of Technology's</a> <a href="http://www.afit.edu/ENS/programs.cfm?p=12&a=pd">Master of Science in Operations Research</a> program teaches the fundamental skills required to acquire, munge, transform, manipulate, visualize, and model data in a computing environment that fosters reproducibility. &nbsp;&nbsp; <a href="https://afit-r.github.io/oper682" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> 
-  </p>
-</ul>
-
-<ul>
-  <p>
-  <h3> Intro to R Bootcamp </h3> 
-A two day course for all incoming <a href="http://business.uc.edu/graduate/ms-business-analytics.html">Business Analytics M.S.</a> students at the <a href="http://www.uc.edu/">University of Cincinnati</a> that provides an intensive, hands-on introduction to the R programming language. This short course prepares students with the fundamental programming skills required to start their journey to becoming a modern day data analyst. &nbsp;&nbsp; <a href="http://uc-r.github.io/r_bootcamp" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
-  </p>
-</ul>
-
-<ul>
-  <p>
-  <h3> OPER 200: Introduction to Statistical Programming with R </h3> 
-An introductory short course for all incoming <a href="http://www.afit.edu/ENS/programs.cfm?p=12&a=pd">Operations Research M.S.</a> students at the <a href="http://www.afit.edu/">Air Force Institute of Technology</a> that provides an intensive, hands-on introduction to the R programming language. This short course prepares students with the fundamental R programming skills required for data wrangling, visualization, and reproducibility. &nbsp;&nbsp; <a href="https://afit-r.github.io/oper200/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
-  </p>
-</ul>
+* __BAN 614: Introduction to Machine Learning__: This 10 week course offered as part of University of Dayton's [Master of Science in Business Analytics program](https://udayton.edu/business/departments/mis_osc_and_business_analytics/master_of_business_analytics/index.php) teaches data manipulation and exploratory data visualization; predictive modeling using regression,decision trees, naive bayes, discriminant analysis; regularization and resampling methods; clustering and principal component analysis. 2021.
+* __BANA 8090: Data Wrangling with R__: This 7 week course offered as part of University of Cincinnati's [Master of Science in Business Analytics program](https://business.uc.edu/academics/specialized-masters/business-analytics.html) teaches the essentials of preprocessing data leveraging the R programming language to easily and quickly turn noisy data into usable pieces of information. 2015-2019. [🔗](http://uc-r.github.io/data_wrangling)
+* __LOGM 655: Text Mining__: This 10 week course offered as part of Air Force Institute of Technology's[Master of Science in Data Science program](https://www.afit.edu/ENS/programs.cfm?a=view&D=74) introduces students to the rapidly growing field of text mining and equips them with some of its basic principles and tools as well as its general mindset. 2016-2017. [🔗](https://afit-r.github.io/logm655)
+* __LOGM 630: Forecasting Management__: This 10 week course offered as part of Air Force Institute of Technology's [Master of Science in Logistics and Supply Chain Management program](https://www.afit.edu/ENS/programs.cfm?a=view&D=40) covers the different steps of the forecasting process, from goal definition, data visualization, and modeling to performance evaluation, interpretation, and model deployment. 2016-2017. [🔗](https://afit-r.github.io/logm630)
+* __BAN 6003: Introduction to Programming with R__: This 7 week course offered as part of Wake Forest University's [Master of Science in Business Analytics program](https://business.wfu.edu/masters-in-business-analytics/) provides an intensive, hands-on introduction to the R programming language. 2017
+* __OPER 682: Operational Data Science with R__: This 10 week course offered as part of Air Force Institute of Technology's[Master of Science in Data Science program](https://www.afit.edu/ENS/programs.cfm?a=view&D=74) program teaches the fundamental skills required to acquire, munge, transform, manipulate, visualize, and model data in a computing environment that fosters reproducibility. 2016-2017. [🔗](https://afit-r.github.io/oper682)
+* __Intro to R Bootcamp__: A two day course for all incoming [Business Analytics M.S.](https://business.uc.edu/academics/specialized-masters/business-analytics.html) students at the University of Cincinnati that provides an intensive, hands-on introduction to the R programming language. This short course prepares students with the fundamental programming skills required to start their journey to becoming a modern day data analyst. 2015-1018. [🔗](http://uc-r.github.io/r_bootcamp)
+* __OPER 200: Introduction to Statistical Programming with R__: An introductory short course for all incoming [Operations Research M.S.](https://www.afit.edu/ENS/programs.cfm?a=view&D=36) students at the Air Force Institute of Technology that provides an intensive, hands-on introduction to the R programming language. This short course prepares students with the fundamental R programming skills required for data wrangling, visualization, and reproducibility. 2015-2016. [🔗](https://afit-r.github.io/oper200/)

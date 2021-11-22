@@ -1,8 +1,3 @@
----
-layout: page
-title: Papers
-permalink: papers/
----
 
 
 ## Under Review
@@ -22,7 +17,7 @@ Joo, S.J., Boehmke, B.C., Min, H., & Bayazit, O. (2018) "Sourcing analytics for 
 </p>
 <p>
 McGowin, A., Ritschel, J.D., Fass, R.D. & Boehmke, B.C. (2018) "A text mining analysis of acquisition reforms and expert views." <em>Defense Acquisition Research Journal, 25</em>(86), 288-323.  DOI: 10.22594/dau.18-802.25.03 &nbsp; <a href="https://doi.org/10.22594/dau.18-802.25.03" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
-</p> 
+</p>
 <p>
 Gutierrez, R.J., Bauer, K.W., Boehmke, B.C., Saie, C.M. & Bihl, T.J. (2018) "Cyber anomaly detection: Using tabulated vectors and embedded analytics for efficient data mining." <em>Journal of Algorithms and Computational Technology, 12</em>(4), 293-310.  DOI: 10.1177/1748301818791503 &nbsp; <a href="https://doi.org/10.1177/1748301818791503" style="color:black;"><i class="fa fa-external-link-square" aria-hidden="true" style="font-size:1em"></i></a>
 </p>
