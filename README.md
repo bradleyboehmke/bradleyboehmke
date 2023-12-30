@@ -1,6 +1,6 @@
 ## Hello, I’m Brad!
 
-I design, develop, and deploy algorithmic processes, solutions, and tools. This output can span from productionized machine learning models, deployed Python and R packages, to data science educational resources. Some of my public offerings include:
+I design, develop, scale, and deploy machine learning solutions for one of the top U.S. retailers. I'm also a professor at a university named as one of the top data science schools in the country. Some of my public offerings include:
 
 - 📌 Curated data science resources [🔗](https://github.com/bradleyboehmke/data-science-learning-resources)
 - 📚 Books on data science [🔗](https://github.com/bradleyboehmke/bradleyboehmke/blob/master/books.md)
