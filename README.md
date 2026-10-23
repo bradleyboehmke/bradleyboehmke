@@ -1,6 +1,6 @@
 ## Hello, I’m Brad!
 
-I design, develop, scale, and deploy machine learning solutions for one of the top U.S. retailers. I'm also a professor at a university named as one of the top data science schools in the country. Here, you'll find some of my public offerings, which includes:
+I lead a team that designs, develops, scales, and deploys ML/AI/Optimization solutions for one of the top U.S. retailers. I'm also a professor at a university named as one of the top data science schools in the country. Here, you'll find some of my public offerings, which includes:
 
 - 📌 Curated data science resources [🔗](https://github.com/bradleyboehmke/data-science-learning-resources)
 - 📚 Books on data science [🔗](https://github.com/bradleyboehmke/bradleyboehmke/blob/master/books.md)
